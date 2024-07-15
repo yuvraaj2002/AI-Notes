@@ -1,0 +1,217 @@
+{
+  "main": {
+    "id": "8a9f13a7449198f9",
+    "type": "split",
+    "children": [
+      {
+        "id": "04beaa32592eaffc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2d749f1a7587e810",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2024-07-16.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "90b169cf34f578ae",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Tags/System Design.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "484ae8fa7668b8be",
+    "type": "split",
+    "children": [
+      {
+        "id": "eab8b4d923269ab3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "89ad46e437a54122",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byCreatedTimeReverse"
+              }
+            }
+          },
+          {
+            "id": "352477c8d18435dc",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "b1ed061246d4ae3c",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "right": {
+    "id": "75ce3ba0dea3f5ef",
+    "type": "split",
+    "children": [
+      {
+        "id": "627dabe0417bb890",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7596e1152679d95d",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "2024-07-16.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "54597105c307a248",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "2024-07-16.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "812a63a7b17283d0",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "a184a3e3f46cdec1",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "2024-07-16.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "pdf-plus:PDF++: Toggle auto-copy": false,
+      "pdf-plus:PDF++: Toggle auto-focus": false,
+      "pdf-plus:PDF++: Toggle auto-paste": false
+    }
+  },
+  "active": "2d749f1a7587e810",
+  "lastOpenFiles": [
+    "Machine Learning/Books/Introduction to Statistical Learning with Applications in Python.pdf",
+    "Daily Goals/2024-07-15.md",
+    "Tags/System Design.md",
+    "2024-07-16.md",
+    "Preparation Index.md",
+    "Databases/SQL.md",
+    "Databases/Normalization.md",
+    "Tags/Databases.md",
+    "Databases/Window Functions.md",
+    "Databases/Group By.md",
+    "Daily Goals/2024-07-06.md",
+    "Daily Goals/2024-07-08.md",
+    "Daily Goals/2024-07-09.md",
+    "Daily Goals/2024-07-10.md",
+    "Daily Goals/2024-07-11.md",
+    "Daily Goals/2024-07-12.md",
+    "Daily Goals/2024-07-13.md",
+    "Daily Goals/2024-07-14.md",
+    "Unsupervised Learning/DBSCAN.md",
+    "Deep Learning/Convolutional Neural Nets.md",
+    "Research Papers/Computer Vision/Object Detection Notes.md",
+    "Daily Goals/2024-07-03.md",
+    "Databases/Pasted image 20240714181526.png",
+    "Unsupervised Learning/Density Based Clustering.md",
+    "Tags/Unsupervised Learning.md",
+    "Excalidraw/Drawing 2024-07-13 18.39.32.excalidraw.md",
+    "Unsupervised Learning/Hierarchy based clustering.md",
+    "Unsupervised Learning/Pasted image 20240714165027.png",
+    "Unsupervised Learning/Pasted image 20240714163843.png",
+    "Unsupervised Learning/Pasted image 20240714143504.png",
+    "Excalidraw",
+    "Deep Learning/Pasted image 20240629164024.png",
+    "Databases/Pasted image 20240711094037.png",
+    "Statistics/Pasted image 20240712132503.png",
+    "Statistics/Pasted image 20240712103337.png",
+    "Statistics/Pasted image 20240712072527.png",
+    "Statistics/Pasted image 20240712055609.png",
+    "Machine Learning/Books/Hands on Machine Learning.pdf",
+    "Machine Learning/Books",
+    "Machine Learning/Images",
+    "Machine Learning🤖/New folder",
+    "System Design",
+    "Data Processing/Images",
+    "Research Papers/Computer Vision/AlexNet.pdf",
+    "Research Papers📃/Computer Vision/AlexNet.pdf.crdownload",
+    "Daily Goals",
+    "Untitled.canvas",
+    "Untitled 1.canvas"
+  ]
+}

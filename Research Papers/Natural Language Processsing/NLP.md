@@ -1,0 +1,2 @@
+- [Sequence to Sequence by Illy Sustkever](obsidian://open?vault=World%20of%20AI&file=Research%20Papers%F0%9F%93%83%2FNatural%20Language%20Processsing%2FSequence%20To%20sequence.pdf)
+- 
