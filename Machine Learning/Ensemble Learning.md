@@ -1,45 +1,41 @@
-This page is dedicated towards understand the concept of ensemble learning and the resource used for this are the videos of CampusX course videos.
+This page is dedicated towards understand the concept of ensemble learning and the resource used for this are the videos of CampusX course videos and also the book called Hands on Machine Learning.
 
-- Wisdom of crowd ? 
+##### What is the concept of wisdom of crowd ? 
 
-	Wisdom of the crowd is a concept which states that collectively crowd will always have the correct answer and there are couple of real world examples of this concept as well 
-	
-	- In KBC during the audience poll we will always observe that the collectively group of individuals will always know the correct answer.
-	- In ecommerce websites the reviews of group of customers collectively will always give us information about the overall performance of the product.
+Wisdom of crowd is basically a concept which states that when we aggregate the answers of the crowd then that answer will either be close or better than some expert answer. And there are a lot of real world scenarios where we can see this concept
 
-- What is ensemble learning and what are its types ? 
+1. In KBC during the audience poll we will always observe that the collectively group of individuals will always know the correct answer.
+2. In ecommerce websites the reviews of group of customers collectively will always give us information about the overall performance of the product.
 
-	Ensemble learning is a technique where we group together multiple machine learning models to solve a complex problem with best performance possible and there are 4 different types of ensemble learning
-	
-	- Voting
-	- Stacking
-	- Bagging 
-	- Boosting
+##### What do you mean by ensemble learning and what are its types and its drawback? 
 
--  Why we focus on making ML models different from each other ?
+Ensemble learning is a machine learning technique where we group together multiple machine learning models to solve a complex problem. In ensemble learning there are 4 different types of architectures which we use
 
-	In ensemble learning we always make sure that the base machine learning algorithms are different form each other so that the problem could be solved effectively by approached it from different perspectives, ensuring the elimination of any kind of biasness. Every different or decoupled ML model will have its own understanding of the data and collectively the output from all the models will eventually give us correct results.
+1. [[Voting]]
+2. [[Stacking]]
+3. [[Bagging]]
+4. Boosting
 
--  Ways to ensure the base models are different from each other ?
+Even though ensemble learning will give us very good results but the only drawback is the computational complexity of the overall architecture. Basically if we will be dealing with huge data and complex base models then we will experience high computation requirements.
 
-	There are 3 ways using which we can make sure that the base models are different from each other and these 3 ways are ⬇️
-	
-	1. By using different types of models ( Like logistic regression, Decision tree and KNN)
-	2. By using different dataset for the same models we can also make sure that the base models are different because with the change in the data, the model parameters will differ leading to different base models.
-	3. By using different model and different subset of data
+##### Why we generally focus on using different ML algorithms in Ensemble learning  and the ways to ensure different models? 
 
--  How do we get low bias and low variance model
+By using different ML algorithms in ensemble we can solve the problem more effectively and the reason is that, every different machine learning model will approach the problem differently and with this we will be able to eliminate the biasness of individual model thus giving us a good overall result.
 
-	First of all we need to be aware about what does bias and variance actually means
-	
-	- Bias → Inability of model to understand the true relationship between the data
-	-  Variance → Variability in model performance with change in the data
-	
-	In ensemble learning we get low bias and low variance model pretty easily. To better understand this let say we have chosen low bias and high variance model (Decision tree) but we have created an ensemble architecture. Now due to this whenever we will get some new data then rather than providing the new data to any single model (which is having high variance) we will actually divide the data and distribute the subsets to all the base models. By doing so sensitivity of every individual model to change in the data decreases and in short we can say the overall variance of the combined model decreases
+There are 3 ways using which we can actually create different machine learning models and these are : 
 
-- What is the major drawback of ensemble learning
+1. Using different algorithms
+2. By giving different data to same algorithms
+3. By giving different data to different algorithms
 
-	The major drawback of ensemble learning is that it can become computationally expensive in case our base models are complex in nature
+
+##### Does ensemble learning gives low bias and low variance, if so then how ? 
+
+Yes ensemble learning architecture have the capability to give us low bias and low variance model but the way we can get that is by first using multiple base models having low bias - high variance such as decision tree and after that, since the new data will be spread across multiple decision trees thus the affect on individual decision tree will be reduced which will eventually give us low bias and low variance model as a whole. 
+
+##### What are the various resampling techniques used in context of ensemble learning ? 
+
+
 
 -  What are the various resampling techniques used in the context of ensemble learning ?  
 
@@ -50,7 +46,7 @@ This page is dedicated towards understand the concept of ensemble learning and t
 	3. **Random Patching**: This technique is a combination of bagging and random subspace method, where both samples of data and subsets of features are used to train individual models.
 	4. **Rotation Forest**: In rotation forest, principal component analysis (PCA) is applied to random subsets of features, and then decision trees are trained on the transformed data. This technique aims to improve diversity among base learners.
 
-Now since we are aware about the basics of ensemble learning so now let us try to understand the different types of ensemble learning.
+
 
 - [[Bagging-Boosting]]
 - [[Voting-Stacking]]
