@@ -6,6 +6,12 @@ This page is dedicated to everything related to the decision tree algorithm. In 
 - [Pruning](https://drive.google.com/file/d/1yU-tkH1KMGu7pXHsHmPz5I94NNw7W2wj/view)
     
 
+![[Pasted image 20240717052435.png]]
+
+![[Pasted image 20240717052527.png]]
+
+
+![[Pasted image 20240717052553.png]]
 ### Introduction and Prerequisite
 
 - What do you mean by decision tree algorithm ?
