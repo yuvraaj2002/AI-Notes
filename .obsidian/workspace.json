@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024-07-16.md",
+                "file": "Preparation Index.md",
                 "mode": "source",
                 "source": false
               }
@@ -30,8 +30,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "20b4756a98e93dba",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Machine Learning/Books/Hands on Machine Learning.pdf",
+                "page": 1,
+                "zoom": 1
+              }
+            }
+          },
+          {
+            "id": "03fb2d66e4e1d07c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2024-07-19.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -81,8 +106,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "75ce3ba0dea3f5ef",
@@ -98,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024-07-16.md",
+                "file": "2024-07-19.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024-07-16.md",
+                "file": "2024-07-19.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024-07-16.md"
+                "file": "2024-07-19.md"
               }
             }
           }
@@ -163,54 +187,53 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "2d749f1a7587e810",
+  "active": "03fb2d66e4e1d07c",
   "lastOpenFiles": [
-    "Machine Learning/Books/Introduction to Statistical Learning with Applications in Python.pdf",
-    "Daily Goals/2024-07-15.md",
-    "Tags/System Design.md",
-    "2024-07-16.md",
+    "Machine Learning/Decision Tree.md",
+    "2024-07-19.md",
+    "Machine Learning/Pasted image 20240718173559.png",
+    "Machine Learning/Pasted image 20240718172919.png",
+    "Machine Learning/Pasted image 20240718172513.png",
+    "Machine Learning/Pasted image 20240718172451.png",
+    "Pasted image 20240718173559.png",
+    "Pasted image 20240718172919.png",
+    "Pasted image 20240718172513.png",
+    "Pasted image 20240718172451.png",
+    "Daily Goals/2024-07-17.md",
     "Preparation Index.md",
+    "Machine Learning/Stacking.md",
+    "Daily Goals/2024-07-16.md",
+    "Machine Learning/Pasted image 20240717052553.png",
+    "Machine Learning/Pasted image 20240717052527.png",
+    "Machine Learning/Books/Hands on Machine Learning.pdf",
+    "Programs/Home.py",
+    "Programs/Transformations/Operations.ipynb",
+    "Programs/Transformations",
+    "Programs/Machine Learning algorithms/Voting.ipynb",
+    "Programs/Machine Learning algorithms/Stacking.ipynb",
+    "Programs/Machine Learning algorithms/Ridge.ipynb",
+    "Programs/Machine Learning algorithms/Random_Forest.ipynb",
+    "Programs/Machine Learning algorithms/Polynomial_Regression.ipynb",
+    "Programs/Machine Learning algorithms/Lasso.ipynb",
+    "Databases/Base Properties.md",
+    "Tags/Databases.md",
+    "Data Processing/Categorical Encoding.md",
+    "Data Processing/Bias Variance Tradeoff.md",
+    "Tags/System Design.md",
+    "Data Processing/Regularization.md",
+    "Machine Learning/Untitled.md",
+    "Machine Learning/Ensemble Learning.md",
+    "Machine Learning/Voting.md",
+    "Machine Learning/Voting-Stacking.md",
+    "Machine Learning/Bagging-Boosting.md",
+    "Machine Learning/Gradient Descent.md",
+    "Daily Goals/2024-07-15.md",
     "Databases/SQL.md",
     "Databases/Normalization.md",
-    "Tags/Databases.md",
     "Databases/Window Functions.md",
     "Databases/Group By.md",
     "Daily Goals/2024-07-06.md",
     "Daily Goals/2024-07-08.md",
-    "Daily Goals/2024-07-09.md",
-    "Daily Goals/2024-07-10.md",
-    "Daily Goals/2024-07-11.md",
-    "Daily Goals/2024-07-12.md",
-    "Daily Goals/2024-07-13.md",
-    "Daily Goals/2024-07-14.md",
-    "Unsupervised Learning/DBSCAN.md",
-    "Deep Learning/Convolutional Neural Nets.md",
-    "Research Papers/Computer Vision/Object Detection Notes.md",
-    "Daily Goals/2024-07-03.md",
-    "Databases/Pasted image 20240714181526.png",
-    "Unsupervised Learning/Density Based Clustering.md",
-    "Tags/Unsupervised Learning.md",
-    "Excalidraw/Drawing 2024-07-13 18.39.32.excalidraw.md",
-    "Unsupervised Learning/Hierarchy based clustering.md",
-    "Unsupervised Learning/Pasted image 20240714165027.png",
-    "Unsupervised Learning/Pasted image 20240714163843.png",
-    "Unsupervised Learning/Pasted image 20240714143504.png",
-    "Excalidraw",
-    "Deep Learning/Pasted image 20240629164024.png",
-    "Databases/Pasted image 20240711094037.png",
-    "Statistics/Pasted image 20240712132503.png",
-    "Statistics/Pasted image 20240712103337.png",
-    "Statistics/Pasted image 20240712072527.png",
-    "Statistics/Pasted image 20240712055609.png",
-    "Machine Learning/Books/Hands on Machine Learning.pdf",
-    "Machine Learning/Books",
-    "Machine Learning/Images",
-    "Machine Learning🤖/New folder",
-    "System Design",
-    "Data Processing/Images",
-    "Research Papers/Computer Vision/AlexNet.pdf",
-    "Research Papers📃/Computer Vision/AlexNet.pdf.crdownload",
-    "Daily Goals",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]
