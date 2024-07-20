@@ -1,8 +1,28 @@
-[[Lasso Regression]]
-[[Ridge Regression]]
-[[Elastic Net Regression]]
+This page is actually dedicated towards understanding the concept of regularization in machine learning and the resources used for this topic will be added below, but this page will not only talk about the core idea behind the regularization but it will also behave like index to other machine learning algorithms and talk about how regularization is done in those algorithms.
 
 
+##### What is the meaning of regularization and what is the need of doing it ?
+
+Regularization is a technique which is used to deal with the problem of overfitting in machine learning and deep learning. Basically after applying regularization the predictive power of the algorithm gets reduced and with this the bias gets increased and variance decreases.
+
+##### How it is implemented in case of linear models ? 
+
+In case of linear model like linear regression there are 3 different types of regularization which we can apply and these are 
+
+1. L1 Regularization which gives us [[Lasso Regression]]
+2. L2 Regularization which gives us [[Ridge Regression]]
+3. L1+L2 Regularization which gives us [[Elastic Net Regression]]
+4. The same above can be used with [[Polynomial Regression]] and [[Logistic Regression]] 
+##### How regularization is done in Decision tree ? 
+
+By doing pruning we can deal with the overfitting in [[Decision Tree]]
+##### How regularization is done in Naive bayes ? 
+
+By using smoothing technique we can deal with overfitting in [[Naive Bayes]]
+
+##### How regularization is done in SVM ?
+
+By using the concept of slack variable the problem of overfitting is handled in [[Support Vector Machine]]
 ##### L1 and L2 regularization in neural nets
 
 Moreover, even though batch normalization was designed to solve the unstable gradients problems, it also acts like a pretty good regularizer. In this section we will examine other popular regularization techniques for neural networks: ℓ1 and ℓ2 regularization, dropout, and max-norm regularization.
@@ -28,7 +48,7 @@ model = tf.keras.Sequential([ tf.keras.layers.Flatten(input_shape=[28, 28]),  Re
 
 ##### Dropout in neural nets
 
-Dropout is one of the most popular regularization techniques for deep neural net works. It was proposed in a paper26 by Geoffrey Hinton. It is a fairly simple algorithm: at every training step, every neuron (including the input neurons, but always excluding the output neurons) has a probability p of being temporarily “dropped out”, meaning it will be entirely ignored during this training step, but it may be active during the next step.
+[[Dropout]] is one of the most popular regularization techniques for deep neural net works. It was proposed in a paper26 by Geoffrey Hinton. It is a fairly simple algorithm: at every training step, every neuron (including the input neurons, but always excluding the output neurons) has a probability p of being temporarily “dropped out”, meaning it will be entirely ignored during this training step, but it may be active during the next step.
 
 Neurons trained with dropout have to be as useful as possible on their own. They also cannot rely excessively on just a few input neurons; they must pay attention to each of their input neurons. They end up being less sensitive to slight changes in the inputs. In the end, you get a more robust network that generalizes better.
 

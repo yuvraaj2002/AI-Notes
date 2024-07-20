@@ -1,5 +1,5 @@
 
-Elastic net regression is basically a middle ground of both ridge and lasso regression and it is used in those kind of scenarios where we are not sure whether to apply ridge or lasso. In elastic net regression in the cost function of linear regression we add 2 penalty terms (Ridge Penalty term and Lasso penalty term)
+Elastic net regression is basically a middle ground of both [[Ridge Regression]] and [[Lasso Regression]] and it is used in those kind of scenarios where we are not sure whether to apply ridge or lasso. In elastic net regression in the cost function of linear regression we add 2 penalty terms (Ridge Penalty term and Lasso penalty term)
 
 → Now since there are 2 penalty terms so we as data scientists need to adjust the importance and we can do so by using **l1_ratio parameter** 0 <= l1_ratio <= 1
 
