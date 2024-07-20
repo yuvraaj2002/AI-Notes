@@ -13,12 +13,12 @@ This page is actually dedicated towards the indexing of all the topics that I kn
 - [ ] Logistic regression
 - [x] KNN 
 - [ ] Decision Tree
-- [ ] Naive bayes
+- [x] Naive bayes
 - [ ] Support vector machine
-- [ ] Random Forest
+- [x] Random Forest
 - [ ] Gradient Boosting
-- [ ] Ensemble learning (Architectures)
-- [ ] Gradient Descent algorithm
+- [x] Ensemble learning (Architectures)
+- [x] Gradient Descent algorithm
 
 
 ###### General Topics
@@ -29,7 +29,7 @@ This page is actually dedicated towards the indexing of all the topics that I kn
 - [x] Feature scaling
 - [ ] Feature selection
 - [ ] Multicollinearity
-- [ ] Bias Variance tradeoff
+- [x] Bias Variance tradeoff
 - [x] Cross validation
 - [ ] Hyper parameter optimization
 - [x] Imbalanced data

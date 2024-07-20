@@ -4,88 +4,47 @@ This page is dedicated towards understanding how to deal with the categorical at
 - [K-Fold Target Encoding](https://medium.com/@pouryaayria/k-fold-target-encoding-dfe9a594874b)
     
 
-### Questions
+##### What do you mean by categorical feature, its types and need to encode them ?
 
-- What do you mean by categorical feature and tell can categorical values be numerical?
-    
-    A type of feature which rather than having continuous numerical values have fixed number of categories to which a data point will belong to. Yes categorical feature can contain numerical values as well Example: Product rating (1,2,3,4,5)
-    
-    <aside> 💡 Categorical values are represented using object data type
-    
-    </aside>
-    
-- What are the types of categorical values/features and tell the difference between them ?
-    
-    There are 2 types of categorical values that is **nominal** and **ordinal** categorical values.
-    
-    |Nominal categorical values|Ordinal categorical values|
-    |---|---|
-    |The categorical values in which there is no intrinsic hierarchy are called nominal categorical values|The categorical values in which there is some intrinsic hierarchy are called Ordinal categorical values|
-    |Example: Colors, gender|Example: Education level|
-    
-- What do you mean by categorical encoding and why we even need to encode the categorical data?
-    
-    In the context of machine learning, categorical encoding means giving an appropriate numerical representation to a category so that we could use it for model training or performing some statistical analysis.
-    
-- What are the various encoding techniques which we can use for encoding the data ?
-    
-    The use of encoding technique will be based on type of categorical attribute we are having ⬇️
-    
-    - **`Nominal category`** : One hot encoding, target encoding
-    - **`Ordinal category`** : Ordinal encoding
-    - **`Label encoding`** : Label encoding
-- Explain the working of ordinal encoding ?
-    
-    _Ordinal encoding is an encoding technique which is used for ordinal categorical values, which are basically those values which have intrinsic hierarchy between them._
-    
-    ### Working of Ordinal encoding
-    
-    In case of ordinal encoding we simply map the categorical values to a numerical which represent its hierarchy in the group of values.
-    
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5082957f-3d6c-407c-8730-015df254b490/Untitled.png)
-    
-    <aside> 🛡️ For doing ordinal encoding we can use map function or [Ordinal encoder](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.OrdinalEncoder.html) class of scikit learn
-    
-    </aside>
-    
-    ```python
-    import pandas as pd
-    import numpy as np
-    
-    dict = {'names' : ['Yuvraj','Pravesh','Tanish'],
-            'education': ['Bachelors','phd','Master']}
-    
-    # Let's crete a dataframe
-    df = pd.DataFrame(dict)
-    
-    map_edu = {'Bachelors':0,'Master':1,'phd':2}
-    df['education']  =df['education'].map(map_edu)
-    ```
-    
-- What is one hot encoding and explain how does it works ?
-    
-    _One hot encoding is an encoding technique for nominal categorical values, which are basically those values in which there is no intrinsic hierarchy._
-    
-    ### Working of One hot encoding
-    
-    The overall working of one hot encoding can be explained into 3 different steps
-    
-    1. First this algorithm figure out all the unique categorical values in that column.
-    2. After that N new columns are created, where N → Cardinality of that column
-    3. Finally the algorithm simply traverse through each and every categorical value and assign 1 to a column if that column is matches the categorical value and 0 if doesn’t.
-    
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/94eaebdf-14ed-4793-90d8-df6598374657/Untitled.png)
-    
-    ### Techniques we can use for doing One hot encoding
-    
-    For performing one hot encoding we can either use **get_dummies** function of pandas or we can use the [One hot encoder](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.OneHotEncoder.html) class of scikit learn.
-    
-- What are the drawbacks associated with one hot encoding
-    
-    - Can lead to curse of dimensionality in case the feature contains a lot of categories
-    - Leads to perfect multicollinearity making it impossible to calculate model coefficients in multiple linear regression setup
+The feature which contains some predefined set of values will be called as a categorical feature and normally the categorical feature have values like (Red, blue and green). Now since machine learning algorithms can't understand text or strings thus we need to encode them in such a way that they could be understood by the algorithm. There are 2 different types of categorical features
+
+1. Ordinal features : These are the features which have some hierarchy among the feature values such as Bachelors, Masters and PHD
+2. Nominal features : These are the features which do not have some hierarchy among the features such as colors.
+
+##### What are the various encoding techniques which we can use ? 
+
+Based on the type of categorical feature there are different type of encoding techniques which we can use and these are
+
+1. Ordinal features : Ordinal encoding
+2. Nominal features : One hot encoding, Target encoding
+3. Labels : Label encoding
+
+##### Explain one hot encoding ? 
+
+_One hot encoding is an encoding technique for nominal categorical values, which are basically those values in which there is no intrinsic hierarchy._ The overall working of one hot encoding can be explained into 3 different steps
+
+1. First this algorithm figure out all the unique categorical values in that column.
+2. After that N new columns are created, where N → Cardinality of that column
+3. Finally the algorithm simply traverse through each and every categorical value and assign 1 to a column if that column is matches the categorical value and 0 if doesn’t.
+
+For performing one hot encoding we can either use **get_dummies** function of pandas or we can use the [One hot encoder](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.OneHotEncoder.html) class of scikit learn. 
+
+##### What are the 2 main drawbacks of using one hot encoding ? 
+
+- Can lead to curse of dimensionality in case the feature contains a lot of categories
+- Leads to perfect multicollinearity making it impossible to calculate model coefficients in multiple linear regression setup
+##### Explain Ordinal encoding works ? 
+
+In case of ordinal encoding we can actually use the scikit learn ordinal encoder class and it will simply take the features values in the order we have defined while instantiation of the class and it will assign a unique integer value representing the hierarchy.
+
+
+##### 
+
+
+
+
+
 - What do you mean by dummy variable trap?
-    
 - What to do incase nominal categorical feature have high cardinality and explain it?
     
     Target encoding can be used in that case where target encoding is a nominal categorical encoding technique where we will be giving a numerical representation to the word by utilizing the target attribute.
@@ -117,7 +76,6 @@ This page is dedicated towards understanding how to deal with the categorical at
     Finally we will get the numerical values per the fold and at the we will simply find the mean of all the targe encoding values to get the final target encoded value
     
     ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/f18c412d-2627-4e64-9abf-1bc83d728162/d71ab8e5-32cd-4725-bc5e-46b0bdca38b5/Untitled.png)
-    
 - What is smoothing and how does smoothing can be used in target encoding to deal with the problem of overfitting?
     
 

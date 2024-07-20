@@ -1,3 +1,0 @@
-Tags : [[AI]]
-
-- [[Random Variable]]

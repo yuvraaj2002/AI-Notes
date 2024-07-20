@@ -85,33 +85,3 @@ Gaussian distributions, being continuous probability distributions, do not assig
 Out of core naive bayes is basically a variant of naive bayes which is used in those kind of scenarios where our data is very large in size and it becomes difficult to process it once in single go due to memory issues.
 
 So rather loading the complete dataset into the memory we load the dataset in term of batches and then do the partial fitting of the batches.
-
-
-
-
-##### How naive bayes deals with class imbalance ? 
-
-
-
-- What is the difference between independent and mutually exclusive events and what would be the conditional probability for both types of events ?
-    
-    |Independent events|Mutually exclusive events|
-    |---|---|
-    |Independent events are those events which can coexist but don’t affect each other.|Mutually exclusive events are those events which can’t coexist at all.|
-    |P(A ∩ B) = P(A) * P(B)|P(A ∩ B) = 0|
-    |P(A|B) = P(A)|
-
-
-
-
-
-
-- What do you mean by complement naive bayes
-    
-    Complement Naive Bayes (CNB) is an adaptation of the standard Multinomial Naive Bayes algorithm, designed to handle imbalanced datasets more effectively. CNB modifies the calculation of probabilities to focus on the complement of each class rather than the class itself.
-    
-    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/f18c412d-2627-4e64-9abf-1bc83d728162/3bbe6398-5585-4a4b-ba2b-dd0c71e8c969/Untitled.png)
-    
-    <aside> 💡 Complement means considering all data points that do not belong to the specific class when calculating probabilities
-    
-    </aside>

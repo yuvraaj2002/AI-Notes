@@ -13,9 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Preparation Index.md",
+                "file": "Data Processing/Regression Metrics.md",
                 "mode": "source",
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "41fbb8d2175a0800",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.6.7"
               }
             }
           },
@@ -39,7 +49,9 @@
               "state": {
                 "file": "Machine Learning/Books/Hands on Machine Learning.pdf",
                 "page": 1,
-                "zoom": 1
+                "left": -10,
+                "top": 665,
+                "zoom": 1.5119047619047619
               }
             }
           },
@@ -47,16 +59,36 @@
             "id": "03fb2d66e4e1d07c",
             "type": "leaf",
             "state": {
+              "type": "graph",
+              "state": {}
+            }
+          },
+          {
+            "id": "f9ed0df24c77cec6",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "2024-07-19.md",
+                "file": "Tags/Mathematics.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ab429971bac9e0f9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2024-07-20.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -122,7 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024-07-19.md",
+                "file": "Tags/Mathematics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +171,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024-07-19.md",
+                "file": "Tags/Mathematics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +194,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024-07-19.md"
+                "file": "Tags/Mathematics.md"
               }
             }
           }
@@ -187,24 +219,46 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "03fb2d66e4e1d07c",
+  "active": "f9ed0df24c77cec6",
   "lastOpenFiles": [
-    "Machine Learning/Decision Tree.md",
-    "2024-07-19.md",
-    "Machine Learning/Pasted image 20240718173559.png",
-    "Machine Learning/Pasted image 20240718172919.png",
-    "Machine Learning/Pasted image 20240718172513.png",
-    "Machine Learning/Pasted image 20240718172451.png",
-    "Pasted image 20240718173559.png",
-    "Pasted image 20240718172919.png",
-    "Pasted image 20240718172513.png",
-    "Pasted image 20240718172451.png",
-    "Daily Goals/2024-07-17.md",
-    "Preparation Index.md",
-    "Machine Learning/Stacking.md",
-    "Daily Goals/2024-07-16.md",
-    "Machine Learning/Pasted image 20240717052553.png",
-    "Machine Learning/Pasted image 20240717052527.png",
+    "Data Processing/Pasted image 20240719193404.png",
+    "Data Processing/Pasted image 20240719193150.png",
+    "Probability Distributions.md",
+    "Mathematics/Uniform Distribution.md",
+    "Mathematics/Probability Distributions.md",
+    "2024-07-20.md",
+    "Mathematics/Pareto Distribution.md",
+    "Mathematics/Normal Distribution.md",
+    "Mathematics/Maximum Likelihood Estimation.md",
+    "Mathematics/Log Normal Distribution.md",
+    "Mathematics/Binomial Distribution.md",
+    "Mathematics/Bernoulli Distribution.md",
+    "Mathematics/Hypothesis Testing/Pasted image 20240625173655.png",
+    "Mathematics/Hypothesis Testing/Hypothesis Testing.md",
+    "Mathematics/Transformations.md",
+    "Mathematics/Z test.md",
+    "Mathematics/Types of Sampling.md",
+    "Mathematics/T test.md",
+    "Mathematics/Pasted image 20240712132503.png",
+    "Mathematics/Pasted image 20240712103337.png",
+    "Mathematics/Pasted image 20240712072527.png",
+    "Mathematics/Pasted image 20240712055609.png",
+    "Mathematics/Pasted image 20240629145154.png",
+    "Mathematics/Hypothesis Testing",
+    "Mathematics/Pasted image 20240629144636.png",
+    "Mathematics/Pasted image 20240629143346.png",
+    "Mathematics/output.png",
+    "Mathematics/Loss functions.md",
+    "Mathematics/Dispersion.md",
+    "Mathematics/Empirical Rule.md",
+    "Mathematics/Confidence Interval.md",
+    "Mathematics/ANOVA test.md",
+    "Mathematics/Central limit theorem.md",
+    "Mathematics/Central tendency.md",
+    "Mathematics/Chi Square Test.md",
+    "Mathematics",
+    "Bernoulli Distribution.md",
+    "Maximum Likelihood Estimation.md",
     "Machine Learning/Books/Hands on Machine Learning.pdf",
     "Programs/Home.py",
     "Programs/Transformations/Operations.ipynb",
@@ -213,27 +267,6 @@
     "Programs/Machine Learning algorithms/Stacking.ipynb",
     "Programs/Machine Learning algorithms/Ridge.ipynb",
     "Programs/Machine Learning algorithms/Random_Forest.ipynb",
-    "Programs/Machine Learning algorithms/Polynomial_Regression.ipynb",
-    "Programs/Machine Learning algorithms/Lasso.ipynb",
-    "Databases/Base Properties.md",
-    "Tags/Databases.md",
-    "Data Processing/Categorical Encoding.md",
-    "Data Processing/Bias Variance Tradeoff.md",
-    "Tags/System Design.md",
-    "Data Processing/Regularization.md",
-    "Machine Learning/Untitled.md",
-    "Machine Learning/Ensemble Learning.md",
-    "Machine Learning/Voting.md",
-    "Machine Learning/Voting-Stacking.md",
-    "Machine Learning/Bagging-Boosting.md",
-    "Machine Learning/Gradient Descent.md",
-    "Daily Goals/2024-07-15.md",
-    "Databases/SQL.md",
-    "Databases/Normalization.md",
-    "Databases/Window Functions.md",
-    "Databases/Group By.md",
-    "Daily Goals/2024-07-06.md",
-    "Daily Goals/2024-07-08.md",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]
