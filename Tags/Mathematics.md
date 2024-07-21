@@ -7,5 +7,5 @@ This page is actually dedicated towards the indexing all the mathematical concep
 - [[Probability Distributions]]
 - [[Confidence Interval]]
 - [[Measure of CT]]
-- [[Measure of Variance]]
+- [[Measure of Dispersion]]
 - [[AB Testing]]

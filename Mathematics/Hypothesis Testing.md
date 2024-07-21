@@ -52,5 +52,5 @@ The major drawback of rejection region approach is that it do not give us inform
 - [[T test]]
 - [[Chi Square Test]]
 - [[ANOVA test]]
-
+- [[F Test]]
 

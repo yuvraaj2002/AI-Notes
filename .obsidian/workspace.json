@@ -21,8 +21,12 @@
             "id": "03fb2d66e4e1d07c",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Data Processing/Categorical Encoding.md",
+                "mode": "source",
+                "source": false
+              }
             }
           },
           {
@@ -31,7 +35,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mathematics/Regression Analysis.md",
+                "file": "Mathematics/Central limit theorem.md",
                 "mode": "source",
                 "source": false
               }
@@ -43,7 +47,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024-07-20.md",
+                "file": "2024-07-21.md",
                 "mode": "source",
                 "source": false
               }
@@ -108,7 +112,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "75ce3ba0dea3f5ef",
@@ -124,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mathematics/Regression Analysis.md",
+                "file": "Mathematics/Central limit theorem.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mathematics/Regression Analysis.md",
+                "file": "Mathematics/Central limit theorem.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -164,7 +169,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mathematics/Regression Analysis.md"
+                "file": "Mathematics/Central limit theorem.md"
               }
             }
           }
@@ -192,42 +197,42 @@
   "active": "f9ed0df24c77cec6",
   "lastOpenFiles": [
     "Preparation Index.md",
+    "Data Processing/Categorical Encoding.md",
+    "Mathematics/Measure of CT.md",
+    "Data Processing/Multicollinearity.md",
+    "2024-07-21.md",
+    "Tags/Data Processing.md",
     "Mathematics/Regression Analysis.md",
+    "Machine Learning/F Test.md",
+    "Mathematics/Hypothesis Testing.md",
+    "Mathematics/Confidence Interval.md",
+    "Mathematics/Regression Analysis Chart.png",
+    "Mathematics/Measure of Dispersion.md",
+    "Daily Goals/2024-07-20.md",
     "Mathematics/AB Testing.md",
     "Mathematics/AB testing banner.png",
     "Tags/Mathematics.md",
     "Data Processing/Feature Selection.md",
-    "Mathematics/Hypothesis Testing.md",
     "Mathematics/Chi Square Test.md",
     "Mathematics/Chi_Square_Distribution_Shape.png",
-    "2024-07-20.md",
     "Data Processing/Regularization.md",
     "Dropout.md",
     "Machine Learning/Logistic Regression.md",
     "Machine Learning/Naive Bayes.md",
     "Machine Learning/Elastic Net Regression.md",
     "Mathematics/Central tendency.md",
-    "Mathematics/Measure of Variance.md",
-    "Mathematics/Measure of CT.md",
-    "Mathematics/Confidence Interval.md",
     "Mathematics/Uniform Distribution.md",
     "Mathematics/Probability Distributions.md",
     "Data Processing/Pasted image 20240719193404.png",
     "Data Processing/Pasted image 20240719193150.png",
     "Probability Distributions.md",
     "Mathematics/Pareto Distribution.md",
-    "Mathematics/Normal Distribution.md",
-    "Mathematics/Maximum Likelihood Estimation.md",
-    "Mathematics/Log Normal Distribution.md",
-    "Mathematics/Binomial Distribution.md",
-    "Mathematics/Bernoulli Distribution.md",
     "Mathematics/Pasted image 20240712132503.png",
     "Mathematics/Pasted image 20240712103337.png",
     "Mathematics/Pasted image 20240712072527.png",
     "Mathematics/Pasted image 20240712055609.png",
     "Mathematics/Pasted image 20240629145154.png",
     "Mathematics/Hypothesis Testing",
-    "Mathematics/Pasted image 20240629144636.png",
     "Mathematics",
     "Machine Learning/Books/Hands on Machine Learning.pdf",
     "Programs/Home.py",

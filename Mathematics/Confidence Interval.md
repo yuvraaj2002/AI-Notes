@@ -63,7 +63,7 @@ Just like Z procedure T procedure is another technique which is used for finding
 
 1. Calculate the point estimate
 2. Calculate standard error by dividing standard deviation of sample data / sampling distribution by under root of sample size $SE = Sd(pe)/√n$
-3. Calculate the critical value for specified confidence level and multiply this critical value with the standard error of point estimate
+3. Calculate the critical value for specified confidence level and degree of freedom and multiply this critical value with the standard error of point estimate
 4. Add and subtract this margin of error from point estimate 
 
 

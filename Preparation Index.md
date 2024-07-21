@@ -23,10 +23,10 @@ This page is actually dedicated towards the indexing of all the topics that I kn
 
 - [x] Handling Missing values
 - [x] Dealing with outliers
-- [ ] Categorical encoding
+- [x] Categorical encoding
 - [x] Feature scaling
-- [ ] Feature selection
-- [ ] Multicollinearity
+- [x] Feature selection
+- [x] Multicollinearity
 - [x] Bias Variance tradeoff
 - [x] Cross validation
 - [ ] Hyper parameter optimization

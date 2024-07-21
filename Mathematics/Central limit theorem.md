@@ -54,7 +54,7 @@ Before moving on to the concept of central limit theorem we actually need to be 
 
 Here is the python program to understand all the above bullet points
 
-```
+```python
 import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.model_selection import KFold
