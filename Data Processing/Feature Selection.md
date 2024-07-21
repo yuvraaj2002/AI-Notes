@@ -93,41 +93,15 @@ Now after removing the weakest feature the same process is repeated recursively 
 
 
 
-### Questions about filter based techniques
 
-Here is the link to the 
+##### Explain embedded feature selection method and how it is different from wrapper method ? 
 
-- What do you mean by filter based feature selection technique ?
-    
-    Filter based feature selection technique is basically a univariate feature selection technique where we use some statistical measure and define a threshold value corresponding to that measure.
-    
-    After that the features for which the statistical value is more than threshold, only they are considered and rest are dropped.
-    
-- In filter method what are the various techniques we can use?
-    
-    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/f18c412d-2627-4e64-9abf-1bc83d728162/3c01fe12-9cc3-4f02-97fe-f6d8d9cf5ee1/Untitled.png)
-    
-- Explain variance threshold method?
-    
-    Variance threshold is one of the most simplest filter based feature selection technique where we first define the `minimum variance threshold` and after that all features having variance `less` than the threshold value are removed.
-    
-    <aside> 🎐 This technique is used identify and remove features that have low variance generally constant (same value feature) or quasi-constant features (Feature with extremely small variability).
-    
-    </aside>
-    
-    - Formula of variance
-        
-        ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/f18c412d-2627-4e64-9abf-1bc83d728162/15384965-7d73-45e2-bfa9-bc1889233ee2/Untitled.png)
-        
-    - Video to understand variance
-        
-        [https://www.youtube.com/watch?v=sOb9b_AtwDg](https://www.youtube.com/watch?v=sOb9b_AtwDg)
-        
-- What are drawbacks of Variance threshold method
-    
-    1. This technique is univariate in nature because of which there is strong possibility that even if the current feature independently might not seem important but the same feature might have strong relationship with other features making it a strong feature. Example: Longitude and latitude.
-    2. Sensitive to data scaling
-    3. It is difficult to decide a minimum variance threshold value. Generally it is recommended to use any value between 0.01 to 0.1
+Embedded methods is another approach which is used for doing feature selection and just like wrapper method it also involves the usage of the machine learning algorithm to find the best set of features, but the only difference is that in case of embedded technique the model training and feature selection happens parallelly whereas in case of wrapper method we either add or remove feature and then observer the model performance.
+
+- **Lasso Regression**: Shrinks some coefficients to zero, selecting features.
+- **Tree-Based Methods**: Provide feature importance scores to determine the relevance of features.
+
+
 - Explain correlation analysis method, techniques and the range interpretation?
     
     Correlation analysis method is an important filter based feature selection technique where we select the feature based on their correlation with the target variable.
@@ -151,9 +125,6 @@ Here is the link to the
     1. Correlation measures the linear relationship between two variables. It does not capture non-linear relationships well.
     2. Correlation only measures the relationship between two variables at a time. It may not capture complex relationships involving more than two variables.
     3. Sensitive to outliers and threshold value
-
-The rest 2 methods are basically the hypothesis tests so we need to be aware about how does Chi square and ANOVA works to actually get better understanding of this techniques.
-
 - Explain ANOVA test for feature selection ?
     
     - Mention how 1 Way ANOVA test is used in the context of machine learning
@@ -169,16 +140,9 @@ The rest 2 methods are basically the hypothesis tests so we need to be aware abo
         3. Select the features with p-values less than the significance level (e.g. 0.05)
         
         This helps reduce the dimensionality of the dataset by removing irrelevant features, improving model performance and interpretability
-        
-- Explain Chi-Square for feature selection ?
-    
-    - Where can we use the test for independence test
-        
-        We can use it as feature selection technique given that both the feature and target variable is categorical in nature. By using test of independence we will get to know that whether there actually exist some relationship between these 2 variables or not and if there would be not then we will simply remove that independent feature.
-        
 - How Mutual info can be used for doing the filter based feature selection ?
     
     This is an amazing resource that we can use to understand this approach
     
     [Mutual Information, Clearly Explained!!!](https://www.youtube.com/watch?v=eJIp_mgVLwE)
-    
+

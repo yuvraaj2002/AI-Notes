@@ -1,7 +1,5 @@
 This page is actually dedicated towards the indexing of all the topics that I know so for and all the topics that I would love to explore in the future and this indexing will actually help me to identify and pin point what things I don't know and will help me to prevent going over the things I already know. In this indexing the things will be related to Machine learning, General Topics, Deep learning, Mathematics, SQL , Database , Python and other things which I will be adding
 
-## Machine Learning
-
 
 ###### Machine learning algorithms
 
@@ -33,9 +31,9 @@ This page is actually dedicated towards the indexing of all the topics that I kn
 - [x] Cross validation
 - [ ] Hyper parameter optimization
 - [x] Imbalanced data
-- [ ] Regularization
+- [x] Regularization
 - [ ] Classification metrics 
-- [ ] Regression metrics 
+- [x] Regression metrics 
 
 
 
@@ -43,14 +41,14 @@ This page is actually dedicated towards the indexing of all the topics that I kn
 
 - [ ] Sampling methods and sampling distribution
 - [ ] Hypothesis testing
-- [ ] Confidence intervals
+- [x] Confidence intervals
 - [ ] Probability distributions
 - [ ] Central limit theorem
 - [ ] Measures of central tendency and dispersion
 - [ ] Regression analysis
-- [ ] A|B Testing
+- [x] A|B Testing
 - [ ] Random variable
-- [ ] Concept around probability
+
 
 ###### Deep learning
 
@@ -78,13 +76,13 @@ This page is actually dedicated towards the indexing of all the topics that I kn
 ###### Database and SQL
 
 - [x] Group By
-- [ ] Joins
-- [ ] Window functions
-- [ ] Subqueries
+- [x] Joins
+- [x] Window functions
+- [x] Subqueries
 - [x] Order By
 - [ ] Views
 - [ ] Function and Stored procedures
-- [ ] Common table expression
-- [ ] Aggregate functions
+- [x] Common table expression
+- [x] Aggregate functions
 - [ ] Filtering
 - [ ] Constraints

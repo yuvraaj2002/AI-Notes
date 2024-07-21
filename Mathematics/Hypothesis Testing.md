@@ -45,7 +45,8 @@ The major drawback of rejection region approach is that it do not give us inform
 ##### Types of errors in Hypothesis testing and how they are affected by Significance level
 
 
-Now since we are already aware about the fundamental concepts behind hypothesis testing so let us now move on to the specific tests which are being conducted.
+
+##### Types of hypothesis tests
 
 - [[Z test]]
 - [[T test]]

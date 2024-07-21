@@ -8,3 +8,4 @@ This page is actually dedicated towards the indexing all the mathematical concep
 - [[Confidence Interval]]
 - [[Measure of CT]]
 - [[Measure of Variance]]
+- [[AB Testing]]

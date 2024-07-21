@@ -8,50 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "2d749f1a7587e810",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Data Processing/Regression Metrics.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "41fbb8d2175a0800",
             "type": "leaf",
             "state": {
               "type": "release-notes",
               "state": {
                 "currentVersion": "1.6.7"
-              }
-            }
-          },
-          {
-            "id": "90b169cf34f578ae",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Tags/System Design.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "20b4756a98e93dba",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Machine Learning/Books/Hands on Machine Learning.pdf",
-                "page": 1,
-                "left": -10,
-                "top": 665,
-                "zoom": 1.5119047619047619
               }
             }
           },
@@ -69,14 +31,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tags/Mathematics.md",
+                "file": "Mathematics/Regression Analysis.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "ab429971bac9e0f9",
+            "id": "0251427402462767",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -86,9 +48,17 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "10bb545f37e2a77a",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -154,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tags/Mathematics.md",
+                "file": "Mathematics/Regression Analysis.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tags/Mathematics.md",
+                "file": "Mathematics/Regression Analysis.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tags/Mathematics.md"
+                "file": "Mathematics/Regression Analysis.md"
               }
             }
           }
@@ -221,24 +191,36 @@
   },
   "active": "f9ed0df24c77cec6",
   "lastOpenFiles": [
+    "Preparation Index.md",
+    "Mathematics/Regression Analysis.md",
+    "Mathematics/AB Testing.md",
+    "Mathematics/AB testing banner.png",
+    "Tags/Mathematics.md",
+    "Data Processing/Feature Selection.md",
+    "Mathematics/Hypothesis Testing.md",
+    "Mathematics/Chi Square Test.md",
+    "Mathematics/Chi_Square_Distribution_Shape.png",
+    "2024-07-20.md",
+    "Data Processing/Regularization.md",
+    "Dropout.md",
+    "Machine Learning/Logistic Regression.md",
+    "Machine Learning/Naive Bayes.md",
+    "Machine Learning/Elastic Net Regression.md",
+    "Mathematics/Central tendency.md",
+    "Mathematics/Measure of Variance.md",
+    "Mathematics/Measure of CT.md",
+    "Mathematics/Confidence Interval.md",
+    "Mathematics/Uniform Distribution.md",
+    "Mathematics/Probability Distributions.md",
     "Data Processing/Pasted image 20240719193404.png",
     "Data Processing/Pasted image 20240719193150.png",
     "Probability Distributions.md",
-    "Mathematics/Uniform Distribution.md",
-    "Mathematics/Probability Distributions.md",
-    "2024-07-20.md",
     "Mathematics/Pareto Distribution.md",
     "Mathematics/Normal Distribution.md",
     "Mathematics/Maximum Likelihood Estimation.md",
     "Mathematics/Log Normal Distribution.md",
     "Mathematics/Binomial Distribution.md",
     "Mathematics/Bernoulli Distribution.md",
-    "Mathematics/Hypothesis Testing/Pasted image 20240625173655.png",
-    "Mathematics/Hypothesis Testing/Hypothesis Testing.md",
-    "Mathematics/Transformations.md",
-    "Mathematics/Z test.md",
-    "Mathematics/Types of Sampling.md",
-    "Mathematics/T test.md",
     "Mathematics/Pasted image 20240712132503.png",
     "Mathematics/Pasted image 20240712103337.png",
     "Mathematics/Pasted image 20240712072527.png",
@@ -246,19 +228,7 @@
     "Mathematics/Pasted image 20240629145154.png",
     "Mathematics/Hypothesis Testing",
     "Mathematics/Pasted image 20240629144636.png",
-    "Mathematics/Pasted image 20240629143346.png",
-    "Mathematics/output.png",
-    "Mathematics/Loss functions.md",
-    "Mathematics/Dispersion.md",
-    "Mathematics/Empirical Rule.md",
-    "Mathematics/Confidence Interval.md",
-    "Mathematics/ANOVA test.md",
-    "Mathematics/Central limit theorem.md",
-    "Mathematics/Central tendency.md",
-    "Mathematics/Chi Square Test.md",
     "Mathematics",
-    "Bernoulli Distribution.md",
-    "Maximum Likelihood Estimation.md",
     "Machine Learning/Books/Hands on Machine Learning.pdf",
     "Programs/Home.py",
     "Programs/Transformations/Operations.ipynb",
