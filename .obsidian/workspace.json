@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mathematics/Log Normal Distribution.md",
+                "file": "Mathematics/Pareto Distribution.md",
                 "mode": "source",
                 "source": false
               }
@@ -102,8 +102,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "75ce3ba0dea3f5ef",
@@ -119,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mathematics/Log Normal Distribution.md",
+                "file": "Mathematics/Pareto Distribution.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mathematics/Log Normal Distribution.md",
+                "file": "Mathematics/Pareto Distribution.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mathematics/Log Normal Distribution.md"
+                "file": "Mathematics/Pareto Distribution.md"
               }
             }
           }
@@ -184,19 +183,22 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "0251427402462767",
+  "active": "89ad46e437a54122",
   "lastOpenFiles": [
+    "Pareto_function.png",
+    "Machine Learning/F Test.md",
+    "Pareto.png",
+    "Preparation Index.md",
+    "Mathematics/Pareto Distribution.md",
+    "Mathematics/Probability Distributions.md",
+    "Mathematics/Log Normal Distribution.md",
     "ShapeLogNormal.png",
     "LogNormal.png",
     "Pasted image 20240722110154.png",
-    "Mathematics/Log Normal Distribution.md",
     "Pasted image 20240721195148.png",
     "Pasted image 20240721195136.png",
     "Log Normal.png",
-    "Mathematics/Probability Distributions.md",
     "2024-07-22.md",
-    "Preparation Index.md",
-    "Machine Learning/F Test.md",
     "Mathematics/Hypothesis Testing.md",
     "Mathematics/ANOVA test.md",
     "Data Processing/Feature Selection.md",
@@ -204,7 +206,6 @@
     "Pasted image 20240722053750.png",
     "Mathematics/F statistic value.png",
     "Daily Goals/2024-07-21.md",
-    "Pasted image 20240721195201.png",
     "Machine Learning/Classification Metrics.md",
     "Machine Learning/Evaluation metrics.md",
     "Mathematics/Central limit theorem.md",
@@ -220,7 +221,6 @@
     "Tags/Mathematics.md",
     "Mathematics/Chi Square Test.md",
     "Data Processing/Regularization.md",
-    "Dropout.md",
     "Mathematics/Hypothesis Testing",
     "Mathematics",
     "Machine Learning/Books/Hands on Machine Learning.pdf",
