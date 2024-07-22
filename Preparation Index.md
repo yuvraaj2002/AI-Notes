@@ -43,7 +43,7 @@ This page is actually dedicated towards the indexing of all the topics that I kn
 - [ ] Hypothesis testing
 - [x] Confidence intervals
 - [ ] Probability distributions
-- [ ] Central limit theorem
+- [x] Central limit theorem
 - [ ] Measures of central tendency and dispersion
 - [ ] Regression analysis
 - [x] A|B Testing

@@ -4,53 +4,48 @@ Tags : [[Mathematics]]
 
 Before moving on to the concept of central limit theorem we actually need to be aware about what is sampling distribution, because CLT theorem is somehow related to it.
 
-- What do you mean by sampling distribution ?
-    
-    Sampling distribution is simply distribution of sample statistic values, where every value is a statistical measure used for summarizing its corresponding sample data.
-    
-	![[Pasted image 20240629143346.png|500]]
-	Sample size must be same for all the samples and same statistical measures should be used
+##### What do you mean by sampling distribution and what is the use of it ? 
 
-- What are the uses of sampling distributions ?
+Sampling distribution is simply a distribution of sample statistic values where every value comes from different samples. Let say we have the some population and we are repeatedly drawing the samples from it and summarizing it using some statistical measure let say mean, now the distribution of such values will be called Sampling distribution.
 
-	Sampling distribution gives us valuable information about the variability of sample statistics. When this variability is high, it highlights the importance of focusing on confidence intervals rather than point estimates to make more accurate and reliable inferences about the population.
+![[Sampling Distribution.png|500]]
+Sampling distribution gives us valuable information about the variability of sample statistics. 
 
-- Define central limit theorem
-    
-    Central limit theorem is a crucial theorem in the field of inferential statistics and it states that  the distribution of means (Sampling distribution) of large enough independent samples will always approach normal distribution irrespective of distributions of the samples.
-	![[Pasted image 20240629144636.png]]
+##### Define what is central limit theorem ? 
 
-- What is the practical use of central limit theorem ?
-    
-    The central limit theorem can be used to make inferences about the population by using the sample. To better understand this let us assume that we want to find the average income of Indian male working individuals.
-    
-    One way would be to have access to all the population data and then calculate the average but this method is not feasible so we will be using the central limit theorem here to make inference about the unknown population parameter.
-    
-    ### Steps we will follow to find the average income of Indian working male
-    
-    - Collect multiple large enough diverse samples from the overall population data
-    - Calculate means of the such samples and plot the sampling distribution
-    - By relying the on CLT we will get a normal distribution and we will calculate the mean of this sampling distribution and this will be our estimated average salary of Indian working professional.
-    - Now since the point estimate is never trust worthy so we will provide a confidence interval and for that we will have to calculate standard error associated with the sampling distribution.
-    - After that based on given confidence level we can provide a confidence interval 
+Central limit theorem is one of the most beautiful theorems in inferential statistics which states that the shape of sampling distribution of large enough independent samples summarized via means will follow a normal distribution irrespective of the shape of sample data.
 
-	![[Pasted image 20240629145154.png]]
+![[CLT image.png]]
 
-- Can you tell the usage of central limit theorem in the field of machine learning ?
+##### Practical usage of Central Limit theorem
 
-	Central limit theorem is actually used to evaluate the model performance and here is the step by step explanation of the steps.
+The central limit theorem can be used to make inferences about the population by using the sample. To better understand this let us assume that we want to find the average income of Indian male working individuals.
+
+One way would be to have access to all the population data and then calculate the average but this method is not feasible so we will be using the central limit theorem here to make inference about the unknown population parameter.
+
+- Collect multiple large enough diverse samples from the overall population data
+- Calculate means of the such samples and plot the sampling distribution
+- By relying the on CLT we will get a normal distribution and we will calculate the mean of this sampling distribution and this will be our estimated average salary of Indian working professional.
+- Now since the point estimate is never trust worthy so we will provide a confidence interval and for that we will have to calculate standard error associated with the sampling distribution.
+- After that based on given confidence level we can provide a confidence interval 
+
+
+##### Can you tell the usage of central limit theorem in the field of machine learning ?
+
+Central limit theorem is actually used to evaluate the model performance and here is the step by step explanation of the steps.
+
+- **Step 1**: Perform k-fold cross-validation on your dataset. This involves splitting your dataset into k folds, training your model on k−1 folds, and testing it on the remaining fold. Repeat this process k times, each time using a different fold for testing.
 	
-	- **Step 1**: Perform k-fold cross-validation on your dataset. This involves splitting your dataset into k folds, training your model on k−1 folds, and testing it on the remaining fold. Repeat this process k times, each time using a different fold for testing.
-	
-	- **Step 2**: For each fold, compute the performance metric (e.g., accuracy, precision, recall). This gives you k performance metric values.
+- **Step 2**: For each fold, compute the performance metric (e.g., accuracy, precision, recall). This gives you k performance metric values.
 
-	- **Step 3**: Calculate the mean of these k performance metric values. This gives you a single mean performance metric for this round of cross-validation.
+- **Step 3**: Calculate the mean of these k performance metric values. This gives you a single mean performance metric for this round of cross-validation.
 
-	- **Step 4**: Repeat the entire cross-validation procedure multiple times (e.g., 30 or 50 times). Each time, randomly shuffle your dataset before performing k-fold CV to ensure different splits. This gives you a new set of performance metric values each time.
+- **Step 4**: Repeat the entire cross-validation procedure multiple times (e.g., 30 or 50 times). Each time, randomly shuffle your dataset before performing k-fold CV to ensure different splits. This gives you a new set of performance metric values each time.
 
-	- **Step 6**: Plot the distribution of these 50 mean accuracy values. According to the CLT, this distribution of means will approximate a normal distribution if the number of repetitions is sufficiently large.
-	
-	The spread of this distribution gives you an idea of the variability in your model's performance metric. A wider spread indicates more variability.
+- **Step 6**: Plot the distribution of these 50 mean accuracy values. According to the CLT, this distribution of means will approximate a normal distribution if the number of repetitions is sufficiently large.
+
+The spread of this distribution gives you an idea of the variability in your model's performance metric. A wider spread indicates more variability.
+
 
 Here is the python program to understand all the above bullet points
 

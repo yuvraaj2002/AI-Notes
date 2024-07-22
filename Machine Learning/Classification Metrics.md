@@ -1,4 +1,4 @@
-
+[Why use harmonic mean](https://www.youtube.com/watch?v=p_0_HhQbsMY)
 ##### What do you mean by classification metrics, name them?
 
 Classifications metrics are simply the statistical measures that helps us to [evaluate](https://you.com/search?q=Meaning+of+evalutate&fromSearchBar=true) the performance of a machine learning model solving a classification problem. There are a lot of classification metrics but some common ones are
@@ -35,133 +35,54 @@ Now rather than using some algorithm even if we will be using a simple function 
 
 ##### Explain what is confusion matrix ? 
 
+Confusion matrix is a classification metrics which got introduced to cover the major drawback of using accuracy of not providing any information about the type of error. By using confusion matrix we not only can find the accuracy but it also tells us about the type of error and also we can calculate other metrics as well like Precision and Recall.In confusion matrix there are around 4 terminologies which we need to keep in mind 👇🏽
 
-##### What are the different types of errors in machine learning and which error is more dangerous ? 
+1. **True positive** : It means our model is predicting that the output belongs to a particular class and it’s True
+2. **True negative** : It means when our model is predicting that the output doesn’t belongs to a particular class and its True
+3. **False positive** : It means when our model is predicting that the output belongs to a particular class but in reality that’s the output doesn’t belong to that class
+4. **False negative** : It means when our model is predicting that the output doesn’t belongs to a particular class but in reality the output belong to that class
 
+##### What are the different types of errors in machine learning ?
 
-##### Explain precision ? 
+There are 2 different types of errors that is Type 1 error (False positive) and Type 2 error (False Negative), where false positive means that our model is saying that the data point belongs to some specific class but in reality it doesn't, on the other hand type 2 error means the model is saying the data point do no belong to a particular class but in reality it does.
 
+##### Which error is more dangerous ? 
 
-##### Explain recall ? 
+There is not fixed rule that one type of error will always be dangerous than other instead the the severity of the particular error should be completely based on the problem statement. To better understand this let us assume that our model is making type 1 error in 2 different scenarios and we will realize that in one scenario type 1 error will be important but in other it will be not that important.
 
+- Problem Statement 1 : Email spam ham classification : In this problem statement if our model is making type 1 error (False positive) then it means actually that our model said mail is spam but in reality it is not spam, whereas Type 2 error (False negative) would mean our model said email is not spam but in reality it is spam. Now if we will observe then we would realize that Type 1 error here is more dangerous as the mail not spam but labeled as spam could do harm.
 
-##### Out of precision and recall when should we use which metric ?
+- Problem Statement 2 : Heart disease classification : In this problems statement conducting type 1 error would mean that model is saying person is having disease but in reality person is not having disease, whereas the Type 2 error would be like person is not having disease but in reality person does have disease. So in this case `type 2 > type 1` is more dangerous.
+
+##### Explain precision and when to use? 
+
+Precision in single line is basically accuracy of a class and in other words we say that precision is a measure that out of all the data points belonging to a class how many data points **actually** belongs to that class. And precision is used when False positive is doing a lot of harm.
+
+Precision = TP / TP + FP
+
+##### Explain recall and when to use ? 
+
+Recall is a measure that out of all the data points which **actually** belongs to that class how many are correctly classified by the model. Recall is used when Type 2 is more dangerous
+
+Recall = TP / TP + FN
+
 
 
 ##### What to do incase we don't know which type of error is more dangerous ? 
 
+In case we are not aware about that whether type1 or type2 error is more dangerous we must use F1-Score, which is simply a harmonic mean of precision and recall. Mathematically F1-Score can be defined as 👇🏾
+
+$$F_1 Score = 2*Precision*Recal/(Precision+Recall)$$
+
+Harmonic mean is chosen for the F1 score calculation because it effectively balances precision and recall, punishes extreme values, and provides a comprehensive evaluation of a model's performance
+
+##### What do you mean by AUC ROC curve
+
+![[Pasted image 20240721195136.png]]
 
 
+![[Pasted image 20240721195148.png]]
+
+![[Pasted image 20240721195201.png]]
 
 
-        
-        <aside> 📑 To solve this problem we can use confusion matrix using which we not only get the percentage representing correctness of our machine learning algorithm but also we get information about the type of error which our algorithm is making
-
-
-- What are the different types of error?
-    
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7fdff5bc-7d0e-4068-a67a-bf2c5915e421/Untitled.png)
-    
-    <aside> 📑 Out of both Type 1 error are relatively more dangerous, but we should actually consider the problem statement and then decide which error is more dangerous and need more attention
-    
-    </aside>
-    
-- Out of type 1 and type 2 error which one is more dangerous
-    
-    There is not fixed rule that one type of error will always be dangerous than other instead the the severity of the particular error should be completely based on the problem statement.
-    
-    To better understand this let us assume that our model is making type 1 error in 2 different scenarios and we will realize that in one scenario type 1 error will be important but in other it will be not that important.
-    
-    ### Problem Statement 1 : Email spam ham classification
-    
-    In this problem statement if our model is making type 1 error (False positive) then it means actually the mail was spam but our model labeled it as not spam. Now this is not a big deal but instead of this if our model conduct type 2 error (False negative) then it would mean in reality the mail was not spam but our model labeled it as spam and this is not good as mail might be important. So in this case `Type 1 < Type 2`
-    
-    ### Problem Statement 2 : Heart disease classification
-    
-    In this problems statement conducting type 1 error would mean that person is having disease but model is unable to detect so this is very crucial, also if the model would conduct type 2 error it would means person is not having disease but model labeled it as disease. So in this case `type 1 > type 2`
-    
-- What is confusion matrix, and what are the related terminologies?
-    
-    Confusion matrix is a classification metrics which got introduced to cover the major drawback of using accuracy of not providing any information about the type of error. By using confusion matrix we not only can find the accuracy but it also tells us about the type of error and also we can calculate other metrics as well like Precision and Recall.
-    
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/14819077-b609-42c7-9257-b9f10dc32449/Untitled.png)
-    
-    ### _Terminologies related to confusion matrix_
-    
-    In confusion matrix there are around 4 terminologies which we need to keep in mind 👇🏽
-    
-    1. **True positive** : It means our model is predicting that the output belongs to a particular class and it’s True
-    2. **True negative** : It means when our model is predicting that the output doesn’t belongs to a particular class and its True
-    3. **False positive** : It means when our model is predicting that the output belongs to a particular class but in reality that’s the output doesn’t belong to that class
-    4. **False negative** : It means when our model is predicting that the output doesn’t belongs to a particular class but in reality the output belong to that class
-    
-    ### _Finding accuracy using confusion matrix_
-    
-    ![SmartSelect_20221117_125820_OneNote.jpg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/969ef3c3-8310-46d4-89b8-1096355bc67b/SmartSelect_20221117_125820_OneNote.jpg)
-    
-- How the confusion matrix will look for multi-class classification ?
-    
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d5bbdb16-3e25-4747-9b63-35808541e30b/Untitled.png)
-    
-- What is precision and when should we choose it?
-    
-    Precision can simply be defined as the accuracy of class predictions made by the model.
-    
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/46f90851-176c-4bde-9bdb-202aa196782e/Untitled.png)
-    
-    ### Visual understanding of concept
-    
-    ![We are calculating the accuracy of positive predictions](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/865594e5-29a5-450c-a4db-857bcdbc0012/Untitled.png)
-    
-    We are calculating the accuracy of positive predictions
-    
-    ### When to use Precision
-    
-    <aside> 📝 Precision should be used when type 1 error are more dangerous , which means we want to minimize type 1 error
-    
-    </aside>
-    
-- What is recall and when should we use it?
-    
-    Recall is used to measure the number of data points that are correctly classified by the model out of all the data points belonging to that class.
-    
-    The proportion of correctly classified in actual positives. Mathematically it is defined as 👇🏾
-    
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5436af8c-18a4-4db2-abaa-41ce9e74e035/Untitled.png)
-    
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ce13968d-f9e2-41af-86ae-f79334c8d747/Untitled.png)
-    
-    <aside> 📝 Recall should be used when type 2 error are more dangerous, means we want to minimize the false negatives
-    
-    </aside>
-    
-- What to do in case we don’t know that which type of error is more dangerous 🤷🏾‍♂️
-    
-    In case we are not aware about that whether type1 or type2 error is more dangerous we must use F1-Score, which is simply a harmonic mean of precision and recall. Mathematically F1-Score can be defined as 👇🏾
-    
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/97fa38c2-64a4-44b6-b50a-e061f9e2b5b5/Untitled.png)
-    
-    <aside> 📝 In general, a greater F1 score is better than a smaller score, as it indicates that the classifier has a better balance between precision and recall,
-    
-    </aside>
-    
-- Why F1-Score uses harmonic means instead of geometric mean?
-    
-    Harmonic mean is chosen for the F1 score calculation because it effectively balances precision and recall, punishes extreme values, and provides a comprehensive evaluation of a model's performance
-    
-- When should we use macro precision and when to use weighted precision?
-    
-    In case all the classes are equally distributed → Macro precision
-    
-    In case there is some imbalance within the classes → Weighted precision
-    
-- ROC AUC curve
-    
-    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/f18c412d-2627-4e64-9abf-1bc83d728162/395111fc-7946-48be-81a0-97bc4f8c43bd/Untitled.png)
-    
-    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/f18c412d-2627-4e64-9abf-1bc83d728162/5ae96611-2f4b-430b-9a1d-bac92ec24862/Untitled.png)
-    
-    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/f18c412d-2627-4e64-9abf-1bc83d728162/3c0dd9c8-f9fa-4762-bdd9-f7092aa97216/Untitled.png)
-    
-
-[F1-score | Why exactly Harmonic mean in F1-score? | F1-score for multi-class | Data science Q&A](https://www.youtube.com/watch?v=p_0_HhQbsMY)

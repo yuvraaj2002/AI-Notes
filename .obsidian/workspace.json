@@ -11,31 +11,9 @@
             "id": "41fbb8d2175a0800",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.6.7"
-              }
-            }
-          },
-          {
-            "id": "03fb2d66e4e1d07c",
-            "type": "leaf",
-            "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Processing/Categorical Encoding.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f9ed0df24c77cec6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Mathematics/Central limit theorem.md",
+                "file": "Machine Learning/F Test.md",
                 "mode": "source",
                 "source": false
               }
@@ -47,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024-07-21.md",
+                "file": "Mathematics/Log Normal Distribution.md",
                 "mode": "source",
                 "source": false
               }
@@ -60,9 +38,21 @@
               "type": "graph",
               "state": {}
             }
+          },
+          {
+            "id": "84d23e68e5d0dcf3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Preparation Index.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -129,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mathematics/Central limit theorem.md",
+                "file": "Mathematics/Log Normal Distribution.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mathematics/Central limit theorem.md",
+                "file": "Mathematics/Log Normal Distribution.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -169,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mathematics/Central limit theorem.md"
+                "file": "Mathematics/Log Normal Distribution.md"
               }
             }
           }
@@ -194,44 +184,43 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "f9ed0df24c77cec6",
+  "active": "0251427402462767",
   "lastOpenFiles": [
+    "ShapeLogNormal.png",
+    "LogNormal.png",
+    "Pasted image 20240722110154.png",
+    "Mathematics/Log Normal Distribution.md",
+    "Pasted image 20240721195148.png",
+    "Pasted image 20240721195136.png",
+    "Log Normal.png",
+    "Mathematics/Probability Distributions.md",
+    "2024-07-22.md",
     "Preparation Index.md",
+    "Machine Learning/F Test.md",
+    "Mathematics/Hypothesis Testing.md",
+    "Mathematics/ANOVA test.md",
+    "Data Processing/Feature Selection.md",
+    "Mathematics/F distribution.png",
+    "Pasted image 20240722053750.png",
+    "Mathematics/F statistic value.png",
+    "Daily Goals/2024-07-21.md",
+    "Pasted image 20240721195201.png",
+    "Machine Learning/Classification Metrics.md",
+    "Machine Learning/Evaluation metrics.md",
+    "Mathematics/Central limit theorem.md",
     "Data Processing/Categorical Encoding.md",
     "Mathematics/Measure of CT.md",
     "Data Processing/Multicollinearity.md",
-    "2024-07-21.md",
     "Tags/Data Processing.md",
     "Mathematics/Regression Analysis.md",
-    "Machine Learning/F Test.md",
-    "Mathematics/Hypothesis Testing.md",
     "Mathematics/Confidence Interval.md",
-    "Mathematics/Regression Analysis Chart.png",
     "Mathematics/Measure of Dispersion.md",
     "Daily Goals/2024-07-20.md",
     "Mathematics/AB Testing.md",
-    "Mathematics/AB testing banner.png",
     "Tags/Mathematics.md",
-    "Data Processing/Feature Selection.md",
     "Mathematics/Chi Square Test.md",
-    "Mathematics/Chi_Square_Distribution_Shape.png",
     "Data Processing/Regularization.md",
     "Dropout.md",
-    "Machine Learning/Logistic Regression.md",
-    "Machine Learning/Naive Bayes.md",
-    "Machine Learning/Elastic Net Regression.md",
-    "Mathematics/Central tendency.md",
-    "Mathematics/Uniform Distribution.md",
-    "Mathematics/Probability Distributions.md",
-    "Data Processing/Pasted image 20240719193404.png",
-    "Data Processing/Pasted image 20240719193150.png",
-    "Probability Distributions.md",
-    "Mathematics/Pareto Distribution.md",
-    "Mathematics/Pasted image 20240712132503.png",
-    "Mathematics/Pasted image 20240712103337.png",
-    "Mathematics/Pasted image 20240712072527.png",
-    "Mathematics/Pasted image 20240712055609.png",
-    "Mathematics/Pasted image 20240629145154.png",
     "Mathematics/Hypothesis Testing",
     "Mathematics",
     "Machine Learning/Books/Hands on Machine Learning.pdf",
