@@ -1,6 +1,6 @@
 Tags : [[AI]]
 
-- [[Object Oriented Programming]]
+- [[Introduction to OOP]]
 - [[File Handling]]
 - [[Exception Handling]]
 - [[Selenium]]
