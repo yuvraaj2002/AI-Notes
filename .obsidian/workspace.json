@@ -13,19 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/F Test.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0251427402462767",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Mathematics/Pareto Distribution.md",
+                "file": "2024-07-22.md",
                 "mode": "source",
                 "source": false
               }
@@ -51,8 +39,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -118,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mathematics/Pareto Distribution.md",
+                "file": "2024-07-22.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mathematics/Pareto Distribution.md",
+                "file": "2024-07-22.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mathematics/Pareto Distribution.md"
+                "file": "2024-07-22.md"
               }
             }
           }
@@ -166,8 +153,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -183,28 +169,27 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "89ad46e437a54122",
+  "active": "41fbb8d2175a0800",
   "lastOpenFiles": [
-    "Pareto_function.png",
-    "Machine Learning/F Test.md",
-    "Pareto.png",
     "Preparation Index.md",
-    "Mathematics/Pareto Distribution.md",
-    "Mathematics/Probability Distributions.md",
-    "Mathematics/Log Normal Distribution.md",
-    "ShapeLogNormal.png",
-    "LogNormal.png",
-    "Pasted image 20240722110154.png",
+    "Machine Learning/F Test.md",
+    "Pasted image 20240721195201.png",
+    "Machine Learning/Pasted image 20240721195201.png",
+    "Machine Learning/Pasted image 20240721195148.png",
+    "Machine Learning/Pasted image 20240721195136.png",
     "Pasted image 20240721195148.png",
     "Pasted image 20240721195136.png",
-    "Log Normal.png",
+    "Mathematics/Probability Distributions.md",
+    "Mathematics/Pareto Distribution.md",
+    "Mathematics/Pareto_function.png",
+    "Mathematics/Pareto.png",
+    "Mathematics/Log Normal Distribution.md",
+    "Mathematics/ShapeLogNormal.png",
+    "Mathematics/LogNormal.png",
     "2024-07-22.md",
     "Mathematics/Hypothesis Testing.md",
     "Mathematics/ANOVA test.md",
     "Data Processing/Feature Selection.md",
-    "Mathematics/F distribution.png",
-    "Pasted image 20240722053750.png",
-    "Mathematics/F statistic value.png",
     "Daily Goals/2024-07-21.md",
     "Machine Learning/Classification Metrics.md",
     "Machine Learning/Evaluation metrics.md",
