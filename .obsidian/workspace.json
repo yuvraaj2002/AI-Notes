@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tags/Python.md",
+                "file": "Python/Object Oriented Programming/Introduction to OOP.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/Object Oriented Programming/Introduction to OOP.md",
+                "file": "2024-07-23.md",
                 "mode": "source",
                 "source": false
               }
@@ -51,8 +51,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -167,7 +166,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -183,11 +183,14 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "10bb545f37e2a77a",
+  "active": "41fbb8d2175a0800",
   "lastOpenFiles": [
-    "Preparation Index.md",
-    "Python/Object Oriented Programming/Introduction to OOP.md",
     "Tags/Python.md",
+    "Preparation Index.md",
+    "2024-07-23.md",
+    "Python/Object Oriented Programming/Introduction to OOP.md",
+    "Python/Images",
+    "Python/Images/Aggregation.png",
     "Abstraction.md",
     "Encapsulation.md",
     "Polymorphism.md",
@@ -207,7 +210,6 @@
     "Mathematics/Pareto.png",
     "Mathematics/Log Normal Distribution.md",
     "Mathematics/ShapeLogNormal.png",
-    "Mathematics/LogNormal.png",
     "Mathematics/Hypothesis Testing.md",
     "Mathematics/ANOVA test.md",
     "Data Processing/Feature Selection.md",
@@ -221,7 +223,6 @@
     "Tags/Data Processing.md",
     "Mathematics/Regression Analysis.md",
     "Mathematics/Confidence Interval.md",
-    "Mathematics/Measure of Dispersion.md",
     "Mathematics/Hypothesis Testing",
     "Mathematics",
     "Machine Learning/Books/Hands on Machine Learning.pdf",
@@ -230,7 +231,6 @@
     "Programs/Transformations",
     "Programs/Machine Learning algorithms/Voting.ipynb",
     "Programs/Machine Learning algorithms/Stacking.ipynb",
-    "Programs/Machine Learning algorithms/Ridge.ipynb",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]
