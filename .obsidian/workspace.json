@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily Goals/2024-07-22.md",
+                "file": "Data Structures And Algorithms/String.md",
                 "mode": "source",
                 "source": false
               }
@@ -82,7 +82,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "75ce3ba0dea3f5ef",
@@ -98,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily Goals/2024-07-22.md",
+                "file": "Data Structures And Algorithms/String.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daily Goals/2024-07-22.md",
+                "file": "Data Structures And Algorithms/String.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daily Goals/2024-07-22.md"
+                "file": "Data Structures And Algorithms/String.md"
               }
             }
           }
@@ -164,6 +165,15 @@
   },
   "active": "84d23e68e5d0dcf3",
   "lastOpenFiles": [
+    "Data Structures And Algorithms/Heap.md",
+    "Data Structures And Algorithms/Recursion-DP.md",
+    "Data Structures And Algorithms/Graph.md",
+    "Data Structures And Algorithms/Linked List.md",
+    "Data Structures And Algorithms/Tree.md",
+    "Data Structures And Algorithms/Stack-Queue.md",
+    "Data Structures And Algorithms/String.md",
+    "Data Structures And Algorithms/Arrays.md",
+    "Daily Goals/2024-07-22.md",
     "Daily Goals/2024-07-23.md",
     "Python/Object Oriented Programming/Inheritance.md",
     "Polymorphism.md",
@@ -178,7 +188,6 @@
     "Data Structures And Algorithms",
     "New folder",
     "Deep Learning/Dropout.md",
-    "Daily Goals/2024-07-22.md",
     "Daily Goals/2024-07-21.md",
     "Daily Goals/2024-07-19.md",
     "Daily Goals/2024-07-17.md",
@@ -192,14 +201,6 @@
     "Daily Goals/2024-07-08.md",
     "Daily Goals/2024-07-09.md",
     "Daily Goals/2024-07-10.md",
-    "Daily Goals/2024-07-05.md",
-    "Daily Goals/2024-07-04.md",
-    "Daily Goals/2024-07-06.md",
-    "Daily Goals/2024-07-03.md",
-    "Daily Goals/2024-07-02.md",
-    "Python/Abstraction.md",
-    "Python/Polymorphism.md",
-    "Python/Encapsulation.md",
     "Python/Images/Aggregation.png",
     "Pasted image 20240721195201.png",
     "Machine Learning/Pasted image 20240721195201.png",
