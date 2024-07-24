@@ -30,7 +30,7 @@ public:
 };
 ```
 
-###### [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/description/)
+### [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/description/)
 
 - First parse the string and only add the non alphanumeric characters into temp string
 - Then use 2 pointer approach to check if the characters are same or not
@@ -81,4 +81,5 @@ Further we can improve this by making sure that we are not storing the character
 Pending
 ```
 
-###### [Longest Substring without repeating characteres](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
+### [Longest Substring without repeating characteres](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
+

@@ -25,6 +25,18 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Data Structures And Algorithms/Linked List.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e088e3998535e587",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Data Structures And Algorithms/String.md",
                 "mode": "source",
                 "source": false
@@ -99,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data Structures And Algorithms/String.md",
+                "file": "Data Structures And Algorithms/Linked List.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data Structures And Algorithms/String.md",
+                "file": "Data Structures And Algorithms/Linked List.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data Structures And Algorithms/String.md"
+                "file": "Data Structures And Algorithms/Linked List.md"
               }
             }
           }
@@ -165,13 +177,13 @@
   },
   "active": "84d23e68e5d0dcf3",
   "lastOpenFiles": [
+    "Data Structures And Algorithms/String.md",
+    "Data Structures And Algorithms/Linked List.md",
     "Data Structures And Algorithms/Heap.md",
     "Data Structures And Algorithms/Recursion-DP.md",
     "Data Structures And Algorithms/Graph.md",
-    "Data Structures And Algorithms/Linked List.md",
     "Data Structures And Algorithms/Tree.md",
     "Data Structures And Algorithms/Stack-Queue.md",
-    "Data Structures And Algorithms/String.md",
     "Data Structures And Algorithms/Arrays.md",
     "Daily Goals/2024-07-22.md",
     "Daily Goals/2024-07-23.md",
