@@ -18,45 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "84d23e68e5d0dcf3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Data Structures And Algorithms/Arrays.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e088e3998535e587",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Data Structures And Algorithms/String.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "75a791022a8359d7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2024-07-24.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -106,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "75ce3ba0dea3f5ef",
@@ -123,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data Structures And Algorithms/Arrays.md",
+                "file": "Python/Object Oriented Programming/Inheritance.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data Structures And Algorithms/Arrays.md",
+                "file": "Python/Object Oriented Programming/Inheritance.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data Structures And Algorithms/Arrays.md"
+                "file": "Python/Object Oriented Programming/Inheritance.md"
               }
             }
           }
@@ -187,10 +149,32 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "84d23e68e5d0dcf3",
+  "active": "89ad46e437a54122",
   "lastOpenFiles": [
-    "Data Structures And Algorithms/String.md",
+    "Unsupervised Learning/Images/Pasted image 20240714165027.png",
+    "Unsupervised Learning/Images/Pasted image 20240714163843.png",
+    "Unsupervised Learning/Images/Pasted image 20240714143504.png",
+    "Unsupervised Learning/Images",
+    "Unsupervised Learning/New folder",
+    "System Design/Images/Pasted image 20240710100309.png",
+    "System Design/Images/Pasted image 20240710094428.png",
+    "System Design/Images/Pasted image 20240710081132.png",
+    "System Design/Images/Pasted image 20240710075220.png",
+    "System Design/Images/Pasted image 20240710074444.png",
+    "System Design/Images/Pasted image 20240710065249.png",
+    "System Design/Images/Pasted image 20240710061701.png",
+    "System Design/Images/Pasted image 20240709194155.png",
+    "System Design/Images",
+    "System Design/New folder",
+    "MLOPS/Books/Designing ML systems.pdf",
+    "MLOPS/Books",
+    "MLOPS/New folder",
+    "MLOPS/Images",
+    "Mathematics/Images",
+    "Mathematics/New folder",
+    "Data Processing/F Test.md",
     "Data Structures And Algorithms/Arrays.md",
+    "Data Structures And Algorithms/String.md",
     "Data Structures And Algorithms/Graph.md",
     "2024-07-24.md",
     "Data Structures And Algorithms/Linked List.md",
@@ -203,16 +187,6 @@
     "Daily Goals/2024-07-23.md",
     "Python/Object Oriented Programming/Inheritance.md",
     "Polymorphism.md",
-    "Data Structures And Algorithms/Recursion-DP",
-    "Data Structures And Algorithms/New folder",
-    "Data Structures And Algorithms/Graph",
-    "Data Structures And Algorithms/Trees",
-    "Data Structures And Algorithms/Linked List",
-    "Data Structures And Algorithms/Stack-Queue",
-    "Data Structures And Algorithms/Arrays",
-    "Data Structures And Algorithms/Strings",
-    "Data Structures And Algorithms",
-    "New folder",
     "Deep Learning/Dropout.md",
     "Daily Goals/2024-07-21.md",
     "Daily Goals/2024-07-19.md",
@@ -223,18 +197,6 @@
     "Daily Goals/2024-07-15.md",
     "Daily Goals/2024-07-16.md",
     "Daily Goals/2024-07-12.md",
-    "Daily Goals/2024-07-11.md",
-    "Daily Goals/2024-07-08.md",
-    "Python/Images/Aggregation.png",
-    "Pasted image 20240721195201.png",
-    "Machine Learning/Pasted image 20240721195201.png",
-    "Machine Learning/Pasted image 20240721195148.png",
-    "Machine Learning/Pasted image 20240721195136.png",
-    "Pasted image 20240721195148.png",
-    "Pasted image 20240721195136.png",
-    "Mathematics/Pareto_function.png",
-    "Mathematics/Pareto.png",
-    "Mathematics/ShapeLogNormal.png",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]

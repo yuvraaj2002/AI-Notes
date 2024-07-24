@@ -260,11 +260,48 @@ public:
 };
 ```
 
-### [Find the triplet with a given sum in an array](#)
+### [Find the triplet with a given sum in an array](https://www.geeksforgeeks.org/problems/triplet-sum-in-array-1587115621/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card)
+
+To solve this problem there are couple of approaches and we will discuss each of the approach in the systematic manner.
+##### Approach 1 (Using 3 loops)
+- Use first loop to select the first value
+- Use the second and third nested loops to go over the internal values
+- If the sum = target then stop the loops and return true else continue
+
+Time complexity $O(n^3)$ and space complexity O(1)
+```cpp
+class Solution {
+  public:
+
+    // Should return true if there exists a triplet in the
+    // array arr[] which sums to x. Otherwise false
+    bool find3Numbers(int arr[], int n, int x) 
+    {
+        for(int i=0;i<n;i++)
+        {
+            for(int j=i+1;j<n;j++)
+            {
+                for(int k=j+1;k<n;k++)
+                {
+                    if(arr[i] + arr[j] + arr[k] == x)
+                    {
+                        return true;
+                    }
+                }
+            }
+        }
+        return false;
+    }
+};
+```
 ### [Remove duplicates from a sorted array](#)
+
+
 ### [Find the maximum sum subarray of size k](#)
 ### [Find the longest substring without repeating characters](#)
 ### [Find the smallest subarray with a sum greater than or equal to a given value](#)
+
+
 ### [Compute the prefix sum array](#)
 ### [Find the sum of elements in a subarray using the prefix sum array](#)
 ### [Find the largest sum contiguous subarray (Kadane’s algorithm)](#)
