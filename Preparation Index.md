@@ -53,7 +53,7 @@ This page is actually dedicated towards the indexing of all the topics that I kn
 ###### Deep learning
 
 - [ ] Artificial Neural nets
-- [ ] Activation functions
+- [x] Activation functions
 - [ ] Convolutional neural nets
 - [ ] Recurrent neural nets
 - [ ] LSTM and GRU LSTM

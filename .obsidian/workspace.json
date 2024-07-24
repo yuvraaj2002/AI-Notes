@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/Object Oriented Programming/Inheritance.md",
+                "file": "Data Structures And Algorithms/Arrays.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "75ce3ba0dea3f5ef",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python/Object Oriented Programming/Inheritance.md",
+                "file": "Data Structures And Algorithms/Arrays.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python/Object Oriented Programming/Inheritance.md",
+                "file": "Data Structures And Algorithms/Arrays.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python/Object Oriented Programming/Inheritance.md"
+                "file": "Data Structures And Algorithms/Arrays.md"
               }
             }
           }
@@ -133,7 +134,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -149,8 +151,12 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "89ad46e437a54122",
+  "active": "41fbb8d2175a0800",
   "lastOpenFiles": [
+    "Preparation Index.md",
+    "Deep Learning/Activation Functions.md",
+    "Deep Learning/Untitled.md",
+    "Python/Object Oriented Programming/Inheritance.md",
     "Unsupervised Learning/Images/Pasted image 20240714165027.png",
     "Unsupervised Learning/Images/Pasted image 20240714163843.png",
     "Unsupervised Learning/Images/Pasted image 20240714143504.png",
@@ -163,7 +169,6 @@
     "System Design/Images/Pasted image 20240710074444.png",
     "System Design/Images/Pasted image 20240710065249.png",
     "System Design/Images/Pasted image 20240710061701.png",
-    "System Design/Images/Pasted image 20240709194155.png",
     "System Design/Images",
     "System Design/New folder",
     "MLOPS/Books/Designing ML systems.pdf",
@@ -185,7 +190,6 @@
     "Data Structures And Algorithms/Stack-Queue.md",
     "Daily Goals/2024-07-22.md",
     "Daily Goals/2024-07-23.md",
-    "Python/Object Oriented Programming/Inheritance.md",
     "Polymorphism.md",
     "Deep Learning/Dropout.md",
     "Daily Goals/2024-07-21.md",
@@ -195,8 +199,6 @@
     "Daily Goals/2024-07-13.md",
     "Daily Goals/2024-07-14.md",
     "Daily Goals/2024-07-15.md",
-    "Daily Goals/2024-07-16.md",
-    "Daily Goals/2024-07-12.md",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]

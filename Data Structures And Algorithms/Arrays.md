@@ -297,10 +297,137 @@ class Solution {
 ### [Remove duplicates from a sorted array](#)
 
 
-### [Find the maximum sum subarray of size k](#)
+### [Find the maximum sum subarray of size k](https://www.geeksforgeeks.org/problems/max-sum-subarray-of-size-k5313/1)
+
+- Initialize 2 pointers head and tail
+- Expand the window to the required length and add up the values
+- Then move the window to the right by adding new item and removing old item
+
+Time Complexity O(n) and space complexity O(1)
+```cpp
+class Solution{   
+public:
+    long maximumSumSubarray(int K, vector<int> &Arr , int N)
+    {
+        // code here 
+        int head = 0;
+        int tail = 0;
+        long max_sum = LONG_MIN; 
+        long curr_sum = 0;
+        
+        
+        // Expanding the window
+        while ((head - tail + 1) <= K) 
+        {
+            curr_sum = curr_sum + Arr[head];
+            
+            if ((head - tail + 1) == K) 
+            {
+                break;
+            } 
+            else 
+            {
+                head++;
+            }
+        }
+        
+        // We have the window at hand
+        max_sum = max(max_sum, curr_sum);
+        
+        // Moving right
+        while (head < N - 1) 
+        {
+            // Adding new item
+            head++;
+            curr_sum = curr_sum + Arr[head];
+            
+            // Removing old item
+            curr_sum = curr_sum - Arr[tail];
+            tail++;
+            
+            // Updating the maximum sum
+            max_sum = max(max_sum, curr_sum);
+        }
+        return max_sum;
+    }
+};
+```
 ### [Find the longest substring without repeating characters](#)
 ### [Find the smallest subarray with a sum greater than or equal to a given value](#)
 
+
+##### Approach 1 (Generating all the possible subarrays using 2 loops)
+
+- Generate all the possible subarrays using 2 loops
+- If the subarray sum >= target then find the length using (j-i)+1
+- Update the ans variable that is storing the length of the subarray
+
+Time complexity $O(n^2)$ and space complexity O(1)
+```cpp
+class Solution {
+public:
+    int minSubArrayLen(int target, vector<int>& nums) 
+    {
+        // Initial configuration
+        int ans = INT_MAX;;
+
+        for(int i=0;i<nums.size();i++)
+        {
+            int sub_sum = 0;
+            for(int j=i;j<nums.size();j++)
+            {
+                sub_sum = sub_sum + nums[j];
+                if(sub_sum >= target)
+                {
+                    int length = (j-i)+1;
+                    ans = min(ans,length);
+                    break;
+                }
+            }
+        }
+        if(ans == INT_MAX)
+        {
+            return 0;
+        }
+        return ans;
+    }
+};
+```
+
+##### Approach 2 (Using the 2 pointers)
+
+```Cpp
+class Solution {
+public:
+    int minSubArrayLen(int target, vector<int>& nums) {
+        // Initial configuration
+        int ans = INT_MAX;
+        int head = 0;
+        int tail = 0;
+        int sub_sum = 0;
+
+        while (tail < nums.size()) 
+        {
+            // Adding item to the current sum
+            sub_sum += nums[tail];
+
+            // Minimize window if the current sum is greater than or equal to the target
+            while (sub_sum >= target) 
+            {
+                ans = min(ans, (tail - head) + 1);
+                sub_sum -= nums[head];
+                head++;
+            }
+            
+            // Move the tail pointer to the right
+            tail++;
+        }
+        
+        return (ans == INT_MAX) ? 0 : ans;
+    }
+};
+
+```
 
 ### [Compute the prefix sum array](#)
 ### [Find the sum of elements in a subarray using the prefix sum array](#)
