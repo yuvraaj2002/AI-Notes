@@ -1,4 +1,4 @@
-This page is dedicated towards understanding the problems related to strings in Data structures and algorithms and here I will be mentioning most commonly asked interview questions along with their solutions.
+This page is dedicated towards understanding the problems related to strings in Data structures and algorithms and here I will be mentioning most commonly asked interview questions along with their solutions. Rather than doing questions randomly we will be focusing on the important subtopics. And the various subtopics which we will consider in array are 
 
 ### [Find the first and last occurrence of a given element in a sorted array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/description/)
 - Go over the vector linearly and when we will encounter the target element for the first time we will store its index as both first and last occurrence and then reverse the Boolean flag which we initialized at the start.
@@ -40,12 +40,226 @@ public:
 };
 ```
 
-### [Implement bubble sort, selection sort, and insertion sort](#)
+### [Implement All Sorting algorithms](#)
 ### [Sort an array of 0s, 1s, and 2s](#)
-### [Find duplicate elements in an array](#)
-### [Find the first repeating element in an array](#)
-### [Find the non-repeating element in an array where every other element appears twice](#)
-### [Find the pair with a given sum in a sorted array](#)
+### [Find duplicate elements in an array](https://leetcode.com/problems/find-the-duplicate-number/)
+
+To solve this problem there are couple of approaches and we will discuss each of the approach in the systematic manner.
+
+##### Approach 1 (Using set)
+- Initialize set data structure
+- Start going over the vector values
+- If current value is unique and first time visited then push in the set otherwise break the loop
+
+Time complexity is O(n) and space complexity is O(n)
+```cpp
+class Solution {
+public:
+    int findDuplicate(vector<int>& nums) 
+    {
+        // Sort the values
+        set<int> st;
+        int ans = -1;
+
+        for(int i=0;i<nums.size();i++)
+        {
+            if(st.find(nums[i]) != st.end())
+            {
+                ans = nums[i];
+                break;
+            }
+            else
+            {
+                st.insert(nums[i]);
+            }
+        }
+        return ans;
+    }
+};
+```
+
+##### Approach 2 (Using Sorting)
+- Sort the vector 
+- Start from index 0 and go till last index-1
+- Check if current index value is same as next index value
+	- If so then return this index value as repeating value
+	- Otherwise move further
+
+Time complexity is O(n) and space complexity is O(n)
+```cpp
+class Solution {
+public:
+    int findDuplicate(vector<int>& nums) 
+    {
+        // Sort the values
+        sort(nums.begin(),nums.end());
+        int ans = -1;
+
+        for(int i=0;i<nums.size()-1;i++)
+        {
+            if(nums[i] == nums[i+1])
+            {
+                ans = nums[i];
+                break;
+            }
+        }
+        return ans;
+    }
+};
+```
+
+
+### [Find the non-repeating element in an array where every other element appears twice](https://leetcode.com/problems/single-number-iii/)
+
+- Initialize a map data structure and go over the vector and keep track of frequency count
+- If the items frequency count is 1 then store it in the answer vector
+
+Time complexity is O(n) and space complexity is O(n)
+```cpp
+class Solution {
+public:
+    vector<int> singleNumber(vector<int>& nums) 
+    {
+        vector<int> ans;
+        unordered_map<int,int> mp;
+        for(auto it: nums)
+        {
+            // Incrementing the frequency count
+            mp[it]++;
+        }
+
+        // Going over the map
+        for(auto it: mp)
+        {
+            if(it.second == 1)
+            {
+                ans.push_back(it.first);
+            }
+        }
+        return ans;
+    }
+};
+```
+### [Find the pair with a given sum in a sorted array](https://leetcode.com/problems/two-sum/description/)
+
+To solve this problem there are couple of approaches and we will discuss each of the approach in the systematic manner.
+
+##### Approach 1 (Using 2 loops)
+
+- Use one loop focusing on current item
+- Use another inner loop to find the other value to form total sum =  target
+
+Time Complexity $O(n^2)$ and Space complexity O(1)
+```cpp
+class Solution {
+public:
+    vector<int> twoSum(vector<int>& nums, int target) 
+    {
+        vector<int> ans;
+        for(int i =0 ; i <nums.size()-1;i++)
+        {
+            for(int j = i+1; j<nums.size();j++)
+            {
+                if(nums[i]+nums[j] == target)
+                {
+                    ans.push_back(i);
+                    ans.push_back(j);
+                }
+            }
+        }
+        return ans;
+    }
+};
+```
+
+##### Approach 2 (Using Map)
+
+- Initialize a map data structure
+- Start going over the vector and compute value to find
+- In case the value to find doesn't exist in the vector then store it in map data structure with value : index format
+- If the value exist then check whether it is having different index then current value or not
+
+Time Complexity O(n) and Space complexity O(n)
+```cpp
+class Solution {
+public:
+    vector<int> twoSum(vector<int>& nums, int target) 
+    {
+        // Using map data structure
+        map<int,int> mp;
+
+        vector<int> ans;
+        for(int i=0;i<nums.size();i++)
+        {
+            int value_to_find = target-nums[i];
+            if(mp.find(value_to_find) != mp.end())
+            {
+                // Make sure we are not choosing same value twice
+                if(i != mp[value_to_find]) 
+                {
+                    ans.push_back(i);
+                    ans.push_back(mp[value_to_find]);
+                    break;
+                } 
+            }
+            else
+            {
+                mp[nums[i]] = i;
+            }
+        }
+        return ans;
+    }
+};
+```
+
+##### Approach 3 (2 Pointers)
+
+- Initialize 2 pointers called start and end
+- Use condition that while start < end 
+	- Check if the current sum = target (if so then return start and end value)
+	- If current sum > target , then decrement end
+	- If current sum < target, then increment start
+
+Time Complexity O(n) and Space complexity O(1)
+```cpp
+class Solution {
+public:
+    vector<int> twoSum(vector<int>& nums, int target) 
+    {
+        // Initial configuration
+        int start = 0;
+        int end = nums.size()-1;
+        vector<int> ans(2);
+
+        // Sorting 
+        sort(nums.begin(),nums.end());
+
+        while(start < end)
+        {
+            int curr_sum = nums[start] + nums[end];
+            if(curr_sum == target)
+            {
+                ans[0] = start;
+                ans[1] = end;
+                break;
+            }
+            else
+            {
+                if(curr_sum > target)
+                {
+                    end--;
+                }
+                else
+                {
+                    start++;
+                }
+            }
+        }
+        return ans;
+    }
+};
+```
+
 ### [Find the triplet with a given sum in an array](#)
 ### [Remove duplicates from a sorted array](#)
 ### [Find the maximum sum subarray of size k](#)
