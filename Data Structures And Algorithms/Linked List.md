@@ -203,8 +203,84 @@ while(fast != NULL && fast->next != NULL)
 return slow;
 ```
 
-### [Intersection of Two Linked Lists]()
-### [Remove Duplicates from Sorted List]()
+### [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/submissions/1288072848/)
+
+To solve this problem we can have couple of approaches so we will discuss them one by one where the first approach will use O(n) time and space complexity and the second approach will further optimize to reduce the extra space to constant space complexity
+
+##### Approach 1 (Using set)
+- Go over the first linked list and store the nodes into the set
+- Go over the second linked list and for node which already exist in the set is the node where the intersection is actually happening
+```cpp
+class Solution {
+public:
+    ListNode *getIntersectionNode(ListNode *headA, ListNode *headB) 
+    {
+        // Initial configuration
+        unordered_set<ListNode *> st;
+
+        // Going over the list1 and storing the nodes
+        ListNode *temp1 = headA;
+        while(temp1 != NULL)
+        {
+            st.insert(temp1);
+            temp1 = temp1->next;
+        }
+
+        // Setup for the second linked list
+        ListNode *temp2 = headB;
+        while(temp2 != NULL)
+        {
+            if(st.find(temp2) != st.end())
+            {
+                return temp2;
+            }
+            temp2 = temp2->next;
+        }
+        return NULL;
+    }
+};
+```
+
+##### Approach 2 (Using 2 pointers)
+
+
+### [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/submissions/1048901040/)
+
+- Traverse the linked list with the condition that while current node is not null
+- If the condition is satisfied then check whether the next node value is same as the current node value and if so then remove the next node and fix the connection
+- Otherwise move the pointer to next node
+- Note that after removing the node we will not move to next node because there is a possibility that the new connection will have the same scenario
+
+Time complexity O(n) and extra space complexity O(1)
+```cpp
+class Solution {
+public:
+    ListNode* deleteDuplicates(ListNode* head) 
+    {
+        // Base condition
+        if(head == NULL)
+        {
+            return head;
+        }
+
+        ListNode *find = head;
+        while(find->next != NULL)
+        {
+            if(find->val == find->next->val)
+            {
+                ListNode *remove = find->next;
+                find->next = remove->next;
+                delete(remove);
+            }
+            else
+            {
+                find = find->next;
+            }
+        }
+        return head;
+    }
+};
+```
 ### [Add Two Numbers Represented by Linked Lists]()
 ### [Copy List with Random Pointer]()
 ### [Swap Nodes in Pairs]()
@@ -216,5 +292,73 @@ return slow;
 ### [Partition List]()
 ### [Linked List Cycle II (Find the node where the cycle begins)]()
 ### [Palindrome Linked List]()
+
+To solve this problem we will be utilizing various concepts such as finding the middle of linked list, then reversing linked list and also 2 pointers
+- Find the middle of the linked list ( but node before the actual middle)
+- Reverse the linked list from the current found node->next and break the connection
+- Use 2 pointers to to compare the node values
+
+Time Complexity O(n + n + n) ~ O(n) and extra space complexity O(1)
+```cpp
+class Solution {
+public:
+    ListNode* reverseList(ListNode* head) 
+    {
+        // Initial configuration
+        ListNode *curr = head;
+        ListNode *next = head;
+        ListNode *prev = NULL;
+
+        while(curr != NULL)
+        {
+            // Storing the remainig list in next pointer
+            next = curr->next;
+
+            // Connecting the curr to prev
+            curr->next = prev;
+
+            // Moving prev to curr and curr to next
+            prev = curr;
+            curr = next;
+        }
+        return prev;
+    }
+
+    bool isPalindrome(ListNode* head) 
+    {
+        // Step 1: Finding node before middle
+        // Initail configuration
+        ListNode *vslow = head;
+        ListNode *slow = head;
+        ListNode *fast = head;
+
+        while(fast != NULL && fast->next != NULL)
+        {
+            vslow = slow;
+            slow = slow->next;
+            fast = fast->next->next;
+        }
+
+        // Calling the function to reverse linked list
+        vslow->next = NULL;
+        ListNode *head2 = reverseList(slow);
+        ListNode *head1 = head;
+
+        // Comparing the node values
+        while(head1 != NULL && head2 != NULL)
+        {
+            if(head1->val != head2->val)
+            {
+                // Not a palindrome
+                return false;
+            }
+            head1 = head1->next;
+            head2 = head2->next;
+        }
+        // Yes it is palindrome
+        return true;;
+    }
+};
+```
 ### [Flatten a Multilevel Doubly Linked List]()
 ### [Convert Sorted List to Binary Search Tree]()
