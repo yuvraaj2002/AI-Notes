@@ -45,6 +45,65 @@ public:
 ```
 
 ### [Detect a Cycle in a Linked List]()
+
+To solve this problem we can have couple of approaches so we will discuss them one by one where the first approach will use O(n) time and space complexity and the second approach will further optimize to reduce the extra space to constant space complexity
+
+##### Approach 1 (Set data structure)
+- Initialize a set data structure to store the object pointers
+- Start going over the nodes of linked list and if the current nodes exist in set then break the loop and return true
+- Otherwise insert the node into the set data structure and move further
+```cpp
+class Solution {
+public:
+    bool hasCycle(ListNode *head) 
+    {
+        // Initial configurtion
+        set<ListNode *> st;
+        ListNode *temp = head;
+
+        while(temp != NULL)
+        {
+            if(st.find(temp) != st.end())
+            {
+                // Cycle exist
+                return true;
+            }
+            st.insert(temp);
+            temp = temp->next;
+        }
+        return false;
+    }
+};
+```
+
+##### Approach 2 (Using fast and slow pointer)
+
+- Move the slow pointer half the speed of the fast pointer and if there would be cycle then at some point the fast will coincide with the slow and that would mean the cycle exist
+```cpp
+class Solution {
+public:
+    bool hasCycle(ListNode *head) 
+    {
+        // Initial cofiguration
+        ListNode *slow = head;
+        ListNode *fast = head;
+        while(fast != NULL && fast->next != NULL)
+        {
+            slow = slow->next;
+            fast = fast->next->next;
+            if(slow == fast)
+            {
+                // cycle exist
+                return true;
+            }
+        }
+
+        // Cycle doesn't exist
+        return false;
+    }
+};
+```
+
 ### [Merge Two Sorted Linked Lists]()
 ### [Remove N-th Node From End of List]()
 ### [Find the Middle of a Linked List]()
