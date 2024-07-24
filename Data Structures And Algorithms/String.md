@@ -1,7 +1,7 @@
 This page is dedicated towards understanding the problems related to strings in Data structures and algorithms and here I will be mentioning most commonly asked interview questions along with their solutions.
 
 
-###### [Write a program to reverse a string](https://leetcode.com/problems/reverse-string/)
+### [Write a program to reverse a string](https://leetcode.com/problems/reverse-string/)
 
 - Initialize 2 pointers pointing at the start and end respectively 
 - Until start and end are not pointing to same character index then swap the characters
