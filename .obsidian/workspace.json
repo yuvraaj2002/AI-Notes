@@ -13,19 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/Object Oriented Programming/Introduction to OOP.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "10bb545f37e2a77a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2024-07-23.md",
+                "file": "Python/Object Oriented Programming/Inheritance.md",
                 "mode": "source",
                 "source": false
               }
@@ -42,16 +30,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "f94de669b4534122",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -101,8 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "75ce3ba0dea3f5ef",
@@ -118,7 +98,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python/Object Oriented Programming/Introduction to OOP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +114,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python/Object Oriented Programming/Introduction to OOP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python/Object Oriented Programming/Introduction to OOP.md"
+                "file": "Polymorphism.md"
               }
             }
           }
@@ -166,8 +144,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -183,54 +160,54 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "41fbb8d2175a0800",
+  "active": "89ad46e437a54122",
   "lastOpenFiles": [
-    "Tags/Python.md",
+    "Data Structures And Algorithms/Recursion-DP",
+    "Data Structures And Algorithms/New folder",
+    "Data Structures And Algorithms/Graph",
+    "Data Structures And Algorithms/Trees",
+    "Data Structures And Algorithms/Linked List",
+    "Data Structures And Algorithms/Stack-Queue",
+    "Data Structures And Algorithms/Arrays",
+    "Data Structures And Algorithms/Strings",
+    "Data Structures And Algorithms",
+    "New folder",
+    "Deep Learning/Dropout.md",
+    "Daily Goals/2024-07-23.md",
+    "Daily Goals/2024-07-22.md",
+    "Daily Goals/2024-07-21.md",
+    "Daily Goals/2024-07-19.md",
+    "Daily Goals/2024-07-17.md",
+    "Daily Goals/2024-07-20.md",
+    "Daily Goals/2024-07-13.md",
+    "Daily Goals/2024-07-14.md",
+    "Daily Goals/2024-07-15.md",
+    "Daily Goals/2024-07-16.md",
+    "Daily Goals/2024-07-12.md",
+    "Daily Goals/2024-07-11.md",
+    "Daily Goals/2024-07-08.md",
+    "Daily Goals/2024-07-09.md",
+    "Daily Goals/2024-07-10.md",
+    "Daily Goals/2024-07-05.md",
+    "Daily Goals/2024-07-04.md",
+    "Daily Goals/2024-07-06.md",
+    "Daily Goals/2024-07-03.md",
+    "Daily Goals/2024-07-02.md",
+    "Daily Goals",
+    "Python/Abstraction.md",
+    "Python/Polymorphism.md",
+    "Python/Encapsulation.md",
     "Preparation Index.md",
-    "2024-07-23.md",
-    "Python/Object Oriented Programming/Introduction to OOP.md",
-    "Python/Images",
     "Python/Images/Aggregation.png",
-    "Abstraction.md",
-    "Encapsulation.md",
-    "Polymorphism.md",
-    "Python/Object Oriented Programming/Inheritance.md",
-    "Python/Object Oriented Programming",
-    "2024-07-22.md",
-    "Machine Learning/F Test.md",
     "Pasted image 20240721195201.png",
     "Machine Learning/Pasted image 20240721195201.png",
     "Machine Learning/Pasted image 20240721195148.png",
     "Machine Learning/Pasted image 20240721195136.png",
     "Pasted image 20240721195148.png",
     "Pasted image 20240721195136.png",
-    "Mathematics/Probability Distributions.md",
-    "Mathematics/Pareto Distribution.md",
     "Mathematics/Pareto_function.png",
     "Mathematics/Pareto.png",
-    "Mathematics/Log Normal Distribution.md",
     "Mathematics/ShapeLogNormal.png",
-    "Mathematics/Hypothesis Testing.md",
-    "Mathematics/ANOVA test.md",
-    "Data Processing/Feature Selection.md",
-    "Daily Goals/2024-07-21.md",
-    "Machine Learning/Classification Metrics.md",
-    "Machine Learning/Evaluation metrics.md",
-    "Mathematics/Central limit theorem.md",
-    "Data Processing/Categorical Encoding.md",
-    "Mathematics/Measure of CT.md",
-    "Data Processing/Multicollinearity.md",
-    "Tags/Data Processing.md",
-    "Mathematics/Regression Analysis.md",
-    "Mathematics/Confidence Interval.md",
-    "Mathematics/Hypothesis Testing",
-    "Mathematics",
-    "Machine Learning/Books/Hands on Machine Learning.pdf",
-    "Programs/Home.py",
-    "Programs/Transformations/Operations.ipynb",
-    "Programs/Transformations",
-    "Programs/Machine Learning algorithms/Voting.ipynb",
-    "Programs/Machine Learning algorithms/Stacking.ipynb",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]
