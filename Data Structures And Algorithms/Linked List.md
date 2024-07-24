@@ -105,8 +105,104 @@ public:
 ```
 
 ### [Merge Two Sorted Linked Lists]()
-### [Remove N-th Node From End of List]()
-### [Find the Middle of a Linked List]()
+
+
+### [Remove N-th Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)
+
+- First find the length of the linked list and then calculate the number jumps we need to reach the node (just before the note to be deleted)
+- In case the jumps = 0 it means we need to remove the head so move the head to next and return head
+- Otherwise make length-k-1 jumps from the head, remove next node and fix connection
+
+Time complexity O(n) and extra space complexity O(1)
+```cpp
+class Solution {
+public:
+    ListNode* removeNthFromEnd(ListNode* head, int n) 
+    {
+        // Finding the length of the linked list
+        ListNode *findlen = head;
+        int length = 0;
+        while(findlen != NULL)
+        {
+            findlen = findlen->next;
+            length++;
+        }
+
+        // Condition
+        if(length == n)
+        {
+            head = head->next;
+            return head;
+        }
+
+        int jumps = length-n-1;
+        findlen = head;
+        while(jumps > 0)
+        {
+            findlen = findlen->next;
+            jumps--;
+        }
+        ListNode *remove = findlen->next;
+        findlen->next = remove->next;
+        delete(remove);
+        return head;
+    }
+};
+```
+
+
+### [Find the Middle of a Linked List](https://leetcode.com/problems/middle-of-the-linked-list/submissions/1256522396/)
+
+To solve this problem we can have couple of approaches so we will discuss them one by one where the first approach will use O(n) time and constant space complexity and the second approach will further optimize the time complexity.
+
+##### Approach 1 (Finding middle via length)
+
+- First find the length of the linked list by going over it for once 
+- Then calculate the number of jumps we would need to reach middle
+- Jumps = length/2
+```cpp
+class Solution {
+public:
+    /*
+    Total nodes / 2 and its floor value will be jumps 
+    */
+    ListNode* middleNode(ListNode* head) 
+    {
+        // Initail configuration
+        ListNode *temp = head;
+        int count = 0;
+
+        while(temp != NULL)
+        {
+            temp = temp->next;
+            count++;
+        }
+        int jumps = count/2;
+        temp = head;
+        while(jumps > 0)
+        {
+            temp = temp->next;
+            jumps--;
+        }
+        return temp;
+    }
+};
+```
+
+##### Approach 2 (Using tortoise hare approach)
+- In this approach we simply initialize 2 pointers generally called slow and fast pointer with head of linked list.
+- After doing so we the fast pointer moves twice the speed of the slow pointer and once the condition `while(fast!= null and fast->next != null` becomes false we return the slow pointer.
+```cpp
+Node *fast = head;
+Node *slow = head;
+while(fast != NULL && fast->next != NULL)
+{
+	slow = slow->next;
+	fast = fast->next->next;
+}
+return slow;
+```
+
 ### [Intersection of Two Linked Lists]()
 ### [Remove Duplicates from Sorted List]()
 ### [Add Two Numbers Represented by Linked Lists]()
