@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Preparation Index.md",
+                "file": "Daily Goals/2024-07-22.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,6 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Daily Goals/2024-07-22.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,6 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Daily Goals/2024-07-22.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Polymorphism.md"
+                "file": "Daily Goals/2024-07-22.md"
               }
             }
           }
@@ -160,8 +162,11 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "89ad46e437a54122",
+  "active": "84d23e68e5d0dcf3",
   "lastOpenFiles": [
+    "Daily Goals/2024-07-23.md",
+    "Python/Object Oriented Programming/Inheritance.md",
+    "Polymorphism.md",
     "Data Structures And Algorithms/Recursion-DP",
     "Data Structures And Algorithms/New folder",
     "Data Structures And Algorithms/Graph",
@@ -173,7 +178,6 @@
     "Data Structures And Algorithms",
     "New folder",
     "Deep Learning/Dropout.md",
-    "Daily Goals/2024-07-23.md",
     "Daily Goals/2024-07-22.md",
     "Daily Goals/2024-07-21.md",
     "Daily Goals/2024-07-19.md",
@@ -193,11 +197,9 @@
     "Daily Goals/2024-07-06.md",
     "Daily Goals/2024-07-03.md",
     "Daily Goals/2024-07-02.md",
-    "Daily Goals",
     "Python/Abstraction.md",
     "Python/Polymorphism.md",
     "Python/Encapsulation.md",
-    "Preparation Index.md",
     "Python/Images/Aggregation.png",
     "Pasted image 20240721195201.png",
     "Machine Learning/Pasted image 20240721195201.png",
