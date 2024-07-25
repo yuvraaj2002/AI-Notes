@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Structures And Algorithms/Tree/Traversals.md",
+                "file": "Data Structures And Algorithms/Tree/Views of Tree.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data Structures And Algorithms/Tree/Traversals.md",
+                "file": "Data Structures And Algorithms/Tree/Views of Tree.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data Structures And Algorithms/Tree/Traversals.md",
+                "file": "Data Structures And Algorithms/Tree/Views of Tree.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data Structures And Algorithms/Tree/Traversals.md"
+                "file": "Data Structures And Algorithms/Tree/Views of Tree.md"
               }
             }
           }
@@ -153,8 +153,9 @@
   },
   "active": "41fbb8d2175a0800",
   "lastOpenFiles": [
-    "Data Structures And Algorithms/Arrays.md",
     "Data Structures And Algorithms/Tree/Traversals.md",
+    "Data Structures And Algorithms/Tree/Views of Tree.md",
+    "Data Structures And Algorithms/Arrays.md",
     "Data Structures And Algorithms/Tree",
     "Preparation Index.md",
     "Deep Learning/Activation Functions.md",
@@ -198,7 +199,6 @@
     "Daily Goals/2024-07-17.md",
     "Daily Goals/2024-07-20.md",
     "Daily Goals/2024-07-13.md",
-    "Daily Goals/2024-07-14.md",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]
