@@ -353,8 +353,7 @@ public:
 };
 ```
 ### [Find the longest substring without repeating characters](#)
-### [Find the smallest subarray with a sum greater than or equal to a given value](#)
-
+### [Find the smallest subarray with a sum greater than or equal to a given value](https://leetcode.com/problems/minimum-size-subarray-sum/)
 
 ##### Approach 1 (Generating all the possible subarrays using 2 loops)
 
@@ -428,6 +427,7 @@ public:
 };
 
 ```
+
 
 ### [Compute the prefix sum array](#)
 ### [Find the sum of elements in a subarray using the prefix sum array](#)
