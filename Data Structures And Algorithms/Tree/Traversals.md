@@ -13,6 +13,7 @@ Now the thing is (Inorder, Preorder and Postorder) traversals can be done either
 - In case preorder we first visit the current node, then left subtree and finally right subtree
 - In case of postorder traversal we first visit the left subtree, then right subtree and finally the current node
 
+Problem link to practice the Inorder traversal [LeetCode Inorder traersasl](https://leetcode.com/problems/binary-tree-inorder-traversal/description/)
 Time complexity is O(n) and extra space complexity is O(1)
 ```cpp
 void inorder(TreeNode *root,vector<int> &ans)
