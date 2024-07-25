@@ -76,3 +76,54 @@ void postorder(TreeNode *root,vector<int> &ans)
 ```
 
 
+### Level Order traversal
+
+To do the level order traversal we will be using the queue data structure, because we want to make sure that all the nodes at the given level are visited and since the queue data structure exhibit the first come first server property thus we can utilize them. 
+
+Basically standing at current node in the tree we will store its connections in the queue and by doing so when we will access the nodes from the queue, they will be visited (level by level)
+
+Problem Link : [Level Order traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/description/)
+Time complexity is O(n) and extra space complexity is O(n), where n is number of nodes
+```cpp
+class Solution {
+public:
+    vector<vector<int>> levelOrder(TreeNode* root) 
+    {
+        // Initial configuration
+        vector<vector<int>> ans;
+        if(root == NULL)
+        {
+            return ans;
+        }
+        queue<TreeNode *> q;
+        q.push(root);
+
+        while(!q.empty())
+        {
+            int q_size = q.size();
+            vector<int> level;
+            for(int i=0;i<q_size;i++)
+            {
+                // Taking the node out from the queue
+                TreeNode *curr = q.front();
+                q.pop();
+
+                // Pushing the node value 
+                level.push_back(curr->val);
+
+                // Checking the left and right childs
+                if(curr->left != NULL)
+                {
+                    q.push(curr->left);
+                }
+                if(curr->right != NULL)
+                {
+                    q.push(curr->right);
+                }
+            }
+            ans.push_back(level);
+        }
+        return ans;
+    }
+};
+```
