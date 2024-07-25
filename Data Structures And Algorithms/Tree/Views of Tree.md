@@ -68,8 +68,7 @@ class Solution
 };
 ```
 
-### [Bottom view of tree]()
-
+### [Bottom view of tree](https://www.geeksforgeeks.org/problems/bottom-view-of-binary-tree/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card)
 
 ##### Approach (Using Level Order)
 
@@ -123,6 +122,104 @@ class Solution {
 };
 ```
 
-### [Left view of tree]()
+### [Left view of tree](https://www.geeksforgeeks.org/problems/left-view-of-binary-tree/1)
 
+- Perform the level order traversal
+- Store the first node for the given level
+
+Time complexity O(n) and extra space complexity O(1)
+```cpp
+vector<int> leftView(Node *root)
+{
+   // Initial coniguration
+   queue<Node *> q;
+   vector<int> ans;
+   if(root == NULL)
+   {
+       return ans;
+   }
+   
+   q.push(root);
+   while(!q.empty())
+   {
+       // To keep track of first node of level via index we iterate over level nodes using loop
+       int q_size = q.size();
+       for(int i=0;i<q_size;i++)
+       {
+           Node *curr = q.front();
+           q.pop();
+           
+           if(i == 0)
+           {
+               ans.push_back(curr->data);
+           }
+           if(curr->left != NULL)
+           {
+               q.push(curr->left);
+           }
+           if(curr->right != NULL)
+           {
+               q.push(curr->right);
+           }
+       }
+   }
+   return ans;
+}
+```
 ### [Right view of tree]()
+
+- Perform the level order traversal
+- Store the last node for the given level
+
+Time complexity O(n) and extra space complexity O(1)
+```cpp
+class Solution {
+public:
+    /* Right view : Last node of the current stage */
+    vector<int> rightSideView(TreeNode* root) 
+    {
+        // Base condition
+        if(root == NULL)
+        {
+            return {};
+        }
+
+        // Initial configuration
+        queue<TreeNode *> q;
+        vector<int> values;
+        q.push(root);
+
+        // Performing breadth first traversal
+        while(!q.empty())
+        {
+            // Getting the size of the queue level
+            int size = q.size();
+
+            // Iterating over the node values (Store connection and store last node)
+            for(int i=0;i<size;i++)
+            {
+                // Taking node out from queue
+                TreeNode *curr = q.front();
+                q.pop();
+
+                // Storing condition
+                if(i == size-1)
+                {
+                    // Store this node value as right view
+                    values.push_back(curr->val);
+                }
+
+                if(curr->left != NULL)
+                {
+                    q.push(curr->left);
+                }
+                if(curr->right != NULL)
+                {
+                    q.push(curr->right);
+                }
+            }
+        }
+        return values;
+    }
+};
+```
