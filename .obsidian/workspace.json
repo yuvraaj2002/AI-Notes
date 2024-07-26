@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deep Learning/Text/Text Cleaning.md",
+                "file": "Deep Learning/Text/Word Embeddings.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2ccc4ccfe6dfb7a5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Preparation Index.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +81,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "75ce3ba0dea3f5ef",
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Deep Learning/Text/Text Cleaning.md",
+                "file": "Deep Learning/Text/Word Embeddings.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Deep Learning/Text/Text Cleaning.md",
+                "file": "Deep Learning/Text/Word Embeddings.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Deep Learning/Text/Text Cleaning.md"
+                "file": "Deep Learning/Text/Word Embeddings.md"
               }
             }
           }
@@ -152,14 +165,14 @@
   },
   "active": "41fbb8d2175a0800",
   "lastOpenFiles": [
-    "Deep Learning/Images/Over_Stemming.png",
+    "Preparation Index.md",
     "Deep Learning/Text/Word Embeddings.md",
-    "Deep Learning/Text/Text Processing.md",
     "Deep Learning/Text/Text Cleaning.md",
+    "Deep Learning/Images/Over_Stemming.png",
+    "Deep Learning/Text/Text Processing.md",
     "Deep Learning/Images/Untitled.md",
     "Deep Learning/Audio",
     "Deep Learning/Untitled.md",
-    "Preparation Index.md",
     "Deep Learning/Vision",
     "Deep Learning/Text",
     "Data Structures And Algorithms/Tree/Concepts.md",
@@ -180,7 +193,6 @@
     "System Design/Images/Pasted image 20240710075220.png",
     "System Design/Images/Pasted image 20240710074444.png",
     "System Design/Images/Pasted image 20240710065249.png",
-    "System Design/Images/Pasted image 20240710061701.png",
     "System Design/Images",
     "System Design/New folder",
     "MLOPS/Books/Designing ML systems.pdf",
