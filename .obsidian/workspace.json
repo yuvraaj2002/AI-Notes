@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deep Learning/Text/Word Embeddings.md",
+                "file": "Tags/System Design.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Deep Learning/Text/Word Embeddings.md",
+                "file": "Tags/System Design.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Deep Learning/Text/Word Embeddings.md",
+                "file": "Tags/System Design.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Deep Learning/Text/Word Embeddings.md"
+                "file": "Tags/System Design.md"
               }
             }
           }
@@ -165,8 +165,12 @@
   },
   "active": "41fbb8d2175a0800",
   "lastOpenFiles": [
-    "Deep Learning/Text/Text Cleaning.md",
     "Deep Learning/Text/Word Embeddings.md",
+    "System Design/Books/System_Design_Interview_An_Insiders_Guide.pdf",
+    "System Design/Books",
+    "System Design/New folder",
+    "Deep Learning/Images/TFIDF formula.png",
+    "Deep Learning/Text/Text Cleaning.md",
     "Preparation Index.md",
     "Deep Learning/Images/Over_Stemming.png",
     "Deep Learning/Text/Text Processing.md",
@@ -192,11 +196,7 @@
     "System Design/Images/Pasted image 20240710081132.png",
     "System Design/Images/Pasted image 20240710075220.png",
     "System Design/Images/Pasted image 20240710074444.png",
-    "System Design/Images/Pasted image 20240710065249.png",
     "System Design/Images",
-    "System Design/New folder",
-    "MLOPS/Books/Designing ML systems.pdf",
-    "MLOPS/Books",
     "Data Processing/F Test.md",
     "Data Structures And Algorithms/String.md",
     "Data Structures And Algorithms/Graph.md",
