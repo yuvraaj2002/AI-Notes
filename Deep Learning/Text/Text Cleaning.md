@@ -153,7 +153,7 @@ for word in words:
 - Overstemming : his is basically a condition where our stemming algorithm stem different words to one stem , even though the words are not related to each other.
 
 This is an example of overstemming where different words such as universal, university and universe are stemmed to common stem
-![[Over_Stemming.png]]
+![[Deep Learning/Images/Over_Stemming.png]]
 
 
 
