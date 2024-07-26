@@ -81,7 +81,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "75ce3ba0dea3f5ef",
@@ -162,11 +163,11 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "89ad46e437a54122",
+  "active": "41fbb8d2175a0800",
   "lastOpenFiles": [
-    "Preparation Index.md",
-    "Deep Learning/Text/Word Embeddings.md",
     "Deep Learning/Text/Text Cleaning.md",
+    "Deep Learning/Text/Word Embeddings.md",
+    "Preparation Index.md",
     "Deep Learning/Images/Over_Stemming.png",
     "Deep Learning/Text/Text Processing.md",
     "Deep Learning/Images/Untitled.md",
