@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tags/System Design.md",
+                "file": "Deep Learning/Text/Word Embeddings.md",
                 "mode": "source",
                 "source": false
               }
@@ -31,7 +31,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -81,8 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "75ce3ba0dea3f5ef",
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tags/System Design.md",
+                "file": "Preparation Index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tags/System Design.md",
+                "file": "Preparation Index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tags/System Design.md"
+                "file": "Preparation Index.md"
               }
             }
           }
@@ -163,53 +163,54 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "41fbb8d2175a0800",
+  "active": "89ad46e437a54122",
   "lastOpenFiles": [
-    "Deep Learning/Text/Word Embeddings.md",
+    "Database Management System/Case Studies",
+    "Database Management System/New folder",
+    "Database Management System/Database Core concepts/Transactions - ACID.md",
+    "Database Management System/Database Core concepts/Scaling Patterns.md",
+    "Database Management System/Database Core concepts/RDBMS.md",
+    "Database Management System/Database Core concepts/Partitioning and Sharding.md",
+    "Database Management System/Database Core concepts/Normalization.md",
+    "Database Management System/Database Core concepts/Indexing.md",
+    "Database Management System/Database Core concepts/ER Model.md",
+    "Database Management System/Database Core concepts/Deadlocks.md",
+    "Database Management System/Database Core concepts/Data Models.md",
+    "Database Management System/Database Core concepts/Case Studies.md",
+    "Database Management System/Database Core concepts/Base Properties.md",
+    "Database Management System/Database Core concepts/CAP theorem.md",
+    "Database Management System/SQL/Window Functions.md",
+    "Database Management System/SQL/Views.md",
+    "Database Management System/SQL/Subqueries.md",
+    "Database Management System/SQL/SQL.md",
+    "Database Management System/SQL/Order of execution.md",
+    "Database Management System/SQL/SQL commands.md",
+    "Database Management System/SQL/Order By.md",
+    "Database Management System/SQL/Operators.md",
+    "Database Management System/SQL/Joins.md",
+    "Database Management System/SQL/Inbuilt functions.md",
+    "Database Management System/SQL/Group By.md",
+    "Database Management System/SQL/Functions-Stored Procedures.md",
+    "Database Management System/SQL/Filtering.md",
+    "Database Management System/Images/Pasted image 20240714181526.png",
+    "Database Management System/Images/Pasted image 20240711094037.png",
+    "Database Management System/Images/Pasted image 20240708095020.png",
+    "Database Management System/Images/Pasted image 20240708094034.png",
+    "Database Management System/Images/Pasted image 20240706195524.png",
+    "Database Management System/Images/Pasted image 20240707071430.png",
+    "Database Management System/Images/Pasted image 20240706193407.png",
+    "Database Management System/Images/Pasted image 20240706185831.png",
+    "Database Management System/Images/Pasted image 20240706082329.png",
+    "Database Management System/Images/Pasted image 20240706115007.png",
+    "Database Management System/Database Core concepts",
+    "Database Management System/SQL",
+    "Database Management System/Images",
+    "Database Management System",
+    "Databases/Database Core concepts",
+    "Databases/New folder",
+    "Databases/SQL",
     "System Design/Books/System_Design_Interview_An_Insiders_Guide.pdf",
     "System Design/Books",
-    "System Design/New folder",
-    "Deep Learning/Images/TFIDF formula.png",
-    "Deep Learning/Text/Text Cleaning.md",
-    "Preparation Index.md",
-    "Deep Learning/Images/Over_Stemming.png",
-    "Deep Learning/Text/Text Processing.md",
-    "Deep Learning/Images/Untitled.md",
-    "Deep Learning/Audio",
-    "Deep Learning/Untitled.md",
-    "Deep Learning/Vision",
-    "Deep Learning/Text",
-    "Data Structures And Algorithms/Tree/Concepts.md",
-    "Data Structures And Algorithms/Tree/Views of Tree.md",
-    "Data Structures And Algorithms/Tree/Traversals.md",
-    "Data Structures And Algorithms/Arrays.md",
-    "Data Structures And Algorithms/Tree",
-    "Deep Learning/Activation Functions.md",
-    "Python/Object Oriented Programming/Inheritance.md",
-    "Unsupervised Learning/Images/Pasted image 20240714165027.png",
-    "Unsupervised Learning/Images/Pasted image 20240714163843.png",
-    "Unsupervised Learning/Images/Pasted image 20240714143504.png",
-    "Unsupervised Learning/Images",
-    "Unsupervised Learning/New folder",
-    "System Design/Images/Pasted image 20240710100309.png",
-    "System Design/Images/Pasted image 20240710094428.png",
-    "System Design/Images/Pasted image 20240710081132.png",
-    "System Design/Images/Pasted image 20240710075220.png",
-    "System Design/Images/Pasted image 20240710074444.png",
-    "System Design/Images",
-    "Data Processing/F Test.md",
-    "Data Structures And Algorithms/String.md",
-    "Data Structures And Algorithms/Graph.md",
-    "2024-07-24.md",
-    "Data Structures And Algorithms/Linked List.md",
-    "().md",
-    "Data Structures And Algorithms/Heap.md",
-    "Data Structures And Algorithms/Recursion-DP.md",
-    "Data Structures And Algorithms/Tree.md",
-    "Data Structures And Algorithms/Stack-Queue.md",
-    "Daily Goals/2024-07-22.md",
-    "Daily Goals/2024-07-23.md",
-    "Polymorphism.md",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]
