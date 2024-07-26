@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Structures And Algorithms/Tree/Concepts.md",
+                "file": "Deep Learning/Text/Word Embeddings.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "75ce3ba0dea3f5ef",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data Structures And Algorithms/Tree/Concepts.md",
+                "file": "Deep Learning/Text/Word Embeddings.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data Structures And Algorithms/Tree/Concepts.md",
+                "file": "Deep Learning/Text/Word Embeddings.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data Structures And Algorithms/Tree/Concepts.md"
+                "file": "Deep Learning/Text/Word Embeddings.md"
               }
             }
           }
@@ -153,14 +152,21 @@
   },
   "active": "41fbb8d2175a0800",
   "lastOpenFiles": [
-    "Data Structures And Algorithms/Tree/Views of Tree.md",
+    "Deep Learning/Text/Text Processing.md",
+    "Deep Learning/Text/Word Embeddings.md",
+    "Deep Learning/Text/Text Cleaning.md",
+    "Deep Learning/Images/Untitled.md",
+    "Deep Learning/Audio",
+    "Deep Learning/Untitled.md",
+    "Preparation Index.md",
+    "Deep Learning/Vision",
+    "Deep Learning/Text",
     "Data Structures And Algorithms/Tree/Concepts.md",
+    "Data Structures And Algorithms/Tree/Views of Tree.md",
     "Data Structures And Algorithms/Tree/Traversals.md",
     "Data Structures And Algorithms/Arrays.md",
     "Data Structures And Algorithms/Tree",
-    "Preparation Index.md",
     "Deep Learning/Activation Functions.md",
-    "Deep Learning/Untitled.md",
     "Python/Object Oriented Programming/Inheritance.md",
     "Unsupervised Learning/Images/Pasted image 20240714165027.png",
     "Unsupervised Learning/Images/Pasted image 20240714163843.png",
@@ -178,9 +184,6 @@
     "System Design/New folder",
     "MLOPS/Books/Designing ML systems.pdf",
     "MLOPS/Books",
-    "MLOPS/New folder",
-    "MLOPS/Images",
-    "Mathematics/Images",
     "Data Processing/F Test.md",
     "Data Structures And Algorithms/String.md",
     "Data Structures And Algorithms/Graph.md",
@@ -195,10 +198,6 @@
     "Daily Goals/2024-07-23.md",
     "Polymorphism.md",
     "Deep Learning/Dropout.md",
-    "Daily Goals/2024-07-21.md",
-    "Daily Goals/2024-07-19.md",
-    "Daily Goals/2024-07-17.md",
-    "Daily Goals/2024-07-20.md",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]

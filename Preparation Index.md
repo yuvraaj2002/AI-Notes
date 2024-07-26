@@ -86,3 +86,8 @@ This page is actually dedicated towards the indexing of all the topics that I kn
 - [x] Aggregate functions
 - [ ] Filtering
 - [ ] Constraints
+
+
+##### Data Structures and Algorithms
+
+- [ ] 
