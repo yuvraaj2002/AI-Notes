@@ -81,8 +81,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "75ce3ba0dea3f5ef",
@@ -163,7 +162,7 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "41fbb8d2175a0800",
+  "active": "89ad46e437a54122",
   "lastOpenFiles": [
     "Preparation Index.md",
     "Deep Learning/Text/Word Embeddings.md",
