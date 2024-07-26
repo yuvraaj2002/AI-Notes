@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deep Learning/Text/Word Embeddings.md",
+                "file": "Deep Learning/Text/Text Cleaning.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Deep Learning/Text/Word Embeddings.md",
+                "file": "Deep Learning/Text/Text Cleaning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Deep Learning/Text/Word Embeddings.md",
+                "file": "Deep Learning/Text/Text Cleaning.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Deep Learning/Text/Word Embeddings.md"
+                "file": "Deep Learning/Text/Text Cleaning.md"
               }
             }
           }
@@ -152,8 +152,9 @@
   },
   "active": "41fbb8d2175a0800",
   "lastOpenFiles": [
-    "Deep Learning/Text/Text Processing.md",
+    "Deep Learning/Images/Over_Stemming.png",
     "Deep Learning/Text/Word Embeddings.md",
+    "Deep Learning/Text/Text Processing.md",
     "Deep Learning/Text/Text Cleaning.md",
     "Deep Learning/Images/Untitled.md",
     "Deep Learning/Audio",
@@ -197,7 +198,6 @@
     "Daily Goals/2024-07-22.md",
     "Daily Goals/2024-07-23.md",
     "Polymorphism.md",
-    "Deep Learning/Dropout.md",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]
