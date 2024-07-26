@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Preparation Index.md",
+                "file": "Database Management System/Case Studies/Shark Tank India/Solutions.md",
                 "mode": "source",
                 "source": false
               }
@@ -82,7 +82,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "75ce3ba0dea3f5ef",
@@ -98,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Preparation Index.md",
+                "file": "Database Management System/Case Studies/Shark Tank India/Solutions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Preparation Index.md",
+                "file": "Database Management System/Case Studies/Shark Tank India/Solutions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Preparation Index.md"
+                "file": "Database Management System/Case Studies/Shark Tank India/Solutions.md"
               }
             }
           }
@@ -163,8 +164,10 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "89ad46e437a54122",
+  "active": "2ccc4ccfe6dfb7a5",
   "lastOpenFiles": [
+    "Deep Learning/Text/Word Embeddings.md",
+    "Database Management System/Case Studies/Shark Tank India/Solutions.md",
     "README.md",
     "Database Management System/Case Studies",
     "Database Management System/New folder",
@@ -191,8 +194,6 @@
     "Database Management System/SQL/Joins.md",
     "Database Management System/SQL/Inbuilt functions.md",
     "Database Management System/SQL/Group By.md",
-    "Database Management System/SQL/Functions-Stored Procedures.md",
-    "Database Management System/SQL/Filtering.md",
     "Database Management System/Images/Pasted image 20240714181526.png",
     "Database Management System/Images/Pasted image 20240711094037.png",
     "Database Management System/Images/Pasted image 20240708095020.png",
