@@ -1,6 +1,6 @@
 This page is actually dedicated towards the solutions of all the questions which are mentioned in the PDF and in this page I will be sharing my approach in term of SQL query and also I will be explaining my thought process.
 
-### You Team must promote shark Tank India season 4, The senior come up with the idea to show highest funding domain wise so that new startups can be attracted, and you were assigned the task to show the same.
+### ➡️You Team must promote shark Tank India season 4, The senior come up with the idea to show highest funding domain wise so that new startups can be attracted, and you were assigned the task to show the same.
 
 To solve this problem there are 2 approaches which are coming in my mind, so let's me explain you both the approaches sequentially.
 
@@ -31,7 +31,22 @@ FROM st
 GROUP BY Industry;
 ```
 
-### You have been assigned the role of finding the domain where female as pitchers have female to male pitcher ratio >70%
+
+### ➡️ You have been assigned the role of finding the domain where female as pitchers have female to male pitcher ratio >70%
+
+- First we need to calculate the total females and males per industry and only focus on those industries where the there is atleast 1 female and male
+- After that we will treat the above query to be inner query (Subquery) whose result will be used by the outer query to calculate the female-male ratio
+
+```sql
+SELECT * ,(T.female/T.Male)*100 as "F_M_ratio" 
+FROM(
+	SELECT Industry, sum(female_presenters) as 'Female', sum(male_presenters) as 'Male' 
+    from st 
+    GROUP BY Industry 
+    HAVING SUM(female_presenters)>0  and SUM(male_presenters)>0
+) as T 
+WHERE (T.female/T.Male)*100>70
+```
 
 
 
