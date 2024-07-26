@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Database Management System/Case Studies/Swiggy/Solution.md",
+                "file": "Data Structures And Algorithms/Tree/Questions.md",
                 "mode": "source",
                 "source": false
               }
@@ -82,7 +82,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "75ce3ba0dea3f5ef",
@@ -98,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Database Management System/Case Studies/Swiggy/Solution.md",
+                "file": "Data Structures And Algorithms/Tree/Questions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Database Management System/Case Studies/Swiggy/Solution.md",
+                "file": "Data Structures And Algorithms/Tree/Questions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Database Management System/Case Studies/Swiggy/Solution.md"
+                "file": "Data Structures And Algorithms/Tree/Questions.md"
               }
             }
           }
@@ -165,8 +166,8 @@
   },
   "active": "2ccc4ccfe6dfb7a5",
   "lastOpenFiles": [
-    "Database Management System/Case Studies/Indian Tourism/Solution.md",
     "Database Management System/Case Studies/Swiggy/Solution.md",
+    "Database Management System/Case Studies/Indian Tourism/Solution.md",
     "Database Management System/Case Studies/Google Play Store/Solution.md",
     "Database Management System/Case Studies/Data Science Jobs/Solution.md",
     "Database Management System/Case Studies/Shark Tank India/Solutions.md",

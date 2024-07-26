@@ -337,17 +337,230 @@ public:
     }
 };
 ```
-### [Find the kth smallest and largest element in a BST](#)
+### [Find the kth smallest and largest element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/description/)
 
-### [Find the maximum path sum in a binary tree](#)
+##### Approach 1 (Using Inorder traversal)
+
+- Perform the inorder traversal and store the vector values
+- Make k-1 jumps from the starting of the vector to reach the required node
+
+Time complexity O(n) + O(n) and extra space complexity O(n)
+
+##### Approach 2 (Keeping track during traversal)
+
+- We will perform inorder traversal 
+- Whenever we will access a node we will increment the count try to match it with k
+- If it matches then it means it is the required node so we will save it and return true
+
+Time complexity O(n) and extra space complexity O(1)
+```cpp
+class Solution {
+public:
+    bool inorder(TreeNode *root,int &count,int k,int &ans)
+    {
+        // Base condition
+        if(root == NULL)
+        {
+            return false;
+        }
+
+        // Making left function call if ans is not found
+        bool left = inorder(root->left,count,k,ans);
+        if(left == true)
+        {
+            return true;
+        }
+            
+        // Incrementing the count
+        count++;
+        if(count == k)
+        {
+            ans = root->val;
+            return true;
+        }
+
+        bool right = inorder(root->right,count,k,ans);
+        if(right == true)
+        {
+            return true;
+        }
+        return false;
+    }
+
+    int kthSmallest(TreeNode* root, int k) 
+    {
+        // Initial configuration
+        TreeNode *temp = root;
+        int count = 0;
+        int ans = -1;
+
+        // Calling function to get the values
+        bool completed = inorder(temp,count,k,ans);
+        return ans;
+    }
+};
+```
+
+### [Find the maximum path sum in a binary tree](https://leetcode.com/problems/binary-tree-maximum-path-sum/description/)
+
+- Standing at current node have access to left and right path sums
+- Update the maximum path sum
+- Return current node + max(left, right)
+- Since we need to find the maximum path sum so considering the negative values will never give us good result so we will neutralize them by 0
+
+Time complexity O(n) and extra space complexity O(1)
+```cpp
+class Solution {
+public:
+    int solve(TreeNode *root,int &maxps)
+    {
+        // Base conditions
+        if(root == NULL)
+        {
+            return 0;
+        }
+
+        // Getting access to left and right subtree sum
+        int left_sum = max(0,solve(root->left,maxps));
+        int right_sum = max(0,solve(root->right,maxps));
+
+        // Find the current sum and updating maxps
+        maxps = max(maxps,root->val + left_sum + right_sum);
+        return root->val + max(left_sum,right_sum);
+    }
+    int maxPathSum(TreeNode* root) 
+    {
+        int maxps = INT_MIN;
+        int temp = solve(root,maxps);
+        return maxps;
+    }
+};
+```
 ### [Construct a binary tree from inorder and preorder traversal](#)
 ### [Construct a binary tree from inorder and postorder traversal](#)
 ### [Print the boundary nodes of a binary tree](#)
 ### [Check if a binary tree is a subtree of another binary tree](#)
-### [Print all paths from root to leaf nodes](#)
+### [Print all paths from root to leaf nodes](https://leetcode.com/problems/binary-tree-paths/description/)
+
+- Standing at the current node if the string is empty then simply convert current integer value to string and add it in the path, otherwise if string is not empty then add in specific format
+- Make left and right function calls accordingly
+- For base conditions if the current node is null then simply return back
+- If current node is leaf node, then again check emptiness and add accordingly, finally return the substring from 0 to length-2 index , where 0 is inclusive and other      value is exclusive
+
+Time complexity O(n) and extra space complexity O(1)
+```cpp
+class Solution {
+public:
+    void solve(TreeNode *root,string current_path,vector<string> &ans)
+    {
+        // Base condition
+        if(root == NULL)
+        {
+            return;
+        }
+        if(root->left == NULL && root->right == NULL)
+        {
+            if(current_path.empty())
+            {
+                // First node in path
+                current_path = current_path + to_string(root->val);
+            }
+            else
+            {
+                current_path = current_path + "->"+ to_string(root->val);
+            }
+
+            ans.push_back(current_path);
+            current_path = current_path.substr(0, current_path.length() - 2);
+        }
+
+        // Considering current node in the path
+        if(current_path.empty())
+        {
+            // First node in path
+            current_path = current_path + to_string(root->val);
+        }
+        else
+        {
+            current_path = current_path + "->" + to_string(root->val);
+        }
+        
+
+        // Making left and right function calls
+        solve(root->left,current_path,ans);
+        solve(root->right,current_path,ans);
+
+        // Removing current node from the path
+        current_path = current_path.substr(0, current_path.length() - 2);
+    }
+    vector<string> binaryTreePaths(TreeNode* root) 
+    {
+        vector<string> ans;
+        string current_path = "";
+        solve(root,current_path,ans);
+        return ans;
+    }
+};
+```
 ### [Find the vertical order traversal of a binary tree](#)
 
 ### [Convert a binary tree to a sum tree](#)
-### [Check if a binary tree has a path sum equal to a given sum](#)
+### [Check if a binary tree has a path sum equal to a given sum](https://leetcode.com/problems/path-sum/description/)
+
+- Standing at the current node subtract the node value from the target sum as the sign of accepting the current value of the path
+- Then make left and right function calls
+- At any given point if the current node is null then return false
+- Otherwise if the current node is leaf node then, then accept current node value and check for following conditions
+	- Is target sum = 0 , if yes then return true, Otherwise return false
+	- Irrespective whether we get true or false we need to restore the value so we will add the current node value
+- Point to consider is that even though we might get target sum to be negative at one point, still we will not stop because in the tree negative values also exist.
+
+Time Complexity O(n) and extra space complexity O(1)
+```cpp
+class Solution {
+public:
+
+    bool hasPathSum(TreeNode* root, int targetSum) 
+    {
+        // Base condition
+        if(root == NULL)
+        {
+            return false;
+        }
+        if(root->left == NULL && root->right == NULL)
+        {
+            targetSum = targetSum-root->val;
+            if(targetSum == 0)
+            {
+                // Restoring the value and returning true
+                targetSum = targetSum+root->val;
+                return true;
+            }
+            targetSum = targetSum+root->val;
+            return false;
+        }
+
+        // Considering the current node value
+        targetSum = targetSum-root->val;
+
+        // Making left call
+        bool left = hasPathSum(root->left,targetSum);
+        if(left == true)
+        {
+            return true;
+        }
+
+        // Making right function call
+        bool right = hasPathSum(root->right,targetSum);
+        if(right == true)
+        {
+            return true;
+        }
+
+        targetSum = targetSum+root->val;
+        return false;
+    }
+};
+```
 ### [Check if a binary tree is height-balanced](#)
 ### [Flatten a binary tree to a linked list in-place](#)
