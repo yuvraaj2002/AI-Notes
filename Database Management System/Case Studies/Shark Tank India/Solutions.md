@@ -54,6 +54,35 @@ WHERE (T.female/T.Male)*100>70
 
 
 
+```sql
+SELECT 
+    a.Season_Number,
+    a.Total_Pitches_Made,
+    b.Total_Received_Offer,
+    c.Deal_Closed,
+    (c.Deal_Closed / a.Total_Pitches_Made) * 100 AS Percentage_Converted,
+    (b.Total_Received_Offer / a.Total_Pitches_Made) * 100 AS Percentage_Entertained
+FROM 
+    (SELECT Season_Number,
+            COUNT(*) AS Total_Pitches_Made
+     FROM st
+     GROUP BY Season_Number) AS a
+INNER JOIN
+    (SELECT Season_Number,
+            COUNT(*) AS Total_Received_Offer
+     FROM st
+     WHERE Received_Offer = 'Yes'
+     GROUP BY Season_Number) AS b
+ON a.Season_Number = b.Season_Number
+INNER JOIN
+    (SELECT Season_Number,
+            COUNT(*) AS Deal_Closed
+     FROM st
+     WHERE Accepted_Offer = 'Yes'
+     GROUP BY Season_Number) AS c
+ON a.Season_Number = c.Season_Number;
+```
+
 
 ### As a venture capital firm specializing in investing in startups featured on a renowned entrepreneurship TV show, you are determining the season with the highest average monthly sales and identify the top 5 industries with the highest average monthly sales during that season to optimize investment decisions?
 
