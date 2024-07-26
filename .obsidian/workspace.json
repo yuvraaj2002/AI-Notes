@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Database Management System/Case Studies/Shark Tank India/Solutions.md",
+                "file": "Database Management System/Case Studies/Swiggy/Solution.md",
                 "mode": "source",
                 "source": false
               }
@@ -82,8 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "75ce3ba0dea3f5ef",
@@ -99,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Database Management System/Case Studies/Shark Tank India/Solutions.md",
+                "file": "Database Management System/Case Studies/Swiggy/Solution.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Database Management System/Case Studies/Shark Tank India/Solutions.md",
+                "file": "Database Management System/Case Studies/Swiggy/Solution.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Database Management System/Case Studies/Shark Tank India/Solutions.md"
+                "file": "Database Management System/Case Studies/Swiggy/Solution.md"
               }
             }
           }
@@ -166,8 +165,16 @@
   },
   "active": "2ccc4ccfe6dfb7a5",
   "lastOpenFiles": [
-    "Deep Learning/Text/Word Embeddings.md",
+    "Database Management System/Case Studies/Indian Tourism/Solution.md",
+    "Database Management System/Case Studies/Swiggy/Solution.md",
+    "Database Management System/Case Studies/Google Play Store/Solution.md",
+    "Database Management System/Case Studies/Data Science Jobs/Solution.md",
     "Database Management System/Case Studies/Shark Tank India/Solutions.md",
+    "Database Management System/Case Studies/Indian Tourism",
+    "Database Management System/Case Studies/Swiggy",
+    "Database Management System/Case Studies/Google Play Store",
+    "Database Management System/Case Studies/Data Science Jobs",
+    "Deep Learning/Text/Word Embeddings.md",
     "README.md",
     "Database Management System/Case Studies",
     "Database Management System/New folder",
@@ -190,10 +197,6 @@
     "Database Management System/SQL/Order of execution.md",
     "Database Management System/SQL/SQL commands.md",
     "Database Management System/SQL/Order By.md",
-    "Database Management System/SQL/Operators.md",
-    "Database Management System/SQL/Joins.md",
-    "Database Management System/SQL/Inbuilt functions.md",
-    "Database Management System/SQL/Group By.md",
     "Database Management System/Images/Pasted image 20240714181526.png",
     "Database Management System/Images/Pasted image 20240711094037.png",
     "Database Management System/Images/Pasted image 20240708095020.png",
@@ -208,10 +211,6 @@
     "Database Management System/SQL",
     "Database Management System/Images",
     "Database Management System",
-    "Databases/Database Core concepts",
-    "Databases/New folder",
-    "Databases/SQL",
-    "System Design/Books/System_Design_Interview_An_Insiders_Guide.pdf",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]
