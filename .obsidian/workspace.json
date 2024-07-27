@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Structures And Algorithms/Stack/Monotonic Problems.md",
+                "file": "Behavioral Questions/Success and Failure.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,8 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "75ce3ba0dea3f5ef",
@@ -111,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data Structures And Algorithms/Stack/Monotonic Problems.md",
+                "file": "Behavioral Questions/Success and Failure.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data Structures And Algorithms/Stack/Monotonic Problems.md",
+                "file": "Behavioral Questions/Success and Failure.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data Structures And Algorithms/Stack/Monotonic Problems.md"
+                "file": "Behavioral Questions/Success and Failure.md"
               }
             }
           }
@@ -178,8 +177,17 @@
   },
   "active": "2ccc4ccfe6dfb7a5",
   "lastOpenFiles": [
-    "Data Structures And Algorithms/Arrays.md",
+    "Behavioral Questions/Problem-Solving.md",
+    "Behavioral Questions/Success and Failure.md",
+    "Behavioral Questions/About Leadership.md",
+    "Behavioral Questions/About Adaptability.md",
+    "Behavioral Questions/Working with Clients and Customers.md",
+    "Behavioral Questions/About Teamwork.md",
+    "Behavioral Questions/Communication Skills.md",
+    "Behavioral Questions/Time Management.md",
     "Data Structures And Algorithms/Stack/Monotonic Problems.md",
+    "Behavioral Questions",
+    "Data Structures And Algorithms/Arrays.md",
     "Data Structures And Algorithms/Stack/Conversion Problems.md",
     "Data Structures And Algorithms/Stack/Implementation Problems.md",
     "Data Structures And Algorithms/Tree/Questions.md",
@@ -203,14 +211,6 @@
     "Database Management System/Database Core concepts/Partitioning and Sharding.md",
     "Database Management System/Database Core concepts/Normalization.md",
     "Database Management System/Database Core concepts/Indexing.md",
-    "Database Management System/Database Core concepts/ER Model.md",
-    "Database Management System/Database Core concepts/Deadlocks.md",
-    "Database Management System/Database Core concepts/Data Models.md",
-    "Database Management System/Database Core concepts/Case Studies.md",
-    "Database Management System/Database Core concepts/Base Properties.md",
-    "Database Management System/Database Core concepts/CAP theorem.md",
-    "Database Management System/SQL/Window Functions.md",
-    "Database Management System/SQL/Views.md",
     "Database Management System/Images/Pasted image 20240714181526.png",
     "Database Management System/Images/Pasted image 20240711094037.png",
     "Database Management System/Images/Pasted image 20240708095020.png",
@@ -223,7 +223,6 @@
     "Database Management System/Images/Pasted image 20240706115007.png",
     "Database Management System/Database Core concepts",
     "Database Management System/SQL",
-    "Database Management System/Images",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]
