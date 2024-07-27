@@ -35,7 +35,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Structures And Algorithms/Arrays.md",
+                "file": "Deep Learning/Artificial Neural Net.md",
                 "mode": "source",
                 "source": false
               }
@@ -100,7 +100,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 416.5040512084961,
+    "collapsed": true
   },
   "right": {
     "id": "75ce3ba0dea3f5ef",
@@ -116,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data Structures And Algorithms/Arrays.md",
+                "file": "Deep Learning/Artificial Neural Net.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data Structures And Algorithms/Arrays.md",
+                "file": "Deep Learning/Artificial Neural Net.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data Structures And Algorithms/Arrays.md"
+                "file": "Deep Learning/Artificial Neural Net.md"
               }
             }
           }
@@ -181,8 +182,9 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "89ad46e437a54122",
+  "active": "60c57dbbe826a46c",
   "lastOpenFiles": [
+    "Data Structures And Algorithms/Arrays.md",
     "Machine Learning/Linear Models/Polynomial Regression.md",
     "Machine Learning/Optimization Algorithms/Gradient Descent.md",
     "Machine Learning/Optimization Algorithms",
@@ -207,7 +209,6 @@
     "Machine Learning/Untitled.md",
     "Machine Learning/Linear Models/Elastic Net Regression.md",
     "Machine Learning/Instance Based Models",
-    "Data Structures And Algorithms/Arrays.md",
     "Machine Learning/Bayesian Models",
     "Machine Learning/Tree Models",
     "Machine Learning/Linear Models",
