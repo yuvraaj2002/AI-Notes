@@ -1,0 +1,4 @@
+- Describe a time when you didn’t know how to solve a problem. What did you do to resolve the issue?
+- Tell me about a time when you solved a problem at your job that wasn’t part of your job description.
+- How would you solve a specific problem in your line of work?
+- What have you done to make your work more productive in your previous roles?

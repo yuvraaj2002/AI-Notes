@@ -1,0 +1,5 @@
+- Have you ever led a project?
+- Tell me about a time when you successfully delegated tasks to your team.
+- What’s one project or achievement you’re very proud of?
+- Tell me about a time when you had to perform a task or work on a project you had no previous experience with. How did you approach this situation, and what did you learn?
+- Have you ever wanted to improve the company culture? What did you do to contribute?

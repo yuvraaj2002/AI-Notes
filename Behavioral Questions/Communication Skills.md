@@ -1,0 +1,8 @@
+- How do you handle a disagreement with your coworkers? Give me an example of a time when you successfully persuaded someone to see things your way.
+- What would you do if you misunderstood an important task on the job? Give me an example.
+- How do you handle criticism from coworkers or supervisors?
+- Tell me about a time you disagreed with a performance assessment you received. How did you handle it?
+- Have you ever had to work under someone who wasn’t very good at communicating? What happened?
+- Tell me about a time when you successfully explained a technical problem to a coworker or a customer who didn’t have a tech background.
+- What do you think about one-on-one meetings? How often do you think they should happen?
+- Can you tell me about a time you gave a presentation that was particularly successful? Why do you think it went well?

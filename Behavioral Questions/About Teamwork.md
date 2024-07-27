@@ -1,0 +1,8 @@
+- Describe a time when you helped a member of your team succeed.
+- Tell me about a time when you had to work with someone completely different from you. How did you adapt to collaborate better?
+- Have you ever had an interpersonal conflict at work? If so, how did you handle it?
+- What do you do when your team member refuses to or just can’t complete their part of the work? Give me an example.
+- Have you ever mentored a coworker or been mentored? Tell me about it.
+- In your previous roles, did you have a time when you disagreed with a supervisor’s decision? If so, how did you handle it?
+- Tell me about an experience that helped you feel like part of the team at your previous job.
+- Do you have experience training new hires? Describe a time when you had to teach a coworker to do something.

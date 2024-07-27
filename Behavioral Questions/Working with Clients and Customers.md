@@ -1,0 +1,3 @@
+- Sometimes, clients can be difficult to work with. Can you describe a situation when a client was wrong and you had to correct them?
+- Describe a time you dealt with a frustrating customer or stakeholder.
+- Everyone makes mistakes they regret. Is there a situation where you wish you had handled things with a client differently?

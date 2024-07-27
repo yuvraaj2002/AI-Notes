@@ -1,0 +1,6 @@
+- Tell me about your first job in the industry. What did you do to learn the ropes?
+- Have you ever had to put in long hours to finish a task? How did you handle it?
+- Can you give me an example of when you had to adapt to a new and sudden change in the workplace? What happened?
+- Tell me about a time when you felt extremely stressed out by work. What caused it, and how did you manage it?
+- Give me an example of when you had to suddenly perform under pressure. What happened, and how did you handle it?
+- Have you had to switch between an in-office and remote or hybrid work environment? How did you navigate the change?
