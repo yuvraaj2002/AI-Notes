@@ -20,14 +20,12 @@
             }
           },
           {
-            "id": "2ccc4ccfe6dfb7a5",
+            "id": "4324782badc6dd89",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "Behavioral Questions/Success and Failure.md",
-                "mode": "source",
-                "source": false
+                "file": "Excalidraw/Drawing 2024-07-27 15.46.07.excalidraw.md"
               }
             }
           },
@@ -42,9 +40,17 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "efabf0ceac3f1f7a",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -110,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Behavioral Questions/Success and Failure.md",
+                "file": "Data Structures And Algorithms/Arrays.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Behavioral Questions/Success and Failure.md",
+                "file": "Data Structures And Algorithms/Arrays.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Behavioral Questions/Success and Failure.md"
+                "file": "Data Structures And Algorithms/Arrays.md"
               }
             }
           }
@@ -175,42 +181,44 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "2ccc4ccfe6dfb7a5",
+  "active": "89ad46e437a54122",
   "lastOpenFiles": [
+    "Machine Learning/Linear Models/Polynomial Regression.md",
+    "Machine Learning/Optimization Algorithms/Gradient Descent.md",
+    "Machine Learning/Optimization Algorithms",
+    "Machine Learning/New folder",
+    "Machine Learning/Performance Metrics/Classification Metrics.md",
+    "Machine Learning/Performance Metrics/Evaluation metrics.md",
+    "Machine Learning/Performance Metrics",
+    "Machine Learning/Tree Based Models/Decision Tree.md",
+    "Machine Learning/Tree Based Models/Random Forest.md",
+    "Machine Learning/Tree Based Models",
+    "Machine Learning/Bayesian Models/Naive Bayes.md",
+    "Machine Learning/Ensemble Learning/Voting.md",
+    "Machine Learning/Ensemble Learning/Stacking.md",
+    "Machine Learning/Ensemble Learning/Gradient Boosting.md",
+    "Machine Learning/Ensemble Learning/Ensemble Learning.md",
+    "Machine Learning/Ensemble Learning/Bagging-Boosting.md",
+    "Machine Learning/Ensemble Learning",
+    "Machine Learning/Instance Based Models/K Nearest Neighbor.md",
+    "Machine Learning/Linear Models/Lasso Regression.md",
+    "Machine Learning/Linear Models/Ridge Regression.md",
+    "Machine Learning/Linear Models/Linear Regression.md",
+    "Machine Learning/Untitled.md",
+    "Machine Learning/Linear Models/Elastic Net Regression.md",
+    "Machine Learning/Instance Based Models",
+    "Data Structures And Algorithms/Arrays.md",
+    "Machine Learning/Bayesian Models",
+    "Machine Learning/Tree Models",
+    "Machine Learning/Linear Models",
+    "Excalidraw/Drawing 2024-07-27 15.46.07.excalidraw.md",
+    "Deep Learning/Text/Word Embeddings.md",
+    "Behavioral Questions/Success and Failure.md",
+    "Data Sources.md",
     "Behavioral Questions/Problem-Solving.md",
     "Behavioral Questions/Leadership.md",
     "Behavioral Questions/Adaptability.md",
-    "Behavioral Questions/Working with Clients and Customers.md",
-    "Behavioral Questions/About Teamwork.md",
-    "Behavioral Questions/Communication Skills.md",
-    "Deep Learning/Text/Word Embeddings.md",
-    "Behavioral Questions/Success and Failure.md",
-    "Behavioral Questions/Time Management.md",
-    "Data Structures And Algorithms/Stack/Monotonic Problems.md",
     "Behavioral Questions",
-    "Data Structures And Algorithms/Arrays.md",
-    "Data Structures And Algorithms/Stack/Conversion Problems.md",
-    "Data Structures And Algorithms/Stack/Implementation Problems.md",
-    "Data Structures And Algorithms/Tree/Questions.md",
-    "Data Structures And Algorithms/Stack",
-    "Database Management System/Case Studies/Swiggy/Solution.md",
-    "Database Management System/Case Studies/Indian Tourism/Solution.md",
-    "Database Management System/Case Studies/Google Play Store/Solution.md",
-    "Database Management System/Case Studies/Data Science Jobs/Solution.md",
-    "Database Management System/Case Studies/Shark Tank India/Solutions.md",
-    "Database Management System/Case Studies/Indian Tourism",
-    "Database Management System/Case Studies/Swiggy",
-    "Database Management System/Case Studies/Google Play Store",
-    "Database Management System/Case Studies/Data Science Jobs",
-    "README.md",
-    "Database Management System/Case Studies",
-    "Database Management System/New folder",
-    "Database Management System/Database Core concepts/Transactions - ACID.md",
-    "Database Management System/Database Core concepts/Scaling Patterns.md",
-    "Database Management System/Database Core concepts/RDBMS.md",
-    "Database Management System/Database Core concepts/Partitioning and Sharding.md",
-    "Database Management System/Database Core concepts/Normalization.md",
-    "Database Management System/Database Core concepts/Indexing.md",
     "Database Management System/Images/Pasted image 20240714181526.png",
     "Database Management System/Images/Pasted image 20240711094037.png",
     "Database Management System/Images/Pasted image 20240708095020.png",
@@ -221,8 +229,6 @@
     "Database Management System/Images/Pasted image 20240706185831.png",
     "Database Management System/Images/Pasted image 20240706082329.png",
     "Database Management System/Images/Pasted image 20240706115007.png",
-    "Database Management System/Database Core concepts",
-    "Database Management System/SQL",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]
