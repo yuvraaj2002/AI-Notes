@@ -125,3 +125,49 @@ public:
 
 ### [Trapping Rainwater](https://leetcode.com/problems/trapping-rain-water/description/)
 
+- First and last elevation map will not store any water
+- At current index find greatest than current elevation map on left and right
+- If not found then it becomes itself only
+- Out of 2 the smallest one (will be maximum) - current elevation map
+- Here we have used the simple variable to find the next greater element on left and right but we can also use the stack data structure
+
+Time complexity O(n) + O(n) ~ O(n) and extra space complexity O(2n) ~ O(n)
+```cpp
+class Solution {
+public:
+    int trap(vector<int>& height) 
+    {
+        // Initial configuration
+        int total_volume = 0;
+        int gl = INT_MIN;
+        int gr = INT_MIN;
+        vector<int> gl_value(height.size());
+        vector<int> gr_value(height.size());
+
+        // Finding the greatest element on the left
+        for(int i=0;i<height.size();i++)
+        {
+            int curr_elevation_left  = height[i];
+            int curr_elevation_right  = height[height.size()-1-i];
+
+            // Doing the updation for greater on left and right
+            gl_value[i] = max(gl,curr_elevation_left);
+            gl = max(gl,curr_elevation_left);
+
+            gr_value[height.size()-1-i] = max(gr,curr_elevation_right);
+            gr = max(gr,curr_elevation_right);
+        }
+
+        // Iterating the elevation maps
+        for(int i=0;i<height.size();i++)
+        {
+            int curr_elevation = height[i];
+            int gleft = gl_value[i];
+            int gright = gr_value[i];
+
+            total_volume = total_volume + min(gleft,gright)-curr_elevation;
+        }
+        return total_volume;
+    }
+};
+```
