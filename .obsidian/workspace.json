@@ -25,7 +25,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Structures And Algorithms/Tree/Questions.md",
+                "file": "Data Structures And Algorithms/Stack/Monotonic Problems.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "60c57dbbe826a46c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Data Structures And Algorithms/Arrays.md",
                 "mode": "source",
                 "source": false
               }
@@ -99,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data Structures And Algorithms/Tree/Questions.md",
+                "file": "Data Structures And Algorithms/Stack/Monotonic Problems.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data Structures And Algorithms/Tree/Questions.md",
+                "file": "Data Structures And Algorithms/Stack/Monotonic Problems.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data Structures And Algorithms/Tree/Questions.md"
+                "file": "Data Structures And Algorithms/Stack/Monotonic Problems.md"
               }
             }
           }
@@ -166,6 +178,12 @@
   },
   "active": "2ccc4ccfe6dfb7a5",
   "lastOpenFiles": [
+    "Data Structures And Algorithms/Arrays.md",
+    "Data Structures And Algorithms/Stack/Monotonic Problems.md",
+    "Data Structures And Algorithms/Stack/Conversion Problems.md",
+    "Data Structures And Algorithms/Stack/Implementation Problems.md",
+    "Data Structures And Algorithms/Tree/Questions.md",
+    "Data Structures And Algorithms/Stack",
     "Database Management System/Case Studies/Swiggy/Solution.md",
     "Database Management System/Case Studies/Indian Tourism/Solution.md",
     "Database Management System/Case Studies/Google Play Store/Solution.md",
@@ -193,11 +211,6 @@
     "Database Management System/Database Core concepts/CAP theorem.md",
     "Database Management System/SQL/Window Functions.md",
     "Database Management System/SQL/Views.md",
-    "Database Management System/SQL/Subqueries.md",
-    "Database Management System/SQL/SQL.md",
-    "Database Management System/SQL/Order of execution.md",
-    "Database Management System/SQL/SQL commands.md",
-    "Database Management System/SQL/Order By.md",
     "Database Management System/Images/Pasted image 20240714181526.png",
     "Database Management System/Images/Pasted image 20240711094037.png",
     "Database Management System/Images/Pasted image 20240708095020.png",
@@ -211,7 +224,6 @@
     "Database Management System/Database Core concepts",
     "Database Management System/SQL",
     "Database Management System/Images",
-    "Database Management System",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]
