@@ -195,7 +195,101 @@ Finally though the back propagation algorithm when the error will be minimized a
 
 ![[Deep Learning/images/CBOW_Output.png]]
 
+```python
+import tensorflow as tf
+from tensorflow.keras.preprocessing.text import Tokenizer
+from tensorflow.keras.preprocessing.sequence import skipgrams
+from tensorflow.keras.models import Model
+from tensorflow.keras.layers import Input, Embedding, Dot, Reshape, Dense
+import numpy as np
+import itertools
+
+# Sample data
+corpus = [
+    "we are about to study the idea of a computational process",
+    "computational processes are abstract beings that inhabit computers",
+    "as they evolve processes manipulate other abstract things called data",
+    "the evolution of a process is directed by a pattern of rules called a program",
+    "people create programs to direct processes",
+    "in effect we conjure the spirits of the computer with our spells"
+]
+
+# Preprocess the data
+tokenizer = Tokenizer()
+tokenizer.fit_on_texts(corpus)
+word2idx = tokenizer.word_index
+idx2word = {v: k for k, v in word2idx.items()}
+vocab_size = len(word2idx) + 1  # Adding 1 because of reserved 0 index
+
+# Generate context-target pairs
+def generate_context_target_pairs(corpus, window_size):
+    pairs = []
+    for sentence in corpus:
+        words = sentence.split()
+        for i, word in enumerate(words):
+            target = word2idx[word]
+            context = [word2idx[words[j]] for j in range(max(0, i - window_size), i)]
+            context += [word2idx[words[j]] for j in range(i + 1, min(len(words), i + window_size + 1))]
+            for ctx in context:
+                pairs.append((target, ctx))
+    return pairs
+
+window_size = 2
+pairs = generate_context_target_pairs(corpus, window_size)
+pairs = np.array(pairs)
+
+# Define the CBOW model
+embedding_dim = 100
+
+input_target = Input((1,))
+input_context = Input((1,))
+
+embedding = Embedding(vocab_size, embedding_dim, input_length=1, name='embedding')
+
+target = embedding(input_target)
+target = Reshape((embedding_dim, 1))(target)
+
+context = embedding(input_context)
+context = Reshape((embedding_dim, 1))(context)
+
+dot_product = Dot(axes=1)([target, context])
+dot_product = Reshape((1,))(dot_product)
+
+output = Dense(1, activation='sigmoid')(dot_product)
+
+model = Model(inputs=[input_target, input_context], outputs=output)
+model.compile(loss='binary_crossentropy', optimizer='adam')
+
+# Train the model
+for epoch in range(10):
+    loss = 0
+    for pair in pairs:
+        target_word = np.array([pair[0]])
+        context_word = np.array([pair[1]])
+        label = np.array([1])
+        loss += model.train_on_batch([target_word, context_word], label)
+    print(f'Epoch: {epoch + 1}, Loss: {loss}')
+
+# Extract the word embeddings
+word_embeddings = model.get_layer('embedding').get_weights()[0]
+print(word_embeddings)
+
+```
+
 Just like this if we will reverse the predictive task we will be get architecture of the SkipGram
+
+### How to choose right window size ? 
+
+- **Larger Window Size (e.g., 5-10 words)**:
+    
+    - Useful for capturing relationships in tasks like document classification, sentiment analysis, where the overall context of the words matters.
+    - Example: In the sentence "The quick brown fox jumps over the lazy dog," a larger window size would capture the relationship between "quick" and "lazy," which are not immediate neighbors.
+    
+- **Smaller Window Size (e.g., 2-3 words)**:
+    
+    - Useful for capturing syntactic relationships and dependencies in tasks like part-of-speech tagging, named entity recognition.
+    - Example: In the same sentence, a smaller window size would focus on immediate neighbors like "quick" and "brown," "brown" and "fox," capturing tighter syntactic relationships.
+
 ### Out of CBOW and Skipgram which one should we use ? 
 
 - **General Purpose Use:** Skip-Gram is often preferred for its ability to produce higher-quality embeddings, especially in applications where understanding the nuances of rare words is important.
