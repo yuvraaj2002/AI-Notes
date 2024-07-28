@@ -100,7 +100,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 416.5040512084961
+    "width": 416.5040512084961,
+    "collapsed": true
   },
   "right": {
     "id": "75ce3ba0dea3f5ef",
@@ -181,8 +182,11 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "89ad46e437a54122",
+  "active": "60c57dbbe826a46c",
   "lastOpenFiles": [
+    "Mathematics/Linear Algebra",
+    "Mathematics/Probability",
+    "Mathematics/Statistics",
     "Machine Learning/Books/HOML Notes.md",
     "Unsupervised Learning/Dimensionality Reduction/PCA.md",
     "Books",
@@ -216,9 +220,6 @@
     "Machine Learning/Ensemble Learning/Stacking.md",
     "Machine Learning/Ensemble Learning/Gradient Boosting.md",
     "Machine Learning/Ensemble Learning/Ensemble Learning.md",
-    "Machine Learning/Ensemble Learning/Bagging-Boosting.md",
-    "Machine Learning/Ensemble Learning",
-    "Machine Learning/Instance Based Models",
     "Database Management System/Images/Pasted image 20240714181526.png",
     "Database Management System/Images/Pasted image 20240711094037.png",
     "Database Management System/Images/Pasted image 20240708095020.png",
