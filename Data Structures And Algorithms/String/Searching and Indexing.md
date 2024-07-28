@@ -1,0 +1,1 @@
+Implement the `strStr()` function that returns the index of the first occurrence of a substring

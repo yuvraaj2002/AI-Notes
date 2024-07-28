@@ -1,0 +1,7 @@
+- [Reverse a string](#)
+- [Check if a given string is a palindrome](#)
+- [Perform basic string compression using the counts of repeated characters](#)
+- [Find the first non-repeating character in a string](#)
+- [Implement the `atoi` function that converts a string to an integer](#)
+- [Convert a string into a zigzag pattern on a given number of rows](#)
+- [Multiply two non-negative integers represented as strings](#)

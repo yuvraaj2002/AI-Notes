@@ -13,29 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deep Learning/Text/Word Embeddings.md",
+                "file": "Data Structures And Algorithms/String/Substrings and Subsequence.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "4324782badc6dd89",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2024-07-27 15.46.07.excalidraw.md"
-              }
-            }
-          },
-          {
-            "id": "d1cbff6d6fb1f102",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2024-07-28 08.28.40.excalidraw.md"
               }
             }
           },
@@ -47,8 +27,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 416.5040512084961
+    "width": 416.5040512084961,
+    "collapsed": true
   },
   "right": {
     "id": "75ce3ba0dea3f5ef",
@@ -114,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/Drawing 2024-07-27 15.46.07.excalidraw.md",
+                "file": "Data Structures And Algorithms/String/Substrings and Subsequence.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/Drawing 2024-07-27 15.46.07.excalidraw.md",
+                "file": "Data Structures And Algorithms/String/Substrings and Subsequence.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/Drawing 2024-07-27 15.46.07.excalidraw.md"
+                "file": "Data Structures And Algorithms/String/Substrings and Subsequence.md"
               }
             }
           }
@@ -173,15 +153,22 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
-      "pdf-plus:PDF++: Toggle auto-copy": false,
-      "pdf-plus:PDF++: Toggle auto-focus": false,
-      "pdf-plus:PDF++: Toggle auto-paste": false
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "4324782badc6dd89",
+  "active": "41fbb8d2175a0800",
   "lastOpenFiles": [
+    "Data Structures And Algorithms/String/String Operations.md",
+    "Data Structures And Algorithms/String/Searching and Indexing.md",
+    "Data Structures And Algorithms/String/Transformation and Distance.md",
+    "Data Structures And Algorithms/String/Pattern Matching.md",
+    "Data Structures And Algorithms/String/Segmentation and Validation.md",
+    "Data Structures And Algorithms/String/Anagrams and Grouping.md",
+    "Data Structures And Algorithms/String/Substrings and Subsequence.md",
+    "Data Structures And Algorithms/String.md",
+    "Deep Learning/Text/Word Embeddings.md",
     "Daily Goals/2024-07-28.md",
+    "Excalidraw/Drawing 2024-07-27 15.46.07.excalidraw.md",
     "Variance drawback.png",
     "Unit vector function.png",
     "Unsupervised Learning/Dimensionality Reduction/PCA.md",
@@ -213,16 +200,6 @@
     "Preparation Index.md",
     "Deep Learning/Artificial Neural Net.md",
     "Data Structures And Algorithms/Arrays.md",
-    "Machine Learning/Linear Models/Polynomial Regression.md",
-    "Machine Learning/Optimization Algorithms/Gradient Descent.md",
-    "Machine Learning/Performance Metrics/Classification Metrics.md",
-    "Machine Learning/Performance Metrics/Evaluation metrics.md",
-    "Machine Learning/Tree Based Models/Decision Tree.md",
-    "Machine Learning/Tree Based Models/Random Forest.md",
-    "Machine Learning/Bayesian Models/Naive Bayes.md",
-    "Machine Learning/Ensemble Learning/Voting.md",
-    "Machine Learning/Ensemble Learning/Stacking.md",
-    "Machine Learning/Ensemble Learning/Gradient Boosting.md",
     "Database Management System/Images/Pasted image 20240714181526.png",
     "Database Management System/Images/Pasted image 20240711094037.png",
     "Database Management System/Images/Pasted image 20240708095020.png",
