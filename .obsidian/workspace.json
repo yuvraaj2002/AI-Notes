@@ -35,7 +35,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deep Learning/Artificial Neural Net.md",
+                "file": "Unsupervised Learning/Dimensionality Reduction/PCA.md",
                 "mode": "source",
                 "source": false
               }
@@ -100,8 +100,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 416.5040512084961,
-    "collapsed": true
+    "width": 416.5040512084961
   },
   "right": {
     "id": "75ce3ba0dea3f5ef",
@@ -117,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Deep Learning/Artificial Neural Net.md",
+                "file": "Unsupervised Learning/Dimensionality Reduction/PCA.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Deep Learning/Artificial Neural Net.md",
+                "file": "Unsupervised Learning/Dimensionality Reduction/PCA.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Deep Learning/Artificial Neural Net.md"
+                "file": "Unsupervised Learning/Dimensionality Reduction/PCA.md"
               }
             }
           }
@@ -182,8 +181,25 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "60c57dbbe826a46c",
+  "active": "89ad46e437a54122",
   "lastOpenFiles": [
+    "Machine Learning/Books/HOML Notes.md",
+    "Unsupervised Learning/Dimensionality Reduction/PCA.md",
+    "Books",
+    "Unsupervised Learning/Dimensionality Reduction/Dimensionality Reduction.md",
+    "Data Structures And Algorithms/String",
+    "Tags/Unsupervised Learning.md",
+    "Unsupervised Learning/Dimensionality Reduction/Autoencoders.md",
+    "Unsupervised Learning/Clustering Algorithms/Partition based clustering.md",
+    "Unsupervised Learning/Dimensionality Reduction",
+    "Unsupervised Learning/Clustering Algorithms/Hierarchy based clustering.md",
+    "Unsupervised Learning/Clustering Algorithms/Density Based Clustering.md",
+    "Unsupervised Learning/Clustering Algorithms/DBSCAN.md",
+    "Unsupervised Learning/Clustering Algorithms/AGNES and DIANA.md",
+    "2024-07-28.md",
+    "Unsupervised Learning/Clustering Algorithms",
+    "Preparation Index.md",
+    "Deep Learning/Artificial Neural Net.md",
     "Data Structures And Algorithms/Arrays.md",
     "Machine Learning/Linear Models/Polynomial Regression.md",
     "Machine Learning/Optimization Algorithms/Gradient Descent.md",
@@ -202,24 +218,7 @@
     "Machine Learning/Ensemble Learning/Ensemble Learning.md",
     "Machine Learning/Ensemble Learning/Bagging-Boosting.md",
     "Machine Learning/Ensemble Learning",
-    "Machine Learning/Instance Based Models/K Nearest Neighbor.md",
-    "Machine Learning/Linear Models/Lasso Regression.md",
-    "Machine Learning/Linear Models/Ridge Regression.md",
-    "Machine Learning/Linear Models/Linear Regression.md",
-    "Machine Learning/Untitled.md",
-    "Machine Learning/Linear Models/Elastic Net Regression.md",
     "Machine Learning/Instance Based Models",
-    "Machine Learning/Bayesian Models",
-    "Machine Learning/Tree Models",
-    "Machine Learning/Linear Models",
-    "Excalidraw/Drawing 2024-07-27 15.46.07.excalidraw.md",
-    "Deep Learning/Text/Word Embeddings.md",
-    "Behavioral Questions/Success and Failure.md",
-    "Data Sources.md",
-    "Behavioral Questions/Problem-Solving.md",
-    "Behavioral Questions/Leadership.md",
-    "Behavioral Questions/Adaptability.md",
-    "Behavioral Questions",
     "Database Management System/Images/Pasted image 20240714181526.png",
     "Database Management System/Images/Pasted image 20240711094037.png",
     "Database Management System/Images/Pasted image 20240708095020.png",

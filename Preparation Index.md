@@ -69,7 +69,7 @@ This page is actually dedicated towards the indexing of all the topics that I kn
 - [ ] KMeans and KMeans++
 - [ ] DBSCAN
 - [x] AGNES and DIANA
-- [ ] Principal Component analysis
+- [ ] Dimensionality reduction Principal Component analysis
 - [ ] Clustering metrics 
 
 
@@ -84,7 +84,7 @@ This page is actually dedicated towards the indexing of all the topics that I kn
 - [ ] Function and Stored procedures
 - [x] Common table expression
 - [x] Aggregate functions
-- [ ] Filtering
+- [ ] Filtering (Having and WHERE)
 - [ ] Constraints
 
 
