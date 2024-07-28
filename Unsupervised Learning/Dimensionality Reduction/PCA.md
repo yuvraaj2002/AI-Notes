@@ -31,3 +31,12 @@ PCA stands for principal component analysis and it is an unsupervised machine le
 - Vector projection
 - Eigen values and vectors
 
+
+### Why do we try to maximize the spread of the data across the principal component and which measure do we use for finding out the spread of data ? 
+
+By maximizing the spread of data across principal components we try to make sure that maximum amount of information could be retained even after doing the dimensionality reduction and for measuring the spread we use variance.
+
+### Why we don't use MAD over variance in PCA ? 
+
+To measure spread we use variance where `spread is not equal to variance` instead the variance is proportional to spread and we chose variance over Mean absolute deviation (that is actually equivalent to spread) because MAD is not differentiable thus we will not be able to use any kind of optimization algorithm on top of it.
+
