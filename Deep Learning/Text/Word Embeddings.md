@@ -195,6 +195,9 @@ Finally though the back propagation algorithm when the error will be minimized a
 
 ![[Deep Learning/images/CBOW_Output.png]]
 
+<!-- For GitHub -->
+<img src="Deep Learning/images/CBOW_Output.png" alt="CBOW Output" width="400">
+
 ```python
 import tensorflow as tf
 from tensorflow.keras.preprocessing.text import Tokenizer
