@@ -139,5 +139,71 @@ print("\nTF-IDF DataFrame:\n", tfidf_df)
 
 ### What do you mean by prediction based word embedding techniques and name them
 
+Prediction based word embedding techniques are those techniques which utilize the neural network architecture for creating the word embeddings. The word "Prediction" comes from the fact that we try to solve a predictive task (such as predicting the target word by using the context words or vice versa) and as the byproduct of this predictive task we get the embeddings.
+
+Now there are various prediction based word embedding techniques but the common ones are
+
+1. Word2Vec
+2. Fasttext
+3. Glove
+4. Elmo
+
+### What problems are solved with prediction based embeddings ? 
+
+1. **More semantic Information** : This embedding technique captures more semantic information of the words as compared to BOW and TF-IDF
+2. **Low dimensional and dense vecto**r : The vector representation which we get after using this embedding technique not only gives us low dimensional vector but also gives us dense vector ( vector with less number of 0’s) as compared to the BOW and TF-IDF technique which makes the processing efficient.
 
 
+### Explain Word2Vec, its architecture and working of both 
+
+Word2Vec stands for Word To vectors and it is a neural network based technique where we try to solve a predictive task using neural network and as a byproduct of the solution we get the embeddings. Now based on the type of predictive task there are 2 different architectures
+
+1. Predict target words give context words → `CBOW`
+2. Predict context words given target word → `Skiagram`
+
+#### Understanding the working of CBOW
+
+To better understand the working of CBOW let us assume that assume that we have a sentence for which we want to create embeddings and this sentence is `Watch ABC channel for Data Science`. Now since CBOW solves a predictive task of predicting the target word using the Context words so we need to prepare dataset for training and for this we need to fix a window size. Let say our window size is of length 3.
+
+I have created the below diagram using Excallidraw tool. You can checkout about this [here](https://excalidraw.com/)
+![[Deep Learning/Images/Data Preparation W2V.png]]
+
+| Independent Data (Context words) | Dependent Data (Target word) |
+| -------------------------------- | ---------------------------- |
+| Watch, channel                   | ABC                          |
+| ABC, for                         | channel                      |
+| channel, Data                    | for                          |
+| for, Science                     | Data                         |
+Upto this point we know about the context words and the target words but still we need to do one hot encoding here because the neural network only understand the numbers. Thus after doing OHE our dataset will look something like
+
+| Independent Data (Context words) | Dependent Data (Target word) |
+| -------------------------------- | ---------------------------- |
+| 1 0 0 0 0 0 , 0 1 0 0 0 0        | 0 0 1 0 0 0                  |
+| 0 0 1 0 0 0 , 0 1 0 0 0 0        | 0 0 0 1 0 0                  |
+| 0 1 0 0 0 0 , 0 0 0 1 0 0        | 0 0 0 0 1 0                  |
+| 0 0 0 1 0 0 , 0 0 0 0 1 0        | 0 0 0 0 0 1                  |
+
+Now since we have our input and output data ready with us so let us know train the network, where the input layer will have 12 neurons (Context words) and output layer will be having 6 neurons (Target word). `Note` There will be only single hidden layer and the number of neurons in this layer will represent the dimensionality we want.
+
+![[Deep Learning/images/CBOW architeture.png]]
+
+From the very first forward pass since the values will not be correct so the error will be calculated and accordingly the weights will be adjusted to make sure the error is minimized.
+
+![[Deep Learning/images/CBOW_error.png]]
+
+Finally though the back propagation algorithm when the error will be minimized and we will start getting correct results at that point the training will be stopped and the connections from the hidden layer to output layer will represent the embedding for the given target word.
+
+![[Deep Learning/images/CBOW_Output.png]]
+
+Just like this if we will reverse the predictive task we will be get architecture of the SkipGram
+### Out of CBOW and Skipgram which one should we use ? 
+
+- **General Purpose Use:** Skip-Gram is often preferred for its ability to produce higher-quality embeddings, especially in applications where understanding the nuances of rare words is important.
+- **High Efficiency Needs:** CBOW is a good choice when training speed and computational efficiency are more critical, particularly with very large datasets.
+
+### What is the drawback of Word2Vec how it got solved ? 
+
+- It can’t handle out of vocabulary words
+- Word2vec considers a word as atomic unit thus it do not capture the morphological variations of words such as running and runs.
+
+FastText is another prediction based word embedding architecture which is developed by FAIR that is Facebook AI research team. This architecture got introduced to cover the major drawbacks of Word2vec

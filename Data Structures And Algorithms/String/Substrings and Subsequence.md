@@ -3,6 +3,9 @@
 There are couple of approaches with which we can actually solve this problem so let us discuss each of the approach sequentially.
 ##### Approach 1 (Generating all substrings)
 
+
+
+
 - Generate all the possible substrings
 - Out of all the substrings the ones which are of length 2 
 	- Compare 0 and size-1 index character 
