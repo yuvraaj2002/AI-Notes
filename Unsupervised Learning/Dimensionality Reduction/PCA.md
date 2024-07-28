@@ -40,3 +40,38 @@ By maximizing the spread of data across principal components we try to make sure
 
 To measure spread we use variance where `spread is not equal to variance` instead the variance is proportional to spread and we chose variance over Mean absolute deviation (that is actually equivalent to spread) because MAD is not differentiable thus we will not be able to use any kind of optimization algorithm on top of it.
 
+
+### Explain working of PCA in terms of mathematics ? 
+
+Since we know that in PCA our aim is to find the Principal components which maximize the spread of the data but the question arises that how do we find such principal components so for that there are couple of steps we need to follow
+
+##### Step 1 ( Mean centering the data )
+
+Even though this step is not mandatory but experimentally it has been observed that when we do the mean centering of the data then the performance of the PCA improves.
+
+![[Unsupervised Learning/Images/Mean Centering.png|350]]
+
+##### Step 2 ( Calculating the Covariance matrix )
+
+From the given data first of all we find the covariance matrix, which is a type of matrix that not only gives us information about the spread of each feature but also gives us information about how 2 features are related with each other.
+
+![[Unsupervised Learning/Images/Covariance_Matrix.png|280]]
+
+##### Step 3 (Find eigen value-vector covariance matrix)
+
+An important point to keep in mind is that matrix is simply a linear transformation on the feature space and when we do this transformation then both the direction and the magnitude of the vectors gets changed. Whereas we have special type of vectors called Eigen vectors whose direction remains the same after applying matrix as linear transformation, even though its magnitude might change (Increase or decrease).The decrease or increase in the magnitude of the eigen value is represented by a value called eigen value and it is typically represented by lambda
+
+![[Unsupervised Learning/Images/Matrix Linear transformation.png]]
+
+Here is the visualization tool which we can use to understand this concept [Matrix transformation visualizer](https://www.geogebra.org/m/YCZa8TAH)
+
+When we apply the covariance matrix as a linear transformation on the data, we get the same number of eigenvectors and eigenvalues as the number of features. These eigenvectors represent the principal components, and the eigenvalues indicate the amount of variance captured by each principal component.
+
+##### Step 4 (Vector projection of data points on the PC or Eigen vectors)
+
+Finally based on the number of dimensions we want we need to use the concept of vector projection to project the data points on the required Principal components.
+
+
+
+
+

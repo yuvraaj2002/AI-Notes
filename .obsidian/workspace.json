@@ -30,14 +30,12 @@
             }
           },
           {
-            "id": "60c57dbbe826a46c",
+            "id": "d1cbff6d6fb1f102",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "Unsupervised Learning/Dimensionality Reduction/PCA.md",
-                "mode": "source",
-                "source": false
+                "file": "Excalidraw/Drawing 2024-07-28 08.28.40.excalidraw.md"
               }
             }
           },
@@ -50,7 +48,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -100,8 +98,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 416.5040512084961,
-    "collapsed": true
+    "width": 416.5040512084961
   },
   "right": {
     "id": "75ce3ba0dea3f5ef",
@@ -117,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Unsupervised Learning/Dimensionality Reduction/PCA.md",
+                "file": "Excalidraw/Drawing 2024-07-27 15.46.07.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Unsupervised Learning/Dimensionality Reduction/PCA.md",
+                "file": "Excalidraw/Drawing 2024-07-27 15.46.07.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Unsupervised Learning/Dimensionality Reduction/PCA.md"
+                "file": "Excalidraw/Drawing 2024-07-27 15.46.07.excalidraw.md"
               }
             }
           }
@@ -182,13 +179,24 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "60c57dbbe826a46c",
+  "active": "4324782badc6dd89",
   "lastOpenFiles": [
+    "Daily Goals/2024-07-28.md",
+    "Variance drawback.png",
+    "Unit vector function.png",
+    "Unsupervised Learning/Dimensionality Reduction/PCA.md",
+    "Programs/PCA/PCA_Working.ipynb",
+    "Programs/PCA",
+    "Programs/New folder",
+    "Unsupervised Learning/Images/Mean Centering.png",
+    "Unsupervised Learning/Images/Matrix Linear transformation.png",
+    "Unsupervised Learning/Images/Covariance_Matrix.png",
+    "Excalidraw/Drawing 2024-07-28 08.28.40.excalidraw.md",
+    "Covariance matrix.png",
     "Mathematics/Linear Algebra",
     "Mathematics/Probability",
     "Mathematics/Statistics",
     "Machine Learning/Books/HOML Notes.md",
-    "Unsupervised Learning/Dimensionality Reduction/PCA.md",
     "Books",
     "Unsupervised Learning/Dimensionality Reduction/Dimensionality Reduction.md",
     "Data Structures And Algorithms/String",
@@ -207,29 +215,18 @@
     "Data Structures And Algorithms/Arrays.md",
     "Machine Learning/Linear Models/Polynomial Regression.md",
     "Machine Learning/Optimization Algorithms/Gradient Descent.md",
-    "Machine Learning/Optimization Algorithms",
-    "Machine Learning/New folder",
     "Machine Learning/Performance Metrics/Classification Metrics.md",
     "Machine Learning/Performance Metrics/Evaluation metrics.md",
-    "Machine Learning/Performance Metrics",
     "Machine Learning/Tree Based Models/Decision Tree.md",
     "Machine Learning/Tree Based Models/Random Forest.md",
-    "Machine Learning/Tree Based Models",
     "Machine Learning/Bayesian Models/Naive Bayes.md",
     "Machine Learning/Ensemble Learning/Voting.md",
     "Machine Learning/Ensemble Learning/Stacking.md",
     "Machine Learning/Ensemble Learning/Gradient Boosting.md",
-    "Machine Learning/Ensemble Learning/Ensemble Learning.md",
     "Database Management System/Images/Pasted image 20240714181526.png",
     "Database Management System/Images/Pasted image 20240711094037.png",
     "Database Management System/Images/Pasted image 20240708095020.png",
     "Database Management System/Images/Pasted image 20240708094034.png",
-    "Database Management System/Images/Pasted image 20240706195524.png",
-    "Database Management System/Images/Pasted image 20240707071430.png",
-    "Database Management System/Images/Pasted image 20240706193407.png",
-    "Database Management System/Images/Pasted image 20240706185831.png",
-    "Database Management System/Images/Pasted image 20240706082329.png",
-    "Database Management System/Images/Pasted image 20240706115007.png",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]
