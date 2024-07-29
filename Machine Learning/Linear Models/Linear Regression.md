@@ -2,8 +2,6 @@ This page is dedicated towards understanding the concepts related to linear regr
 
 [Linear regression Wikipedia](https://en.wikipedia.org/wiki/Linear_regression#:~:text=In%20linear%20regression%2C%20the%20relationships,models%20are%20called%20linear%20models)
 
-- [ ] Assumptions of linear regression
-- [ ] Add necessary image
 
 ##### What is linear regression and from where does the terms linear and regression comes from ? 
 
@@ -38,7 +36,6 @@ The point to be noted is that in 3d we call it as best fit plane and in further 
 - Scaling: Since the convergence speed of gradient descent algorithms improves significantly with the scaled data so scaling improve the performance of the algorithm.
 - Outliers: Linear regression algorithm is very sensitive to outliers and lead to overfitting and to deal with this we use [[Regularization]] and the variants of linear regression such as [[Lasso Regression]], [[Ridge Regression]] and [[Elastic Net Regression]]
 - Linear regression can't work with missing values so we need to handle them either using univariate imputation techniques or using multivariate imputation techniques such as [[Missing Values]]
-
 
 ##### Talk about the bias variance tradeoff and how to deal with it ?
 

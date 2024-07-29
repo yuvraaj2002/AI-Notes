@@ -44,7 +44,8 @@ This page is actually dedicated towards the indexing of all the topics that I kn
 - [x] Confidence intervals
 - [ ] Probability distributions
 - [x] Central limit theorem
-- [ ] Measures of central tendency and dispersion
+- [ ] Measures of central tendency 
+- [ ] Measures of dispersion
 - [ ] Regression analysis
 - [x] A|B Testing
 - [ ] Random variable
@@ -87,7 +88,18 @@ This page is actually dedicated towards the indexing of all the topics that I kn
 - [ ] Filtering (Having and WHERE)
 - [ ] Constraints
 
+##### Python
+
+- [ ] Object Oriented Programming
+- [ ] 
 
 ##### Data Structures and Algorithms
 
-- [ ] 
+- [ ] Array
+- [ ] String
+- [ ] Stack 
+- [ ] Queue
+- [ ] Linked List
+- [ ] Tree
+- [ ] Graph
+- [ ] Recursion

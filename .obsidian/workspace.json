@@ -33,8 +33,12 @@
             "id": "c3405a8cf5ffa53e",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "2024-07-30.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ],
@@ -104,6 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "2024-07-30.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,6 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "2024-07-30.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +147,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "2024-07-30.md"
+              }
             }
           }
         ]
@@ -162,8 +170,13 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "89ad46e437a54122",
+  "active": "c3405a8cf5ffa53e",
   "lastOpenFiles": [
+    "Books/Daily Dose of Data Science.pdf",
+    "Preparation Index.md",
+    "2024-07-30.md",
+    "Machine Learning/Linear Models/Linear Regression.md",
+    "Python/Object Oriented Programming/Abstraction.md",
     "Books/Python_Object-Oriented_Programming.pdf",
     "Books/75 OOP Questions.pdf",
     "Daily Goals/2024-07-29.md",
@@ -172,8 +185,6 @@
     "Python/Object Oriented Programming/Encapsulation.md",
     "Programs/Object Oriented Programming",
     "Programs/New folder",
-    "Python/Object Oriented Programming/Abstraction.md",
-    "Preparation Index.md",
     "Excalidraw/Drawing 2024-07-29 12.16.36.excalidraw.md",
     "Python/Object Oriented Programming/Introduction to OOP.md",
     "Python/Images/Serialization_Need.png",
@@ -200,8 +211,6 @@
     "Data Structures And Algorithms/String/Pattern Matching.md",
     "Data Structures And Algorithms/String/Segmentation and Validation.md",
     "Data Structures And Algorithms/String/Anagrams and Grouping.md",
-    "Data Structures And Algorithms/String.md",
-    "Daily Goals/2024-07-28.md",
     "Variance drawback.png",
     "Unit vector function.png",
     "Programs/PCA/PCA_Working.ipynb",
@@ -209,7 +218,6 @@
     "Unsupervised Learning/Images/Mean Centering.png",
     "Mathematics/Linear Algebra",
     "Mathematics/Probability",
-    "Mathematics/Statistics",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]
