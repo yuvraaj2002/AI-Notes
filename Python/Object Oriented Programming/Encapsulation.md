@@ -69,7 +69,7 @@ print(sub_obj.access_protected())  # Output: I am protected
 
 Private members are intended to be used only within the class and we can make a class member to be private by using `doube underscore`. Python prevents the access of private class member outside the by using name mangling, where the class member name is modified by adding class name at the front.
 
-`Note` Since python do not enforce strict access control so one can still access the private class member outside the class by using the syntax $_Classname__privateClassMember$
+`Note` Since python do not enforce strict access control so one can still access the private class member outside the class by using the syntax _Classname__privateClassMember
 
 ```python
 class MyClass:
