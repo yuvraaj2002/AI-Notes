@@ -88,4 +88,4 @@ Now since we are aware about the basics of the Object Oriented programming so le
 - [[Inheritance]]
 - [[Polymorphism]]
 - [[Encapsulation]]
-- [[Abstraction]]
+- [[Python/Abstraction]]

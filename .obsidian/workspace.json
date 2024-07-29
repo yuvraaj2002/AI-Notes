@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deep Learning/Text/Word Embeddings.md",
+                "file": "Python/Object Oriented Programming/Abstraction.md",
                 "mode": "source",
                 "source": false
               }
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Deep Learning/Text/Word Embeddings.md",
+                "file": "Python/Object Oriented Programming/Abstraction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Deep Learning/Text/Word Embeddings.md",
+                "file": "Python/Object Oriented Programming/Abstraction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Deep Learning/Text/Word Embeddings.md"
+                "file": "Python/Object Oriented Programming/Abstraction.md"
               }
             }
           }
@@ -160,8 +160,9 @@
   },
   "active": "41fbb8d2175a0800",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2024-07-28 16.23.54.excalidraw.md",
     "Deep Learning/Text/Word Embeddings.md",
+    "Python/Object Oriented Programming/Abstraction.md",
+    "Excalidraw/Drawing 2024-07-28 16.23.54.excalidraw.md",
     "Deep Learning/Images/CBOW_Output.png",
     "Deep Learning/Images/CBOW_error.png",
     "Deep Learning/Images/CBOW architeture.png",
