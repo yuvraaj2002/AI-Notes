@@ -97,7 +97,8 @@ To better understand the idea behind doing inverse and taking log let us assume 
 - For the rare word (Occurring in only 2 documents) : Its IDF after log will be $log(10/2) = 0.69$
 - For the common word (Occurring in only 8 documents) : Its IDF after log will be $log(10/8) = 0.09$
 
-![[Deep Learning/Images/TFIDF formula.png|400]]
+![Tf-IDF formula](https://github.com/yuvraaj2002/AI-Notes/blob/master/Deep%20Learning/Images/TFIDF%20formula.png)
+
 
 ```python
 from sklearn.feature_extraction.text import TfidfVectorizer
@@ -166,7 +167,7 @@ Word2Vec stands for Word To vectors and it is a neural network based technique w
 To better understand the working of CBOW let us assume that assume that we have a sentence for which we want to create embeddings and this sentence is `Watch ABC channel for Data Science`. Now since CBOW solves a predictive task of predicting the target word using the Context words so we need to prepare dataset for training and for this we need to fix a window size. Let say our window size is of length 3.
 
 I have created the below diagram using Excallidraw tool. You can checkout about this [here](https://excalidraw.com/)
-![[Deep Learning/Images/Data Preparation W2V.png]]
+![Data Preparation W2V](https://github.com/yuvraaj2002/AI-Notes/blob/master/Deep%20Learning/Images/Data%20Preparation%20W2V.png)
 
 | Independent Data (Context words) | Dependent Data (Target word) |
 | -------------------------------- | ---------------------------- |
@@ -185,18 +186,15 @@ Upto this point we know about the context words and the target words but still w
 
 Now since we have our input and output data ready with us so let us know train the network, where the input layer will have 12 neurons (Context words) and output layer will be having 6 neurons (Target word). `Note` There will be only single hidden layer and the number of neurons in this layer will represent the dimensionality we want.
 
-![[Deep Learning/images/CBOW architeture.png]]
+![CBOW architecture](https://github.com/yuvraaj2002/AI-Notes/blob/master/Deep%20Learning/Images/CBOW%20architeture.png)
 
 From the very first forward pass since the values will not be correct so the error will be calculated and accordingly the weights will be adjusted to make sure the error is minimized.
 
-![[Deep Learning/images/CBOW_error.png]]
+![CBOW_error.png](https://github.com/yuvraaj2002/AI-Notes/blob/master/Deep%20Learning/Images/CBOW_error.png)
 
 Finally though the back propagation algorithm when the error will be minimized and we will start getting correct results at that point the training will be stopped and the connections from the hidden layer to output layer will represent the embedding for the given target word.
 
-![[Deep Learning/images/CBOW_Output.png]]
-
-<!-- For GitHub -->
-<img src="Deep Learning/images/CBOW_Output.png" alt="CBOW Output" width="400">
+![CBOW_Output.png](https://github.com/yuvraaj2002/AI-Notes/blob/master/Deep%20Learning/Images/CBOW_Output.png)
 
 ```python
 import tensorflow as tf
