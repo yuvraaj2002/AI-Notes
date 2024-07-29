@@ -96,14 +96,14 @@ with open("Sample_long.txt",'r') as f:
 
 The major drawback of text files is that they can only read or write Unicode characters, so in case we want to store some complex data structures such as dictionary, custom objects, images, files, audio files then we won't be able to do so and for that we need to use binary files. When dealing with binary files everything will remain same just the thing is that we will be using rb or wb as read binary and write binary mode in open function.
 
-![[Pasted image 20240709102937.png|500]]
+![[Serialization_Need.png|500]]
 
 In the above example since we can see that if we want to write and read complex python data structures, then we need to make them as string and after doing so, when we will read them back we will lost them, so the only way we can deal with them is to [[Serialization and Deserialization]] of  the python objects.
 
 - Talk about creating xPATH using tags as well as sometimes the attributes might not be present
 - In Xpath we give the slash but in Css we give the space only
 - Also in Xpath we use simple index but in Css we use nth-child 
-![[Pasted image 20240709121741.png]]
+![[Automation_XPATH.png]]
 
 - Servers are machines that understand IP addresses, interact with DBMS (Database Management Systems), perform computations on the data provided by the DBMS, and then return the data to users in the form of data packets over IP.
 

@@ -13,6 +13,18 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Python/Object Oriented Programming/Encapsulation.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "20ce28621b01ea7d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Python/Object Oriented Programming/Abstraction.md",
                 "mode": "source",
                 "source": false
@@ -20,12 +32,12 @@
             }
           },
           {
-            "id": "efabf0ceac3f1f7a",
+            "id": "80cd361477e89fa1",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Excalidraw/Drawing 2024-07-28 16.23.54.excalidraw.md"
+                "file": "Excalidraw/Drawing 2024-07-29 12.16.36.excalidraw.md"
               }
             }
           }
@@ -96,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python/Object Oriented Programming/Abstraction.md",
+                "file": "Python/Object Oriented Programming/Encapsulation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python/Object Oriented Programming/Abstraction.md",
+                "file": "Python/Object Oriented Programming/Encapsulation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python/Object Oriented Programming/Abstraction.md"
+                "file": "Python/Object Oriented Programming/Encapsulation.md"
               }
             }
           }
@@ -160,8 +172,23 @@
   },
   "active": "41fbb8d2175a0800",
   "lastOpenFiles": [
-    "Deep Learning/Text/Word Embeddings.md",
     "Python/Object Oriented Programming/Abstraction.md",
+    "Python/Object Oriented Programming/Encapsulation.md",
+    "Preparation Index.md",
+    "Excalidraw/Drawing 2024-07-29 12.16.36.excalidraw.md",
+    "Python/Object Oriented Programming/Introduction to OOP.md",
+    "Python/Images/Serialization_Need.png",
+    "Python/Images/Automation_XPATH.png",
+    "Python/Automation/Locators.md",
+    "Python/Automation",
+    "Python/Object Oriented Programming/Untitled",
+    "Python/File Handling.md",
+    "Python/Serialization and Deserialization.md",
+    "Python/Exception Handling.md",
+    "Python/Automation/Selenium.md",
+    "Python/Pasted image 20240706195948.png",
+    "Deep Learning/Text/Word Embeddings.md",
+    "Python/Object Oriented Programming/Abstraction 1.md",
     "Excalidraw/Drawing 2024-07-28 16.23.54.excalidraw.md",
     "Deep Learning/Images/CBOW_Output.png",
     "Deep Learning/Images/CBOW_error.png",
@@ -184,28 +211,13 @@
     "Programs/PCA",
     "Programs/New folder",
     "Unsupervised Learning/Images/Mean Centering.png",
-    "Unsupervised Learning/Images/Matrix Linear transformation.png",
-    "Unsupervised Learning/Images/Covariance_Matrix.png",
     "Excalidraw/Drawing 2024-07-28 08.28.40.excalidraw.md",
-    "Covariance matrix.png",
     "Mathematics/Linear Algebra",
     "Mathematics/Probability",
     "Mathematics/Statistics",
     "Machine Learning/Books/HOML Notes.md",
     "Books",
-    "Unsupervised Learning/Dimensionality Reduction/Dimensionality Reduction.md",
     "Data Structures And Algorithms/String",
-    "Tags/Unsupervised Learning.md",
-    "Unsupervised Learning/Dimensionality Reduction/Autoencoders.md",
-    "Unsupervised Learning/Clustering Algorithms/Partition based clustering.md",
-    "Unsupervised Learning/Dimensionality Reduction",
-    "Unsupervised Learning/Clustering Algorithms/Hierarchy based clustering.md",
-    "Unsupervised Learning/Clustering Algorithms/Density Based Clustering.md",
-    "Unsupervised Learning/Clustering Algorithms/DBSCAN.md",
-    "Unsupervised Learning/Clustering Algorithms/AGNES and DIANA.md",
-    "2024-07-28.md",
-    "Unsupervised Learning/Clustering Algorithms",
-    "Preparation Index.md",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]
