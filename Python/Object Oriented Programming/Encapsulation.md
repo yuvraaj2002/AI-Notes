@@ -4,19 +4,19 @@ This page is dedicated towards understanding the concept of encapsulation in obj
 
 ### [What is encapsulation in OOP and why is it important?](#)
 
-Encapsulation is one of the feature of object oriented programming which focuses on bundling the class variables, the member functions and mechanism to interact with the crucial components (i.e. private variables or functions) into a single unit.
+Encapsulation is one of the feature of object oriented programming which focuses on bundling the class members and mechanism to interact with the crucial components of an object (i.e. private variables or functions) into a single unit.
 
-- If class have its class variables + Member functions + Mechanism to access crucial components then we call that class to be strongly encapsulated.
-- If class have its class variables + Member functions but not any kind of Mechanism to access crucial components then we call that class to be loosely encapsulated.
+- If class have class members + Mechanism to access crucial components then we call that class to be strongly encapsulated.
+- If class have its class members but not any kind of Mechanism to provide a controlled access crucial components then we call that class to be loosely encapsulated.
 
 ### [How does encapsulation differ from abstraction?](#)
 
 - Abstraction is all about hiding the complex low level details of an object and only focusing on what an object does rather than how that object does.
-- Encapsulation is all about bundling everything into a single unit and making sure that the object internal state is protected from any kind of unauthorized access.
+- Encapsulation is all about bundling class members and the mechanism to interact with the crucial components into a single unit.
 
 ### [Explain the concept of access modifiers in Python (public, protected, private).](#)
 
-Access modifiers are simply the keywords which helps us to control the visibility or accessibility of the class variables or member functions outside the class. Basically Python does not enforce a very strict access control just like other languages.
+Access modifiers are simply the keywords which helps us to control the visibility or accessibility of the class variables or member functions outside the class. Basically Python does not enforce a very strict access control just like other languages. In more simpler terms even after making the class members protected or private we can still access them outside the class.
 
 ##### Public class members
 Public members are accessible from anywhere, both inside and outside the class.
@@ -61,9 +61,7 @@ print(obj._protected_method())  # Output: This is a protected method (accessible
 
 sub_obj = SubClass()
 print(sub_obj.access_protected())  # Output: I am protected
-
 ```
-
 
 ##### Private class members
 
@@ -84,9 +82,6 @@ class MyClass:
 
 # Usage
 obj = MyClass()
-# The following lines will result in an AttributeError
-# print(obj.__private_var)
-# print(obj.__private_method())
 
 # Accessing private members through name mangling
 print(obj._MyClass__private_var)  # Output: I am private
@@ -133,6 +128,63 @@ account.set_balance(-500)  # Output: Invalid balance amount
 
 ### [Practice Problems](#)
 
--  Create a class `BankAccount` with private attributes for balance and methods for deposit and withdrawal. Ensure that the balance cannot be directly accessed or modified from outside the class.
-- Define a class `Car` with private attributes for make, model, and year. Implement properties to access and modify these attributes, ensuring that changes are valid (e.g., the year should be positive).
-- Implement a class `Student` with private attributes for student ID and grades. Provide methods to add grades and calculate the average, while keeping the grades hidden from direct access.
+Now since we are aware about the concepts related to encapsulation so let us now take a look at some practice problems to strengthen our understanding.
+##### [Create a class `BankAccount` with private attributes for balance and methods for deposit and withdrawal. Ensure that the balance cannot be directly accessed or modified from outside the class.](#)
+
+```python
+class BankAccount:
+
+    # Defining the constructor for initializing the class variables
+    def __init__(self):
+        self.__amount = 0
+
+    # Defining the function for withdrawal
+    def withdraw(self, withdraw_amount):
+        try:
+            if self.__amount == 0:
+                return "Invalid transaction (Insufficient amount)"
+            elif withdraw_amount <= 0:
+                return "Invalid transaction (Withdrawal amount must be positive)"
+            elif withdraw_amount > self.__amount:
+                return "Invalid transaction (Insufficient funds)"
+            else:
+                self.__amount -= withdraw_amount
+                return f"Amount withdrawn successfully. New balance: {self.__amount}"
+
+        except Exception as e:
+            return f"An error occurred: {e}"
+
+  
+
+    # Defining the function for depositing the amount
+    def deposit(self, deposit_amount):
+
+        # Checking if the deposit amount is positive or not
+        if deposit_amount >= 0:
+            self.__amount += deposit_amount
+            return "Amount deposited successfully"
+        else:
+            return "Invalid transaction (Deposit amount must be positive)"
+
+    # Getter to display the amount
+    def show_amount(self):
+        return self.__amount
+
+# Instantiating the class
+obj1 = BankAccount()
+print("Current amount in bank account : ",obj1.show_amount())
+
+# Depositing the amount
+obj1.deposit(1000)
+
+# Withdrawing the ammount
+obj1.withdraw(500)
+print("Current amount in bank account : ",obj1.show_amount())
+
+# Withdrawing more than present
+obj1.withdraw(1000)
+```
+
+
+
+##### [Implement a class `Student` with private attributes for student ID and grades. Provide methods to add grades and calculate the average, while keeping the grades hidden from direct access.](#)

@@ -3,7 +3,7 @@ This page is dedicated towards understanding the concepts related to linear regr
 [Linear regression Wikipedia](https://en.wikipedia.org/wiki/Linear_regression#:~:text=In%20linear%20regression%2C%20the%20relationships,models%20are%20called%20linear%20models)
 
 
-##### What is linear regression and from where does the terms linear and regression comes from ? 
+### [ What is linear regression and from where does the terms linear and regression comes from ?](#) 
 
 Linear regression is a statistical algorithm which is used to estimate the linear relationship between dependent and independent variable.
 

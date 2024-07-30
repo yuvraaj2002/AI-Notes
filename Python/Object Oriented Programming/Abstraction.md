@@ -5,11 +5,9 @@ This page is dedicated towards understanding the concept of abstraction in Objec
 
 ### [What is abstraction in OOP, why is it important and how do we achieve it ?](#)
 
-Abstraction in Object oriented programming is a concept where we hide or abstract the low level details and focus on what an object does rather than how it does it. Abstraction is done for simplification of complex system and to make the maintenance easy.
+Abstraction in Object oriented programming is a concept which focuses on hiding the low level complex details of the object and only focus on what an object does rather than how an object does it. In python Abstraction can be achieved through `abstract` class which is imported from `abc` module.
 
-In python Abstraction can be achieved through `abstract` class and `interface` where,
-
-- abstract class is used to define the blueprint for the other classes to inherit from and it cannot be instantiated on its own.
+- abstract class acts as a blueprint for the other classes to inherit from and it cannot be instantiated on its own.
 - Interface is used to define the contract that all subclasses classes must follow and implement. The abstract methods are used to define the interface
 
 ### [How does abstraction differ from encapsulation?](#)
@@ -155,4 +153,37 @@ print(f"Has Fur: {dog.has_fur()}")  # Output: Has Fur: True
 | Abstract class is used to define the blueprint for all its subclasses and it cannot be instantiated on its own | Concrete class can be instantiated on its own                                                                   |
 | It contains the abstract methods (for defining the interface) which are only declared but not implemented      | It contains the implementation of all its member function including those inherited from abstract base classes. |
 
+### [Problem Statement](#)
 
+You are required to design a simplified Library Management System using the principles of abstraction in OOP. The system should manage the details of books, members, and transactions (borrowing and returning books).
+
+```python
+from abc import ABC, abstractmethod
+
+class LibraryItem(ABC):
+
+    def __init__(self,title, author, item_id):
+        self.title = title
+        self.author = author
+        self.item_id = item_id
+
+    @abstractmethod
+    def get_item_info():
+        pass
+
+
+class Book(LibraryItem):
+
+    def __init__(self,title,author,item_id,genre):
+
+        # Using super to instantiate super class variables
+        super().__init__(title,author,item_id)
+        self.genre = genre
+
+    def get_item_info(self):
+        return f"Book[ID={self.item_id}, Title={self.title}, Author={self.author}, Genre={self.genre}]"
+
+book1 = Book("1984", "George Orwell", "B001", "Dystopian")
+print(book1.get_item_info())
+    
+```
