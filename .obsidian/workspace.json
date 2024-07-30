@@ -35,7 +35,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024-07-30.md",
+                "file": "Python/Object Oriented Programming/Polymorphism.md",
                 "mode": "source",
                 "source": false
               }
@@ -92,7 +92,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 416.5040512084961
+    "width": 416.5040512084961,
+    "collapsed": true
   },
   "right": {
     "id": "75ce3ba0dea3f5ef",
@@ -108,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024-07-30.md",
+                "file": "Python/Object Oriented Programming/Polymorphism.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024-07-30.md",
+                "file": "Python/Object Oriented Programming/Polymorphism.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024-07-30.md"
+                "file": "Python/Object Oriented Programming/Polymorphism.md"
               }
             }
           }
@@ -172,9 +173,9 @@
   },
   "active": "c3405a8cf5ffa53e",
   "lastOpenFiles": [
+    "2024-07-30.md",
     "Books/Daily Dose of Data Science.pdf",
     "Preparation Index.md",
-    "2024-07-30.md",
     "Machine Learning/Linear Models/Linear Regression.md",
     "Python/Object Oriented Programming/Abstraction.md",
     "Books/Python_Object-Oriented_Programming.pdf",
@@ -217,7 +218,6 @@
     "Programs/PCA",
     "Unsupervised Learning/Images/Mean Centering.png",
     "Mathematics/Linear Algebra",
-    "Mathematics/Probability",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]
