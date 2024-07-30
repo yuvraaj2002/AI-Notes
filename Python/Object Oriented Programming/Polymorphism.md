@@ -54,8 +54,47 @@ for animal in animals:
 
 - Function overriding : It comes under run time polymorphism and according to this if 2 functions with the same name and parameters are defined in parent-child class then the function defined in the child class will override the parent class function.
 
+### [How does the `__str__` method demonstrate polymorphism in Python?](#)
 
-5. How does the `__str__` method demonstrate polymorphism in Python?
+The `__str__` method is used to define what a class instance should return when `str()` is called on it or when it's printed.
+
+```python
+class Dog:
+    def __init__(self, name):
+        self.name = name
+
+    def __str__(self):
+        return f"Dog: {self.name}"
+
+class Cat:
+    def __init__(self, name):
+        self.name = name
+
+    def __str__(self):
+        return f"Cat: {self.name}"
+
+class Bird:
+    def __init__(self, name):
+        self.name = name
+
+    def __str__(self):
+        return f"Bird: {self.name}"
+
+def print_animal(animal):
+    print(str(animal))
+
+# Create instances of different classes
+dog = Dog("Rex")
+cat = Cat("Whiskers")
+bird = Bird("Tweety")
+
+# Print string representations
+print_animal(dog)   # Output: Dog: Rex
+print_animal(cat)   # Output: Cat: Whiskers
+print_animal(bird)  # Output: Bird: Tweety
+
+```
+
 ### [Can you give an example of polymorphism using interfaces or abstract classes?](#)
 
 ```python
