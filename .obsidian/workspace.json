@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Preparation Index.md",
+                "file": "Machine Learning/Linear Models/Linear Regression.md",
                 "mode": "source",
                 "source": false
               }
@@ -56,7 +56,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -123,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024-07-30.md",
+                "file": "Machine Learning/Linear Models/Linear Regression.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024-07-30.md",
+                "file": "Machine Learning/Linear Models/Linear Regression.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024-07-30.md"
+                "file": "Machine Learning/Linear Models/Linear Regression.md"
               }
             }
           }
@@ -185,19 +185,19 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "e35398f1677d500d",
+  "active": "80cd361477e89fa1",
   "lastOpenFiles": [
-    "Preparation Index.md",
-    "2024-07-30.md",
-    "Excalidraw/Drawing 2024-07-29 12.16.36.excalidraw.md",
-    "Python/Object Oriented Programming/Abstraction.md",
-    "Tags/System Design.md",
     "Python/Object Oriented Programming/Encapsulation.md",
+    "Machine Learning/Linear Models/Linear Regression.md",
+    "Python/Object Oriented Programming/Abstraction.md",
+    "Books/Daily Dose of Data Science.pdf",
+    "2024-07-30.md",
+    "Preparation Index.md",
+    "Excalidraw/Drawing 2024-07-29 12.16.36.excalidraw.md",
+    "Tags/System Design.md",
     "Programs/Object Oriented Programming/Abstraction.ipynb",
     "Programs/Object Oriented Programming/Encapsulation.ipynb",
-    "Machine Learning/Linear Models/Linear Regression.md",
     "Python/Object Oriented Programming/Polymorphism.md",
-    "Books/Daily Dose of Data Science.pdf",
     "Books/Python_Object-Oriented_Programming.pdf",
     "Books/75 OOP Questions.pdf",
     "Daily Goals/2024-07-29.md",
@@ -228,7 +228,6 @@
     "Data Structures And Algorithms/String/Transformation and Distance.md",
     "Data Structures And Algorithms/String/Pattern Matching.md",
     "Data Structures And Algorithms/String/Segmentation and Validation.md",
-    "Data Structures And Algorithms/String/Anagrams and Grouping.md",
     "Variance drawback.png",
     "Unit vector function.png",
     "Programs/PCA/PCA_Working.ipynb",
