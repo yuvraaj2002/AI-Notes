@@ -30,6 +30,16 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "d64389db310524de",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2024-07-31 05.20.45.excalidraw.md"
+              }
+            }
           }
         ],
         "currentTab": 1
@@ -163,8 +173,10 @@
   },
   "active": "4db53d8df4fcf44c",
   "lastOpenFiles": [
-    "Tags/Deep Learning.md",
+    "Deep Learning/Images/Why_ANN_notUsed.png",
     "Deep Learning/Recurrent Neural Net.md",
+    "Excalidraw/Drawing 2024-07-31 05.20.45.excalidraw.md",
+    "Tags/Deep Learning.md",
     "Preparation Index.md",
     "Generative AI/History Behind LLM.md",
     "2024-07-30.md",
@@ -203,12 +215,9 @@
     "Deep Learning/Images/CBOW architeture.png",
     "Deep Learning/Images/Data Preparation W2V.png",
     "Data Structures And Algorithms/String/Substrings and Subsequence.md",
-    "Data Structures And Algorithms/String/String Operations.md",
-    "Data Structures And Algorithms/String/Searching and Indexing.md",
     "Variance drawback.png",
     "Unit vector function.png",
     "Programs/PCA/PCA_Working.ipynb",
-    "Unsupervised Learning/Images/Mean Centering.png",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]
