@@ -20,36 +20,12 @@
             }
           },
           {
-            "id": "80cd361477e89fa1",
+            "id": "4db53d8df4fcf44c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/Linear Models/Linear Regression.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c3405a8cf5ffa53e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Python/Object Oriented Programming/Abstraction.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e35398f1677d500d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2024-07-30.md",
+                "file": "Deep Learning/Recurrent Neural Net.md",
                 "mode": "source",
                 "source": false
               }
@@ -123,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Machine Learning/Linear Models/Linear Regression.md",
+                "file": "Deep Learning/Recurrent Neural Net.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Machine Learning/Linear Models/Linear Regression.md",
+                "file": "Deep Learning/Recurrent Neural Net.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Machine Learning/Linear Models/Linear Regression.md"
+                "file": "Deep Learning/Recurrent Neural Net.md"
               }
             }
           }
@@ -185,14 +161,19 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "80cd361477e89fa1",
+  "active": "4db53d8df4fcf44c",
   "lastOpenFiles": [
-    "Python/Object Oriented Programming/Encapsulation.md",
+    "Tags/Deep Learning.md",
+    "Deep Learning/Recurrent Neural Net.md",
+    "Preparation Index.md",
+    "Generative AI/History Behind LLM.md",
+    "2024-07-30.md",
+    "Daily Goals/2024-07-29.md",
+    "README.md",
     "Machine Learning/Linear Models/Linear Regression.md",
+    "Python/Object Oriented Programming/Encapsulation.md",
     "Python/Object Oriented Programming/Abstraction.md",
     "Books/Daily Dose of Data Science.pdf",
-    "2024-07-30.md",
-    "Preparation Index.md",
     "Excalidraw/Drawing 2024-07-29 12.16.36.excalidraw.md",
     "Tags/System Design.md",
     "Programs/Object Oriented Programming/Abstraction.ipynb",
@@ -200,7 +181,6 @@
     "Python/Object Oriented Programming/Polymorphism.md",
     "Books/Python_Object-Oriented_Programming.pdf",
     "Books/75 OOP Questions.pdf",
-    "Daily Goals/2024-07-29.md",
     "Python/Object Oriented Programming/Inheritance.md",
     "Programs/Object Oriented Programming",
     "Programs/New folder",
@@ -225,9 +205,6 @@
     "Data Structures And Algorithms/String/Substrings and Subsequence.md",
     "Data Structures And Algorithms/String/String Operations.md",
     "Data Structures And Algorithms/String/Searching and Indexing.md",
-    "Data Structures And Algorithms/String/Transformation and Distance.md",
-    "Data Structures And Algorithms/String/Pattern Matching.md",
-    "Data Structures And Algorithms/String/Segmentation and Validation.md",
     "Variance drawback.png",
     "Unit vector function.png",
     "Programs/PCA/PCA_Working.ipynb",

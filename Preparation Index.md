@@ -103,7 +103,6 @@ This page is actually dedicated towards the indexing of all the topics that I kn
 - [ ]  Generators and Iterators
 - [ ]  Context Managers
 - [ ]  Regular Expressions
-- [ ]  Concurrency (Threads, Multiprocessing, AsyncIO)
 - [ ]  Memory Management and Garbage Collection
 - [ ]  Standard Library Modules (e.g., os, sys, math, datetime, random)
 - [ ]  Logging
@@ -112,9 +111,7 @@ This page is actually dedicated towards the indexing of all the topics that I kn
 - [ ]  Networking (sockets, HTTP requests)
 - [ ]  Working with APIs (RESTful APIs)
 - [ ]  Data Analysis (Pandas, NumPy)
-- [ ]  Visualization (Matplotlib, Seaborn)
 - [ ]  Working with Databases (SQLite, SQLAlchemy, PostgreSQL)
-- [ ]  Version Control with Git
 - [ ]  Packaging and Distribution (pip, setuptools, virtualenv)
 - [ ]  Documentation (docstrings, Sphinx)
 
