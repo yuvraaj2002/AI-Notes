@@ -171,11 +171,14 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "4db53d8df4fcf44c",
+  "active": "89ad46e437a54122",
   "lastOpenFiles": [
-    "Deep Learning/Images/Why_ANN_notUsed.png",
-    "Deep Learning/Recurrent Neural Net.md",
+    "Deep Learning/Images/Vanishing_Gradient.png",
+    "Deep Learning/Images/Dependnecy_Issue.png",
     "Excalidraw/Drawing 2024-07-31 05.20.45.excalidraw.md",
+    "Deep Learning/Recurrent Neural Net.md",
+    "Deep Learning/Images/Types of RNN.png",
+    "Deep Learning/Images/Why_ANN_notUsed.png",
     "Tags/Deep Learning.md",
     "Preparation Index.md",
     "Generative AI/History Behind LLM.md",
@@ -215,8 +218,6 @@
     "Deep Learning/Images/CBOW architeture.png",
     "Deep Learning/Images/Data Preparation W2V.png",
     "Data Structures And Algorithms/String/Substrings and Subsequence.md",
-    "Variance drawback.png",
-    "Unit vector function.png",
     "Programs/PCA/PCA_Working.ipynb",
     "Untitled.canvas",
     "Untitled 1.canvas"
