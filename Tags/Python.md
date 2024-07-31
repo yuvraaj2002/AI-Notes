@@ -1,6 +1,7 @@
 Tags : [[AI]]
 
 - [[Introduction to OOP]]
+- [[Decorators]]
 - [[File Handling]]
 - [[Exception Handling]]
 - [[Selenium]]
