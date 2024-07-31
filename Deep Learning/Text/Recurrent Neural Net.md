@@ -44,4 +44,4 @@ The vanishing gradient problem is one of the most common issues in neural networ
 
 ![[Deep Learning/images/Vanishing_Gradient.png]]
 
-To tackle this researchers started using relu which is comparatively less saturating but relu itself also suffer from the dying relu problem. So rather than using relu we can use different variants of relu, but all in all we use a more advanced version of RNN which is called LSTM which captures both the short term and long term context of input data.
+To tackle this researchers started using relu which is comparatively less saturating but relu itself also suffer from the dying relu problem. So rather than using relu we can use different variants of relu, but all in all we use a more advanced version of RNN which is called [[LSTM]] which captures both the short term and long term context of input data.

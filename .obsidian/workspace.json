@@ -82,8 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 416.5040512084961,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "75ce3ba0dea3f5ef",
@@ -163,6 +162,7 @@
   },
   "active": "d64389db310524de",
   "lastOpenFiles": [
+    "Deep Learning/Images/LSTM.png",
     "Deep Learning/Text/Recurrent Neural Net.md",
     "Deep Learning/Text/LSTM.md",
     "2024-07-31.md",
@@ -204,7 +204,6 @@
     "Python/Pasted image 20240706195948.png",
     "Deep Learning/Text/Word Embeddings.md",
     "Python/Object Oriented Programming/Abstraction 1.md",
-    "Excalidraw/Drawing 2024-07-28 16.23.54.excalidraw.md",
     "Deep Learning/Images/CBOW_Output.png",
     "Deep Learning/Images/CBOW_error.png",
     "Deep Learning/Images/CBOW architeture.png",
