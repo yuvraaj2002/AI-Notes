@@ -62,7 +62,7 @@ This page is actually dedicated towards the indexing of all the topics that I kn
 - [ ] Transfer Learning
 - [ ] Optimization algorithms
 - [x] NLP data cleaning
-- [ ] Word embedding techniques
+- [x] Word embedding techniques
 
 
 ###### Unsupervised Machine Learning
@@ -70,7 +70,7 @@ This page is actually dedicated towards the indexing of all the topics that I kn
 - [ ] KMeans and KMeans++
 - [ ] DBSCAN
 - [x] AGNES and DIANA
-- [ ] Dimensionality reduction Principal Component analysis
+- [x] Dimensionality reduction Principal Component analysis
 - [ ] Clustering metrics 
 
 

@@ -20,24 +20,14 @@
             }
           },
           {
-            "id": "4db53d8df4fcf44c",
+            "id": "d64389db310524de",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deep Learning/Recurrent Neural Net.md",
+                "file": "Deep Learning/Text/LSTM.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "d64389db310524de",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2024-07-31 05.20.45.excalidraw.md"
               }
             }
           }
@@ -109,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Deep Learning/Recurrent Neural Net.md",
+                "file": "Deep Learning/Text/LSTM.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Deep Learning/Recurrent Neural Net.md",
+                "file": "Deep Learning/Text/LSTM.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Deep Learning/Recurrent Neural Net.md"
+                "file": "Deep Learning/Text/LSTM.md"
               }
             }
           }
@@ -171,18 +161,20 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "89ad46e437a54122",
+  "active": "d64389db310524de",
   "lastOpenFiles": [
+    "Deep Learning/Text/Recurrent Neural Net.md",
+    "Deep Learning/Text/LSTM.md",
+    "2024-07-31.md",
+    "Preparation Index.md",
+    "Excalidraw/Drawing 2024-07-31 05.20.45.excalidraw.md",
+    "Daily Goals/2024-07-30.md",
     "Deep Learning/Images/Vanishing_Gradient.png",
     "Deep Learning/Images/Dependnecy_Issue.png",
-    "Excalidraw/Drawing 2024-07-31 05.20.45.excalidraw.md",
-    "Deep Learning/Recurrent Neural Net.md",
     "Deep Learning/Images/Types of RNN.png",
     "Deep Learning/Images/Why_ANN_notUsed.png",
     "Tags/Deep Learning.md",
-    "Preparation Index.md",
     "Generative AI/History Behind LLM.md",
-    "2024-07-30.md",
     "Daily Goals/2024-07-29.md",
     "README.md",
     "Machine Learning/Linear Models/Linear Regression.md",
@@ -216,8 +208,6 @@
     "Deep Learning/Images/CBOW_Output.png",
     "Deep Learning/Images/CBOW_error.png",
     "Deep Learning/Images/CBOW architeture.png",
-    "Deep Learning/Images/Data Preparation W2V.png",
-    "Data Structures And Algorithms/String/Substrings and Subsequence.md",
     "Programs/PCA/PCA_Working.ipynb",
     "Untitled.canvas",
     "Untitled 1.canvas"
