@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024-07-31.md",
+                "file": "2024-08-01.md",
                 "mode": "source",
                 "source": false
               }
@@ -33,11 +33,28 @@
             "id": "2f836886c683f17b",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Preparation Index.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "80a5dbf00a6cad0f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Deep Learning/Text/GRU.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -87,7 +104,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 243.51103591918945,
+    "collapsed": true
   },
   "right": {
     "id": "75ce3ba0dea3f5ef",
@@ -103,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024-07-31.md",
+                "file": "Deep Learning/Text/GRU.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024-07-31.md",
+                "file": "Deep Learning/Text/GRU.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024-07-31.md"
+                "file": "Deep Learning/Text/GRU.md"
               }
             }
           }
@@ -165,9 +183,13 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "20ce28621b01ea7d",
+  "active": "80a5dbf00a6cad0f",
   "lastOpenFiles": [
     "Deep Learning/Text/LSTM.md",
+    "2024-08-01.md",
+    "Preparation Index.md",
+    "Deep Learning/Text/GRU.md",
+    "Daily Goals/2024-07-31.md",
     "Deep Learning/Images/LSTM working.gif",
     "Deep Learning/Images/Output Gate.png",
     "Pasted image 20240731132444.png",
@@ -183,8 +205,6 @@
     "Books/Python_Object-Oriented_Programming.pdf",
     "Deep Learning/Text/Recurrent Neural Net.md",
     "Deep Learning/Images/LSTM.png",
-    "2024-07-31.md",
-    "Preparation Index.md",
     "Excalidraw/Drawing 2024-07-31 05.20.45.excalidraw.md",
     "Daily Goals/2024-07-30.md",
     "Deep Learning/Images/Vanishing_Gradient.png",
@@ -211,7 +231,6 @@
     "Python/Automation",
     "Python/File Handling.md",
     "Python/Serialization and Deserialization.md",
-    "Python/Exception Handling.md",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]

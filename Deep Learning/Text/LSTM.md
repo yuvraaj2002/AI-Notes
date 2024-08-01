@@ -1,5 +1,8 @@
 This page is dedicated towards understanding the concept of LSTM in neural network and the resources used for understanding this topic will be linked below.
 
+- [LSTM Blog](https://colah.github.io/posts/2015-08-Understanding-LSTMs/)
+- [Understanding Architecture of LSTM](https://www.youtube.com/watch?v=Akv3poqqwI4)
+
 ### [What do you mean by LSTM and why it got introduced ? ](#)
 
 LSTM RNN stands for Long short term memory RNN and it is basically a variant of RNN which got introduced to cover the major drawback of RNN that was the problem of long term dependencies because of vanishing gradients. The way LSTM solves the issue of vanishing gradient is by introduction a new state along with the hidden state called cell state. 
@@ -10,7 +13,7 @@ With this new modification, the hidden state is now responsible for only storing
 
 ### [What do you mean by cell in LSTM](#)
 
-A cell is a rectangular memory blocks which take 2 things as input ( Cell state and Hidden state )
+A cell is a rectangular memory blocks which take 2 things as input ( Cell state and Hidden state ) and then by using these states and 3 gates (Input, forget and Output gate) it update these cells states.
 
 ### [What do you mean by gates in LSTM and explain working of each type of gate](#)
 
@@ -53,5 +56,5 @@ Output gate is the 3rd and last gate in the cell and it is used for deciding wha
 ![[LSTM working.gif]]
 ### [What is the drawback of using LSTM and how it got solved ? ](#)
 
-- Computationally expensive : LSTM have 3 gates and the usage of 3 gates make the overall architecture very much complex in nature, leading to a lot of trainable parameters making the network computationally expensive to train.
+- Computationally expensive : LSTM have 3 gates and the usage of 3 gates make the overall architecture very much complex in nature, leading to a lot of trainable parameters making the network computationally expensive to train. To solve this [[GRU]] got introduced.
 - Access to past information only: LSTM have unidirectional nature which means they primarily focus on past information up to the current time step. This limitation means that they do not have direct access to future information within the sequence.
