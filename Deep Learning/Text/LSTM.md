@@ -4,7 +4,7 @@ This page is dedicated towards understanding the concept of LSTM in neural netwo
 
 LSTM RNN stands for Long short term memory RNN and it is basically a variant of RNN which got introduced to cover the major drawback of RNN that was the problem of long term dependencies because of vanishing gradients. The way LSTM solves the issue of vanishing gradient is by introduction a new state along with the hidden state called cell state. 
 
-![[Deep Learning/images/LSTM.png]]
+![LSTM](https://github.com/yuvraaj2002/AI-Notes/blob/master/Deep%20Learning/Images/LSTM.png)
 
 With this new modification, the hidden state is now responsible for only storing the short term context and it is updated the with every time step, whereas the cell state is now responsible for storing the long term context which is updated via the gates (Input and forget gate) and in this way LSTM can better handle long term dependencies.
 
@@ -25,7 +25,7 @@ Input gate is the very first gate in the LSTM cell and it is responsible for add
 - Candidate cell state : Vector containing all the information from the current time step
 - Input gate activation vector : Vector containing the importance form each piece information from current time step.
 
-![[Deep Learning/images/Input_Gate.png]]
+![Input_Gate](https://github.com/yuvraaj2002/AI-Notes/blob/master/Deep%20Learning/Images/Input_Gate.png)
 
 Finally both of these vectors are multiplied and by doing so only the important information from the current time step is retained and other information is removed. Finally this processed vector is adding to the cell state vector by vector addition operation. 
 
@@ -38,7 +38,7 @@ The operation performed in this gate are
 - Finding the weighted sum and passing them through the sigmoid function
 - Finally adding the processed vector $f_t$ with the $C_t$ vector
 
-![[Deep Learning/images/Forget Gate.png]]
+![Forget Gate](https://github.com/yuvraaj2002/AI-Notes/blob/master/Deep%20Learning/Images/Forget%20Gate.png)
 
 ft vector is used to specify what percentage of the information must be retained by the cell state. For example: Ct = [ 2, 3 , 4] and ft = [ 0.1, 0.2 , 0.5 ], then Ct → [ 0.2 , 0.6 , 2.0 ]
 
@@ -46,11 +46,11 @@ ft vector is used to specify what percentage of the information must be retained
 
 Output gate is the 3rd and last gate in the cell and it is used for deciding what would be the output from the present cell.
 
-![[Deep Learning/images/Output Gate.png]]
+![Output Gate](https://github.com/yuvraaj2002/AI-Notes/blob/master/Deep%20Learning/Images/Output%20Gate.png)
 
 ### [Working of LSTM (GIF)](#)
 
-![[LSTM working.gif]]
+![LSTM working.gif](https://github.com/yuvraaj2002/AI-Notes/blob/master/Deep%20Learning/Images/LSTM%20working.gif)
 ### [What is the drawback of using LSTM and how it got solved ? ](#)
 
 - Computationally expensive : LSTM have 3 gates and the usage of 3 gates make the overall architecture very much complex in nature, leading to a lot of trainable parameters making the network computationally expensive to train.
