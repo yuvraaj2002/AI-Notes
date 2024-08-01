@@ -6,7 +6,7 @@ This page is dedicated towards understanding the concept of transactions in Data
 
 #### What do you mean by transaction 
 
-Transaction can simply be defined as the unit of work having logical sequence of steps. Example: Transferring the money form one account to some other account is basically a transaction where there are couple of steps which needs to be executed in logical sequence
+Transaction can simply be defined as the unit of work having logical sequence of steps. Example: Transferring the money form one account to some other account is basically a transaction where there are couple of steps which needs to be executed in logical sequence. The SQL language dealing with transaction is called [[TCL]]
 
 -  Reading the amount from the first account.
 - Deducting the amount from the first account.

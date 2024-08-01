@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024-08-01.md",
+                "file": "Database Management System/SQL/TCL.md",
                 "mode": "source",
                 "source": false
               }
@@ -53,8 +53,7 @@
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -104,7 +103,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 243.51103591918945,
+    "width": 336.5004348754883,
     "collapsed": true
   },
   "right": {
@@ -121,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Deep Learning/Text/GRU.md",
+                "file": "Database Management System/SQL/TCL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Deep Learning/Text/GRU.md",
+                "file": "Database Management System/SQL/TCL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Deep Learning/Text/GRU.md"
+                "file": "Database Management System/SQL/TCL.md"
               }
             }
           }
@@ -183,12 +182,15 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "80a5dbf00a6cad0f",
+  "active": "20ce28621b01ea7d",
   "lastOpenFiles": [
-    "Deep Learning/Text/LSTM.md",
-    "2024-08-01.md",
+    "Database Management System/Database Core concepts/Transactions - ACID.md",
+    "Database Management System/SQL/TCL.md",
     "Preparation Index.md",
+    "2024-08-01.md",
     "Deep Learning/Text/GRU.md",
+    "Deep Learning/Images/GRU.png",
+    "Deep Learning/Text/LSTM.md",
     "Daily Goals/2024-07-31.md",
     "Deep Learning/Images/LSTM working.gif",
     "Deep Learning/Images/Output Gate.png",
@@ -210,7 +212,6 @@
     "Deep Learning/Images/Vanishing_Gradient.png",
     "Deep Learning/Images/Dependnecy_Issue.png",
     "Deep Learning/Images/Types of RNN.png",
-    "Deep Learning/Images/Why_ANN_notUsed.png",
     "Tags/Deep Learning.md",
     "Generative AI/History Behind LLM.md",
     "Daily Goals/2024-07-29.md",
@@ -229,8 +230,6 @@
     "Python/Object Oriented Programming/Introduction to OOP.md",
     "Python/Automation/Locators.md",
     "Python/Automation",
-    "Python/File Handling.md",
-    "Python/Serialization and Deserialization.md",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]
