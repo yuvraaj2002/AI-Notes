@@ -53,7 +53,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -103,8 +104,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 336.5004348754883,
-    "collapsed": true
+    "width": 336.5004348754883
   },
   "right": {
     "id": "75ce3ba0dea3f5ef",
@@ -120,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Database Management System/SQL/TCL.md",
+                "file": "Deep Learning/Text/GRU.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Database Management System/SQL/TCL.md",
+                "file": "Deep Learning/Text/GRU.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Database Management System/SQL/TCL.md"
+                "file": "Deep Learning/Text/GRU.md"
               }
             }
           }
@@ -182,13 +182,15 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "20ce28621b01ea7d",
+  "active": "80a5dbf00a6cad0f",
   "lastOpenFiles": [
-    "Database Management System/Database Core concepts/Transactions - ACID.md",
+    "Deep Learning/Images/Final Update Gate calculation.png",
+    "Deep Learning/Text/GRU.md",
+    "Pasted image 20240801130046.png",
     "Database Management System/SQL/TCL.md",
+    "Database Management System/Database Core concepts/Transactions - ACID.md",
     "Preparation Index.md",
     "2024-08-01.md",
-    "Deep Learning/Text/GRU.md",
     "Deep Learning/Images/GRU.png",
     "Deep Learning/Text/LSTM.md",
     "Daily Goals/2024-07-31.md",
@@ -210,8 +212,6 @@
     "Excalidraw/Drawing 2024-07-31 05.20.45.excalidraw.md",
     "Daily Goals/2024-07-30.md",
     "Deep Learning/Images/Vanishing_Gradient.png",
-    "Deep Learning/Images/Dependnecy_Issue.png",
-    "Deep Learning/Images/Types of RNN.png",
     "Tags/Deep Learning.md",
     "Generative AI/History Behind LLM.md",
     "Daily Goals/2024-07-29.md",
@@ -228,7 +228,6 @@
     "Python/Object Oriented Programming/Inheritance.md",
     "Programs/Object Oriented Programming",
     "Python/Object Oriented Programming/Introduction to OOP.md",
-    "Python/Automation/Locators.md",
     "Python/Automation",
     "Untitled.canvas",
     "Untitled 1.canvas"
