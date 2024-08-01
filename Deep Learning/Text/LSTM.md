@@ -55,3 +55,12 @@ Output gate is the 3rd and last gate in the cell and it is used for deciding wha
 
 - Computationally expensive : LSTM have 3 gates and the usage of 3 gates make the overall architecture very much complex in nature, leading to a lot of trainable parameters making the network computationally expensive to train.
 - Access to past information only: LSTM have unidirectional nature which means they primarily focus on past information up to the current time step. This limitation means that they do not have direct access to future information within the sequence.
+
+
+### [How do we deal with unidirectional problem with LSTM ? ](#)
+
+As we know LSTM are inherently unidirectional. This means that, at any given time step, a LSTM can only access information from previous time steps and not from future time steps.
+
+To overcome this limitation and provide access to future context, you can use a bidirectional LSTM. In a bidirectional LSTM, there are two separate LSTM layers: one processes the input sequence from start to end (forward direction), and the other processes it from end to start (backward direction). The outputs of these two layers are typically concatenated or otherwise combined to provide a richer representation of the sequence, leveraging both past and future contexts.
+
+Bidirectional LSTM are useful in tasks where understanding the full context of a sequence is important, such as in sequence labeling, machine translation, or text comprehension tasks.

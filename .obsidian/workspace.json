@@ -47,7 +47,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deep Learning/Text/GRU.md",
+                "file": "Deep Learning/Text/LSTM.md",
                 "mode": "source",
                 "source": false
               }
@@ -104,7 +104,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 336.5004348754883
+    "width": 336.5004348754883,
+    "collapsed": true
   },
   "right": {
     "id": "75ce3ba0dea3f5ef",
@@ -120,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Deep Learning/Text/GRU.md",
+                "file": "Deep Learning/Text/LSTM.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Deep Learning/Text/GRU.md",
+                "file": "Deep Learning/Text/LSTM.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Deep Learning/Text/GRU.md"
+                "file": "Deep Learning/Text/LSTM.md"
               }
             }
           }
@@ -184,12 +185,12 @@
   },
   "active": "80a5dbf00a6cad0f",
   "lastOpenFiles": [
-    "Deep Learning/Images/Final Update Gate calculation.png",
     "Deep Learning/Text/GRU.md",
+    "Preparation Index.md",
+    "Deep Learning/Images/Final Update Gate calculation.png",
     "Pasted image 20240801130046.png",
     "Database Management System/SQL/TCL.md",
     "Database Management System/Database Core concepts/Transactions - ACID.md",
-    "Preparation Index.md",
     "2024-08-01.md",
     "Deep Learning/Images/GRU.png",
     "Deep Learning/Text/LSTM.md",

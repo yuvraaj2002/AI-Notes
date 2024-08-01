@@ -57,8 +57,8 @@ This page is actually dedicated towards the indexing of all the topics that I kn
 - [x] Activation functions
 - [ ] Convolutional neural nets
 - [ ] Recurrent neural nets
-- [ ] LSTM 
-- [ ] GRU
+- [x] LSTM 
+- [x] GRU
 - [ ] Encoder Decoder without and With attention
 - [ ] Transfer Learning
 - [ ] Optimization algorithms
