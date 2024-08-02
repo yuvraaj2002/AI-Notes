@@ -71,7 +71,7 @@ In the context of PCA when we apply the covariance matrix as a linear transforma
 
 Finally based on the number of dimensions we want we need to use the concept of vector projection to project the data points on the required Principal components.
 
-
+![[Vector Projection.png]]
 
 
 
