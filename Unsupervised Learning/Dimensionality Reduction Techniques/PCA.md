@@ -59,13 +59,13 @@ From the given data first of all we find the covariance matrix, which is a type 
 
 ##### Step 3 (Find eigen value-vector covariance matrix)
 
-An important point to keep in mind is that matrix is simply a linear transformation on the feature space and when we do this transformation then both the direction and the magnitude of the vectors gets changed. Whereas we have special type of vectors called Eigen vectors whose direction remains the same after applying matrix as linear transformation, even though its magnitude might change (Increase or decrease).The decrease or increase in the magnitude of the eigen value is represented by a value called eigen value and it is typically represented by lambda
+An important point to keep in mind is that matrix is simply a linear transformation on the feature space and when we do this transformation then both the direction and the magnitude of the vectors gets changed. Whereas we have special type of vectors called Eigen vectors which we can get from any square matrix (Excluding the identity matrix because it do not affect the feature space). The unique thing about eigen vector is that their direction remains the same after linear transformation, even though their magnitude might change (Increase or decrease).The decrease or increase in the magnitude of the eigen value is represented by a value called eigen value and it is typically represented by lambda.
 
 ![Matrix Linear transformation.png](https://github.com/yuvraaj2002/AI-Notes/blob/master/Unsupervised%20Learning/Images/Matrix%20Linear%20transformation.png)
 
 Here is the visualization tool which we can use to understand this concept [Matrix transformation visualizer](https://www.geogebra.org/m/YCZa8TAH)
 
-When we apply the covariance matrix as a linear transformation on the data, we get the same number of eigenvectors and eigenvalues as the number of features. These eigenvectors represent the principal components, and the eigenvalues indicate the amount of variance captured by each principal component.
+In the context of PCA when we apply the covariance matrix as a linear transformation on the data, we get the same number of eigenvectors as the number of features. These eigenvectors represent the principal components, and the eigenvalues indicate the amount of variance captured by each principal component.
 
 ##### Step 4 (Vector projection of data points on the PC or Eigen vectors)
 
