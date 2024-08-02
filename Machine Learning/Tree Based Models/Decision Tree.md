@@ -82,7 +82,7 @@ Both the decision tree classifier and regressor are extremely prone to overfitti
 - For the classification the default stopping criteria is to split until the dataset is not completely pure (that means until all data points don't belong to single class)
 - For the regression the default stopping criteria is to split until the variance is not 0 
 
-![[Pasted image 20240718173559.png]]
+![[DT Overfitting Regression.png]]
 
 ![[Pasted image 20240717052435.png]]
 
@@ -128,16 +128,22 @@ visualize_postpruning_effect(ccp_alpha_values)
 - `Maximum depth`: Used to define the maximum depth of the tree. Small value leads to underfitting and large value leads to overfitting
 - `Min_samples`: Used to define the minimum number of samples that needs to be considered for doing splitting. Small value : Overfitting and large value : Underfitting
 - `Min_samples_leaf`: Used to define minimum number of samples which must exist in the leaf node after splitting
-- `Minimum_impurity_decrease`: Used to define the minimum impurity decrease which must be there after doing splitting. _**Impurity_parent + Weighted sum of (child impurities) > threshold**_
-- `Maximum features and Maximum leafs`: Used to define the maximum number features to be considered and also the maximum number of leaf nodes that must be formed. For maximum features we can use sqrt(features) or log_2(features)
+- `Minimum_impurity_decrease`: Used to define the minimum impurity decrease which must be there after doing splitting. _**Impurity_parent - Weighted sum of (child impurities) > threshold**_
+- `Maximum features and Maximum leafs`: Used to define the maximum number features to be considered and also the maximum number of leaf nodes that must be formed. For maximum features we can use `sqrt(features) or log_2(features)`
+
+### [What is the thumb rule to find the Maximum Features](#)
+
+sqrt(features) or log_2(features)
 
 
 ##### Talk about sensitivity to axis orientation
 
 ##### Talk about the time complexity 
 
-##### Using decision tree to calculate the feature importance
-[[Feature Selection]]
+### [Using decision tree to calculate the feature importance](#)
+
+Since decision tree perform the attribute selection to split the dataset, thus we can also use the decision tree for getting feature importance which guides us for [[Feature Selection]].
+
 ```python
 # Function to calculate and plot feature importances
 def plot_feature_importances(model, feature_names):

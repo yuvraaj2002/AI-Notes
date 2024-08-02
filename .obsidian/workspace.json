@@ -89,7 +89,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 336.5004348754883
+    "width": 336.5004348754883,
+    "collapsed": true
   },
   "right": {
     "id": "75ce3ba0dea3f5ef",
@@ -167,7 +168,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "89ad46e437a54122",
+  "active": "20ce28621b01ea7d",
   "lastOpenFiles": [
     "Machine Learning/Images/Gini Calculation MC.png",
     "Machine Learning/Tree Based Models/Decision Tree.md",
