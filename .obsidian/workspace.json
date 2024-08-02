@@ -104,8 +104,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 336.5004348754883,
-    "collapsed": true
+    "width": 336.5004348754883
   },
   "right": {
     "id": "75ce3ba0dea3f5ef",
@@ -183,7 +182,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "2f836886c683f17b",
+  "active": "89ad46e437a54122",
   "lastOpenFiles": [
     "Preparation Index.md",
     "Unsupervised Learning/Clustering Algorithms/Partition based clustering.md",

@@ -41,7 +41,7 @@ AGNES stands for Agglomerative nesting and it is a bottom to up approach where w
 - Average Linkage : The average distance between all the pair of points from 2 clusters.
 - Centroid linkage : The centroids are used for linking the clusters
 
-![[Pasted image 20240714163843.png]]
+![[Unsupervised Learning/images/Types of Linkage.png]]
 
 
 ### [Explain the working of DIANA ?](#)
