@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "General ML Topics/Feature Engineering.md",
+                "file": "Unsupervised Learning/Clustering Algorithms/Clustering Metrics.md",
                 "mode": "source",
                 "source": false
               }
@@ -115,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "General ML Topics/Feature Engineering.md",
+                "file": "Unsupervised Learning/Clustering Algorithms/Clustering Metrics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "General ML Topics/Feature Engineering.md",
+                "file": "Unsupervised Learning/Clustering Algorithms/Clustering Metrics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "General ML Topics/Feature Engineering.md"
+                "file": "Unsupervised Learning/Clustering Algorithms/Clustering Metrics.md"
               }
             }
           }
@@ -177,10 +177,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "89ad46e437a54122",
+  "active": "20ce28621b01ea7d",
   "lastOpenFiles": [
-    "Feature Engineering.md",
+    "Preparation Index.md",
+    "Unsupervised Learning/Clustering Algorithms/Clustering Metrics.md",
     "General ML Topics/Feature Engineering.md",
+    "Feature Engineering.md",
     "General ML Topics/Feature Extraction.md",
     "Unsupervised Learning/Dimensionality Reduction Techniques/PCA.md",
     "Database Management System/SQL/TCL.md",
@@ -196,7 +198,6 @@
     "Python/Generator and Iterator.md",
     "Unsupervised Learning/Clustering Algorithms/Hierarchy based clustering.md",
     "Unsupervised Learning/Clustering Algorithms/AGNES and DIANA.md",
-    "Preparation Index.md",
     "Unsupervised Learning/Clustering Algorithms/Partition based clustering.md",
     "Database Management System/SQL/Views.md",
     "Database Management System/SQL/Untitled.md",
