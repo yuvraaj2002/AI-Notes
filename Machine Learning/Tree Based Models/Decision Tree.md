@@ -66,11 +66,13 @@ Entropy is computationally more expansive than the Gini Impurity so it recommend
 
 ### [How does decision tree works for the regression problems](#)
 
-In case of regression the work flow is almost same the only difference is that rather than using the Gini impurity as attribute selection criteria we focus on Variance and select that attribute-value for splitting which maximize the minimization of the variance in the dataset.![[Pasted image 20240717052553.png]]
+In case of regression the work flow is almost same the only difference is that rather than using the Gini impurity as attribute selection criteria we focus on Variance and select that attribute-value for splitting which maximize the minimization of the variance in the dataset.
+
+![[CART Regression.png]]
 
 Here is the sample example of how to solve the problem for the feature having more than 2 categories and also for the feature with numerical values.
 
-![[Pasted image 20240718172919.png|400]]
+![[CART Regression OVR.png|400]]
 
 
 ### [Why are decision tree so prone to overfitting ?](#) 
