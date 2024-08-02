@@ -49,28 +49,19 @@ $$G_{Total} = Points_{Left}/Points_{Total} * G_{Left} + Points_{Right}/Points_{T
 ![[Gini Calculation Numerical.png]]
 
 
-### [Out of Gini Impurity and Entropy which one should we use ?](#) 
+### [Out of Gini Impurity and Entropy which one should we use, also talk about the ranges](#) 
 
+The choice between using the Gini Impurity $G_i = 1− ∑ p_i ^2$ and the Entropy $E_i = -P_i*Log_2(P_i)$ is completely based on the size and the complexity of the dataset.
 
-- What do you mean by entropy and what is the range of entropy?
-    
-    Entropy is a measure of impurity and it gives us information about the homogeneity of the dataset. To better understand this if we have 10 data points and 9 of them belong to certain class in that case the entropy of such dataset will be less. (Homogeneity if high)
-    
-    <aside> 🧴 Entropy is one of crucial measure used by CART for doing attribute selection
-    
-    </aside>
-    
-    ![p_i proportion of data points belonging to a class](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f2dfc2ad-5aaf-4feb-9d5e-1d0bc8d888e8/Untitled.png)
-    
-    p_i proportion of data points belonging to a class
-    
-    ### Range
-    
-    - For binary class `Min value = 0` and `Maximum value = 1`
-    - For multi class `Min value = 0` and `Maximum value = log_2(n)` , n is number of classes
-- Out of Gini and Entropy which one to use?
-    
-    The use measure of impurity is totally on us. Entropy is computationally more expensive than Gini impurity thus normally we use Gini impurity but we can also use entropy.
+Entropy is computationally more expansive than the Gini Impurity so it recommended to use
+- Entropy for smaller and simpler datasets
+- Gini for large and complex datasets.
+
+- Range of Gini Impurity is from 0 to 0.5
+- Range of Entropy is different based on number of classes
+	- For binary classes it is from 0 to 1
+	- For multiple classes it is from 0 to $Log_2(n)$
+
 
 
 ### [How does decision tree works for the regression problems](#)
