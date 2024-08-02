@@ -6,21 +6,21 @@ This page is dedicated to everything related to the decision tree algorithm. In 
 - [Pruning](https://drive.google.com/file/d/1yU-tkH1KMGu7pXHsHmPz5I94NNw7W2wj/view)
 - [Gini Impurity | Splitting Decision Tress with Gini Impurity](https://www.analyticsvidhya.com/blog/2021/03/how-to-select-best-split-in-decision-trees-gini-impurity/)
 
-- [ ] Talk about axis orientation time complexity and also the gini - entropy comparision 
 
-##### What do you mean by decision tree and tell whether it is white or black box model?
+
+### [What do you mean by decision tree and tell whether it is white or black box model?](#)
 
 Decision tree is an supervised machine learning algorithm which can be used to solve both classification and regression problems, from the big picture we can simply consider the decision tree to be a giant nested if else condition which visually seems to be a tree.
 
 Talking about the black box and white box, the decision tree is pure white box model and is one of the algorithm which is best for the inference because it gives us the exact justification of why we got a particular output corresponding to a query point.
 
-##### Whether decision tree is parametric or non parametric ? 
+### [Whether decision tree is parametric or non parametric ? ](#)
 
 Decision tree is non parametric in nature because it do not make any kind of assumption about the underlying data with which it will work with, not only this since the parameters of the algorithm increases with the increase in data so that is also the indication that the algorithm is non parametric in nature.
 
 In the context of a decision tree, the model parameters are the components that define the structure and since with the increase in the data the structure generally varies so that's why we call decision tree to be non parametric
 
-##### What are the various algorithms used for decision tree and tell the difference between them? 
+### [What are the various algorithms used for decision tree and tell the difference between them?](#) 
 
 There are basically 3 different algorithms which we can use in order to build the decision tree and these 3 algorithms are 
 
@@ -32,7 +32,7 @@ The basic difference between these algorithms is that the CART algorithm creates
 
 Other than this the difference lies in the splitting criteria being used, such as CART algorithm uses the Gini Impurity, ID3 uses the Information gain (with entropy) and C4.5 uses the Gain ratio.
 
-##### Explain working of decision tree for classification ? 
+### [Explain working of decision tree for classification ?](#) 
 
 In scikit learn the Decision tree classifier uses the CART algorithm for creating the decision tree and this algorithm creates a binary tree by using the Gini impurity as the splitting criteria. The way this algorithm works is that for the given dataset it simply find the attribute which will give us highest quality of split ( that means it will lead to more pure dataset) and for finding such an attribute the CART algorithms uses the gini impurity.
 
@@ -42,7 +42,7 @@ Mathematically it is given as $G_i = 1− ∑ p_i ^2$, where $p_i$ represents th
 - For the category with numerical values we sort them first and then calculate the mean between every consecutive 2 values and use that mean value as the split point.![[Pasted image 20240718172451.png]]
 
 
-##### Out of Gini Impurity and Entropy which one should we use ? 
+### [Out of Gini Impurity and Entropy which one should we use ?](#) 
 
 
 - What do you mean by entropy and what is the range of entropy?
@@ -66,7 +66,7 @@ Mathematically it is given as $G_i = 1− ∑ p_i ^2$, where $p_i$ represents th
     The use measure of impurity is totally on us. Entropy is computationally more expensive than Gini impurity thus normally we use Gini impurity but we can also use entropy.
 
 
-##### How does decision tree works for the regression problems
+### [How does decision tree works for the regression problems](#)
 
 In case of regression the work flow is almost same the only difference is that rather than using the Gini impurity as attribute selection criteria we focus on Variance and select that attribute-value for splitting which maximize the minimization of the variance in the dataset.![[Pasted image 20240717052553.png]]
 
@@ -75,7 +75,7 @@ Here is the sample example of how to solve the problem for the feature having mo
 ![[Pasted image 20240718172919.png|400]]
 
 
-##### Why are decision tree so prone to overfitting ? 
+### [Why are decision tree so prone to overfitting ?](#) 
 
 Both the decision tree classifier and regressor are extremely prone to overfitting because of their default stopping criteria's,
 
@@ -86,7 +86,7 @@ Both the decision tree classifier and regressor are extremely prone to overfitti
 
 ![[Pasted image 20240717052435.png]]
 
-##### Talk about all the ways using which we can deal with the overfitting
+### [Talk about all the ways using which we can deal with the overfitting](#)
 
 The only way we can actually deal with the problem of overfitting is to actually use [[Regularization]] and in the context of decision tree regularization is done via Pruning, where 
 
@@ -123,7 +123,7 @@ visualize_postpruning_effect(ccp_alpha_values)
 ![[Pasted image 20240703160516.png]]
 
 
-##### What are the various hyper parameters of the decision tree
+### [What are the various hyper parameters of the decision tree](#)
 
 - `Maximum depth`: Used to define the maximum depth of the tree. Small value leads to underfitting and large value leads to overfitting
 - `Min_samples`: Used to define the minimum number of samples that needs to be considered for doing splitting. Small value : Overfitting and large value : Underfitting
