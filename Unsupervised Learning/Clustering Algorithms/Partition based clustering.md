@@ -45,17 +45,6 @@ To get a good quality cluster the Separation (Inter cluster) distance needs to b
 - A score close to 0 indicates that the data point lies near the boundary between clusters.
 - A score close to -1 indicates that the data point may have been assigned to the wrong cluster.
 
-### [What are the drawbacks of using KMeans ?](#) 
-
-1. It is sensitive to initialization of centroids, due to which we might either end up getting wrong cluster formation or we might convergence will be very slow.
-2. We need to be aware about value of K prior implementing the algorithm to form cluster, thus extra computation is needed to first get the right value of K
-3. It gives us good results only if internally the clusters are spherical in nature.
-
-### [Talk about the problem of initialization of KMeans and  how its solved ?](#) 
-
-Major drawback of traditional K means clustering algorithm is the sensitivity to the initialization of K centroids and the thing is that if the initially all the centroids will be present closer to each other then we might get suboptimal results or it would take longer to converge to the global minima. So in order to solve this problem we use a advance version of this algorithm which we call as KMeans++ algorithm.
-  
-
 ### [Code to find value of K using elbow and silhouette Score method](#)
 
 ``` python
@@ -114,3 +103,29 @@ kmeans.fit(df)
 # Making predictions
 clusters = kmeans.predict(df)
 ```
+
+### [What are the drawbacks of using KMeans ?](#) 
+
+1. It is sensitive to initialization of centroids, due to which we might either end up getting wrong cluster formation or we might convergence will be very slow.
+2. We need to be aware about value of K prior implementing the algorithm to form cluster, thus extra computation is needed to first get the right value of K
+3. It gives us good results only if internally the clusters are spherical in nature.
+
+### [Talk about the problem of initialization of KMeans and  how its solved ?](#) 
+
+Major drawback of traditional K means clustering algorithm is the sensitivity to the initialization of K centroids and the thing is that if the initially all the centroids will be present closer to each other then we might get suboptimal results or it would take longer to converge to the global minima. So in order to solve this problem we use a advance version of this algorithm which we call as KMeans++ algorithm.
+  
+### [Explain how KMeans++ solve the initialization problem](#)
+
+KMeans++ improves the initialization process by using a more strategic approach to select the initial centroids.
+
+- **Randomly select the first centroid** from the dataset.
+- **Compute the distance** of each data point from the nearest selected centroid.
+- **Choose the next centroid** with probability proportional to the square of this distance.
+- **Repeat** the previous step until all `k` centroids are selected.
+
+### [Why we not simply select farthest point and introduce concept of probability](#)
+
+The choice of using probability proportional to the squared distance rather than simply selecting the farthest point as the next centroid in KMeans++ is designed to balance the trade-off between exploration and exploitation in the initialization process. Here’s why this probabilistic approach is preferred:
+
+- **Problem with Farthest Point**: If you always choose the farthest point as the next centroid, there is a risk of selecting outliers or points that are very distant from most of the data. These outliers can skew the centroid locations and lead to poor clustering results.
+- **Probabilistic Approach**: By using a probability proportional to the squared distance, KMeans++ reduces the likelihood of selecting outliers as centroids. It gives a higher probability to points that are far from the existing centroids, but still allows some chance for closer points to be selected, which helps in capturing the overall data distribution more effectively.
