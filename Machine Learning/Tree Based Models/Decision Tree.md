@@ -42,11 +42,11 @@ $$G_{Total} = Points_{Left}/Points_{Total} * G_{Left} + Points_{Right}/Points_{T
 
 - Also note that the feature having More than 2 categories we use the One vs rest approach for calculating the overall gini impurity (Like this category data and remaining category data).
  
-![[Gini Calculation MC.png]]
+![Gini Calculation MC.png](https://github.com/yuvraaj2002/AI-Notes/blob/master/Machine%20Learning/Images/Gini%20Calculation%20MC.png)
 
 - For the category with numerical values we sort them first and then calculate the mean between every consecutive 2 values and use that mean value as the split point.
 
-![[Gini Calculation Numerical.png]]
+![Gini Calculation Numerical.png](https://github.com/yuvraaj2002/AI-Notes/blob/master/Machine%20Learning/Images/Gini%20Calculation%20Numerical.png)
 
 
 ### [Out of Gini Impurity and Entropy which one should we use ?](#) 
