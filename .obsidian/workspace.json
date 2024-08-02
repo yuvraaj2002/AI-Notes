@@ -40,9 +40,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "3715dfde6225307f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Machine Learning/Tree Based Models/Random Forest.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -92,7 +104,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
+    "width": 326.5004348754883,
     "collapsed": true
   },
   "right": {
@@ -109,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Machine Learning/Tree Based Models/Decision Tree.md",
+                "file": "Machine Learning/Tree Based Models/Random Forest.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Machine Learning/Tree Based Models/Decision Tree.md",
+                "file": "Machine Learning/Tree Based Models/Random Forest.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Machine Learning/Tree Based Models/Decision Tree.md"
+                "file": "Machine Learning/Tree Based Models/Random Forest.md"
               }
             }
           }
@@ -171,14 +183,15 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "89ad46e437a54122",
+  "active": "3715dfde6225307f",
   "lastOpenFiles": [
+    "Preparation Index.md",
+    "Machine Learning/Tree Based Models/Decision Tree.md",
     "Machine Learning/Images/CC Alpha.png",
     "Machine Learning/Images/Axis Sensitive.png",
     "2024-08-01.md",
     "Machine Learning/Images/Pasted image 20240703160516.png",
     "Books/Hands on Machine Learning.pdf",
-    "Machine Learning/Tree Based Models/Decision Tree.md",
     "Machine Learning/Images/Gini Calculation MC.png",
     "Unsupervised Learning/Clustering Algorithms/Clustering Metrics.md",
     "Excalidraw/Drawing 2024-07-31 11.57.09.excalidraw.md",
@@ -190,7 +203,6 @@
     "Excalidraw/Drawing 2024-07-28 08.28.40.excalidraw.md",
     "Excalidraw/Drawing 2024-07-13 18.39.32.excalidraw.md",
     "Excalidraw",
-    "Preparation Index.md",
     "General ML Topics/Feature Engineering.md",
     "Feature Engineering.md",
     "General ML Topics/Feature Extraction.md",
@@ -210,7 +222,6 @@
     "Pasted image 20240801130046.png",
     "Deep Learning/Images/GRU.png",
     "Deep Learning/Images/LSTM working.gif",
-    "Deep Learning/Images/Output Gate.png",
     "Programs/Python Concepts/Decorator.ipynb",
     "Programs/Python Concepts",
     "Programs/New folder",

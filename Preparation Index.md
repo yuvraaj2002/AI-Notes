@@ -10,7 +10,7 @@ This page is actually dedicated towards the indexing of all the topics that I kn
 - [x] Polynomial regression
 - [ ] Logistic regression
 - [x] KNN 
-- [ ] Decision Tree
+- [x] Decision Tree
 - [x] Naive bayes
 - [ ] Support vector machine
 - [x] Random Forest
