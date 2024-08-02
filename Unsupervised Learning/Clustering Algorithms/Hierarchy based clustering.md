@@ -46,7 +46,7 @@ AGNES stands for Agglomerative nesting and it is a bottom to up approach where w
 
 ### [Explain the working of DIANA ?](#)
 
-![[Pasted image 20240714165027.png]]
+![[Unsupervised Learning/images/DIANA Working.png]]
 
 
 
@@ -59,54 +59,4 @@ AGNES stands for Agglomerative nesting and it is a bottom to up approach where w
 	- Until we don't get individual data points keep on fragmenting the clusters
 	- Until we haven't reached the specified number of clusters
 
-
-
-- What are the types of linkages used in agglomerative clustering?
-    
-    There are 3 types of agglomerative clustering ⬇️
-    
-    1. _**Single linkage**_ : In this during the updation of the distance matrix we only consider minimum distance between all possible pairs of data points from clusters
-    2. _**Average linkage**_: In this during the updation of distance matrix we take the average distance of all possible pair of points from the clusters
-    3. _**Complete linkage**_ : In this during the updation of distance matrix we only consider the maximum distance out of all possible pair of data points from the clusters.
-- Explain agglomerative hierarchical clustering
-    
-    ### Basic idea 💡
-    
-    Agglomerative hierarchical clustering uses a bottom up clustering approach, where initially all the data points are considered to be clusters and after that recursively similar clusters are merged to create a big cluster, this process is repeated until we get one big cluster or up-to a point defined by stopping criterion.
-    
-    ### Algorithm 👨🏾‍💻
-    
-    1. Create a distance matrix of n*n size where n→ Number of data points
-    2. Select most similar(closest) pair of clusters and merge them
-    3. Update the distance matrix based on the type of agglomerative clustering
-    4. Repeat steps 2 and 3 until we get one big cluster or until stopping criterion is not reached
-    
-    ### Example
-    
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/835648c2-8c9d-4d6e-9e3d-29811c262637/Untitled.jpeg)
-    
-    [Euclidean Distance Calculator](https://www.omnicalculator.com/math/euclidean-distance)
-    
-- Stopping criterion
-    
-    The stopping criterion for agglomerative hierarchical clustering can be determined based on either the number of clusters or a threshold distance/similarity.
-    
-    1. Number of Clusters: One common stopping criterion is to specify the desired number of clusters to be formed. The algorithm stops when the number of clusters reaches the specified value. This approach is useful when we have prior knowledge about the number of clusters in the dataset.
-    2. Threshold Distance/Similarity: Another stopping criterion is to specify a threshold distance or similarity value, below which clusters will not be merged. This approach is useful when we do not have prior knowledge about the number of clusters in the dataset. The algorithm continues to merge clusters until the distance or similarity between them exceeds the specified threshold.
-- Talk about CURE and Chameleon
-    
-    - CURE
-        
-        CURE stands for clustering using representatives and it is specifically designed to handle **large datasets with non-spherical and unevenly sized clusters**. It overcomes the limitations of centroid-based algorithms like K-means, which can struggle with these types of cluster shapes.
-        
-        ### Key features
-        
-        - **Representative Points:** Instead of relying on a single centroid per cluster, CURE uses a set of representative points to capture the diversity and extent of each cluster.
-        - **Shrinking and Merging:** Representative points are iteratively shrunk towards the cluster center and merged based on their proximity, progressively refining the cluster representation.
-        
-        ### Working
-        
-        1. **Initial Partitioning:** CURE starts by performing a single-link hierarchical clustering on the data, forming initial hierarchy of clusters.
-        2. **Representative Selection:** Within each cluster, a fixed number of well-scattered points are chosen as representative points.
-        3. **Shrinking and Merging:** Representative points are shrunk towards the cluster center by a pre-defined factor, effectively pulling them closer to the core of the cluster.
-    - Chameleon
+Other than this we can also consider the `Silhouette Score` as the main guiding force for understanding what should be appropriate number of clusters.
