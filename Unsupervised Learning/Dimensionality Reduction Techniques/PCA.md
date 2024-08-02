@@ -49,19 +49,19 @@ Since we know that in PCA our aim is to find the Principal components which maxi
 
 Even though this step is not mandatory but experimentally it has been observed that when we do the mean centering of the data then the performance of the PCA improves.
 
-![[Unsupervised Learning/Images/Mean Centering.png|350]]
+![Unsupervised Learning/Images/Mean Centering.png](https://github.com/yuvraaj2002/AI-Notes/blob/master/Unsupervised%20Learning/Images/Mean%20Centering.png)
 
 ##### Step 2 ( Calculating the Covariance matrix )
 
 From the given data first of all we find the covariance matrix, which is a type of matrix that not only gives us information about the spread of each feature but also gives us information about how 2 features are related with each other.
 
-![[Unsupervised Learning/Images/Covariance_Matrix.png|280]]
+![Unsupervised Learning/Images/Covariance_Matrix.png](https://github.com/yuvraaj2002/AI-Notes/blob/master/Unsupervised%20Learning/Images/Covariance_Matrix.png)
 
 ##### Step 3 (Find eigen value-vector covariance matrix)
 
 An important point to keep in mind is that matrix is simply a linear transformation on the feature space and when we do this transformation then both the direction and the magnitude of the vectors gets changed. Whereas we have special type of vectors called Eigen vectors whose direction remains the same after applying matrix as linear transformation, even though its magnitude might change (Increase or decrease).The decrease or increase in the magnitude of the eigen value is represented by a value called eigen value and it is typically represented by lambda
 
-![[Unsupervised Learning/Images/Matrix Linear transformation.png]]
+![Matrix Linear transformation.png](https://github.com/yuvraaj2002/AI-Notes/blob/master/Unsupervised%20Learning/Images/Matrix%20Linear%20transformation.png)
 
 Here is the visualization tool which we can use to understand this concept [Matrix transformation visualizer](https://www.geogebra.org/m/YCZa8TAH)
 
