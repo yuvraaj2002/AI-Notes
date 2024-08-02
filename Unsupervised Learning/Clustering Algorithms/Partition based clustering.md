@@ -37,7 +37,7 @@ Silhouette method is a more optimized technique that we can use for finding the 
 
 To get a good quality cluster the Separation (Inter cluster) distance needs to be maximized and the Cohesion (Intra cluster distance) needs to be minimized.
 
-![[Unsupervised Learning/images/Silhouette Score.png]]
+![Silhouette Score.png](https://github.com/yuvraaj2002/AI-Notes/blob/master/Unsupervised%20Learning/Images/Silhouette%20Score.png)
 
 ### [What is the Range of the Silhouette Score method](#)
 
