@@ -47,7 +47,7 @@ To get a good quality cluster the Separation (Inter cluster) distance needs to b
 
 ### [What are the drawbacks of using KMeans ?](#) 
 
-1. It is sensitive to initialization of centroids
+1. It is sensitive to initialization of centroids, due to which we might either end up getting wrong cluster formation or we might convergence will be very slow.
 2. We need to be aware about value of K prior implementing the algorithm to form cluster, thus extra computation is needed to first get the right value of K
 3. It gives us good results only if internally the clusters are spherical in nature.
 
