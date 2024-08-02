@@ -120,7 +120,7 @@ ccp_alpha_values = [0.0,1,1.5]
 visualize_postpruning_effect(ccp_alpha_values)
 ```
 
-![[CC Alpha.png]]
+![CC Alpha.png](https://github.com/yuvraaj2002/AI-Notes/blob/master/Machine%20Learning/Images/CC%20Alpha.png)
 
 
 ### [What are the various hyper parameters of the decision tree](#)
@@ -140,7 +140,7 @@ sqrt(features) or log_2(features)
 
 Decision trees love orthogonal decision boundaries (all splits are perpendicular to an axis), which makes them sensitive to the data’s orientation. But after the dataset is rotated by 45°, the decision boundary looks unnecessarily convoluted. Although both decision trees fit the training set perfectly, it is very likely that the model on the right will not generalize well.
 
-![[Axis Sensitive.png]]
+![Axis Sensitive.png](https://github.com/yuvraaj2002/AI-Notes/blob/master/Machine%20Learning/Images/Axis%20Sensitive.png)
 
 ### [Talk about the time complexity](#) 
 
