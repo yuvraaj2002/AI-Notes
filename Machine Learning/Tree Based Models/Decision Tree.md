@@ -36,10 +36,17 @@ Other than this the difference lies in the splitting criteria being used, such a
 
 In scikit learn the Decision tree classifier uses the CART algorithm for creating the decision tree and this algorithm creates a binary tree by using the Gini impurity as the splitting criteria. The way this algorithm works is that for the given dataset it simply find the attribute which will give us highest quality of split ( that means it will lead to more pure dataset) and for finding such an attribute the CART algorithms uses the gini impurity.
 
-Mathematically it is given as $G_i = 1− ∑ p_i ^2$, where $p_i$ represents the ratio of class instances among the total instances in the dataset. Also once we calculate the Gini impurity for the left and right child node we simply calculate the weighed sum of the gini impurities. $G = Ldp/Tdp * G_L + Rdp/Tdp * G_R$
+Mathematically it is given as $G_i = 1− ∑ p_i ^2$, where $p_i$ represents the ratio of class instances among the total instances in the dataset. Also once we calculate the Gini impurity for the left and right child node we simply calculate the weighed sum of the gini impurities. 
 
-- Also note that the feature having More than 2 categories we use the One vs rest approach for calculating the overall gini impurity (Like this category data and remaining category data).![[Pasted image 20240718172513.png]]
-- For the category with numerical values we sort them first and then calculate the mean between every consecutive 2 values and use that mean value as the split point.![[Pasted image 20240718172451.png]]
+$$G_{Total} = Points_{Left}/Points_{Total} * G_{Left} + Points_{Right}/Points_{Total} * G_{Right}$$
+
+- Also note that the feature having More than 2 categories we use the One vs rest approach for calculating the overall gini impurity (Like this category data and remaining category data).
+ 
+![[Gini Calculation MC.png]]
+
+- For the category with numerical values we sort them first and then calculate the mean between every consecutive 2 values and use that mean value as the split point.
+
+![[Gini Calculation Numerical.png]]
 
 
 ### [Out of Gini Impurity and Entropy which one should we use ?](#) 
