@@ -2,5 +2,5 @@
 - [[Regularization]]
 - [[Cross Validation]]
 - [[Regression Metrics]]
-- [[Feature Selection]]
+- [[Feature Engineering]]
 - [[Multicollinearity]]

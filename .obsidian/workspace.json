@@ -35,7 +35,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Unsupervised Learning/Clustering Algorithms/Hierarchy based clustering.md",
+                "file": "Unsupervised Learning/Dimensionality Reduction Techniques/PCA.md",
                 "mode": "source",
                 "source": false
               }
@@ -104,7 +104,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 336.5004348754883
+    "width": 336.5004348754883,
+    "collapsed": true
   },
   "right": {
     "id": "75ce3ba0dea3f5ef",
@@ -120,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Unsupervised Learning/Clustering Algorithms/Hierarchy based clustering.md",
+                "file": "Unsupervised Learning/Dimensionality Reduction Techniques/PCA.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Unsupervised Learning/Clustering Algorithms/Hierarchy based clustering.md",
+                "file": "Unsupervised Learning/Dimensionality Reduction Techniques/PCA.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Unsupervised Learning/Clustering Algorithms/Hierarchy based clustering.md"
+                "file": "Unsupervised Learning/Dimensionality Reduction Techniques/PCA.md"
               }
             }
           }
@@ -168,8 +169,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -184,14 +184,23 @@
   },
   "active": "2f836886c683f17b",
   "lastOpenFiles": [
-    "Unsupervised Learning/Clustering Algorithms/AGNES and DIANA.md",
+    "General ML Topics/Feature Engineering.md",
+    "Feature Extraction.md",
+    "Unsupervised Learning/Dimensionality Reduction Techniques/Autoencoders.md",
+    "Unsupervised Learning/Dimensionality Reduction Techniques/PCA.md",
+    "Tags/Machine Learning.md",
+    "Unsupervised Learning/Dimensionality Reduction Techniques/Dimensionality Reduction.md",
+    "Deep Learning/Text/LSTM.md",
+    "Feature Engineering.md",
+    "Tags/Data Processing.md",
+    "Python/Generator and Iterator.md",
     "Unsupervised Learning/Clustering Algorithms/Hierarchy based clustering.md",
+    "Unsupervised Learning/Clustering Algorithms/AGNES and DIANA.md",
     "Preparation Index.md",
     "Unsupervised Learning/Clustering Algorithms/Partition based clustering.md",
     "Database Management System/SQL/Views.md",
     "Database Management System/SQL/Untitled.md",
     "Database Management System/SQL/TCL.md",
-    "Deep Learning/Text/LSTM.md",
     "Deep Learning/Text/GRU.md",
     "Deep Learning/Images/Final Update Gate calculation.png",
     "Pasted image 20240801130046.png",
@@ -214,17 +223,8 @@
     "Books/Python_Object-Oriented_Programming.pdf",
     "Deep Learning/Text/Recurrent Neural Net.md",
     "Deep Learning/Images/LSTM.png",
-    "Excalidraw/Drawing 2024-07-31 05.20.45.excalidraw.md",
-    "Daily Goals/2024-07-30.md",
     "Deep Learning/Images/Vanishing_Gradient.png",
-    "Tags/Deep Learning.md",
-    "Generative AI/History Behind LLM.md",
-    "Daily Goals/2024-07-29.md",
-    "README.md",
-    "Machine Learning/Linear Models/Linear Regression.md",
-    "Python/Object Oriented Programming/Abstraction.md",
     "Books/Daily Dose of Data Science.pdf",
-    "Excalidraw/Drawing 2024-07-29 12.16.36.excalidraw.md",
     "Programs/Object Oriented Programming/Abstraction.ipynb",
     "Programs/Object Oriented Programming/Encapsulation.ipynb",
     "Books/75 OOP Questions.pdf",
