@@ -182,8 +182,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "89ad46e437a54122",
+  "active": "2f836886c683f17b",
   "lastOpenFiles": [
+    "Unsupervised Learning/Clustering Algorithms/AGNES and DIANA.md",
+    "Unsupervised Learning/Clustering Algorithms/Hierarchy based clustering.md",
     "Preparation Index.md",
     "Unsupervised Learning/Clustering Algorithms/Partition based clustering.md",
     "Database Management System/SQL/Views.md",
@@ -223,10 +225,8 @@
     "Python/Object Oriented Programming/Abstraction.md",
     "Books/Daily Dose of Data Science.pdf",
     "Excalidraw/Drawing 2024-07-29 12.16.36.excalidraw.md",
-    "Tags/System Design.md",
     "Programs/Object Oriented Programming/Abstraction.ipynb",
     "Programs/Object Oriented Programming/Encapsulation.ipynb",
-    "Python/Object Oriented Programming/Polymorphism.md",
     "Books/75 OOP Questions.pdf",
     "Programs/Object Oriented Programming",
     "Python/Automation",
