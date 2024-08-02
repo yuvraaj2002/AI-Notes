@@ -11,11 +11,9 @@
             "id": "20ce28621b01ea7d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Machine Learning/Tree Based Models/Decision Tree.md",
-                "mode": "source",
-                "source": false
+                "file": "Books/Hands on Machine Learning.pdf"
               }
             }
           },
@@ -35,11 +33,16 @@
             "id": "f9bc49708c3ce8e6",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Machine Learning/Tree Based Models/Decision Tree.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -89,7 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 336.5004348754883,
+    "width": 200,
     "collapsed": true
   },
   "right": {
@@ -168,10 +171,13 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "20ce28621b01ea7d",
+  "active": "89ad46e437a54122",
   "lastOpenFiles": [
-    "Machine Learning/Images/Gini Calculation MC.png",
+    "Machine Learning/Images/Pasted image 20240703160516.png",
+    "Machine Learning/Images/Axis Sensitive.png",
+    "Books/Hands on Machine Learning.pdf",
     "Machine Learning/Tree Based Models/Decision Tree.md",
+    "Machine Learning/Images/Gini Calculation MC.png",
     "Unsupervised Learning/Clustering Algorithms/Clustering Metrics.md",
     "Excalidraw/Drawing 2024-07-31 11.57.09.excalidraw.md",
     "Excalidraw/Drawing 2024-08-02 15.39.01.excalidraw.md",
@@ -205,8 +211,6 @@
     "Deep Learning/Images/LSTM working.gif",
     "Deep Learning/Images/Output Gate.png",
     "Pasted image 20240731132444.png",
-    "Deep Learning/Images/Input_Gate.png",
-    "Deep Learning/Images/Forget Gate.png",
     "Programs/Python Concepts/Decorator.ipynb",
     "Programs/Python Concepts",
     "Programs/New folder",
@@ -215,7 +219,6 @@
     "Programs/Object Oriented Programming/Abstraction.ipynb",
     "Programs/Object Oriented Programming/Encapsulation.ipynb",
     "Books/75 OOP Questions.pdf",
-    "Programs/Object Oriented Programming",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]
