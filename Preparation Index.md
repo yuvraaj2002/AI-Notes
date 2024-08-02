@@ -69,17 +69,12 @@ This page is actually dedicated towards the indexing of all the topics that I kn
 
 ###### Unsupervised Machine Learning
 
-- [ ] KMeans and KMeans++
+- [x] KMeans and KMeans++
 - [ ] DBSCAN
 - [ ] AGNES and DIANA
 - [ ] Dimensionality reduction Principal Component analysis
 - [ ] Clustering metrics 
- python -m venv .venv
- .venv\Scripts\activate.bat
 
-Then create requirements.txt file without -e. wala symbol ya kr bhi skti hai but for that you need setup file and __init__.py file is src folder
-
-pip install -r requirements.txt
 
 ###### Database and SQL
 

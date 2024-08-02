@@ -35,7 +35,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Unsupervised Learning/Clustering Algorithms/Partition based clustering.md",
+                "file": "Unsupervised Learning/Clustering Algorithms/Hierarchy based clustering.md",
                 "mode": "source",
                 "source": false
               }
@@ -104,7 +104,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 336.5004348754883
+    "width": 336.5004348754883,
+    "collapsed": true
   },
   "right": {
     "id": "75ce3ba0dea3f5ef",
@@ -120,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Unsupervised Learning/Clustering Algorithms/Partition based clustering.md",
+                "file": "Unsupervised Learning/Clustering Algorithms/Hierarchy based clustering.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Unsupervised Learning/Clustering Algorithms/Partition based clustering.md",
+                "file": "Unsupervised Learning/Clustering Algorithms/Hierarchy based clustering.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Unsupervised Learning/Clustering Algorithms/Partition based clustering.md"
+                "file": "Unsupervised Learning/Clustering Algorithms/Hierarchy based clustering.md"
               }
             }
           }
@@ -182,9 +183,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "89ad46e437a54122",
+  "active": "2f836886c683f17b",
   "lastOpenFiles": [
     "Preparation Index.md",
+    "Unsupervised Learning/Clustering Algorithms/Partition based clustering.md",
     "Database Management System/SQL/Views.md",
     "Database Management System/SQL/Untitled.md",
     "Database Management System/SQL/TCL.md",
@@ -227,7 +229,6 @@
     "Programs/Object Oriented Programming/Encapsulation.ipynb",
     "Python/Object Oriented Programming/Polymorphism.md",
     "Books/75 OOP Questions.pdf",
-    "Python/Object Oriented Programming/Inheritance.md",
     "Programs/Object Oriented Programming",
     "Python/Automation",
     "Untitled.canvas",
