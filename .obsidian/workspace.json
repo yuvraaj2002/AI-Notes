@@ -35,7 +35,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Database Management System/SQL/Views.md",
+                "file": "Unsupervised Learning/Clustering Algorithms/Partition based clustering.md",
                 "mode": "source",
                 "source": false
               }
@@ -121,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Database Management System/SQL/Views.md",
+                "file": "Unsupervised Learning/Clustering Algorithms/Partition based clustering.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Database Management System/SQL/Views.md",
+                "file": "Unsupervised Learning/Clustering Algorithms/Partition based clustering.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Database Management System/SQL/Views.md"
+                "file": "Unsupervised Learning/Clustering Algorithms/Partition based clustering.md"
               }
             }
           }
@@ -185,8 +185,9 @@
   },
   "active": "2f836886c683f17b",
   "lastOpenFiles": [
-    "Database Management System/SQL/Untitled.md",
     "Preparation Index.md",
+    "Database Management System/SQL/Views.md",
+    "Database Management System/SQL/Untitled.md",
     "Database Management System/SQL/TCL.md",
     "Deep Learning/Text/LSTM.md",
     "Deep Learning/Text/GRU.md",
@@ -229,7 +230,6 @@
     "Books/75 OOP Questions.pdf",
     "Python/Object Oriented Programming/Inheritance.md",
     "Programs/Object Oriented Programming",
-    "Python/Object Oriented Programming/Introduction to OOP.md",
     "Python/Automation",
     "Untitled.canvas",
     "Untitled 1.canvas"

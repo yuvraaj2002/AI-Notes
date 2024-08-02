@@ -71,10 +71,15 @@ This page is actually dedicated towards the indexing of all the topics that I kn
 
 - [ ] KMeans and KMeans++
 - [ ] DBSCAN
-- [x] AGNES and DIANA
-- [x] Dimensionality reduction Principal Component analysis
+- [ ] AGNES and DIANA
+- [ ] Dimensionality reduction Principal Component analysis
 - [ ] Clustering metrics 
+ python -m venv .venv
+ .venv\Scripts\activate.bat
 
+Then create requirements.txt file without -e. wala symbol ya kr bhi skti hai but for that you need setup file and __init__.py file is src folder
+
+pip install -r requirements.txt
 
 ###### Database and SQL
 
@@ -83,7 +88,7 @@ This page is actually dedicated towards the indexing of all the topics that I kn
 - [x] Window functions
 - [x] Subqueries
 - [x] Order By
-- [ ] Views
+- [x] Views
 - [ ] Function and Stored procedures
 - [x] Common table expression
 - [x] Aggregate functions

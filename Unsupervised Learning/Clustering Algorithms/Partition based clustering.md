@@ -1,6 +1,6 @@
 This page is dedicated towards understanding the concept of Partition based clustering and all the notes are mentioned below and I will also be adding the links to the resources that I have been using to understand this topic.
 
-##### What do you mean by partition based clustering and what are the algorithms which uses this approach ? 
+### [What do you mean by partition based clustering and what are the algorithms which uses this approach ?](#) 
 
 Partition or centroid based clustering is a clustering technique where we assign the clusters to data points based on their similarity/[proximity](https://www.google.com/search?q=What+is+the+meaning+of+proximity+&sxsrf=APwXEdeNBt1hTEiKqoPrkWmzX3lZFFma6A%3A1684144359781&ei=5wBiZPSdL5Pn4-EPxPWP0Ak&ved=0ahUKEwi0rcLShvf-AhWT8zgGHcT6A5oQ4dUDCA8&uact=5&oq=What+is+the+meaning+of+proximity+&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAzIECCMQJzIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBggAEBYQHjIGCAAQFhAeMgYIABAWEB4yBggAEBYQHjIICAAQFhAeEA86CggAEEcQ1gQQsANKBAhBGABQ1mtYpm5gpHFoA3ABeACAAZgBiAGaApIBAzAuMpgBAKABAcgBCMABAQ&sclient=gws-wiz-serp) to centroid representing the cluster. The algorithms which use Partition based clustering approach are 
 
@@ -9,18 +9,18 @@ Partition or centroid based clustering is a clustering technique where we assign
 3. Fuzzy C means algorithm
 
 
-##### Explain the working of KMeans algorithm ? 
+### [Explain the working of KMeans algorithm ? ](#) 
 
 1. First of all it initialize k centroid in the data points.
 2. After that it calculates the Euclidian distance of every data points from each centroid and the data point which is closest to any of the centroid is assigned to that centroid
 3. The same process is repeated until all the data point are assigned to some cluster and after that the centroids are adjusted by calculating the mean of data points within that cluster to get the new centroid for that cluster and the point to be noted is that the centroid of a cluster does not need to be an actual data point from the dataset. 
 4. This same process of calculating the Euclidian distance and assigning centroid gets repeated until position of new centroid ≠ old centroid.
 
-##### What is the meaning of K in KMeans and how to chose its value ? 
+### [What is the meaning of K in KMeans and how to chose its value ? ](#)
 
 K is basically an hyper-parameter and it is used to define into how many clusters we want to divide our data. We can find the value of this K by using elbow method or Silhouette Score method which is also a metric for [[Evaluation of Clusters]].
 
-##### Explain elbow method along with its drawback ? 
+### [Explain elbow method along with its drawback ?](#) 
 
 Elbow method is a technique which is used to find the value of k in the K-Means algorithm. The way this algorithm works is that for every value of K starting from generally from 2, we calculate the Inertia corresponding to that value of K. Inertia → Within cluster sum of squared error.
 
@@ -31,7 +31,7 @@ After that we simply plot the graph between the value of k and its corresponding
 1. It is not very much precise method
 2. The interpretation from the graph between Inertia and Number of cluster is totally subjective and may vary from person to person.
 
-##### Explain silhouette Score method 
+### [Explain silhouette Score method](#) 
 
 Silhouette method is a more optimized technique that we can use for finding the value of k. Basically in this technique we simply plot a graph between Silhouette score and the value of K, where silhouette score is simply a numerical value representing Quality of a cluster. Silhouette score considers both the intra cluster distance (Cohesion) and Intercluster distance (Separation).
 
@@ -39,26 +39,24 @@ To get a good quality cluster the Separation (Inter cluster) distance needs to b
 
 ![[Pasted image 20240714143504.png]]
 
-##### What is the Range of the Silhouette Score method
+### [What is the Range of the Silhouette Score method](#)
 
  - A score close to +1 indicates that the data point is well-clustered, with a high cohesion and good separation from neighboring clusters.
 - A score close to 0 indicates that the data point lies near the boundary between clusters.
 - A score close to -1 indicates that the data point may have been assigned to the wrong cluster.
 
-##### What are the drawbacks of using KMeans ? 
+### [What are the drawbacks of using KMeans ?](#) 
 
 1. It is sensitive to initialization of centroids
 2. We need to be aware about value of K prior implementing the algorithm to form cluster, thus extra computation is needed to first get the right value of K
 3. It gives us good results only if internally the clusters are spherical in nature.
 
-##### Talk about the problem of initialization of KMeans and  how its solved ? 
+### [Talk about the problem of initialization of KMeans and  how its solved ?](#) 
 
 Major drawback of traditional K means clustering algorithm is the sensitivity to the initialization of K centroids and the thing is that if the initially all the centroids will be present closer to each other then we might get suboptimal results or it would take longer to converge to the global minima. So in order to solve this problem we use a advance version of this algorithm which we call as KMeans++ algorithm.
   
 
-
-
-##### Code to find value of K using elbow and silhouette Score method
+### [Code to find value of K using elbow and silhouette Score method](#)
 
 ``` python
 import numpy as np
