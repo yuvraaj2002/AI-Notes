@@ -142,7 +142,16 @@ Decision trees love orthogonal decision boundaries (all splits are perpendicular
 
 ![[Axis Sensitive.png]]
 
-##### Talk about the time complexity 
+### [Talk about the time complexity](#) 
+
+In the worst case, the tree is completely unbalanced and forms a single path from the root to leaf.
+##### [Training Time](#)
+- To find the best split at each node, we need to sort the data for each feature, which takes $O(N*Log_n)$ for each feature.
+- We have to repeat this for each feature, leading to $F*O(N*Log_n)$ for each node.
+- Since there are N nodes in the worst case, the overall complexity becomes $F*O(N^2*Log_n)$
+##### [Prediction Time](#)
+During the prediction phase the time complexity is $O(Log_n)$
+
 
 ### [Using decision tree to calculate the feature importance](#)
 
