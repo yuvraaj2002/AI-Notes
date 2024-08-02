@@ -82,9 +82,9 @@ Both the decision tree classifier and regressor are extremely prone to overfitti
 - For the classification the default stopping criteria is to split until the dataset is not completely pure (that means until all data points don't belong to single class)
 - For the regression the default stopping criteria is to split until the variance is not 0 
 
-![[DT Overfitting Regression.png]]
+![DT Overfitting Regression.png](https://github.com/yuvraaj2002/AI-Notes/blob/master/Machine%20Learning/Images/DT%20Overfitting%20Classification.png)
 
-![[Pasted image 20240717052435.png]]
+![DT Overfitting Classification.png](https://github.com/yuvraaj2002/AI-Notes/blob/master/Machine%20Learning/Images/DT%20Overfitting%20Regression.png)
 
 ### [Talk about all the ways using which we can deal with the overfitting](#)
 
