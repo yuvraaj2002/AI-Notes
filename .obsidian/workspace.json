@@ -114,8 +114,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 326.5004348754883,
-    "collapsed": true
+    "width": 326.5004348754883
   },
   "right": {
     "id": "75ce3ba0dea3f5ef",
@@ -193,7 +192,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "3715dfde6225307f",
+  "active": "89ad46e437a54122",
   "lastOpenFiles": [
     "Machine Learning/Bayesian Models/Naive Bayes.md",
     "Deep Learning/Techniques/Weight Initialization.md",

@@ -62,10 +62,10 @@ Both the KD tree and Ball tree are space partitioning data structures which divi
 
 1. KD tree stands for K dimensional trees and here we divide the feature space into hyper cubes by creating a cut using the planes/hyperplane along the feature using the median. After doing so once the query point falls into one of the hyper cube, we then look for K nearest neighbors in that hyper cube only.
 
-	![[Pasted image 20240630132821.png|200]]
+	![[KD Tree.png|200]]
 2.  Ball Tree is another space-partitioning which create subspaces by using the hyperspheres, it basically creates a hierarchical structure of hyper spheres.
 
-	![[Pasted image 20240630133044.png|300]]
+	![[Ball Tree.png|300]]
 
 ### [Explain the distance metrics used ?](#) 
 
