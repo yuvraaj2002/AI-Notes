@@ -47,7 +47,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/Instance Based Models/K Nearest Neighbor.md",
+                "file": "Deep Learning/Techniques/Batch Normalization.md",
                 "mode": "source",
                 "source": false
               }
@@ -114,7 +114,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 326.5004348754883
+    "width": 326.5004348754883,
+    "collapsed": true
   },
   "right": {
     "id": "75ce3ba0dea3f5ef",
@@ -130,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Machine Learning/Instance Based Models/K Nearest Neighbor.md",
+                "file": "Deep Learning/Techniques/Batch Normalization.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Machine Learning/Instance Based Models/K Nearest Neighbor.md",
+                "file": "Deep Learning/Techniques/Batch Normalization.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +171,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Machine Learning/Instance Based Models/K Nearest Neighbor.md"
+                "file": "Deep Learning/Techniques/Batch Normalization.md"
               }
             }
           }
@@ -194,15 +195,18 @@
   },
   "active": "89ad46e437a54122",
   "lastOpenFiles": [
+    "Deep Learning/Images/Batch Normalization.png",
+    "Excalidraw/Drawing 2024-08-03 16.14.05.excalidraw.md",
+    "Deep Learning/Techniques/Batch Normalization.md",
+    "2024-08-03.md",
+    "Machine Learning/Instance Based Models/K Nearest Neighbor.md",
     "Machine Learning/Bayesian Models/Naive Bayes.md",
     "Deep Learning/Techniques/Weight Initialization.md",
     "Deep Learning/Images/0 Init Sigmoid issue.png",
-    "Excalidraw/Drawing 2024-08-03 16.14.05.excalidraw.md",
     "Deep Learning/Images/Neural_Net_WI.png",
     "Deep Learning/Structured Data",
     "Deep Learning/Techniques",
     "Preparation Index.md",
-    "2024-08-03.md",
     "Books/Hands on Machine Learning.pdf",
     "Machine Learning/Tree Based Models/Random Forest.md",
     "Machine Learning/Tree Based Models/Decision Tree.md",
@@ -229,9 +233,6 @@
     "Unsupervised Learning/Images/Vector Projection.png",
     "Pasted Image 20240802153916_558.png",
     "Unsupervised Learning/Dimensionality Reduction Techniques/Autoencoders.md",
-    "Tags/Machine Learning.md",
-    "Unsupervised Learning/Dimensionality Reduction Techniques/Dimensionality Reduction.md",
-    "Deep Learning/Text/LSTM.md",
     "Deep Learning/Images/Final Update Gate calculation.png",
     "Pasted image 20240801130046.png",
     "Programs/Python Concepts/Decorator.ipynb",
