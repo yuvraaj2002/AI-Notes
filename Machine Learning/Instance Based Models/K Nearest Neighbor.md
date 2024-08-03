@@ -65,7 +65,8 @@ Both the KD tree and Ball tree are space partitioning data structures which divi
 	![[Pasted image 20240630132821.png|200]]
 2.  Ball Tree is another space-partitioning which create subspaces by using the hyperspheres, it basically creates a hierarchical structure of hyper spheres.
 
-		![[Pasted image 20240630133044.png|300]]
+	![[Pasted image 20240630133044.png|300]]
+
 ### [Explain the distance metrics used ?](#) 
 
 - Euclidian distance : Helps us to find the straight line distance between 2 points and useful when data is numerical
