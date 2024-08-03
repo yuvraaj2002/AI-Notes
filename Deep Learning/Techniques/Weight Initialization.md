@@ -27,7 +27,7 @@ Since deep neural network have relatively more number of hidden layers as compar
 
 To study the impact of 0 weight initialization we we will be focusing on `Sigmoid`, `Tanh` and `Relu` activation function. Not only this for better understanding let us consider a neural network with only 2 input layer neurons, 1 hidden layer and 1 output layer.
 
-![[Neural_Net_WI.png]]
+![Neural_Net_WI.png](https://github.com/yuvraaj2002/AI-Notes/blob/master/Deep%20Learning/Images/Neural_Net_WI.png)
 
 According to the neural network, a1 and a2 are basically the results after calculating the weighted sum and passing them through the activation functions.
 
@@ -48,7 +48,7 @@ Mathematically Tanh is defined as $f(x) = e^x - e^{-x}/e^x+e^{-x}$ and just like
 
 Mathematically Sigmoid is defined as $f(x) = 1/1 + e^{-x}$ and in this case the values of a1 and a2 will be 0.5. Now because of this the gradients of all the trainable parameters associated with a particular neuron will become same due to which our network will behave like it is having only single neuron in its hidden layer thus our network will never able to capture non linear pattern in the data.
 
-![[0 Init Sigmoid issue.png]]
+![0 Init Sigmoid issue.png](https://github.com/yuvraaj2002/AI-Notes/blob/master/Deep%20Learning/Images/0%20Init%20Sigmoid%20issue.png)
 
 
 ### [Why we should not initialize weights as any constant value](#)
