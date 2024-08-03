@@ -47,7 +47,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deep Learning/Techniques/Weight Initialization.md",
+                "file": "Machine Learning/Instance Based Models/K Nearest Neighbor.md",
                 "mode": "source",
                 "source": false
               }
@@ -131,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Deep Learning/Techniques/Weight Initialization.md",
+                "file": "Machine Learning/Instance Based Models/K Nearest Neighbor.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Deep Learning/Techniques/Weight Initialization.md",
+                "file": "Machine Learning/Instance Based Models/K Nearest Neighbor.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,7 +171,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Deep Learning/Techniques/Weight Initialization.md"
+                "file": "Machine Learning/Instance Based Models/K Nearest Neighbor.md"
               }
             }
           }
@@ -195,9 +195,10 @@
   },
   "active": "3715dfde6225307f",
   "lastOpenFiles": [
+    "Machine Learning/Bayesian Models/Naive Bayes.md",
+    "Deep Learning/Techniques/Weight Initialization.md",
     "Deep Learning/Images/0 Init Sigmoid issue.png",
     "Excalidraw/Drawing 2024-08-03 16.14.05.excalidraw.md",
-    "Deep Learning/Techniques/Weight Initialization.md",
     "Deep Learning/Images/Neural_Net_WI.png",
     "Deep Learning/Structured Data",
     "Deep Learning/Techniques",
@@ -234,7 +235,6 @@
     "Deep Learning/Text/LSTM.md",
     "Deep Learning/Images/Final Update Gate calculation.png",
     "Pasted image 20240801130046.png",
-    "Deep Learning/Images/GRU.png",
     "Programs/Python Concepts/Decorator.ipynb",
     "Programs/Python Concepts",
     "Programs/New folder",
