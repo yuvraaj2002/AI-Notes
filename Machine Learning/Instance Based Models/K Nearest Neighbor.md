@@ -1,7 +1,7 @@
 This page is dedicated towards understanding both the KNN classifier and regressor and the main resources used for this topic are mentioned below.
 
-[KNN Classifier](https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsClassifier.html)
-[KNN Regressor](https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsRegressor.html)
+- [KNN Classifier](https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsClassifier.html)
+- [KNN Regressor](https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsRegressor.html)
 
 ### [What do you mean by KNN algorithm and talk about its types](#)
 
@@ -41,7 +41,7 @@ The various application of KNN algorithm are ⬇️
 
 -  Value of K
 - Distance metric : Euclidian, Manhattan , Minowski
-- Weights : Uniform, Weighted ( Inverse relation with the )
+- Weights : Uniform, Weighted ( Inverse relation with the distance)
 - Search Algorithm: Linear Search, KD tree, Ball Tree
 
 ### [Talk about bias variance tradeoff in KNN](#)
