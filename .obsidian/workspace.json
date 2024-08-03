@@ -47,7 +47,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/Tree Based Models/Random Forest.md",
+                "file": "Deep Learning/Techniques/Weight Initialization.md",
                 "mode": "source",
                 "source": false
               }
@@ -104,8 +104,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 326.5004348754883,
-    "collapsed": true
+    "width": 326.5004348754883
   },
   "right": {
     "id": "75ce3ba0dea3f5ef",
@@ -121,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Machine Learning/Tree Based Models/Random Forest.md",
+                "file": "Deep Learning/Techniques/Weight Initialization.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Machine Learning/Tree Based Models/Random Forest.md",
+                "file": "Deep Learning/Techniques/Weight Initialization.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Machine Learning/Tree Based Models/Random Forest.md"
+                "file": "Deep Learning/Techniques/Weight Initialization.md"
               }
             }
           }
@@ -185,13 +184,18 @@
   },
   "active": "3715dfde6225307f",
   "lastOpenFiles": [
+    "Deep Learning/Structured Data",
+    "Deep Learning/Techniques",
     "Preparation Index.md",
+    "Deep Learning/Techniques/Weight Initialization.md",
+    "2024-08-03.md",
+    "Books/Hands on Machine Learning.pdf",
+    "Machine Learning/Tree Based Models/Random Forest.md",
     "Machine Learning/Tree Based Models/Decision Tree.md",
     "Machine Learning/Images/CC Alpha.png",
     "Machine Learning/Images/Axis Sensitive.png",
-    "2024-08-01.md",
+    "Daily Goals/2024-08-01.md",
     "Machine Learning/Images/Pasted image 20240703160516.png",
-    "Books/Hands on Machine Learning.pdf",
     "Machine Learning/Images/Gini Calculation MC.png",
     "Unsupervised Learning/Clustering Algorithms/Clustering Metrics.md",
     "Excalidraw/Drawing 2024-07-31 11.57.09.excalidraw.md",
@@ -215,9 +219,6 @@
     "Unsupervised Learning/Dimensionality Reduction Techniques/Dimensionality Reduction.md",
     "Deep Learning/Text/LSTM.md",
     "Tags/Data Processing.md",
-    "Python/Generator and Iterator.md",
-    "Unsupervised Learning/Clustering Algorithms/Hierarchy based clustering.md",
-    "Unsupervised Learning/Clustering Algorithms/AGNES and DIANA.md",
     "Deep Learning/Images/Final Update Gate calculation.png",
     "Pasted image 20240801130046.png",
     "Deep Learning/Images/GRU.png",
@@ -229,7 +230,6 @@
     "Books/Daily Dose of Data Science.pdf",
     "Programs/Object Oriented Programming/Abstraction.ipynb",
     "Programs/Object Oriented Programming/Encapsulation.ipynb",
-    "Books/75 OOP Questions.pdf",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]
