@@ -57,6 +57,41 @@ $$MOE = SE(pe) * CriticalValue_{ConfidenceLevel}$$
 - Affect of sample size : Greater sample size decrease standard error and margin of error leading to narrower confidence interval 👉🏻 more reliable
 - Confidence value : With high confidence value the critical value will increase and the margin of error will also increase leading to broader confidence interval 👉🏻 less reliable
 
+```python
+import numpy as np
+import scipy.stats as stats
+
+# Sample data
+data = [12, 15, 14, 10, 13, 14, 16, 15, 14, 13]
+
+# Calculate the sample mean
+sample_mean = np.mean(data)
+
+# Suppose we have the population standard deviation (σ) instead of the sample standard deviation
+population_std = 2.0  # This is an example value; you should use the actual population standard deviation
+
+n = len(data)
+standard_error = population_std / np.sqrt(n)
+
+# Calculate the z critical value for 95% confidence level
+confidence_level = 0.95
+z_critical = stats.norm.ppf((1 + confidence_level) / 2)
+
+# Calculate the margin of error
+margin_of_error = z_critical * standard_error
+
+# Calculate the confidence interval
+confidence_interval = (sample_mean - margin_of_error, sample_mean + margin_of_error)
+
+# Print the results
+print(f"Sample Mean: {sample_mean}")
+print(f"Standard Error: {standard_error}")
+print(f"Z Critical Value: {z_critical}")
+print(f"Margin of Error: {margin_of_error}")
+print(f"95% Confidence Interval: {confidence_interval}")
+
+```
+
 ### [Explain T procedure and factors affecting the confidence interval calculated using z procedure ?](#) 
 
 Just like Z procedure T procedure is another technique which is used for finding the confidence interval but it is used in those kind of scenarios where we do not have access to the population standard deviation, so we use the sample standard deviation.
@@ -71,6 +106,37 @@ Just like Z procedure T procedure is another technique which is used for finding
 - Affect of sample size : Greater sample size decrease standard error and margin of error leading to narrower confidence interval 👉🏻 more reliable
 - Confidence value : With high confidence value the critical value will increase and the margin of error will also increase leading to broader confidence interval 👉🏻 less reliable
 
+```python
+import numpy as np  
+import scipy.stats as stats  
+  
+# Sample data  
+data = [12, 15, 14, 10, 13, 14, 16, 15, 14, 13]  
+  
+# Calculate the sample mean and standard error  
+sample_mean = np.mean(data)  
+sample_std = np.std(data, ddof=1)  
+n = len(data)  
+standard_error = sample_std / np.sqrt(n)  
+  
+# Calculate the t critical value for 95% confidence level  
+confidence_level = 0.95  
+degrees_of_freedom = n - 1  
+t_critical = stats.t.ppf((1 + confidence_level) / 2, degrees_of_freedom)  
+  
+# Calculate the margin of error  
+margin_of_error = t_critical * standard_error  
+  
+# Calculate the confidence interval  
+confidence_interval = (sample_mean - margin_of_error, sample_mean + margin_of_error)  
+  
+# Print the results  
+print(f"Sample Mean: {sample_mean}")  
+print(f"Standard Error: {standard_error}")  
+print(f"T Critical Value: {t_critical}")  
+print(f"Margin of Error: {margin_of_error}")  
+print(f"95% Confidence Interval: {confidence_interval}")
+```
 
 ### [For some unknown population parameter if we have confidence interval of (45,70) with 95% it can be inferred ?](#)
 
