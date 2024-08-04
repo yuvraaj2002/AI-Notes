@@ -1,8 +1,5 @@
 This page is dedicated towards understanding the ways to identify and dealing with the missing values and outliers. The resources I have used will be mentioned in the toggle button below.
 
-Tags : [[Data Processing]]
-
-
 ### [What do you mean by missing values, how represented and what could be the reasons behind introduction of missing values ?](#) 
 
 Missing value means the absence of data and they are represented by **NaN** keyword when we load the data using pandas into a data frame. There could be 3 main reasons behind introduction of missing values
