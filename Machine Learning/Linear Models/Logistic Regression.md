@@ -11,17 +11,17 @@ Logistic regression is a supervised machine learning algorithm which is used to 
 
 The main idea behind logistic regression algorithm is to simply form a decision boundary which separates the data points belonging to 2 different classes and in order to form this decision boundary earlier the logistic regression used `Perceptron Trick`. But the major drawback of this technique was the usage of step function in it because of which we didn't used to get any information about which decision boundary is more better (given that both decision boundaries are correctly classifying the data points).
 
-![[Perceptron Trick drawback.png]]
+![[Perceptron Trick drawback.png]](https://github.com/yuvraaj2002/AI-Notes/blob/master/Machine%20Learning/Images/Perceptron%20Trick%20drawback.png)
 
 ### [How the drawback of perceptron trick got solved ?](#)
 
 To solve the problem of not being able to measure the quality of decision boundaries with the step function, we started using the sigmoid function in logistic regression. The sigmoid function outputs a value between 0 and 1, which represents the probability that a given data point belongs to a certain class. This means it gives us an indication of how confident our classifier is about its prediction.
 
-![[Logistic Regression sigmoid.png]]
+![[Logistic Regression sigmoid.png]](https://github.com/yuvraaj2002/AI-Notes/blob/master/Machine%20Learning/Images/Logistic%20Regression%20sigmoid.png)
 
 With this small change, our objective evolves. Now, we not only want the classifier to correctly classify data points but also to maximize the confidence in its predictions. To achieve this, we use [[Maximum Likelihood Estimation]] to define the objective function, also known as the log-likelihood function, in logistic regression. We then use [[Gradient Descent]] to find the parameter values that maximize this objective function.
 
-![[MLE Logistic.png|400]]
+![MLE Logistic.png](https://github.com/yuvraaj2002/AI-Notes/blob/master/Machine%20Learning/Images/MLE%20Logistic.png)
 
 
 
