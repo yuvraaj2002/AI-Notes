@@ -57,6 +57,6 @@ CCA which stands for complete case analysis is a technique which is used to remo
 
 - Using **`isnull().sum()`** method to get count of all missing values or **`isna()`**
 - Use visualization plots such as bar plot and matrix plot → Gives information that data is not missing at random
-    ![[Matrix Plot.png|450]]
+    ![[Matrix Plot.png|450]](https://github.com/yuvraaj2002/AI-Notes/blob/master/General%20ML%20Topics/Images/Matrix%20Plot.png)
     
     This is an example of matrix plot for visualizing the missing values
