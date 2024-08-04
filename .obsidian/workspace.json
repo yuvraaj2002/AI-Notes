@@ -23,7 +23,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deep Learning/Text/LSTM.md",
+                "file": "2024-08-04.md",
                 "mode": "source",
                 "source": false
               }
@@ -33,11 +33,9 @@
             "id": "f9bc49708c3ce8e6",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Machine Learning/Tree Based Models/Decision Tree.md",
-                "mode": "source",
-                "source": false
+                "file": "Books/Daily Dose of Data Science.pdf"
               }
             }
           },
@@ -47,7 +45,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deep Learning/Techniques/Batch Normalization.md",
+                "file": "Machine Learning/Linear Models/Polynomial Regression.md",
                 "mode": "source",
                 "source": false
               }
@@ -131,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Deep Learning/Techniques/Batch Normalization.md",
+                "file": "Machine Learning/Linear Models/Polynomial Regression.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Deep Learning/Techniques/Batch Normalization.md",
+                "file": "Machine Learning/Linear Models/Polynomial Regression.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,7 +169,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Deep Learning/Techniques/Batch Normalization.md"
+                "file": "Machine Learning/Linear Models/Polynomial Regression.md"
               }
             }
           }
@@ -193,12 +191,18 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "89ad46e437a54122",
+  "active": "3715dfde6225307f",
   "lastOpenFiles": [
+    "Books/Daily Dose of Data Science.pdf",
+    "Machine Learning/Tree Based Models/Decision Tree.md",
+    "2024-08-04.md",
+    "Machine Learning/Linear Models/Polynomial Regression.md",
+    "Deep Learning/Text/LSTM.md",
+    "Daily Goals/2024-08-03.md",
+    "Preparation Index.md",
+    "Deep Learning/Techniques/Batch Normalization.md",
     "Deep Learning/Images/Batch Normalization.png",
     "Excalidraw/Drawing 2024-08-03 16.14.05.excalidraw.md",
-    "Deep Learning/Techniques/Batch Normalization.md",
-    "2024-08-03.md",
     "Machine Learning/Instance Based Models/K Nearest Neighbor.md",
     "Machine Learning/Bayesian Models/Naive Bayes.md",
     "Deep Learning/Techniques/Weight Initialization.md",
@@ -206,10 +210,8 @@
     "Deep Learning/Images/Neural_Net_WI.png",
     "Deep Learning/Structured Data",
     "Deep Learning/Techniques",
-    "Preparation Index.md",
     "Books/Hands on Machine Learning.pdf",
     "Machine Learning/Tree Based Models/Random Forest.md",
-    "Machine Learning/Tree Based Models/Decision Tree.md",
     "Machine Learning/Images/CC Alpha.png",
     "Machine Learning/Images/Axis Sensitive.png",
     "Daily Goals/2024-08-01.md",
@@ -228,18 +230,13 @@
     "General ML Topics/Feature Engineering.md",
     "Feature Engineering.md",
     "General ML Topics/Feature Extraction.md",
-    "Unsupervised Learning/Dimensionality Reduction Techniques/PCA.md",
-    "Database Management System/SQL/TCL.md",
     "Unsupervised Learning/Images/Vector Projection.png",
     "Pasted Image 20240802153916_558.png",
-    "Unsupervised Learning/Dimensionality Reduction Techniques/Autoencoders.md",
     "Deep Learning/Images/Final Update Gate calculation.png",
-    "Pasted image 20240801130046.png",
     "Programs/Python Concepts/Decorator.ipynb",
     "Programs/Python Concepts",
     "Programs/New folder",
     "Books/Python_Object-Oriented_Programming.pdf",
-    "Books/Daily Dose of Data Science.pdf",
     "Programs/Object Oriented Programming/Abstraction.ipynb",
     "Untitled.canvas",
     "Untitled 1.canvas"
