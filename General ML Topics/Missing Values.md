@@ -21,15 +21,15 @@ Missing value means the absence of data and they are represented by **NaN** keyw
 
 1. MCAR : Missing completely at random means the data is missing is completely at random and there is no underlying pattern between missing data and data present in the dataset. **`Solution`** : Univariate Imputation could be less expensive but multivariate imputation can be used as well.
 
-		![[Pasted image 20240630101242.png|400]]
+	![MCAR](https://github.com/yuvraaj2002/AI-Notes/blob/master/General%20ML%20Topics/Images/MCAR.png)
 
 2. MAR : Missing at random means the data is missing at random but there is some pattern or we can say association with the data present. **`Solution`** : Multivariate could be beneficial
 
-		![[Pasted image 20240630101258.png|400]]
+	![MAR](https://github.com/yuvraaj2002/AI-Notes/blob/master/General%20ML%20Topics/Images/MAR.png)
 
 3. MNAR : Missing not at  random means the data is missing not at random and the data got removed consciously or intentionally. **`Solution`** : Use multivariate imputation 
 
-		![[Pasted image 20240630101312.png|400]]
+	![MNAR](https://github.com/yuvraaj2002/AI-Notes/blob/master/General%20ML%20Topics/Images/MNAR.png)
 
 ### [What are the broader ways to deal with missing values ?](#) 
 
