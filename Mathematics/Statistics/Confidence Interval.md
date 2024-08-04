@@ -6,8 +6,8 @@ Here is the [Notebook](https://drive.google.com/file/d/1nskWHtR1ePmrje76k71gdUc2
 
 - Sample : It is the subset of population data and it is used as an representative of the population data to either train some algorithm to figure out the intrinsic pattern and make some predictions using it or to make estimate about the unknown population data.
 - Population: It is the complete data in which we are interested in to study about.
-- Parameter is a descriptive measure of a population data 
-- Estimate is the value calculated from sample data that serves as an approximation for population parameter.
+- Parameter is a statistical measure calculated from the population data
+- Estimate is the value calculated from sample data using some statistical technique and it serves as an approximation for population parameter.
 
 ### [What do you mean by inferential statistics and how it is different from descriptive statistics ?](#) 
 
