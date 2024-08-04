@@ -8,7 +8,7 @@ Dropout is basically a technique which is used to deal with the problem of overf
 
 The idea behind dropout is to randomly drop certain percentage of nodes from input and hidden layer per epoch and by doing so with every epoch we get a new neural network architecture which approach the data from a different perspective and in this way the decision boundary or the regression line get well generalized.
 
-![[Dropout.png]]
+![[Dropout.png]](https://github.com/yuvraaj2002/AI-Notes/blob/master/Deep%20Learning/Images/Dropout.png)
 
 #### [To ensure numerical coherence](#)
 
