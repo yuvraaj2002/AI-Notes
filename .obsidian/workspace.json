@@ -43,7 +43,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/Linear Models/Logistic Regression.md",
+                "file": "Deep Learning/Techniques/Dropout.md",
                 "mode": "source",
                 "source": false
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Machine Learning/Linear Models/Logistic Regression.md",
+                "file": "Deep Learning/Techniques/Dropout.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Machine Learning/Linear Models/Logistic Regression.md",
+                "file": "Deep Learning/Techniques/Dropout.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Machine Learning/Linear Models/Logistic Regression.md"
+                "file": "Deep Learning/Techniques/Dropout.md"
               }
             }
           }
@@ -181,11 +181,15 @@
   },
   "active": "89ad46e437a54122",
   "lastOpenFiles": [
+    "3.md",
+    "Deep Learning/Techniques/Dropout.md",
+    "Books/Daily Dose of Data Science.pdf",
+    "Deep Learning/Images/Dropout.png",
+    "Tags/Deep Learning.md",
+    "Machine Learning/Linear Models/Logistic Regression.md",
     "Machine Learning/Images/Logistic Regression sigmoid.png",
     "Mathematics/Linear Algebra/Maximum Likelihood Estimation.md",
-    "Machine Learning/Linear Models/Logistic Regression.md",
     "Books/Hands on Machine Learning.pdf",
-    "Books/Daily Dose of Data Science.pdf",
     "Machine Learning/Images/Perceptron Trick drawback.png",
     "Excalidraw/Drawing 2024-08-03 16.14.05.excalidraw.md",
     "Preparation Index.md",
@@ -208,8 +212,6 @@
     "Mathematics/Statistics/Measure of CT.md",
     "Mathematics/Confidence Interval.md",
     "Mathematics/Statistics/Hypothesis Testing.md",
-    "Mathematics/Statistics/Empirical Rule.md",
-    "Mathematics/Statistics/Chi Square Test.md",
     "General ML Topics/Untitled",
     "Machine Learning/Images/Polynomial shape.png",
     "Machine Learning/Images/Pasted image 20240711175735.png",
@@ -220,8 +222,6 @@
     "Deep Learning/Structured Data",
     "Deep Learning/Techniques",
     "Machine Learning/Images/CC Alpha.png",
-    "Machine Learning/Images/Axis Sensitive.png",
-    "Machine Learning/Images/Pasted image 20240703160516.png",
     "Excalidraw",
     "Programs/Python Concepts/Decorator.ipynb",
     "Programs/Python Concepts",
