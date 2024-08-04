@@ -28,7 +28,7 @@ $$y=β_0​+β_1​x+β_2​x^2+ϵ$$
 
 By using the binomial coefficient formula we can actually calculate the number of features which will be created 
 
-![[Polynomial Feature calculation.png]]
+![Polynomial Feature calculation.png](https://github.com/yuvraaj2002/AI-Notes/blob/master/Machine%20Learning/Images/Polynomial%20Feature%20calculation.png)
 
 ### [What would happen if degree = 0 ](#)
 
