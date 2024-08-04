@@ -18,36 +18,12 @@
             }
           },
           {
-            "id": "80a5dbf00a6cad0f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Mathematics/Statistics/Confidence Interval.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "f9bc49708c3ce8e6",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
                 "file": "Books/Daily Dose of Data Science.pdf"
-              }
-            }
-          },
-          {
-            "id": "3715dfde6225307f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Machine Learning/Linear Models/Polynomial Regression.md",
-                "mode": "source",
-                "source": false
               }
             }
           },
@@ -67,14 +43,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "General ML Topics/Missing Values.md",
+                "file": "Machine Learning/Linear Models/Logistic Regression.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -124,7 +100,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 326.5004348754883
+    "width": 326.5004348754883,
+    "collapsed": true
   },
   "right": {
     "id": "75ce3ba0dea3f5ef",
@@ -140,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "General ML Topics/Missing Values.md",
+                "file": "Machine Learning/Linear Models/Logistic Regression.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "General ML Topics/Missing Values.md",
+                "file": "Machine Learning/Linear Models/Logistic Regression.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -180,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "General ML Topics/Missing Values.md"
+                "file": "Machine Learning/Linear Models/Logistic Regression.md"
               }
             }
           }
@@ -204,11 +181,17 @@
   },
   "active": "89ad46e437a54122",
   "lastOpenFiles": [
+    "Machine Learning/Images/Logistic Regression sigmoid.png",
+    "Mathematics/Linear Algebra/Maximum Likelihood Estimation.md",
+    "Machine Learning/Linear Models/Logistic Regression.md",
+    "Books/Hands on Machine Learning.pdf",
+    "Books/Daily Dose of Data Science.pdf",
+    "Machine Learning/Images/Perceptron Trick drawback.png",
+    "Excalidraw/Drawing 2024-08-03 16.14.05.excalidraw.md",
     "Preparation Index.md",
     "2024-08-04.md",
     "Mathematics/Statistics/Confidence Interval.md",
     "Mathematics/Linear Algebra/Transformations.md",
-    "Mathematics/Linear Algebra/Maximum Likelihood Estimation.md",
     "Mathematics/Linear Algebra/Loss functions.md",
     "Mathematics/Probability/T test.md",
     "Mathematics/Probability/Z test.md",
@@ -227,24 +210,18 @@
     "Mathematics/Statistics/Hypothesis Testing.md",
     "Mathematics/Statistics/Empirical Rule.md",
     "Mathematics/Statistics/Chi Square Test.md",
-    "Mathematics/Statistics/Central limit theorem.md",
-    "Mathematics/Statistics/ANOVA test.md",
-    "Mathematics/Statistics/AB Testing.md",
     "General ML Topics/Untitled",
     "Machine Learning/Images/Polynomial shape.png",
     "Machine Learning/Images/Pasted image 20240711175735.png",
     "Machine Learning/Images/Polynomial Feature calculation.png",
-    "Books/Daily Dose of Data Science.pdf",
     "Deep Learning/Images/Batch Normalization.png",
     "Deep Learning/Images/0 Init Sigmoid issue.png",
     "Deep Learning/Images/Neural_Net_WI.png",
     "Deep Learning/Structured Data",
     "Deep Learning/Techniques",
-    "Books/Hands on Machine Learning.pdf",
     "Machine Learning/Images/CC Alpha.png",
     "Machine Learning/Images/Axis Sensitive.png",
     "Machine Learning/Images/Pasted image 20240703160516.png",
-    "Machine Learning/Images/Gini Calculation MC.png",
     "Excalidraw",
     "Programs/Python Concepts/Decorator.ipynb",
     "Programs/Python Concepts",

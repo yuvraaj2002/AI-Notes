@@ -3,34 +3,25 @@ This page is dedicated towards understanding the concept of logistic regression 
 - [Introduction to Logistic regression notebook](https://drive.google.com/file/d/1L2AY78TgqOlf7rlsRDZhQABAThqsRQRz/view)
 - [Multiclass classification using Logistic Regression](https://drive.google.com/file/d/1neEFkUXbXx5RktYKoPe2qW8CV460G_rX/view)
 
-### Introduction to logistic regression
+### [What do you mean by logistic regression and how it is different from linear regression](#)
 
-Before actually understanding the working of the logistic regression we actually needs to be aware about some initial concepts so let us take look at them.
+Logistic regression is a supervised machine learning algorithm which is used to solve classification problems, whereas the linear regression algorithm is used to solve the regression problems. Originally logistic regression got introduced to solve binary classification problems but with some modification we can also use it for the multi-class classification problems as well (For that use One Vs Rest approach).
 
-In order to find whether the point belongs to positive region or negative region we simply need to insert the coordinate values in the equation of line and if the result is greater than 0 it means that point lies on positive region of that line and if smaller than 0 it means it lies on negative region.
+### [What is the main idea behind this algorithm what was the initial technique used to find decision boundary and its drawback](#)
 
-- Ax + By + C > 0 means Positive region
--  Ax + By + C < 0 means Negative region
+The main idea behind logistic regression algorithm is to simply form a decision boundary which separates the data points belonging to 2 different classes and in order to form this decision boundary earlier the logistic regression used `Perceptron Trick`. But the major drawback of this technique was the usage of step function in it because of which we didn't used to get any information about which decision boundary is more better (given that both decision boundaries are correctly classifying the data points).
 
+![[Perceptron Trick drawback.png]]
 
-##### What is the aim of logistic regression in binary classification problem and how does it find that decision boundary (early approach)? 
+### [How the drawback of perceptron trick got solved ?](#)
 
-In case of binary classification problem, we try to make sure that the decision boundary of the logistic regression is oriented in such a way that all the positive class data points lie in positive region of the decision boundary and all negative class points lie in negative region.
+To solve the problem of not being able to measure the quality of decision boundaries with the step function, we started using the sigmoid function in logistic regression. The sigmoid function outputs a value between 0 and 1, which represents the probability that a given data point belongs to a certain class. This means it gives us an indication of how confident our classifier is about its prediction.
 
-Now in order to find that decision boundary the logistic regression algorithm uses the perceptron trick.
+![[Logistic Regression sigmoid.png]]
 
-##### What was the drawback associated with perceptron trick ? 
+With this small change, our objective evolves. Now, we not only want the classifier to correctly classify data points but also to maximize the confidence in its predictions. To achieve this, we use [[Maximum Likelihood Estimation]] to define the objective function, also known as the log-likelihood function, in logistic regression. We then use [[Gradient Descent]] to find the parameter values that maximize this objective function.
 
-- The major drawback of perceptron trick was that it used the step function which made the classification very strict black and white and only simply assigned a class to a data point rather than giving information about how confident our model is that the data point belong to that class
-- Not only this by using perceptron trick we were also not able to quantify how much a decision boundary is better than some other decision boundary.
-   
-##### How the perceptron trick problem got solved ? 
-
-To solve this problem rather than using the step function, we started using the sigmoid function which gives us the output from 0 to 1, which means it now gives us that how confident our classifier is to about the prediction.
-
-Now with this small change our whole objective changes, as right now we not only want the classifier that correctly classifies the data point but we also want the classifier which maximize in the confidence as well. We use [[Maximum Likelihood Estimation]] to define the objective function (log-likelihood function) in logistic regression. Then, we use [[Gradient Descent]] to find the parameter values that maximize this objective function.
-
-![[Pasted image 20240711194634.png|400]]
+![[MLE Logistic.png|400]]
 
 
 
@@ -74,6 +65,7 @@ Now with this small change our whole objective changes, as right now we not only
     
     - It can be computationally expensive in case of large data sets
     - It is less interpretable
+
 - How does Multinomial logistic regression works, like tell how is it different from the logistic regression ?
     
     Multinomial logistic regression is another type of technique which is being used for solving the multiclass classification using logistic regression.
