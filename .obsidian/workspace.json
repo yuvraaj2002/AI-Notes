@@ -60,9 +60,21 @@
                 "file": "Excalidraw/Drawing 2024-08-03 16.14.05.excalidraw.md"
               }
             }
+          },
+          {
+            "id": "e3ea7a8a1258d044",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "General ML Topics/Missing Values.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -112,8 +124,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 326.5004348754883,
-    "collapsed": true
+    "width": 326.5004348754883
   },
   "right": {
     "id": "75ce3ba0dea3f5ef",
@@ -129,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mathematics/Statistics/Confidence Interval.md",
+                "file": "General ML Topics/Missing Values.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +157,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mathematics/Statistics/Confidence Interval.md",
+                "file": "General ML Topics/Missing Values.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -169,7 +180,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mathematics/Statistics/Confidence Interval.md"
+                "file": "General ML Topics/Missing Values.md"
               }
             }
           }
@@ -191,9 +202,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "80a5dbf00a6cad0f",
+  "active": "89ad46e437a54122",
   "lastOpenFiles": [
+    "Preparation Index.md",
     "2024-08-04.md",
+    "Mathematics/Statistics/Confidence Interval.md",
     "Mathematics/Linear Algebra/Transformations.md",
     "Mathematics/Linear Algebra/Maximum Likelihood Estimation.md",
     "Mathematics/Linear Algebra/Loss functions.md",
@@ -213,13 +226,11 @@
     "Mathematics/Confidence Interval.md",
     "Mathematics/Statistics/Hypothesis Testing.md",
     "Mathematics/Statistics/Empirical Rule.md",
-    "Mathematics/Statistics/Confidence Interval.md",
     "Mathematics/Statistics/Chi Square Test.md",
     "Mathematics/Statistics/Central limit theorem.md",
     "Mathematics/Statistics/ANOVA test.md",
     "Mathematics/Statistics/AB Testing.md",
     "General ML Topics/Untitled",
-    "Machine Learning/Linear Models/Polynomial Regression.md",
     "Machine Learning/Images/Polynomial shape.png",
     "Machine Learning/Images/Pasted image 20240711175735.png",
     "Machine Learning/Images/Polynomial Feature calculation.png",

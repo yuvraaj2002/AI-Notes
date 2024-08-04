@@ -33,7 +33,7 @@ This page is actually dedicated towards the indexing of all the topics that I kn
 - [x] Imbalanced data
 - [x] Regularization
 - [ ] Classification metrics 
-- [x] Regression metrics 
+- [ ] Regression metrics 
 
 
 

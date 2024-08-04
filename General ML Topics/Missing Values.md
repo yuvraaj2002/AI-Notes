@@ -3,7 +3,7 @@ This page is dedicated towards understanding the ways to identify and dealing wi
 Tags : [[Data Processing]]
 
 
-##### What do you mean by missing values, how represented and what could be the reasons behind introduction of missing values ? 
+### [What do you mean by missing values, how represented and what could be the reasons behind introduction of missing values ?](#) 
 
 Missing value means the absence of data and they are represented by **NaN** keyword when we load the data using pandas into a data frame. There could be 3 main reasons behind introduction of missing values
 
@@ -13,11 +13,11 @@ Missing value means the absence of data and they are represented by **NaN** keyw
 4. **Data management** : Generally for the industry level projects the data is collected from various sources and during the merging and storing of data in some data warehouse if data engineer is not cautious about the right approach then missing values could get introduced.
 
 
-##### Harm of not dealing with missing values
+### [Harm of not dealing with missing values](#)
 
 1. Machine learning or deep learning algorithms can't work with the data having missing values
 2. Presence of missing values affects our statistical power of analysis because no matter how big our data is, it will most of times be considered as sample data only and if in the sample data itself if there would be missing values then our inference about the population will also get hampered
-##### Types of missing values and custom ways to deal with each type? 
+### [Types of missing values and custom ways to deal with each type?](#) 
 
 1. MCAR : Missing completely at random means the data is missing is completely at random and there is no underlying pattern between missing data and data present in the dataset. **`Solution`** : Univariate Imputation could be less expensive but multivariate imputation can be used as well.
 
@@ -31,20 +31,20 @@ Missing value means the absence of data and they are represented by **NaN** keyw
 
 		![[Pasted image 20240630101312.png|400]]
 
-##### What are the broader ways to deal with missing values ? 
+### [What are the broader ways to deal with missing values ?](#) 
 
 - Removing the rows or tuples having some missing value
 - Imputing the missing value ( Univariate or Multivariate )
 	- Univariate imputation : In this type of technique for filling the missing values in some feature we use non null values of that feature only.
 	- Multivariate imputation : In this type of technique in order to fill missing value in some feature we utilize the values of other features and train a ML model to identify the pattern that could be used to fill missing values.
-##### When to use CCA technique and what is the drawback of using this ? 
+### [When to use CCA technique and what is the drawback of using this ?](#) 
 
 CCA which stands for complete case analysis is a technique which is used to remove the missing values from our dataset. The way this technique works is that it removes all those tuples from our dataset where a attribute value is missing.
 
 1. The percentage of missing values in a column must be less than 5% as more than that CCA will make our dataset thin.
 2. When we deploy our model then we need to make sure that there are no missing value, because if there will be a missing value it will be removed and the model will not be able to make predictions.
 
-##### What are various imputation techniques and when to use which one ? 
+### [What are various imputation techniques and when to use which one ?](#) 
 
 - Use univariate imputation like (Mean, Median and Mode imputation) when percentage of missing values is less than 5%
 
@@ -53,15 +53,10 @@ CCA which stands for complete case analysis is a technique which is used to remo
 	- **MissForest (MICE with Random Forest)**: Uses [[Random Forest]] for imputation, capturing more complex relationships, and iteratively refines imputations until they stabilize.
 
 
-##### What are the ways to identify missing values
+### [What are the ways to identify missing values](#)
 
 - Using **`isnull().sum()`** method to get count of all missing values or **`isna()`**
 - Use visualization plots such as bar plot and matrix plot → Gives information that data is not missing at random
-    ![[Pasted image 20240630103507.png|450]]
+    ![[Matrix Plot.png|450]]
     
     This is an example of matrix plot for visualizing the missing values
-
-- What are the various techniques which can be used to identify the missing values ?
-    
-    
-
