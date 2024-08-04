@@ -11,7 +11,7 @@ Here is the [Notebook](https://drive.google.com/file/d/1nskWHtR1ePmrje76k71gdUc2
 
 ### [What do you mean by inferential statistics and how it is different from descriptive statistics ?](#) 
 
-Inferential statistics is a type of statistics which deals with utilizing the sample data and some statistical technique or algorithm to either make estimates about the unknown population parameter, validate our assumption or study the relationship between variables or features in the sample data.
+Inferential statistics is a type of statistics which deals with utilizing the sample data and some statistical technique or algorithm to either make estimates/inferences about the unknown population parameter, validate our assumption or study the relationship between variables or features in the sample data.
 
 - Confidence interval
 - Hypothesis testing
