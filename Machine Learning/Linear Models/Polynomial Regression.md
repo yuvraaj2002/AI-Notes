@@ -6,7 +6,7 @@ This page is dedicated towards understanding the concept of polynomial regressio
 
 Polynomial regression is used in those kind of scenarios where the relationship between dependent and independent features is not linear and instead it is curved. Now since the relationship is not linear thus it is obvious that simple linear regression will underfit and will not give us good results, thus one way of dealing with this it create polynomial features upto a certain degree to capture non linearity and then train model on these newly created features.
 
-![[Polynomial shape.png]]
+![Polynomial shape.png](https://github.com/yuvraaj2002/AI-Notes/blob/master/Machine%20Learning/Images/Polynomial%20shape.png)
 
 ### [Important point to keep in mind (When generating polynomial features)](#)
 
