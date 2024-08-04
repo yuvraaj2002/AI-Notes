@@ -48,4 +48,3 @@ The point to be noted is that in 3d we call it as best fit plane and in further 
 
 ### [What are the assumptions of linear regression ?](#) 
 
-
