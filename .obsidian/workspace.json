@@ -23,7 +23,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mathematics/Confidence Interval.md",
+                "file": "2024-08-04.md",
                 "mode": "source",
                 "source": false
               }
@@ -112,8 +112,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 326.5004348754883,
-    "collapsed": true
+    "width": 326.5004348754883
   },
   "right": {
     "id": "75ce3ba0dea3f5ef",
@@ -129,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mathematics/Confidence Interval.md",
+                "file": "2024-08-04.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mathematics/Confidence Interval.md",
+                "file": "2024-08-04.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -169,7 +168,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mathematics/Confidence Interval.md"
+                "file": "2024-08-04.md"
               }
             }
           }
@@ -193,47 +192,48 @@
   },
   "active": "80a5dbf00a6cad0f",
   "lastOpenFiles": [
+    "Mathematics/Linear Algebra/Transformations.md",
+    "Mathematics/Linear Algebra/Maximum Likelihood Estimation.md",
+    "Mathematics/Linear Algebra/Loss functions.md",
+    "Mathematics/Probability/T test.md",
+    "Mathematics/Probability/Z test.md",
+    "Mathematics/Probability/Uniform Distribution.md",
+    "Mathematics/Probability/Probability Distributions.md",
+    "Mathematics/Probability/Pareto Distribution.md",
+    "Mathematics/Probability/Normal Distribution.md",
+    "Mathematics/Probability/Log Normal Distribution.md",
+    "Mathematics/Probability/Binomial Distribution.md",
+    "Mathematics/Probability/Bernoulli Distribution.md",
+    "Mathematics/Statistics/Types of Sampling.md",
+    "Mathematics/Statistics/Regression Analysis.md",
+    "Mathematics/Statistics/Measure of Dispersion.md",
+    "Mathematics/Statistics/Measure of CT.md",
+    "Mathematics/Confidence Interval.md",
+    "Mathematics/Statistics/Hypothesis Testing.md",
+    "Mathematics/Statistics/Empirical Rule.md",
+    "Mathematics/Statistics/Confidence Interval.md",
+    "Mathematics/Statistics/Chi Square Test.md",
+    "Mathematics/Statistics/Central limit theorem.md",
+    "Mathematics/Statistics/ANOVA test.md",
+    "Mathematics/Statistics/AB Testing.md",
     "2024-08-04.md",
     "General ML Topics/Untitled",
     "Machine Learning/Linear Models/Polynomial Regression.md",
     "Machine Learning/Images/Polynomial shape.png",
-    "Machine Learning/Linear Models/Linear Regression.md",
     "Machine Learning/Images/Pasted image 20240711175735.png",
     "Machine Learning/Images/Polynomial Feature calculation.png",
     "Books/Daily Dose of Data Science.pdf",
-    "Tags/Machine Learning.md",
-    "Machine Learning/Tree Based Models/Decision Tree.md",
-    "Deep Learning/Text/LSTM.md",
-    "Daily Goals/2024-08-03.md",
-    "Preparation Index.md",
-    "Deep Learning/Techniques/Batch Normalization.md",
     "Deep Learning/Images/Batch Normalization.png",
-    "Excalidraw/Drawing 2024-08-03 16.14.05.excalidraw.md",
-    "Machine Learning/Instance Based Models/K Nearest Neighbor.md",
-    "Machine Learning/Bayesian Models/Naive Bayes.md",
-    "Deep Learning/Techniques/Weight Initialization.md",
     "Deep Learning/Images/0 Init Sigmoid issue.png",
     "Deep Learning/Images/Neural_Net_WI.png",
     "Deep Learning/Structured Data",
     "Deep Learning/Techniques",
     "Books/Hands on Machine Learning.pdf",
-    "Machine Learning/Tree Based Models/Random Forest.md",
     "Machine Learning/Images/CC Alpha.png",
     "Machine Learning/Images/Axis Sensitive.png",
-    "Daily Goals/2024-08-01.md",
     "Machine Learning/Images/Pasted image 20240703160516.png",
     "Machine Learning/Images/Gini Calculation MC.png",
-    "Unsupervised Learning/Clustering Algorithms/Clustering Metrics.md",
-    "Excalidraw/Drawing 2024-07-31 11.57.09.excalidraw.md",
-    "Excalidraw/Drawing 2024-08-02 15.39.01.excalidraw.md",
-    "Excalidraw/Drawing 2024-07-31 05.20.45.excalidraw.md",
-    "Excalidraw/Drawing 2024-07-29 12.16.36.excalidraw.md",
-    "Excalidraw/Drawing 2024-07-28 16.23.54.excalidraw.md",
-    "Excalidraw/Drawing 2024-07-27 15.46.07.excalidraw.md",
-    "Excalidraw/Drawing 2024-07-28 08.28.40.excalidraw.md",
-    "Excalidraw/Drawing 2024-07-13 18.39.32.excalidraw.md",
     "Excalidraw",
-    "General ML Topics/Feature Engineering.md",
     "Programs/Python Concepts/Decorator.ipynb",
     "Programs/Python Concepts",
     "Programs/New folder",
