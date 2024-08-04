@@ -6,6 +6,8 @@ This page is dedicated towards understanding the concept of polynomial regressio
 
 Polynomial regression is used in those kind of scenarios where the relationship between dependent and independent features is not linear and instead it is curved. Now since the relationship is not linear thus it is obvious that simple linear regression will underfit and will not give us good results, thus one way of dealing with this it create polynomial features upto a certain degree to capture non linearity and then train model on these newly created features.
 
+![[Polynomial shape.png]]
+
 ### [Important point to keep in mind (When generating polynomial features)](#)
 
 An important that we must keep in mind is that, for the given degree value let say 2 it will not only square the features but at the same time it will also generate the polynomial combination of features upto given degree. For example if we have features x1 and x2 and polynomial degree is 2, then we will get new features as
@@ -56,3 +58,41 @@ To find the coefficients we can either use the Ordinary least square approach or
 
 The affect of multicollinearity will be same like the affect on [[Linear Regression]] algorithm, such as unstable coefficients and high standard error.
 
+### [Python Code to implement Polynomial Regression](#)
+
+```python
+import numpy as np
+import matplotlib.pyplot as plt
+from sklearn.linear_model import LinearRegression
+from sklearn.preprocessing import PolynomialFeatures
+from sklearn.pipeline import make_pipeline
+import operator
+
+# Generate some data
+np.random.seed(0)
+x = 2 - 3 * np.random.normal(0, 1, 100)
+y = x - 2 * (x ** 2) + 0.5 * (x ** 3) + np.random.normal(-3, 3, 100)
+
+# Transform the data to include another axis (Make data 2d)
+x = x[:, np.newaxis]
+y = y[:, np.newaxis]
+
+# Define the polynomial features
+poly = PolynomialFeatures(degree=3)
+x_poly = poly.fit_transform(x)
+
+# Fit the model
+model = LinearRegression()
+model.fit(x_poly, y)
+
+# Visualize the results
+plt.scatter(x, y, s=10)
+
+# Sort the values of x before line plot
+y_pred = model.predict(x_poly)
+sort_axis = operator.itemgetter(0)
+sorted_zip = sorted(zip(x, y_pred), key=sort_axis)
+x, y_pred = zip(*sorted_zip)
+plt.plot(x, y_pred, color='m')
+plt.show()
+```

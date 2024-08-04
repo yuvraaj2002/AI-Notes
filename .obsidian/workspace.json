@@ -62,7 +62,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -112,8 +112,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 326.5004348754883,
-    "collapsed": true
+    "width": 326.5004348754883
   },
   "right": {
     "id": "75ce3ba0dea3f5ef",
@@ -129,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Machine Learning/Linear Models/Polynomial Regression.md",
+                "file": "2024-08-04.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Machine Learning/Linear Models/Polynomial Regression.md",
+                "file": "2024-08-04.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -169,7 +168,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Machine Learning/Linear Models/Polynomial Regression.md"
+                "file": "2024-08-04.md"
               }
             }
           }
@@ -191,16 +190,17 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "3715dfde6225307f",
+  "active": "80a5dbf00a6cad0f",
   "lastOpenFiles": [
-    "Machine Learning/Linear Models/Linear Regression.md",
     "Machine Learning/Linear Models/Polynomial Regression.md",
+    "2024-08-04.md",
+    "Machine Learning/Images/Polynomial shape.png",
+    "Machine Learning/Linear Models/Linear Regression.md",
     "Machine Learning/Images/Pasted image 20240711175735.png",
     "Machine Learning/Images/Polynomial Feature calculation.png",
     "Books/Daily Dose of Data Science.pdf",
     "Tags/Machine Learning.md",
     "Machine Learning/Tree Based Models/Decision Tree.md",
-    "2024-08-04.md",
     "Deep Learning/Text/LSTM.md",
     "Daily Goals/2024-08-03.md",
     "Preparation Index.md",
@@ -232,7 +232,6 @@
     "Excalidraw/Drawing 2024-07-13 18.39.32.excalidraw.md",
     "Excalidraw",
     "General ML Topics/Feature Engineering.md",
-    "Unsupervised Learning/Images/Vector Projection.png",
     "Programs/Python Concepts/Decorator.ipynb",
     "Programs/Python Concepts",
     "Programs/New folder",
