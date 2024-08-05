@@ -43,7 +43,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deep Learning/Techniques/Dropout.md",
+                "file": "General ML Topics/Outliers.md",
                 "mode": "source",
                 "source": false
               }
@@ -100,8 +100,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 326.5004348754883,
-    "collapsed": true
+    "width": 326.5004348754883
   },
   "right": {
     "id": "75ce3ba0dea3f5ef",
@@ -117,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Deep Learning/Techniques/Dropout.md",
+                "file": "General ML Topics/Outliers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Deep Learning/Techniques/Dropout.md",
+                "file": "General ML Topics/Outliers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Deep Learning/Techniques/Dropout.md"
+                "file": "General ML Topics/Outliers.md"
               }
             }
           }
@@ -181,9 +180,13 @@
   },
   "active": "89ad46e437a54122",
   "lastOpenFiles": [
-    "3.md",
-    "Deep Learning/Techniques/Dropout.md",
+    "General ML Topics/Cross Validation.md",
+    "General ML Topics/Outliers.md",
+    "Deep Learning/Techniques/Loss Functions.md",
     "Books/Daily Dose of Data Science.pdf",
+    "Loss function types.png",
+    "Deep Learning/Techniques/Dropout.md",
+    "3.md",
     "Deep Learning/Images/Dropout.png",
     "Tags/Deep Learning.md",
     "Machine Learning/Linear Models/Logistic Regression.md",
@@ -209,9 +212,6 @@
     "Mathematics/Statistics/Types of Sampling.md",
     "Mathematics/Statistics/Regression Analysis.md",
     "Mathematics/Statistics/Measure of Dispersion.md",
-    "Mathematics/Statistics/Measure of CT.md",
-    "Mathematics/Confidence Interval.md",
-    "Mathematics/Statistics/Hypothesis Testing.md",
     "General ML Topics/Untitled",
     "Machine Learning/Images/Polynomial shape.png",
     "Machine Learning/Images/Pasted image 20240711175735.png",
@@ -221,7 +221,6 @@
     "Deep Learning/Images/Neural_Net_WI.png",
     "Deep Learning/Structured Data",
     "Deep Learning/Techniques",
-    "Machine Learning/Images/CC Alpha.png",
     "Excalidraw",
     "Programs/Python Concepts/Decorator.ipynb",
     "Programs/Python Concepts",

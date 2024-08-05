@@ -2,7 +2,7 @@ This page is actually dedicated towards the indexing all the mathematical concep
 
 
 - [[Hypothesis Testing]]
-- [[Loss functions]]
+- [[Mathematics/Linear Algebra/Loss functions]]
 - [[Transformations]]
 - [[Probability Distributions]]
 - [[Confidence Interval]]
