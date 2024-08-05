@@ -7,7 +7,7 @@ This page is dedicated towards understanding the concept of outliers in machine 
 
 Outliers are simply the data point which behave or deviate significantly different from other set of data points in our dataset.
 
-![[Outliers.png|250]]
+![[Outliers.png|250]](https://github.com/yuvraaj2002/AI-Notes/blob/master/General%20ML%20Topics/Images/Outliers.png)
 
 There could be any reason behind presence of outliers in our dataset, but of the reasons can simply be summarized into 3 different points
 
