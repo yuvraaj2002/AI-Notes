@@ -38,7 +38,6 @@ Now finally before moving to how we can perform the read and write operation let
 2. After that in the RAM itself , a small temporary portion is allocated to store the data of the file before it's processed or used by the program.
 3. The small temporary portion is called buffer memory and it optimize read and write operations.
 
-
 #### When to use write and when to use writelines
 
 In case we want to write a single string into an file we can use write but if we want to write multiple lines in that case we can use the writelines.
@@ -62,10 +61,24 @@ with open("Sample_small.txt",'a') as f:
 ### [What if we want to add data to an existing file ](#)
 
 Also another thing to keep in mind is that we want to add some data into existing file without overwriting then we must open the file in append mode rather than write mode.
-#### When to use read and when to use readline
+
+### [When to use read and when to use readline](#)
 
 In case we want to directly load the complete data in the RAM itself in one go in that case we use the read, but incase the size of data is very big and our RAM size is limited then we can read the contents from the file in line by line manner and for this we can use the readline. 
 
+```python
+# If we want to read the data line by line
+with open("Sample_long.txt",'r') as f:
+    print(f.readline())
+
+# If we want to read the data in chunks
+chunk_size = 20
+with open("Sample_long.txt",'r') as f:
+    chunk = f.read(chunk_size)
+    while chunk:
+        print(chunk)
+        chunk = f.read(chunk_size)
+```
 
 ### [What is the difference between tell and seek method](#)
 
@@ -89,34 +102,12 @@ with open("Sample_small.txt",'r') as f:
     print("Current buffer pointer after repointing",f.tell()) # Should be at 0
 ```
 
-```python
-# If we want to read the data line by line
-with open("Sample_long.txt",'r') as f:
-    print(f.readline())
+### [Why don't we always using the text files](#)
 
-# If we want to read the data in chunks
-chunk_size = 20
-with open("Sample_long.txt",'r') as f:
-    chunk = f.read(chunk_size)
-    while chunk:
-        print(chunk)
-        chunk = f.read(chunk_size)
-```
+The major drawback of text files is that they can only read or write Unicode characters, so in case we want to store some complex data structures such as dictionary, custom objects, images, audio and video files then we won't be able to do so and for that we need to use binary files. 
 
-
-#### Why don't we always using the text files
-
-The major drawback of text files is that they can only read or write Unicode characters, so in case we want to store some complex data structures such as dictionary, custom objects, images, files, audio files then we won't be able to do so and for that we need to use binary files. When dealing with binary files everything will remain same just the thing is that we will be using rb or wb as read binary and write binary mode in open function.
+When dealing with binary files everything will remain same just the thing is that we will be using rb or wb as read binary and write binary mode in open function.
 
 ![[Serialization_Need.png|500]]
 
 In the above example since we can see that if we want to write and read complex python data structures, then we need to make them as string and after doing so, when we will read them back we will lost them, so the only way we can deal with them is to [[Serialization and Deserialization]] of  the python objects.
-
-- Talk about creating xPATH using tags as well as sometimes the attributes might not be present
-- In Xpath we give the slash but in Css we give the space only
-- Also in Xpath we use simple index but in Css we use nth-child 
-![[Automation_XPATH.png]]
-
-- Servers are machines that understand IP addresses, interact with DBMS (Database Management Systems), perform computations on the data provided by the DBMS, and then return the data to users in the form of data packets over IP.
-
-- CDNs are large-scale networks designed for global content distribution and performance optimization. Cache servers are typically used within specific applications or networks.
