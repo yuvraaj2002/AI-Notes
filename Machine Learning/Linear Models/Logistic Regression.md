@@ -58,7 +58,7 @@ Originally the logistic regression algorithm was created to solve binary classif
 
 In One Vs Rest approach we train K different binary classifiers and after training the query point is passed to each of the classifier and the classifier which gives the maximum positive class probability is used as final class for the given data point.
 
-![[OVR approach.png]]
+![[OVR approach.png]](https://github.com/yuvraaj2002/AI-Notes/blob/master/Machine%20Learning/Images/OVR%20approach.png)
 
 OVR should be applied when we have `class imbalance` and when `class data ponits are non mutually exclusive` (which means a data point can belong to more than 1 class)
 
