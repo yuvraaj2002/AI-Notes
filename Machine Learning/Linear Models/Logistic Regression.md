@@ -31,7 +31,7 @@ The loss function which we get from MLE is called binary cross entropy and after
 
 In order to derive the loss function using MLE there is a mathematical way and other is the intuitive way. So first of all let us understand it the intuitive way to derive the loss function.
 
-![[Intuitive_MLE.png]]
+![[Intuitive_MLE.png]](https://github.com/yuvraaj2002/AI-Notes/blob/master/Machine%20Learning/Images/Intuitive_MLE.png)
 
 Now we need to find that line for which the likelihood value is maximum, but a point to consider is that we multiply multiple probabilities then we may suffer from problem of underflow so to deal with this we take the log of probabilities.
 
