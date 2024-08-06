@@ -33,7 +33,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily Goals/2024-08-05.md",
+                "file": "Machine Learning/Linear Models/Logistic Regression.md",
                 "mode": "source",
                 "source": false
               }
@@ -55,8 +55,10 @@
             "id": "8610b2f4be834867",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2024-08-03 16.14.05.excalidraw.md"
+              }
             }
           }
         ],
@@ -126,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily Goals/2024-08-05.md",
+                "file": "Machine Learning/Linear Models/Logistic Regression.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daily Goals/2024-08-05.md",
+                "file": "Machine Learning/Linear Models/Logistic Regression.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +168,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daily Goals/2024-08-05.md"
+                "file": "Machine Learning/Linear Models/Logistic Regression.md"
               }
             }
           }
@@ -191,10 +193,16 @@
   },
   "active": "89ad46e437a54122",
   "lastOpenFiles": [
+    "Machine Learning/Images/Intuitive_MLE.png",
+    "Machine Learning/Linear Models/Logistic Regression.md",
+    "Excalidraw/Drawing 2024-08-03 16.14.05.excalidraw.md",
+    "Excalidraw/Drawing 2024-08-06 09.50.04.excalidraw.md",
+    "Machine Learning/Images/MLE Logistic.png",
+    "2024-08-06.md",
+    "Daily Goals/2024-08-05.md",
     "Daily Goals/2024-08-04.md",
     "Deep Learning/Images/Loss function types.png",
     "Things To Learn 🧠.md",
-    "Daily Goals/2024-08-05.md",
     "Books/Daily Dose of Data Science.pdf",
     "Books/Hands on Machine Learning.pdf",
     "General ML Topics/Cross Validation.md",
@@ -204,11 +212,9 @@
     "3.md",
     "Deep Learning/Images/Dropout.png",
     "Tags/Deep Learning.md",
-    "Machine Learning/Linear Models/Logistic Regression.md",
     "Machine Learning/Images/Logistic Regression sigmoid.png",
     "Mathematics/Linear Algebra/Maximum Likelihood Estimation.md",
     "Machine Learning/Images/Perceptron Trick drawback.png",
-    "Excalidraw/Drawing 2024-08-03 16.14.05.excalidraw.md",
     "Preparation Index.md",
     "Mathematics/Statistics/Confidence Interval.md",
     "Mathematics/Linear Algebra/Transformations.md",
@@ -220,15 +226,11 @@
     "Mathematics/Probability/Pareto Distribution.md",
     "Mathematics/Probability/Normal Distribution.md",
     "Mathematics/Probability/Log Normal Distribution.md",
-    "Mathematics/Probability/Binomial Distribution.md",
-    "Mathematics/Probability/Bernoulli Distribution.md",
     "General ML Topics/Untitled",
     "Machine Learning/Images/Polynomial shape.png",
     "Machine Learning/Images/Pasted image 20240711175735.png",
     "Machine Learning/Images/Polynomial Feature calculation.png",
     "Deep Learning/Images/Batch Normalization.png",
-    "Deep Learning/Images/0 Init Sigmoid issue.png",
-    "Deep Learning/Images/Neural_Net_WI.png",
     "Deep Learning/Structured Data",
     "Deep Learning/Techniques",
     "Excalidraw",
