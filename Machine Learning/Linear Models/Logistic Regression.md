@@ -44,7 +44,9 @@ $$Loss = Log(P_1)+Log(P_2) + Log(P_3) + Log(P_4) + Log(P_5)...Log(P_n)$$
 Also since we only need to multiply the probabilities of data point belonging to their actual class thus $Log(P_i)$ can be expanded as $Y_i*Log(Y^{Pred}_i) + (1-Y_i)*Log(1-Y^{Pred}_i)$ . With this for the positive class data point $Y_i = 1$ and for negative class $Y_i$ = 0.
 
 The final change which we need to make to get to our Binary cross entropy function is that we will add negative sign with every Log probability value and the reasons is that value of log between 0 to 1 is negative, so in order to get the negative value we will be adding a negative sign with which our function will become.
+
 $$Loss =  ∑ -Y_i*Log(Y^{Pred}_i) - (1-Y_i)*Log(1-Y^{Pred}_i)$$
+
 With the addition of negative sign, since earlier we use to increase the value now we will try to find those values of model parameter (Weights and bias) for which the loss function is minimum.
 
 ![[MLE Logistic.png]](https://github.com/yuvraaj2002/AI-Notes/blob/master/Machine%20Learning/Images/MLE%20Logistic.png)
