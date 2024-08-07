@@ -14,7 +14,7 @@ In python there are 4 different types of namespace
 3. Global namespace
 4. Built-in namespace
 
-![[Namespace Intro.png]](https://github.com/yuvraaj2002/AI-Notes/blob/master/Python/Images/Serialization_Need.png)
+![[Namespace Intro.png]](https://github.com/yuvraaj2002/AI-Notes/blob/master/Python/Images/Namespace%20Intro.png)
 
 In the above image the `temp` and `name` are part of global namespace whereas `a` is part of the local namespace.
 
