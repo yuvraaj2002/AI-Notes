@@ -33,29 +33,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/Namespace.md",
+                "file": "Python/Generator and Iterator.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "8610b2f4be834867",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2024-08-03 16.14.05.excalidraw.md"
-              }
-            }
-          },
-          {
-            "id": "0f3248c423df3dd0",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2024-08-07 09.38.57.excalidraw.md"
               }
             }
           }
@@ -110,7 +90,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 326.5004348754883
+    "width": 326.5004348754883,
+    "collapsed": true
   },
   "right": {
     "id": "75ce3ba0dea3f5ef",
@@ -126,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python/Namespace.md",
+                "file": "Python/Generator and Iterator.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python/Namespace.md",
+                "file": "Python/Generator and Iterator.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python/Namespace.md"
+                "file": "Python/Generator and Iterator.md"
               }
             }
           }
@@ -189,17 +170,17 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "89ad46e437a54122",
+  "active": "e3ea7a8a1258d044",
   "lastOpenFiles": [
-    "Python/Serialization and Deserialization.md",
+    "2024-08-07.md",
     "Python/Images/Namespace Intro.png",
-    "Python/Images/Namespace Intro.png",
+    "Things To Learn 🧠.md",
     "Python/Namespace.md",
+    "Python/Serialization and Deserialization.md",
     "Pasted image 20240807094003.png",
     "Excalidraw/Drawing 2024-08-07 09.38.57.excalidraw.md",
     "Excalidraw/Drawing 2024-08-03 16.14.05.excalidraw.md",
     "Python/Decorators.md",
-    "2024-08-07.md",
     "Python/Data Structures/Tuple.md",
     "Python/Data Structures/Dictionary.md",
     "Python/Data Structures/Set.md",
@@ -218,7 +199,6 @@
     "Machine Learning/Images/MLE Logistic.png",
     "Daily Goals/2024-08-04.md",
     "Deep Learning/Images/Loss function types.png",
-    "Things To Learn 🧠.md",
     "Books/Daily Dose of Data Science.pdf",
     "General ML Topics/Cross Validation.md",
     "General ML Topics/Outliers.md",
