@@ -110,8 +110,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 326.5004348754883,
-    "collapsed": true
+    "width": 326.5004348754883
   },
   "right": {
     "id": "75ce3ba0dea3f5ef",
@@ -190,10 +189,10 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "e3ea7a8a1258d044",
+  "active": "89ad46e437a54122",
   "lastOpenFiles": [
     "Python/Serialization and Deserialization.md",
-    "Namespace Intro.png",
+    "Python/Images/Namespace Intro.png",
     "Python/Images/Namespace Intro.png",
     "Python/Namespace.md",
     "Pasted image 20240807094003.png",
