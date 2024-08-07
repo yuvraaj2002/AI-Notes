@@ -33,7 +33,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/File Handling.md",
+                "file": "Python/Namespace.md",
                 "mode": "source",
                 "source": false
               }
@@ -100,8 +100,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 326.5004348754883,
-    "collapsed": true
+    "width": 326.5004348754883
   },
   "right": {
     "id": "75ce3ba0dea3f5ef",
@@ -117,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python/File Handling.md",
+                "file": "Python/Namespace.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python/File Handling.md",
+                "file": "Python/Namespace.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python/File Handling.md"
+                "file": "Python/Namespace.md"
               }
             }
           }
@@ -182,9 +181,19 @@
   },
   "active": "e3ea7a8a1258d044",
   "lastOpenFiles": [
-    "Python/Automation/Locators.md",
+    "Python/Decorators.md",
+    "Python/Namespace.md",
+    "2024-08-07.md",
+    "Python/Data Structures/Tuple.md",
+    "Python/Data Structures/Dictionary.md",
+    "Python/Data Structures/Set.md",
+    "Python/Data Structures/List.md",
+    "Python/Data Structures",
+    "Python/Serialization and Deserialization.md",
+    "Daily Goals/2024-08-06.md",
+    "Preparation Index.md",
     "Python/File Handling.md",
-    "2024-08-06.md",
+    "Python/Automation/Locators.md",
     "Machine Learning/Linear Models/Logistic Regression.md",
     "Daily Goals/2024-08-05.md",
     "Machine Learning/Images/OVR approach.png",
@@ -207,16 +216,7 @@
     "Machine Learning/Images/Logistic Regression sigmoid.png",
     "Mathematics/Linear Algebra/Maximum Likelihood Estimation.md",
     "Machine Learning/Images/Perceptron Trick drawback.png",
-    "Preparation Index.md",
     "Mathematics/Statistics/Confidence Interval.md",
-    "Mathematics/Linear Algebra/Transformations.md",
-    "Mathematics/Linear Algebra/Loss functions.md",
-    "Mathematics/Probability/T test.md",
-    "Mathematics/Probability/Z test.md",
-    "Mathematics/Probability/Uniform Distribution.md",
-    "Mathematics/Probability/Probability Distributions.md",
-    "Mathematics/Probability/Pareto Distribution.md",
-    "Mathematics/Probability/Normal Distribution.md",
     "General ML Topics/Untitled",
     "Machine Learning/Images/Polynomial shape.png",
     "Machine Learning/Images/Pasted image 20240711175735.png",
@@ -227,7 +227,6 @@
     "Programs/Python Concepts/Decorator.ipynb",
     "Programs/Python Concepts",
     "Programs/New folder",
-    "Books/Python_Object-Oriented_Programming.pdf",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]
