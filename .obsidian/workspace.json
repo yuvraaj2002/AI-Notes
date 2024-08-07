@@ -48,6 +48,16 @@
                 "file": "Excalidraw/Drawing 2024-08-03 16.14.05.excalidraw.md"
               }
             }
+          },
+          {
+            "id": "0f3248c423df3dd0",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2024-08-07 09.38.57.excalidraw.md"
+              }
+            }
           }
         ],
         "currentTab": 2
@@ -100,7 +110,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 326.5004348754883
+    "width": 326.5004348754883,
+    "collapsed": true
   },
   "right": {
     "id": "75ce3ba0dea3f5ef",
@@ -181,15 +192,20 @@
   },
   "active": "e3ea7a8a1258d044",
   "lastOpenFiles": [
-    "Python/Decorators.md",
+    "Python/Serialization and Deserialization.md",
+    "Namespace Intro.png",
+    "Python/Images/Namespace Intro.png",
     "Python/Namespace.md",
+    "Pasted image 20240807094003.png",
+    "Excalidraw/Drawing 2024-08-07 09.38.57.excalidraw.md",
+    "Excalidraw/Drawing 2024-08-03 16.14.05.excalidraw.md",
+    "Python/Decorators.md",
     "2024-08-07.md",
     "Python/Data Structures/Tuple.md",
     "Python/Data Structures/Dictionary.md",
     "Python/Data Structures/Set.md",
     "Python/Data Structures/List.md",
     "Python/Data Structures",
-    "Python/Serialization and Deserialization.md",
     "Daily Goals/2024-08-06.md",
     "Preparation Index.md",
     "Python/File Handling.md",
@@ -199,7 +215,6 @@
     "Machine Learning/Images/OVR approach.png",
     "Books/Hands on Machine Learning.pdf",
     "Machine Learning/Images/Intuitive_MLE.png",
-    "Excalidraw/Drawing 2024-08-03 16.14.05.excalidraw.md",
     "Excalidraw/Drawing 2024-08-06 09.50.04.excalidraw.md",
     "Machine Learning/Images/MLE Logistic.png",
     "Daily Goals/2024-08-04.md",
@@ -214,13 +229,8 @@
     "Deep Learning/Images/Dropout.png",
     "Tags/Deep Learning.md",
     "Machine Learning/Images/Logistic Regression sigmoid.png",
-    "Mathematics/Linear Algebra/Maximum Likelihood Estimation.md",
     "Machine Learning/Images/Perceptron Trick drawback.png",
-    "Mathematics/Statistics/Confidence Interval.md",
     "General ML Topics/Untitled",
-    "Machine Learning/Images/Polynomial shape.png",
-    "Machine Learning/Images/Pasted image 20240711175735.png",
-    "Machine Learning/Images/Polynomial Feature calculation.png",
     "Deep Learning/Structured Data",
     "Deep Learning/Techniques",
     "Excalidraw",
