@@ -33,7 +33,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/Generator and Iterator.md",
+                "file": "Data Structures And Algorithms/String/Anagrams and Grouping.md",
                 "mode": "source",
                 "source": false
               }
@@ -90,8 +90,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 326.5004348754883,
-    "collapsed": true
+    "width": 326.5004348754883
   },
   "right": {
     "id": "75ce3ba0dea3f5ef",
@@ -107,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python/Generator and Iterator.md",
+                "file": "Data Structures And Algorithms/String/Anagrams and Grouping.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python/Generator and Iterator.md",
+                "file": "Data Structures And Algorithms/String/Anagrams and Grouping.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python/Generator and Iterator.md"
+                "file": "Data Structures And Algorithms/String/Anagrams and Grouping.md"
               }
             }
           }
@@ -172,7 +171,15 @@
   },
   "active": "e3ea7a8a1258d044",
   "lastOpenFiles": [
+    "Data Structures And Algorithms/String/Searching and Indexing.md",
+    "Data Structures And Algorithms/String/Transformation and Distance.md",
+    "Data Structures And Algorithms/String/Pattern Matching.md",
+    "Data Structures And Algorithms/String/Segmentation and Validation.md",
+    "Data Structures And Algorithms/String/Anagrams and Grouping.md",
+    "Data Structures And Algorithms/String/Substrings and Subsequence.md",
+    "Data Structures And Algorithms/String/String Operations.md",
     "2024-08-07.md",
+    "Python/Generator and Iterator.md",
     "Python/Images/Namespace Intro.png",
     "Things To Learn 🧠.md",
     "Python/Namespace.md",
@@ -197,16 +204,9 @@
     "Machine Learning/Images/Intuitive_MLE.png",
     "Excalidraw/Drawing 2024-08-06 09.50.04.excalidraw.md",
     "Machine Learning/Images/MLE Logistic.png",
-    "Daily Goals/2024-08-04.md",
     "Deep Learning/Images/Loss function types.png",
     "Books/Daily Dose of Data Science.pdf",
-    "General ML Topics/Cross Validation.md",
-    "General ML Topics/Outliers.md",
-    "Deep Learning/Techniques/Loss Functions.md",
-    "Deep Learning/Techniques/Dropout.md",
-    "3.md",
     "Deep Learning/Images/Dropout.png",
-    "Tags/Deep Learning.md",
     "Machine Learning/Images/Logistic Regression sigmoid.png",
     "Machine Learning/Images/Perceptron Trick drawback.png",
     "General ML Topics/Untitled",
