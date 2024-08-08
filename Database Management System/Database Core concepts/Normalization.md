@@ -49,7 +49,6 @@ Where partial dependency means that if there exist some relation between composi
 
 Just like 2nd form of normalization is built on top of 1st form of normalization so just like that 3rd form is built on top of 2nd form and after dealing with partial dependency, in this form we need to make sure that there is no transitive dependency, which in simple words means that non prime key attribute should not be dependent on non prime key attribute.
 
-
 ##### Talk about BCNF Normal form 
 
 This is also called Boyce Codd normal form and in this first of all the table must be 3 form normalized and after that we need to make sure that if there exist a functional dependency between A -> B then A should be super key only, which means that we need to make sure that prime attribute is not derived from any other prime or non prime attribute.

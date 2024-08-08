@@ -3,8 +3,7 @@ This page is dedicated towards understanding the concept of transactions in Data
 - [Notes of the class](https://drive.google.com/drive/folders/1fidrKEB7OBccOhfr5jy_mGeNlIK8HE2O)
 - [Youtube Video](https://www.youtube.com/watch?v=sS4gadQw5iM)
 
-
-#### What do you mean by transaction 
+### [What do you mean by transaction in DBMS](#) 
 
 Transaction can simply be defined as the unit of work having logical sequence of steps. Example: Transferring the money form one account to some other account is basically a transaction where there are couple of steps which needs to be executed in logical sequence. The SQL language dealing with transaction is called [[TCL]]
 
@@ -13,22 +12,21 @@ Transaction can simply be defined as the unit of work having logical sequence of
 - Adding the amount to the second account.
 - Updating the transaction records.  
 
-
-#### What do you mean by commit, rollback and savepoint
-
+### [What do you mean by commit, rollback and savepoint](#)
 
 
-#### What do you mean by ACID properties and what is the need of them ? 
+
+### [What do you mean by ACID properties and what is the need of them](#) 
 
 In order to maintain the integrity of the database during transactions, there are around 4 properties which must be held true and these are 
 
 - Atomicity : Every transaction must be considered as an unit of work which must be either completed completely and should not occur at all and in case some error occur during the execution of some step in the transaction then the data base must be rolled back to the previous state to ensure the data is consistent.
 - Consistency : It means that the data in the database must be consistent before and after the completion of the transaction. In practical terms it should not be like that the amount is deducted from one account but it is not credited in the target account.
-- Isolation : Isolations means that if there exist multiple concurrent transactions then they must be isolated from each other and should be executed sequentially so that no data anomalies occur.
+- Isolation : Isolations means that if there exist multiple concurrent transactions then the steps in them must be arranged in such a way that there is no data anomaly.
 - Durability: According to durability if the changes have been committed in the database then that change in the state of the database must be permanent.
 
 
-#### Transaction states
+### [Transaction states](#)
 
 There are various transaction states under which the transaction goes through and these transaction states are 
 
@@ -40,7 +38,8 @@ There are various transaction states under which the transaction goes through an
 - terminated state : A transaction is said to have terminated if has either committed or aborted.
 
 ![[Pasted image 20240709185517.png]]
-#### How to implement atomicity in transactions
+
+### How to implement atomicity in transactions
 
 
 #### What is schedule in DBMS and its types ? 

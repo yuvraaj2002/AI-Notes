@@ -1,4 +1,6 @@
-This page is dedicated towards understanding the problems related to strings in Data structures and algorithms and here I will be mentioning most commonly asked interview questions along with their solutions. Rather than doing questions randomly we will be focusing on the important subtopics. And the various subtopics which we will consider in array are 
+This page is dedicated towards understanding the problems related to strings in Data structures and algorithms and here I will be mentioning most commonly asked interview questions along with their solutions. Rather than doing questions randomly we will be focusing on the important subtopics. The major resource that I am using so far is linked below
+
+- [Coding Ninjas Coding questions](https://www.naukri.com/code360/problem-lists/top-array-coding-interview-questions)
 
 ### [Find the first and last occurrence of a given element in a sorted array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/description/)
 - Go over the vector linearly and when we will encounter the target element for the first time we will store its index as both first and last occurrence and then reverse the Boolean flag which we initialized at the start.

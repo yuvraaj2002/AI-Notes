@@ -38,9 +38,41 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "11fc9600afc71022",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Data Structures And Algorithms/Arrays.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a824422a5ed40bb8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2024-08-08.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7451ae55c116ae94",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -90,7 +122,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 326.5004348754883
+    "width": 326.5004348754883,
+    "collapsed": true
   },
   "right": {
     "id": "75ce3ba0dea3f5ef",
@@ -106,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data Structures And Algorithms/String/Anagrams and Grouping.md",
+                "file": "2024-08-08.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data Structures And Algorithms/String/Anagrams and Grouping.md",
+                "file": "2024-08-08.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +179,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data Structures And Algorithms/String/Anagrams and Grouping.md"
+                "file": "2024-08-08.md"
               }
             }
           }
@@ -169,19 +202,24 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "e3ea7a8a1258d044",
+  "active": "a824422a5ed40bb8",
   "lastOpenFiles": [
+    "Data Structures And Algorithms/String/Anagrams and Grouping.md",
+    "Data Structures And Algorithms/String/String Operations.md",
+    "Data Structures And Algorithms/String/Substrings and Subsequence.md",
+    "2024-08-08.md",
+    "Things To Learn 🧠.md",
+    "Daily Goals/2024-08-07.md",
+    "Data Structures And Algorithms/Arrays.md",
+    "Database Management System/Database Core concepts/Scaling Patterns.md",
+    "Database Management System/Database Core concepts/Normalization.md",
+    "Database Management System/Database Core concepts/Transactions - ACID.md",
     "Data Structures And Algorithms/String/Searching and Indexing.md",
     "Data Structures And Algorithms/String/Transformation and Distance.md",
     "Data Structures And Algorithms/String/Pattern Matching.md",
     "Data Structures And Algorithms/String/Segmentation and Validation.md",
-    "Data Structures And Algorithms/String/Anagrams and Grouping.md",
-    "Data Structures And Algorithms/String/Substrings and Subsequence.md",
-    "Data Structures And Algorithms/String/String Operations.md",
-    "2024-08-07.md",
     "Python/Generator and Iterator.md",
     "Python/Images/Namespace Intro.png",
-    "Things To Learn 🧠.md",
     "Python/Namespace.md",
     "Python/Serialization and Deserialization.md",
     "Pasted image 20240807094003.png",
@@ -195,14 +233,9 @@
     "Python/Data Structures",
     "Daily Goals/2024-08-06.md",
     "Preparation Index.md",
-    "Python/File Handling.md",
-    "Python/Automation/Locators.md",
-    "Machine Learning/Linear Models/Logistic Regression.md",
-    "Daily Goals/2024-08-05.md",
     "Machine Learning/Images/OVR approach.png",
     "Books/Hands on Machine Learning.pdf",
     "Machine Learning/Images/Intuitive_MLE.png",
-    "Excalidraw/Drawing 2024-08-06 09.50.04.excalidraw.md",
     "Machine Learning/Images/MLE Logistic.png",
     "Deep Learning/Images/Loss function types.png",
     "Books/Daily Dose of Data Science.pdf",
