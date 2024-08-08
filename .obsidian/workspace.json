@@ -33,7 +33,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Structures And Algorithms/String/Anagrams and Grouping.md",
+                "file": "2024-08-08.md",
                 "mode": "source",
                 "source": false
               }
@@ -45,7 +45,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Structures And Algorithms/Arrays.md",
+                "file": "Data Structures And Algorithms/String/Substrings and Subsequence.md",
                 "mode": "source",
                 "source": false
               }
@@ -57,7 +57,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024-08-08.md",
+                "file": "Data Structures And Algorithms/String/Substrings/Questions.md",
                 "mode": "source",
                 "source": false
               }
@@ -67,12 +67,12 @@
             "id": "7451ae55c116ae94",
             "type": "leaf",
             "state": {
-              "type": "empty",
+              "type": "graph",
               "state": {}
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -139,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024-08-08.md",
+                "file": "Data Structures And Algorithms/String/Substrings and Subsequence.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024-08-08.md",
+                "file": "Data Structures And Algorithms/String/Substrings and Subsequence.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,7 +179,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024-08-08.md"
+                "file": "Data Structures And Algorithms/String/Substrings and Subsequence.md"
               }
             }
           }
@@ -202,15 +202,17 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "a824422a5ed40bb8",
+  "active": "11fc9600afc71022",
   "lastOpenFiles": [
+    "Data Structures And Algorithms/String/Substrings/Questions.md",
+    "Data Structures And Algorithms/String/Substrings and Subsequence.md",
+    "Data Structures And Algorithms/Arrays.md",
+    "Data Structures And Algorithms/String/Substrings",
+    "2024-08-08.md",
     "Data Structures And Algorithms/String/Anagrams and Grouping.md",
     "Data Structures And Algorithms/String/String Operations.md",
-    "Data Structures And Algorithms/String/Substrings and Subsequence.md",
-    "2024-08-08.md",
     "Things To Learn 🧠.md",
     "Daily Goals/2024-08-07.md",
-    "Data Structures And Algorithms/Arrays.md",
     "Database Management System/Database Core concepts/Scaling Patterns.md",
     "Database Management System/Database Core concepts/Normalization.md",
     "Database Management System/Database Core concepts/Transactions - ACID.md",
@@ -232,7 +234,6 @@
     "Python/Data Structures/List.md",
     "Python/Data Structures",
     "Daily Goals/2024-08-06.md",
-    "Preparation Index.md",
     "Machine Learning/Images/OVR approach.png",
     "Books/Hands on Machine Learning.pdf",
     "Machine Learning/Images/Intuitive_MLE.png",
@@ -248,7 +249,6 @@
     "Excalidraw",
     "Programs/Python Concepts/Decorator.ipynb",
     "Programs/Python Concepts",
-    "Programs/New folder",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]

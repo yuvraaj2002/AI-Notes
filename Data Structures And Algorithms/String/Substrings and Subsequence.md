@@ -1,3 +1,67 @@
+This page is dedicated towards understanding the problems related to strings in Data structures and algorithms and here I will be mentioning most commonly asked interview questions related to subsequences.
+
+### [Find the longest common subsequence between 2 strings](https://www.naukri.com/code360/problems/longest-common-subsequence_1063255?topList=top-string-coding-interview-questions&problemListRedirection=true&difficulty%5B%5D=Medium&sort_entity=company_count&sort_order=DESC)
+
+###### [Approach 1](#)
+
+- Generate all the possible subsequences from the 2 strings
+- Compare the subsequences and find the maximum length
+
+Time Complexity $O(2^n) + O(2^m)$ and Space complexity $O(n+m)$
+
+```cpp
+#include <bits/stdc++.h>
+using namespace std;
+
+void find_subs(int index, string sub_string, string st, vector<string>& subseq) {
+    
+    // Base condition
+    if (index == st.length()) 
+    {
+        if (sub_string.length() >= 1) 
+        {
+            subseq.push_back(sub_string);
+        }
+        return;
+    }
+
+    // Selecting current index character
+    find_subs(index + 1, sub_string + st[index], st, subseq);
+
+    // Ignoring the current index character
+    find_subs(index + 1, sub_string, st, subseq);
+}
+
+int getLengthOfLCS(string& str1, string& str2) 
+{
+    // Initializing vectors to store the subsequences
+    vector<string> subseq1;
+    vector<string> subseq2;
+    int length = 0;
+    int index = 0;
+    string sub_string = "";
+
+    // Calling function to find the substrings
+    find_subs(index, sub_string, str1, subseq1);
+    find_subs(index, sub_string, str2, subseq2);
+
+    // Finding the common substrings
+    for (int i = 0; i < subseq1.size(); i++) 
+    {
+        for (int j = 0; j < subseq2.size(); j++) 
+        {
+            if (subseq1[i] == subseq2[j]) 
+            {
+                length = max(length, (int)subseq1[i].length());
+                break;
+            }
+        }
+    }
+    return length;
+}
+```
+
+
 ### [Find the longest palindromic substring](https://leetcode.com/problems/longest-palindromic-substring/description/)
 
 There are couple of approaches with which we can actually solve this problem so let us discuss each of the approach sequentially.
@@ -138,8 +202,6 @@ public:
 
 
 - [Find the longest common prefix among a set of strings](#)
-- [Find the length of the longest substring without repeating characters](#)
--  [Find the length of the longest substring that contains at most K distinct characters](#)
 - [Find the minimum window in a string which contains all characters of another string](#)
 
 - [Generate the nth term in the count-and-say sequence](#)
