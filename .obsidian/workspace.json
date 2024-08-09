@@ -45,7 +45,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Structures And Algorithms/String/Substrings and Subsequence.md",
+                "file": "2024-08-08.md",
                 "mode": "source",
                 "source": false
               }
@@ -67,12 +67,16 @@
             "id": "7451ae55c116ae94",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "2024-08-08.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -122,7 +126,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 326.5004348754883
+    "width": 326.5004348754883,
+    "collapsed": true
   },
   "right": {
     "id": "75ce3ba0dea3f5ef",
@@ -138,7 +143,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data Structures And Algorithms/String/Substrings and Subsequence.md",
+                "file": "2024-08-08.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,7 +160,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data Structures And Algorithms/String/Substrings and Subsequence.md",
+                "file": "2024-08-08.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,7 +183,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data Structures And Algorithms/String/Substrings and Subsequence.md"
+                "file": "2024-08-08.md"
               }
             }
           }
@@ -201,13 +206,15 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "89ad46e437a54122",
+  "active": "7451ae55c116ae94",
   "lastOpenFiles": [
-    "Data Structures And Algorithms/String/Substrings and Subsequence/Substrings.md",
+    "Python/Object Oriented Programming/Abstraction.md",
+    "2024-08-08.md",
+    "Data Structures And Algorithms/String/Substrings and Subsequence/Subsequences.md",
     "Data Structures And Algorithms/String/Substrings and Subsequence.md",
+    "Data Structures And Algorithms/String/Substrings and Subsequence/Substrings.md",
     "Data Structures And Algorithms/Arrays.md",
     "Data Structures And Algorithms/String/Substrings and Subsequence",
-    "2024-08-08.md",
     "Data Structures And Algorithms/String/Anagrams and Grouping.md",
     "Data Structures And Algorithms/String/String Operations.md",
     "Things To Learn 🧠.md",
@@ -230,9 +237,7 @@
     "Python/Data Structures/Tuple.md",
     "Python/Data Structures/Dictionary.md",
     "Python/Data Structures/Set.md",
-    "Python/Data Structures/List.md",
     "Python/Data Structures",
-    "Daily Goals/2024-08-06.md",
     "Machine Learning/Images/OVR approach.png",
     "Books/Hands on Machine Learning.pdf",
     "Machine Learning/Images/Intuitive_MLE.png",
