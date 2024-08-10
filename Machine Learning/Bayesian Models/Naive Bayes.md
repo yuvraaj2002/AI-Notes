@@ -2,8 +2,9 @@ This page is dedicated towards understanding the concept of naive bayes theorem.
 
 Here is the google drive link of the [Notebook](https://drive.google.com/file/d/1ocyl8UZi3qS-ARaw7_Ot9qUGLhA20f9n/view)
 
-- [ ] Lidstone smoothing
-- [ ] Complementing Smoothing
+- [ ] Types of smoothing
+- [ ] Complementing naive bayes
+
 ### [What is bayes theorem and how it is different from conditional probability ?](#) 
 
 Bayes theorem is an important theorem in the field of statistics and it provides us the mechanism to relate 2 conditional probabilities, It is represented as $P(A|B) = (P(B|A)*P(A))/P(B)$
@@ -29,17 +30,25 @@ There are 2 main reasons behind why it is important to make a naive assumption t
 
 The way naive bayes work is that during the training phase, after making a naive assumption that all the features are independent from each other, it calculates conditional probabilities, prior probabilities (Model parameters) and store them. Then during the prediction phase it utilized these calculated probabilities to derive the final output.
 
-1. $P(Yes|F_n) = P(F_n|Yes) * P(Yes)$
-2. $P(F_n|Yes)  =  P(F_1|Yes) * P(F_2|Yes) * P(F_3|Yes) * P(Yes)$
-3. $P(No|F_n) = P(F_n|No) * P(No)$
-4. $P(F_n|No)  =  P(F_1|No) * P(F_2|No) * P(F_3|No) * P(No)$
+`For Positive class`
+-  $P(Yes|F_n) = P(F_n|Yes) * P(Yes)$
+-  $P(F_n|Yes)  =  P(F_1|Yes) * P(F_2|Yes) * P(F_3|Yes) * P(Yes)$
+
+`For Negative class`
+-  $P(No|F_n) = P(F_n|No) * P(No)$
+- $P(F_n|No)  =  P(F_1|No) * P(F_2|No) * P(F_3|No) * P(No)$
 
 Finally the $Max(P(Yes|F_n),P(No,F_n))$ is considered for the final output 
 ### [What is the issue of underflow, why it happens in NB and how to solve this ?](#) 
 
 Underflow is basically a situation where when the number becomes very small then the computer finds it difficult to actually store this value accurately and precisely using bits representation. And this lead to numerical unstability.
 
-Now this is a common issue which is faced incase of naive bayes specifically working with high dimensional data because in the high dimensional data, the number of conditional probabilities in the joint conditional probabilities will increase and with this the overall product of such values lying between 0 and 1 will become very small leading to underflow. So the only way to dealing with this is to consider the log conditional probabilities. But since the log of values between 0 and 1 will be negative thus the class having least negative value will be chosen. Example :
+Now this is a common issue which is faced incase of naive bayes specifically working with high dimensional data because in the high dimensional data, the number of conditional probabilities in the joint conditional probabilities will increase and with this the overall product of such values lying between 0 and 1 will become very small leading to underflow. So the only way to dealing with this is to consider the log conditional probabilities. 
+
+$$P(Yes/f_n) = Log(P(f1/Yes)) +  Log(P(f1/Yes)) +  Log(P(Yes))$$
+
+But since the log of values between 0 and 1 will be negative thus the class having least negative value will be chosen. Example :
+
 - $Log_P(yes)$ = -145
 - $Log_P(no)$ = -130
 Then out of yes and no the no will be chosen as class for the query data point.
@@ -85,3 +94,6 @@ Gaussian distributions, being continuous probability distributions, do not assig
 Out of core naive bayes is basically a variant of naive bayes which is used in those kind of scenarios where our data is very large in size and it becomes difficult to process it once in single go due to memory issues.
 
 So rather loading the complete dataset into the memory we load the dataset in term of batches and then do the partial fitting of the batches.
+
+
+### [What do you mean by complement naive bayes and when do we use it ?](#)
