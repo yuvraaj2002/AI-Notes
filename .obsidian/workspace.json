@@ -57,9 +57,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "General ML Topics/Imbalanced data.md",
+                "file": "General ML Topics/Cross Validation.md",
                 "mode": "source",
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "f4ae6bf3eb3d59c1",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "General ML Topics/Images/K Fold.png"
               }
             }
           }
@@ -130,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "General ML Topics/Imbalanced data.md",
+                "file": "General ML Topics/Cross Validation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +157,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "General ML Topics/Imbalanced data.md",
+                "file": "General ML Topics/Cross Validation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +180,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "General ML Topics/Imbalanced data.md"
+                "file": "General ML Topics/Cross Validation.md"
               }
             }
           }
@@ -193,8 +203,11 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "89ad46e437a54122",
+  "active": "7ca685ed47cc157b",
   "lastOpenFiles": [
+    "General ML Topics/Images/K Fold.png",
+    "General ML Topics/Cross Validation.md",
+    "General ML Topics/Imbalanced data.md",
     "General ML Topics/Bias Variance Tradeoff.md",
     "General ML Topics/Feature Scaling.md",
     "2024-08-10.md",
@@ -222,10 +235,7 @@
     "Pasted Image 20240809195554_746.png",
     "Pasted Image 20240809195626_761.png",
     "Database Management System/SQL/Window Functions.md",
-    "Excalidraw/Drawing 2024-08-09 19.55.39.excalidraw.md",
     "Books/Daily Dose of Data Science.pdf",
-    "Daily Goals/2024-08-08.md",
-    "Python/Object Oriented Programming/Abstraction.md",
     "Data Structures And Algorithms/String/Substrings and Subsequence",
     "Python/Images/Namespace Intro.png",
     "Pasted image 20240807094003.png",
