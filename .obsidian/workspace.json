@@ -102,8 +102,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 326.5004348754883,
-    "collapsed": true
+    "width": 326.5004348754883
   },
   "right": {
     "id": "75ce3ba0dea3f5ef",
@@ -184,6 +183,8 @@
   },
   "active": "e93b4738714e89c5",
   "lastOpenFiles": [
+    "General ML Topics/F Test.md",
+    "General ML Topics/Missing Values.md",
     "2024-08-10.md",
     "Machine Learning/Tree Based Models/Decision Tree.md",
     "Things To Learn 🧠.md",
@@ -214,8 +215,6 @@
     "Data Structures And Algorithms/String/Substrings and Subsequence",
     "Data Structures And Algorithms/String/Anagrams and Grouping.md",
     "Data Structures And Algorithms/String/String Operations.md",
-    "Daily Goals/2024-08-07.md",
-    "Database Management System/Database Core concepts/Scaling Patterns.md",
     "Python/Images/Namespace Intro.png",
     "Pasted image 20240807094003.png",
     "Python/Data Structures",
