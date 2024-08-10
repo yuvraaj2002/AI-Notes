@@ -8,75 +8,48 @@
         "type": "tabs",
         "children": [
           {
-            "id": "20ce28621b01ea7d",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Books/Hands on Machine Learning.pdf"
-              }
-            }
-          },
-          {
-            "id": "f9bc49708c3ce8e6",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Books/Daily Dose of Data Science.pdf"
-              }
-            }
-          },
-          {
-            "id": "e3ea7a8a1258d044",
+            "id": "44439c8d36e7691f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024-08-08.md",
+                "file": "2024-08-10.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "11fc9600afc71022",
+            "id": "c635e335f04f2de0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024-08-08.md",
+                "file": "Machine Learning/Linear Models/Linear Regression.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "a824422a5ed40bb8",
+            "id": "e93b4738714e89c5",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "kanban",
               "state": {
-                "file": "Data Structures And Algorithms/String/Substrings and Subsequence/Substrings.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7451ae55c116ae94",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2024-08-08.md",
-                "mode": "source",
-                "source": false
+                "file": "Things To Learn 🧠.md",
+                "kanbanViewState": {
+                  "kanban-plugin": "board",
+                  "list-collapse": [
+                    false,
+                    false
+                  ]
+                }
               }
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -143,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024-08-08.md",
+                "file": "Machine Learning/Linear Models/Linear Regression.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -160,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024-08-08.md",
+                "file": "Machine Learning/Linear Models/Linear Regression.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -183,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024-08-08.md"
+                "file": "Machine Learning/Linear Models/Linear Regression.md"
               }
             }
           }
@@ -206,10 +179,20 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "7451ae55c116ae94",
+  "active": "c635e335f04f2de0",
   "lastOpenFiles": [
+    "Things To Learn 🧠.md",
+    "Machine Learning/Linear Models/Linear Regression.md",
+    "2024-08-10.md",
+    "Daily Goals/2024-08-09.md",
+    "Books/Hands on Machine Learning.pdf",
+    "Pasted Image 20240809195554_746.png",
+    "Pasted Image 20240809195626_761.png",
+    "Database Management System/SQL/Window Functions.md",
+    "Excalidraw/Drawing 2024-08-09 19.55.39.excalidraw.md",
+    "Books/Daily Dose of Data Science.pdf",
+    "Daily Goals/2024-08-08.md",
     "Python/Object Oriented Programming/Abstraction.md",
-    "2024-08-08.md",
     "Data Structures And Algorithms/String/Substrings and Subsequence/Subsequences.md",
     "Data Structures And Algorithms/String/Substrings and Subsequence.md",
     "Data Structures And Algorithms/String/Substrings and Subsequence/Substrings.md",
@@ -217,7 +200,6 @@
     "Data Structures And Algorithms/String/Substrings and Subsequence",
     "Data Structures And Algorithms/String/Anagrams and Grouping.md",
     "Data Structures And Algorithms/String/String Operations.md",
-    "Things To Learn 🧠.md",
     "Daily Goals/2024-08-07.md",
     "Database Management System/Database Core concepts/Scaling Patterns.md",
     "Database Management System/Database Core concepts/Normalization.md",
@@ -232,21 +214,13 @@
     "Python/Serialization and Deserialization.md",
     "Pasted image 20240807094003.png",
     "Excalidraw/Drawing 2024-08-07 09.38.57.excalidraw.md",
-    "Excalidraw/Drawing 2024-08-03 16.14.05.excalidraw.md",
-    "Python/Decorators.md",
-    "Python/Data Structures/Tuple.md",
-    "Python/Data Structures/Dictionary.md",
-    "Python/Data Structures/Set.md",
     "Python/Data Structures",
     "Machine Learning/Images/OVR approach.png",
-    "Books/Hands on Machine Learning.pdf",
     "Machine Learning/Images/Intuitive_MLE.png",
     "Machine Learning/Images/MLE Logistic.png",
     "Deep Learning/Images/Loss function types.png",
-    "Books/Daily Dose of Data Science.pdf",
     "Deep Learning/Images/Dropout.png",
     "Machine Learning/Images/Logistic Regression sigmoid.png",
-    "Machine Learning/Images/Perceptron Trick drawback.png",
     "General ML Topics/Untitled",
     "Deep Learning/Structured Data",
     "Deep Learning/Techniques",

@@ -1,1 +1,6 @@
-{}
+{
+  "theme": "obsidian",
+  "cssTheme": "Things",
+  "baseFontSizeAction": true,
+  "baseFontSize": 16
+}

@@ -1,7 +1,13 @@
 This page is dedicated towards understanding the concepts related to linear regression in machine learning and the resources used for this algorithm are basically the videos of CampusX.
 
-[Linear regression Wikipedia](https://en.wikipedia.org/wiki/Linear_regression#:~:text=In%20linear%20regression%2C%20the%20relationships,models%20are%20called%20linear%20models)
+- [Linear regression Wikipedia](https://en.wikipedia.org/wiki/Linear_regression#:~:text=In%20linear%20regression%2C%20the%20relationships,models%20are%20called%20linear%20models)
 
+##### Remaining Questions
+
+- [ ] Why there are no hyper parameters
+- [ ] What is the difference between Regression line and best fit line
+- [ ] Why we use MSE 
+- [ ] Assumptions of linear regression
 
 ### [ What is linear regression and from where does the terms linear and regression comes from ?](#) 
 
@@ -20,13 +26,13 @@ Also based on the number of independent variables there are 2 different versions
 Linear regression is parametric in nature because it makes an assumption about the data it is dealing with and there are 5 assumptions of linear regression. Also since the number of parameters won't increase with increase in data points so that is also the indication that linear regression algorithm is parametric in nature. There are 2 parameters associated with linear regression and these are slope and intercept
 
 - Slope is used to define the rate of change of dependent variable with unit change in the associated independent variable. For example if slope value for some input feature is $W_1$ → 0.4 , it represents the output value will vary with rate of 0.4.
-- Offset is used to **present a base line value** for our algorithm, like it is used in those scenarios where if the input *slope → 0, there must be some value as an output.
+- Offset is used to present a base line value for our algorithm, like it is used in those scenarios where if the input *slope → 0, there must be some value as an output.
 
 ### [What is best fit line and what are ways to find it ?](#) 
 
 Best fit line is the mathematical function representing the relationship between dependent and independent variables for which the value of cost function will be minimum. There are 2 techniques which we can use to find the best fit line and these are ⬇️
 
-1. **Ordinary least square method** → Closed form expression, where we simply use a mathematical function to get the values of model coefficients, but incase of multiple regression setup this approach is not preferred due to high computational complexity of Matrix inversion operation $O(n^3)$
+1. Ordinary least square method → Closed form expression, where we simply use a mathematical function to get the values of model coefficients, but incase of multiple regression setup this approach is not preferred due to high computational complexity of Matrix inversion operation $O(n^3)$ also if there is perfect multicollinearity we will not be able to get model coefficients.
 2. [[Gradient Descent]] → It is a Non closed form expression where we use iterative optimization algorithm to find the most optimal model parameter values.
 
 The point to be noted is that in 3d we call it as best fit plane and in further higher dimension we call it as hyper plane and in order to find this mathematical function which is made up of slopes and intercept we need to minimize the objective function/ cost function.
