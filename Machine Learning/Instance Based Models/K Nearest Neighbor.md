@@ -3,6 +3,10 @@ This page is dedicated towards understanding both the KNN classifier and regress
 - [KNN Classifier](https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsClassifier.html)
 - [KNN Regressor](https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsRegressor.html)
 
+##### Remaining Questions
+
+- [ ] Understanding the concept behind KD tree and Ball tree
+- [ ] Time complexity of KNN
 ### [What do you mean by KNN algorithm and talk about its types](#)
 
 KNN is simply a short form for the K nearest neighbor and it is a distance based supervised machine learning algorithm that can be used to solve both classification and regression problem. There are 2 different variants of KNN algorithm ( KNN classifier and KNN regressor ). The internal working of both these algorithms is same like the initialization of K and finding the K nearest neighbors but the only difference is that
@@ -28,6 +32,7 @@ K in KNN algorithm is simply a hyper-parameter which is used to specify how many
 1. Rule of Thumb: A commonly used rule of thumb is to set K as the square root of the total number of data points in the training set. This provides a good starting point and can be refined using other techniques mentioned above.
 2. Using [[Cross Validation]]
 
+During the classification we always consider the odd number of K because we want to make sure that we are not getting stuck into the situation where the number of positive and negative class data points are equal.
 ### [What are the applications of KNN](#)
 
 The various application of KNN algorithm are ⬇️
@@ -51,10 +56,10 @@ The various application of KNN algorithm are ⬇️
 
 ### [What are the various optimization that can be done in KNN ?](#) 
 
+- Dimensionality reduction
 - Scaling the features values [[Feature Scaling]]
 - Removing the Outliers
 - Using Space partitioning data structures such as KD tree and Ball tree to improve the search speed
-
 
 ### [Explain KD tree and Ball tree in KNN](#)
 
@@ -62,10 +67,10 @@ Both the KD tree and Ball tree are space partitioning data structures which divi
 
 1. KD tree stands for K dimensional trees and here we divide the feature space into hyper cubes by creating a cut using the planes/hyperplane along the feature using the median. After doing so once the query point falls into one of the hyper cube, we then look for K nearest neighbors in that hyper cube only.
 
-	![KD Tree.png](https://github.com/yuvraaj2002/AI-Notes/blob/master/Machine%20Learning/Images/KD%20Tree.png)
+	![[KD Tree.png]](https://github.com/yuvraaj2002/AI-Notes/blob/master/Machine%20Learning/Images/KD%20Tree.png)
 2.  Ball Tree is another space-partitioning which create subspaces by using the hyperspheres, it basically creates a hierarchical structure of hyper spheres.
 
-	![Bal Tree.png](https://github.com/yuvraaj2002/AI-Notes/blob/master/Machine%20Learning/Images/Ball%20Tree.png)
+	![[Ball Tree.png]](https://github.com/yuvraaj2002/AI-Notes/blob/master/Machine%20Learning/Images/Ball%20Tree.png)
 
 ### [Explain the distance metrics used ?](#) 
 

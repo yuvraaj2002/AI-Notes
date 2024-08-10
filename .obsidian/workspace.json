@@ -13,19 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024-08-10.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c635e335f04f2de0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Machine Learning/Linear Models/Polynomial Regression.md",
+                "file": "Machine Learning/Instance Based Models/K Nearest Neighbor.md",
                 "mode": "source",
                 "source": false
               }
@@ -60,8 +48,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -128,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Machine Learning/Linear Models/Polynomial Regression.md",
+                "file": "Machine Learning/Instance Based Models/K Nearest Neighbor.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Machine Learning/Linear Models/Polynomial Regression.md",
+                "file": "Machine Learning/Instance Based Models/K Nearest Neighbor.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Machine Learning/Linear Models/Polynomial Regression.md"
+                "file": "Machine Learning/Instance Based Models/K Nearest Neighbor.md"
               }
             }
           }
@@ -191,11 +178,11 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "89ad46e437a54122",
+  "active": "44439c8d36e7691f",
   "lastOpenFiles": [
-    "Machine Learning/Images/0degree_poly.png",
     "2024-08-10.md",
     "Machine Learning/Linear Models/Polynomial Regression.md",
+    "Machine Learning/Images/0degree_poly.png",
     "Machine Learning/Linear Models/Ridge Regression.md",
     "Machine Learning/Linear Models/Lasso Regression.md",
     "Machine Learning/Linear Models/Linear Regression.md",
@@ -232,7 +219,6 @@
     "Machine Learning/Images/MLE Logistic.png",
     "Deep Learning/Images/Loss function types.png",
     "Deep Learning/Images/Dropout.png",
-    "Machine Learning/Images/Logistic Regression sigmoid.png",
     "General ML Topics/Untitled",
     "Deep Learning/Structured Data",
     "Deep Learning/Techniques",
