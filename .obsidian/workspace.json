@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "General ML Topics/Outliers.md",
+                "file": "General ML Topics/Feature Selection.md",
                 "mode": "source",
                 "source": false
               }
@@ -102,7 +102,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 326.5004348754883
+    "width": 326.5004348754883,
+    "collapsed": true
   },
   "right": {
     "id": "75ce3ba0dea3f5ef",
@@ -118,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "General ML Topics/Outliers.md",
+                "file": "General ML Topics/Feature Selection.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "General ML Topics/Outliers.md",
+                "file": "General ML Topics/Feature Selection.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "General ML Topics/Outliers.md"
+                "file": "General ML Topics/Feature Selection.md"
               }
             }
           }
@@ -183,6 +184,9 @@
   },
   "active": "e93b4738714e89c5",
   "lastOpenFiles": [
+    "General ML Topics/Feature Extraction.md",
+    "General ML Topics/Outliers.md",
+    "General ML Topics/Feature Engineering.md",
     "General ML Topics/Missing Values.md",
     "General ML Topics/F Test.md",
     "2024-08-10.md",
@@ -211,10 +215,7 @@
     "Data Structures And Algorithms/String/Substrings and Subsequence/Subsequences.md",
     "Data Structures And Algorithms/String/Substrings and Subsequence.md",
     "Data Structures And Algorithms/String/Substrings and Subsequence/Substrings.md",
-    "Data Structures And Algorithms/Arrays.md",
     "Data Structures And Algorithms/String/Substrings and Subsequence",
-    "Data Structures And Algorithms/String/Anagrams and Grouping.md",
-    "Data Structures And Algorithms/String/String Operations.md",
     "Python/Images/Namespace Intro.png",
     "Pasted image 20240807094003.png",
     "Python/Data Structures",

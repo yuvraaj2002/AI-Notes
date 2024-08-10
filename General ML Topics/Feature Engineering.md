@@ -1,3 +1,0 @@
-- [[Feature Scaling]]
-- [[Feature Selection]]
-- [[Feature Extraction]]
