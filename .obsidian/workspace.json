@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/Performance Metrics/Regression Metrics.md",
+                "file": "Machine Learning/Bayesian Models/Naive Bayes.md",
                 "mode": "source",
                 "source": false
               }
@@ -29,6 +29,9 @@
                 "kanbanViewState": {
                   "kanban-plugin": "board",
                   "list-collapse": [
+                    false,
+                    false,
+                    false,
                     false,
                     false
                   ]
@@ -123,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Machine Learning/Performance Metrics/Regression Metrics.md",
+                "file": "Machine Learning/Bayesian Models/Naive Bayes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Machine Learning/Performance Metrics/Regression Metrics.md",
+                "file": "Machine Learning/Bayesian Models/Naive Bayes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Machine Learning/Performance Metrics/Regression Metrics.md"
+                "file": "Machine Learning/Bayesian Models/Naive Bayes.md"
               }
             }
           }
@@ -189,6 +192,7 @@
   "active": "44439c8d36e7691f",
   "lastOpenFiles": [
     "Machine Learning/Performance Metrics/Regression Metrics.md",
+    "Things To Learn 🧠.md",
     "Machine Learning/Performance Metrics/Evaluation metrics.md",
     "Machine Learning/Performance Metrics/Classification Metrics.md",
     "Tags/Data Processing.md",
@@ -199,7 +203,6 @@
     "Machine Learning/Linear Models/Ridge Regression.md",
     "Machine Learning/Linear Models/Lasso Regression.md",
     "Machine Learning/Linear Models/Linear Regression.md",
-    "Things To Learn 🧠.md",
     "Daily Goals/2024-08-09.md",
     "Books/Hands on Machine Learning.pdf",
     "Pasted Image 20240809195554_746.png",

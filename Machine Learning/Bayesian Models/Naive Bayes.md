@@ -4,7 +4,7 @@ Here is the google drive link of the [Notebook](https://drive.google.com/file/d/
 
 - [ ] Lidstone smoothing
 - [ ] Complementing Smoothing
-##### What is bayes theorem and how it is different from conditional probability ? 
+### [What is bayes theorem and how it is different from conditional probability ?](#) 
 
 Bayes theorem is an important theorem in the field of statistics and it provides us the mechanism to relate 2 conditional probabilities, It is represented as $P(A|B) = (P(B|A)*P(A))/P(B)$
 
@@ -12,12 +12,12 @@ Note we can actually derive this by equating the conditional probabilities as $P
 
 On the other hand the conditional probability is simply a measure of calculating the probability of an event occurring given an event have already occurred.
 
-##### What is naive bayes algorithm and is it parametric or non parametric ?
+### [What is naive bayes algorithm and is it parametric or non parametric ?](#)
 
 Naive bayes is a supervised machine learning algorithm which is used to solve the classification problems and it is based on bayes theorem with a naive assumption that all the features are independent from each other.
 
 Also this algorithm is parametric in nature because it makes an assumption about the underlying data and this assumption is that all the features are independent from each other. 
-##### Why do we make naive assumption and what would happen if we will not do so ?
+### [Why do we make naive assumption and what would happen if we will not do so ?](#)
 
 There are 2 main reasons behind why it is important to make a naive assumption that all the features are independent from each other
 
@@ -25,7 +25,7 @@ There are 2 main reasons behind why it is important to make a naive assumption t
 
 2. **To deal with overfitting**: In the absence of naive assumption the probabilistic conditions will become very much strict and specific because of which with the small change in the value we might get different results which means our model will be having low bias and high variance, so by making an assumption we prevent the model from overfitting.
 
-##### How does this algorithm works and what are its learning parameters ?
+### [How does this algorithm works and what are its learning parameters ?](#)
 
 The way naive bayes work is that during the training phase, after making a naive assumption that all the features are independent from each other, it calculates conditional probabilities, prior probabilities (Model parameters) and store them. Then during the prediction phase it utilized these calculated probabilities to derive the final output.
 
@@ -35,7 +35,7 @@ The way naive bayes work is that during the training phase, after making a naive
 4. $P(F_n|No)  =  P(F_1|No) * P(F_2|No) * P(F_3|No) * P(No)$
 
 Finally the $Max(P(Yes|F_n),P(No,F_n))$ is considered for the final output 
-##### What is the issue of underflow, why it happens in NB and how to solve this ? 
+### [What is the issue of underflow, why it happens in NB and how to solve this ?](#) 
 
 Underflow is basically a situation where when the number becomes very small then the computer finds it difficult to actually store this value accurately and precisely using bits representation. And this lead to numerical unstability.
 
@@ -45,22 +45,22 @@ Now this is a common issue which is faced incase of naive bayes specifically wor
 Then out of yes and no the no will be chosen as class for the query data point.
 
 
-##### How to deal with 0 Probability value in Naive bayes ? 
+### [How to deal with 0 Probability value in Naive bayes ?](#) 
 
 Let say either due to underflow or due to usage of some feature value which was not using during training we got the 0 conditional probability, in such a scenario log cannot be used and the only way to deal with this issue is to use a technique called smoothing. Where in smoothing we add a small value to the conditional probability to prevent it from becoming 0. The smoothing technique which we use is called laplace additive smoothing.
 
 
-##### Other than doing laplace additive smoothing what else can we do which is more efficient than it ?
+### [Other than doing laplace additive smoothing what else can we do which is more efficient than it ?](#)
 
 The drawback of adding a small constant value in each of the conditional probability is that it might give us over optimistic results in case we are not careful, so rather than simply adding a constant value we add a hyper parameter alpha / (n *  alpha), which not only helps us to deal with 0 probability but at the same time also provides us a tuning nob for handling the bias and variance of the model.
 
-##### Talk about the bias variance 
+### [Talk about the bias variance](#) 
 
 - With **high value** of alpha the conditional probabilities of feature given class approaches towards 0.5 and for very high value it becomes 0.5. Now due to this for all the classes their prior probability becomes the deciding factor for which class label will be provided. And in case the prior probability particular will be high then for every data point we will get that class only and this is sign of underfitting means high bias and low variance
 - With smaller value of alpha the conditional probabilities will become very much sensitive to change in data and this is clear sign of overfitting and low bias- high variance
 
 
-##### What type of Naive bayes to use when all feature are numerical and why do we not need to do smoothing in this type ? 
+### [What type of Naive bayes to use when all feature are numerical and why do we not need to do smoothing in this type ?](#) 
 
 Gaussian naive bayes is basically a specific variant of naive bayes which is used in those kind of scenarios where all the features are numerical in nature and follow gaussian distribution.
 
@@ -72,7 +72,7 @@ Now if we will be given query point information like the given CGPA = 3.6 and IQ
 After this we will be using the gaussian distribution to find the conditional probabilities. Also in case the features are not following a gaussian distribution we can use [[Transformations]] in that case to transform them to follow a gaussian distribution. 
 
 Gaussian distributions, being continuous probability distributions, do not assign zero probability density to any specific value, thus there is no need for doing smoothing.
-##### Talk about bernoulli, categorical, Multinomial naive bayes
+### [Talk about bernoulli, categorical, Multinomial naive bayes](#)
 
 - Bernoulli naive bayes is basically a specific variant of naive bayes which is used in those kind of scenarios where all the features are categorical and have only 2 categories which means they follow bernoulli distribution.
 
@@ -80,7 +80,7 @@ Gaussian distributions, being continuous probability distributions, do not assig
 
 - Multinomial Naive Bayes is a variant of the Naive Bayes classifier tailored for discrete data (means the data having finite number of distinct values), especially useful for count data. It is commonly applied in text classification problems where features represent the frequency of words or terms in a document.
 
-##### What is the use of Out of Core Naive bayes 
+### [What is the use of Out of Core Naive bayes](#) 
 
 Out of core naive bayes is basically a variant of naive bayes which is used in those kind of scenarios where our data is very large in size and it becomes difficult to process it once in single go due to memory issues.
 
