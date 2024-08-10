@@ -1,30 +1,36 @@
 This page is actually dedicated towards understanding the concept of Lasso regression and everything related to this algorithm. In this page we will take a look at the code as well.
+##### Remaining questions
 
-##### What do you mean by ridge regression and when do we get this ?
+- [ ] Affect of multicollinearity
+- [ ] Meaning of sparsity
+
+### What do you mean by ridge regression and when do we get this ?
 
 Ridge regression is basically a variant of linear regression which we receive after applying L2 regularization on it. Basically the core idea is that in the cost function of the linear regression we add a penalty term to the cost function of linear regression and this penalty term is basically the product of lambda and squared sum of model coefficients. $L = MSE+ƛ(slope_i^2)$. Also other than this addition of the penalty term everything works just like linear regression algorithm.
 
-##### What happens to model coefficients after adding penalty term and what happens for very large value of lambda ?
+### What happens to model coefficients after adding penalty term and what happens for very large value of lambda ?
 
 With the increase in lambda value the values of model coefficients starts converging towards 0 and with this the model’s bias increase and variance decrease (Overfitting problem gets solved to some extent). With any high value of lambda the values of parameter will never become 0, and this is because of quadratic term in the penalty term added to cost function of linear regression.
 
 Other than this Higher coefficients get affected more due to change in lambda value as compared to coefficients with smaller value because of quadratic term in penalty term.
 
-##### How does lambda affects the bias and variance
+![[Ridge_Reg.png]]
+
+### How does lambda affects the bias and variance
 
 As the value of lambda increases the (Bias increase and variance decrease) whereas as the value of lambda decrease bias decrease and variance increase
 
-##### When to use ridge regression ?
+### When to use ridge regression ?
 
 Ridge regression is used in those kind of scenarios where we are already aware about the features that we will be using for the model training and we only want to deal with the issue of overfitting only.
 
-##### Affect of scaling, outliers
+### Affect of scaling, outliers
 
 - Sensitivity to outliers : Basically when outliers exist in our data then the features generally tends to have high coefficient values but in ridge regression since due to addition of L2 regularization penalty term the model coefficients decrease little bit and due to this the affect of outliers on the overall performance of the model is comparatively less as compared to linear regression without any regularization.
 
 - Sensitivity to scaling : Scaling is always beneficial because for finding the optimal values of model coefficients we use the Gradient descent algorithm, and the gradient descent algorithm converges faster in case our data is properly scaled.
 
-##### Program Code
+### Program Code
 
 ```python
 import numpy as np
@@ -72,5 +78,6 @@ print(f"Best Alpha: {best_alpha}")
 print(f"Mean Squared Error: {mse}")
 print(f"Coefficients: {ridge.coef_}")
 ```
-![[Pasted image 20240701123847.png]]
+
+
 

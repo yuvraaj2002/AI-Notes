@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/Linear Models/Lasso Regression.md",
+                "file": "Machine Learning/Linear Models/Ridge Regression.md",
                 "mode": "source",
                 "source": false
               }
@@ -45,6 +45,18 @@
                     false
                   ]
                 }
+              }
+            }
+          },
+          {
+            "id": "5cae38f18e653618",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Machine Learning/Linear Models/Lasso Regression.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -116,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Machine Learning/Linear Models/Lasso Regression.md",
+                "file": "Machine Learning/Linear Models/Ridge Regression.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Machine Learning/Linear Models/Lasso Regression.md",
+                "file": "Machine Learning/Linear Models/Ridge Regression.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +168,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Machine Learning/Linear Models/Lasso Regression.md"
+                "file": "Machine Learning/Linear Models/Ridge Regression.md"
               }
             }
           }
@@ -179,8 +191,10 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "89ad46e437a54122",
+  "active": "c635e335f04f2de0",
   "lastOpenFiles": [
+    "Machine Learning/Linear Models/Lasso Regression.md",
+    "Machine Learning/Linear Models/Ridge Regression.md",
     "Machine Learning/Linear Models/Linear Regression.md",
     "Things To Learn 🧠.md",
     "2024-08-10.md",
@@ -211,9 +225,7 @@
     "Python/Generator and Iterator.md",
     "Python/Images/Namespace Intro.png",
     "Python/Namespace.md",
-    "Python/Serialization and Deserialization.md",
     "Pasted image 20240807094003.png",
-    "Excalidraw/Drawing 2024-08-07 09.38.57.excalidraw.md",
     "Python/Data Structures",
     "Machine Learning/Images/OVR approach.png",
     "Machine Learning/Images/Intuitive_MLE.png",
