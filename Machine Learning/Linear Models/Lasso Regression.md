@@ -13,7 +13,7 @@ Lasso regression is basically a specific variant of linear regression which is a
 
 With the increase in the value of lambda the values of model coefficients start approaching towards 0 and for very _**large value the model coefficient can either become 0,**_ which was not the case for ridge regression because of quadratic term in penalty term. Higher coefficients get affected more due to change in lambda value as compared to coefficients with smaller value.
 
-![[Lasso_Reg.png|400]]
+![[Lasso_Reg.png|400]](https://github.com/yuvraaj2002/AI-Notes/blob/master/Machine%20Learning/Images/Lasso_Reg.png)
 
 ### [How does lambda affects the bias and variance](#) 
 
