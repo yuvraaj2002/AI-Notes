@@ -6,7 +6,7 @@ This page is dedicated to everything related to the decision tree algorithm. In 
 - [Pruning](https://drive.google.com/file/d/1yU-tkH1KMGu7pXHsHmPz5I94NNw7W2wj/view)
 - [Gini Impurity | Splitting Decision Tress with Gini Impurity](https://www.analyticsvidhya.com/blog/2021/03/how-to-select-best-split-in-decision-trees-gini-impurity/)
 
-
+- [ ] Information gain understanding
 
 ### [What do you mean by decision tree and tell whether it is white or black box model?](#)
 
@@ -42,11 +42,11 @@ $$G_{Total} = Points_{Left}/Points_{Total} * G_{Left} + Points_{Right}/Points_{T
 
 - Also note that the feature having More than 2 categories we use the One vs rest approach for calculating the overall gini impurity (Like this category data and remaining category data).
  
-![Gini Calculation MC.png](https://github.com/yuvraaj2002/AI-Notes/blob/master/Machine%20Learning/Images/Gini%20Calculation%20MC.png)
+![[Gini Calculation MC.png]](https://github.com/yuvraaj2002/AI-Notes/blob/master/Machine%20Learning/Images/Gini%20Calculation%20MC.png)
 
 - For the category with numerical values we sort them first and then calculate the mean between every consecutive 2 values and use that mean value as the split point.
 
-![Gini Calculation Numerical.png](https://github.com/yuvraaj2002/AI-Notes/blob/master/Machine%20Learning/Images/Gini%20Calculation%20Numerical.png)
+![[Gini Calculation Numerical.png]](https://github.com/yuvraaj2002/AI-Notes/blob/master/Machine%20Learning/Images/Gini%20Calculation%20Numerical.png)
 
 
 ### [Out of Gini Impurity and Entropy which one should we use, also talk about the ranges](#) 
@@ -68,11 +68,11 @@ Entropy is computationally more expansive than the Gini Impurity so it recommend
 
 In case of regression the work flow is almost same the only difference is that rather than using the Gini impurity as attribute selection criteria we focus on Variance and select that attribute-value for splitting which maximize the minimization of the variance in the dataset.
 
-![CART Regression.png](https://github.com/yuvraaj2002/AI-Notes/blob/master/Machine%20Learning/Images/CART%20Regression.png)
+![[CART Regression.png]](https://github.com/yuvraaj2002/AI-Notes/blob/master/Machine%20Learning/Images/CART%20Regression.png)
 
 Here is the sample example of how to solve the problem for the feature having more than 2 categories and also for the feature with numerical values.
 
-![CART Regression OVR.png](https://github.com/yuvraaj2002/AI-Notes/blob/master/Machine%20Learning/Images/CART%20Regression%20OVR.png)
+![[CART Regression OVR.png]](https://github.com/yuvraaj2002/AI-Notes/blob/master/Machine%20Learning/Images/CART%20Regression%20OVR.png)
 
 
 ### [Why are decision tree so prone to overfitting ?](#) 
@@ -82,9 +82,9 @@ Both the decision tree classifier and regressor are extremely prone to overfitti
 - For the classification the default stopping criteria is to split until the dataset is not completely pure (that means until all data points don't belong to single class)
 - For the regression the default stopping criteria is to split until the variance is not 0 
 
-![DT Overfitting Regression.png](https://github.com/yuvraaj2002/AI-Notes/blob/master/Machine%20Learning/Images/DT%20Overfitting%20Classification.png)
+![[DT Overfitting Regression.png]](https://github.com/yuvraaj2002/AI-Notes/blob/master/Machine%20Learning/Images/DT%20Overfitting%20Classification.png)
 
-![DT Overfitting Classification.png](https://github.com/yuvraaj2002/AI-Notes/blob/master/Machine%20Learning/Images/DT%20Overfitting%20Regression.png)
+![[DT Overfitting Classification.png]](https://github.com/yuvraaj2002/AI-Notes/blob/master/Machine%20Learning/Images/DT%20Overfitting%20Regression.png)
 
 ### [Talk about all the ways using which we can deal with the overfitting](#)
 
@@ -93,7 +93,7 @@ The only way we can actually deal with the problem of overfitting is to actually
 Pruning is simply a technique where we remove the extra nodes from the decision tree to decrease its predictive power leading neutralizing its low bias and high variance nature towards low bias and low variance nature. But in order to 2 pruning itself we have 2 different 
 
 - Pre Pruning : Pre pruning is like the early stopping where we control the decision tree from growing by using the hyper parameters such as max_depth, min_samples, Minimum_impurity_decrease etc.
-- Post Pruning : Post pruning is relatively more complex approach for dealing with overfitting and in this approach we don't put any kind of restriction on the growth of the decision tree and instead allows the tree to first grow to its complete depth and then remove the nodes from the tree which do not provide much predictive power.\
+- Post Pruning : Post pruning is relatively more complex approach for dealing with overfitting and in this approach we don't put any kind of restriction on the growth of the decision tree and instead allows the tree to first grow to its complete depth and then remove the nodes from the tree which do not provide much predictive power. It would be like comparing whether class distribution is same at 2 levels, and if yes then remove the low level nodes. Similar thing can be done for the regression (where we will consider variance)
 
 By doing pre pruning we suffer from short sightedness which means we miss the scenario where in future some split could be far better than all the splits done so for minimizing the impurity or variance and drawback of post pruning is that it is computationally expensive
 
@@ -120,7 +120,7 @@ ccp_alpha_values = [0.0,1,1.5]
 visualize_postpruning_effect(ccp_alpha_values)
 ```
 
-![CC Alpha.png](https://github.com/yuvraaj2002/AI-Notes/blob/master/Machine%20Learning/Images/CC%20Alpha.png)
+![[CC Alpha.png]](https://github.com/yuvraaj2002/AI-Notes/blob/master/Machine%20Learning/Images/CC%20Alpha.png)
 
 
 ### [What are the various hyper parameters of the decision tree](#)
@@ -140,7 +140,7 @@ sqrt(features) or log_2(features)
 
 Decision trees love orthogonal decision boundaries (all splits are perpendicular to an axis), which makes them sensitive to the data’s orientation. But after the dataset is rotated by 45°, the decision boundary looks unnecessarily convoluted. Although both decision trees fit the training set perfectly, it is very likely that the model on the right will not generalize well.
 
-![Axis Sensitive.png](https://github.com/yuvraaj2002/AI-Notes/blob/master/Machine%20Learning/Images/Axis%20Sensitive.png)
+![[Axis Sensitive.png]](https://github.com/yuvraaj2002/AI-Notes/blob/master/Machine%20Learning/Images/Axis%20Sensitive.png)
 
 ### [Talk about the time complexity](#) 
 
@@ -148,7 +148,6 @@ In the worst case, the tree is completely unbalanced and forms a single path fro
 ##### [Training Time](#)
 - To find the best split at each node, we need to sort the data for each feature, which takes $O(N*Log_n)$ for each feature.
 - We have to repeat this for each feature, leading to $F*O(N*Log_n)$ for each node.
-- Since there are N nodes in the worst case, the overall complexity becomes $F*O(N^2*Log_n)$
 ##### [Prediction Time](#)
 During the prediction phase the time complexity is $O(Log_n)$
 

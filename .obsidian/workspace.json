@@ -23,19 +23,11 @@
             "id": "e93b4738714e89c5",
             "type": "leaf",
             "state": {
-              "type": "kanban",
+              "type": "markdown",
               "state": {
-                "file": "Things To Learn 🧠.md",
-                "kanbanViewState": {
-                  "kanban-plugin": "board",
-                  "list-collapse": [
-                    false,
-                    false,
-                    false,
-                    false,
-                    false
-                  ]
-                }
+                "file": "General ML Topics/Missing Values.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
@@ -59,7 +51,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -126,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Machine Learning/Bayesian Models/Naive Bayes.md",
+                "file": "General ML Topics/Missing Values.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Machine Learning/Bayesian Models/Naive Bayes.md",
+                "file": "General ML Topics/Missing Values.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Machine Learning/Bayesian Models/Naive Bayes.md"
+                "file": "General ML Topics/Missing Values.md"
               }
             }
           }
@@ -189,15 +182,17 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "44439c8d36e7691f",
+  "active": "e93b4738714e89c5",
   "lastOpenFiles": [
-    "Machine Learning/Performance Metrics/Regression Metrics.md",
+    "2024-08-10.md",
+    "Machine Learning/Tree Based Models/Decision Tree.md",
     "Things To Learn 🧠.md",
+    "Machine Learning/Bayesian Models/Naive Bayes.md",
+    "Machine Learning/Performance Metrics/Regression Metrics.md",
     "Machine Learning/Performance Metrics/Evaluation metrics.md",
     "Machine Learning/Performance Metrics/Classification Metrics.md",
     "Tags/Data Processing.md",
     "Machine Learning/Instance Based Models/K Nearest Neighbor.md",
-    "2024-08-10.md",
     "Machine Learning/Linear Models/Polynomial Regression.md",
     "Machine Learning/Images/0degree_poly.png",
     "Machine Learning/Linear Models/Ridge Regression.md",
@@ -221,8 +216,6 @@
     "Data Structures And Algorithms/String/String Operations.md",
     "Daily Goals/2024-08-07.md",
     "Database Management System/Database Core concepts/Scaling Patterns.md",
-    "Database Management System/Database Core concepts/Normalization.md",
-    "Database Management System/Database Core concepts/Transactions - ACID.md",
     "Python/Images/Namespace Intro.png",
     "Pasted image 20240807094003.png",
     "Python/Data Structures",
