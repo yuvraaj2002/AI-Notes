@@ -2,11 +2,12 @@ This page is dedicated towards understanding the concept of polynomial regressio
 
 - [Polynomial regression Blogpost](https://serokell.io/blog/polynomial-regression-analysis)
 
+
 ### [When do we use polynomial regression](#)
 
 Polynomial regression is used in those kind of scenarios where the relationship between dependent and independent features is not linear and instead it is curved. Now since the relationship is not linear thus it is obvious that simple linear regression will underfit and will not give us good results, thus one way of dealing with this it create polynomial features upto a certain degree to capture non linearity and then train model on these newly created features.
 
-![Polynomial shape.png](https://github.com/yuvraaj2002/AI-Notes/blob/master/Machine%20Learning/Images/Polynomial%20shape.png)
+![[Polynomial shape.png]](https://github.com/yuvraaj2002/AI-Notes/blob/master/Machine%20Learning/Images/Polynomial%20shape.png)
 
 ### [Important point to keep in mind (When generating polynomial features)](#)
 
@@ -21,7 +22,7 @@ An important that we must keep in mind is that, for the given degree value let s
 
 To understand this properly we must first be aware about what does the term linear means and then only we will be able to answer why we call polynomial regression as special case of linear regression.
 
-Basically linear means linearity in the parameters, not necessarily in the variables/features themselves. So because of that in case of polynomial regression even after the presence of polynomial features like $x^2$ the model will still remain linear in terms of its coefficients $β_0​,β_1,β_2$.
+Basically linear means linearity in the parameters, not necessarily in the variables/features themselves. So because of that in case of polynomial regression even after the presence of polynomial features like $x^2$ the model will still remain linear in terms of its coefficients $β_0​,β_1,β_2$ and will be regarded as the linear model.
 
 $$y=β_0​+β_1​x+β_2​x^2+ϵ$$
 
@@ -30,11 +31,13 @@ $$y=β_0​+β_1​x+β_2​x^2+ϵ$$
 
 By using the binomial coefficient formula we can actually calculate the number of features which will be created 
 
-![Polynomial Feature calculation.png](https://github.com/yuvraaj2002/AI-Notes/blob/master/Machine%20Learning/Images/Polynomial%20Feature%20calculation.png)
+![[Polynomial Feature calculation.png]](https://github.com/yuvraaj2002/AI-Notes/blob/master/Machine%20Learning/Images/Polynomial%20Feature%20calculation.png)
 
 ### [What would happen if degree = 0 ](#)
 
 Incase we will chose the degree to be 0 in that case only 1 feature will be created or exist and that would be the bias term only. So our model will underfit brutally. We can calculate the features by using binomial coefficient formula `0! = 1`
+
+![[0degree_poly.png]]
 
 ### [Bias Variance tradeoff](#)
 

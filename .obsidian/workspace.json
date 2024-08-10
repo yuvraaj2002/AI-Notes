@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/Linear Models/Ridge Regression.md",
+                "file": "Machine Learning/Linear Models/Polynomial Regression.md",
                 "mode": "source",
                 "source": false
               }
@@ -128,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Machine Learning/Linear Models/Ridge Regression.md",
+                "file": "Machine Learning/Linear Models/Polynomial Regression.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Machine Learning/Linear Models/Ridge Regression.md",
+                "file": "Machine Learning/Linear Models/Polynomial Regression.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,7 +168,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Machine Learning/Linear Models/Ridge Regression.md"
+                "file": "Machine Learning/Linear Models/Polynomial Regression.md"
               }
             }
           }
@@ -191,13 +191,15 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "c635e335f04f2de0",
+  "active": "89ad46e437a54122",
   "lastOpenFiles": [
-    "Machine Learning/Linear Models/Lasso Regression.md",
+    "Machine Learning/Images/0degree_poly.png",
+    "2024-08-10.md",
+    "Machine Learning/Linear Models/Polynomial Regression.md",
     "Machine Learning/Linear Models/Ridge Regression.md",
+    "Machine Learning/Linear Models/Lasso Regression.md",
     "Machine Learning/Linear Models/Linear Regression.md",
     "Things To Learn 🧠.md",
-    "2024-08-10.md",
     "Daily Goals/2024-08-09.md",
     "Books/Hands on Machine Learning.pdf",
     "Pasted Image 20240809195554_746.png",
@@ -222,9 +224,7 @@
     "Data Structures And Algorithms/String/Transformation and Distance.md",
     "Data Structures And Algorithms/String/Pattern Matching.md",
     "Data Structures And Algorithms/String/Segmentation and Validation.md",
-    "Python/Generator and Iterator.md",
     "Python/Images/Namespace Intro.png",
-    "Python/Namespace.md",
     "Pasted image 20240807094003.png",
     "Python/Data Structures",
     "Machine Learning/Images/OVR approach.png",
