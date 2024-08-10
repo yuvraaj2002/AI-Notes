@@ -27,7 +27,7 @@ Scaled values = $(x - μ)/σ$
 
 In this formula for simple understanding mean (μ) and standard deviation (σ) are written in the text form instead of the mathematical symbol .
 
-![[Standardization.png]]
+![[Standardization.png]](https://github.com/yuvraaj2002/AI-Notes/blob/master/General%20ML%20Topics/Images/Standardization.png)
 
 ### [Explain normalization ?](#)
 
