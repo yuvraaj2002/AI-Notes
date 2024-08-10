@@ -57,7 +57,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "General ML Topics/Feature Scaling.md",
+                "file": "General ML Topics/Imbalanced data.md",
                 "mode": "source",
                 "source": false
               }
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "General ML Topics/Feature Scaling.md",
+                "file": "General ML Topics/Imbalanced data.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "General ML Topics/Feature Scaling.md",
+                "file": "General ML Topics/Imbalanced data.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "General ML Topics/Feature Scaling.md"
+                "file": "General ML Topics/Imbalanced data.md"
               }
             }
           }
@@ -195,8 +195,9 @@
   },
   "active": "89ad46e437a54122",
   "lastOpenFiles": [
-    "2024-08-10.md",
+    "General ML Topics/Bias Variance Tradeoff.md",
     "General ML Topics/Feature Scaling.md",
+    "2024-08-10.md",
     "General ML Topics/Feature Selection.md",
     "General ML Topics/Feature Extraction.md",
     "General ML Topics/Outliers.md",
@@ -225,7 +226,6 @@
     "Books/Daily Dose of Data Science.pdf",
     "Daily Goals/2024-08-08.md",
     "Python/Object Oriented Programming/Abstraction.md",
-    "Data Structures And Algorithms/String/Substrings and Subsequence/Subsequences.md",
     "Data Structures And Algorithms/String/Substrings and Subsequence",
     "Python/Images/Namespace Intro.png",
     "Pasted image 20240807094003.png",

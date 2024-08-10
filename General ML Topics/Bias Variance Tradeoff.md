@@ -22,11 +22,11 @@ Overfitting is basically a problem where our model perform very well on the trai
 ##### Explain what is bias - variance decomposition ? 
 
 Bias variance decomposition is an important concept in machine learning or deep learning and it is actually used to diagnose the errors of a model by breaking down it into 3 terms
-	
+
 - Bias
 - Variance
 - Irreducable error : This is actually the noise or hidden variance which can’t be captured mathematically and thus can't be reduced.
-	
+
  The expected mean squared error (MSE) of a model can be decomposed as follows: $E[(y−f(x))^2]=(Bias^2+Variance)+Irreducible Error$  where,
 
 - y is the true outcome.
