@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/Instance Based Models/K Nearest Neighbor.md",
+                "file": "Machine Learning/Performance Metrics/Regression Metrics.md",
                 "mode": "source",
                 "source": false
               }
@@ -46,6 +46,14 @@
                 "mode": "source",
                 "source": false
               }
+            }
+          },
+          {
+            "id": "b290c241fda348eb",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -115,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Machine Learning/Instance Based Models/K Nearest Neighbor.md",
+                "file": "Machine Learning/Performance Metrics/Regression Metrics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Machine Learning/Instance Based Models/K Nearest Neighbor.md",
+                "file": "Machine Learning/Performance Metrics/Regression Metrics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Machine Learning/Instance Based Models/K Nearest Neighbor.md"
+                "file": "Machine Learning/Performance Metrics/Regression Metrics.md"
               }
             }
           }
@@ -180,6 +188,11 @@
   },
   "active": "44439c8d36e7691f",
   "lastOpenFiles": [
+    "Machine Learning/Performance Metrics/Regression Metrics.md",
+    "Machine Learning/Performance Metrics/Evaluation metrics.md",
+    "Machine Learning/Performance Metrics/Classification Metrics.md",
+    "Tags/Data Processing.md",
+    "Machine Learning/Instance Based Models/K Nearest Neighbor.md",
     "2024-08-10.md",
     "Machine Learning/Linear Models/Polynomial Regression.md",
     "Machine Learning/Images/0degree_poly.png",
@@ -207,10 +220,6 @@
     "Database Management System/Database Core concepts/Scaling Patterns.md",
     "Database Management System/Database Core concepts/Normalization.md",
     "Database Management System/Database Core concepts/Transactions - ACID.md",
-    "Data Structures And Algorithms/String/Searching and Indexing.md",
-    "Data Structures And Algorithms/String/Transformation and Distance.md",
-    "Data Structures And Algorithms/String/Pattern Matching.md",
-    "Data Structures And Algorithms/String/Segmentation and Validation.md",
     "Python/Images/Namespace Intro.png",
     "Pasted image 20240807094003.png",
     "Python/Data Structures",

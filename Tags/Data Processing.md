@@ -1,6 +1,6 @@
 
 - [[Regularization]]
 - [[Cross Validation]]
-- [[Regression Metrics]]
+- [[Evaluation metrics]]
 - [[Feature Engineering]]
 - [[Multicollinearity]]
