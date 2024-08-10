@@ -72,7 +72,7 @@ SMOTE stands for synthetic minority oversampling technique and it is an advanced
 2. We then calculate its k nearest neighbor
 3. Then we use below formula to get the new datapoint between K nearest neighbors using Interpolation
     
-    ![[SMOTE.png|400]]
+    ![[SMOTE.png|400]](https://github.com/yuvraaj2002/AI-Notes/blob/master/General%20ML%20Topics/Images/SMOTE.png)
     
     ### Drawback of SMOTE
     
