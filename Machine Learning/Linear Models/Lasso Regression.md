@@ -1,5 +1,10 @@
 This page is actually dedicated towards understanding the concept of Lasso regression and everything related to this algorithm. In this page we will take a look at the code as well.
 
+##### Remaining questions
+
+- [ ] Affect of multicollinearity
+- [ ] Meaning of sparsity
+
 ### [What do you mean by lasso regression and when do we get this ?](#) 
 
 Lasso regression is basically a specific variant of linear regression which is achieved after applying L1 regularization. Basically the overall idea is that in the cost function of the linear regression we add a penalty term which is basically the product of lambda and the sum of absolute values of model coefficients. $L = MSE + ƛ|coeff|$ Other than this addition of the penalty term everything works just like linear regression algorithm.
@@ -8,7 +13,7 @@ Lasso regression is basically a specific variant of linear regression which is a
 
 With the increase in the value of lambda the values of model coefficients start approaching towards 0 and for very _**large value the model coefficient can either become 0,**_ which was not the case for ridge regression because of quadratic term in penalty term. Higher coefficients get affected more due to change in lambda value as compared to coefficients with smaller value.
 
-![[Pasted image 20240701122504.png|400]]
+![[Lasso_Reg.png|400]]
 
 ### [How does lambda affects the bias and variance](#) 
 
