@@ -37,7 +37,7 @@ By using the binomial coefficient formula we can actually calculate the number o
 
 Incase we will chose the degree to be 0 in that case only 1 feature will be created or exist and that would be the bias term only. So our model will underfit brutally. We can calculate the features by using binomial coefficient formula `0! = 1`
 
-![[0degree_poly.png]]
+![[0degree_poly.png]](https://github.com/yuvraaj2002/AI-Notes/blob/master/Machine%20Learning/Images/0degree_poly.png)
 
 ### [Bias Variance tradeoff](#)
 
