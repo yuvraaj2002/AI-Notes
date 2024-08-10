@@ -65,9 +65,9 @@ There are 2 ways to identify outliers in dataset ⬇️
 
 Before using statistical measure to identify outliers we need to be aware about the distribution of that feature. _If feature is normally or sort of normally distributed_ in that case we can actually use the [[Empirical Rule]] which states that 99.7% of data points will be lying in the range from `Mean +- 3SD`. Thus data points outside of this range can be considered as outliers.
 
-In case _feature is skewed_ in that case we can use the upper and lower limit of that distribution to identify the outliers, but calculating the limits we need to find the 1st and 3rd quantile value. Basically we use the measures of [[Dispersion]]
+In case _feature is skewed_ in that case we can use the upper and lower limit of that distribution to identify the outliers, but calculating the limits we need to find the 1st and 3rd quantile value. Basically we use the measures of [[Dispersion]]. The lower limit is calculated as $Q1−1.5×IQR$ and the upper limit is $Q3+1.5×IQR$.
 
-###### [Using graphs and Plots](#)
+### [Using graphs and Plots](#)
 
 1. Boxplot
 2. Scatter plot
