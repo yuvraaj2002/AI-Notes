@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "General ML Topics/Feature Selection.md",
+                "file": "General ML Topics/Feature Scaling.md",
                 "mode": "source",
                 "source": false
               }
@@ -50,9 +50,21 @@
               "type": "graph",
               "state": {}
             }
+          },
+          {
+            "id": "7ca685ed47cc157b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "General ML Topics/Feature Scaling.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -102,8 +114,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 326.5004348754883,
-    "collapsed": true
+    "width": 326.5004348754883
   },
   "right": {
     "id": "75ce3ba0dea3f5ef",
@@ -119,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "General ML Topics/Feature Selection.md",
+                "file": "General ML Topics/Feature Scaling.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "General ML Topics/Feature Selection.md",
+                "file": "General ML Topics/Feature Scaling.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "General ML Topics/Feature Selection.md"
+                "file": "General ML Topics/Feature Scaling.md"
               }
             }
           }
@@ -182,14 +193,16 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "e93b4738714e89c5",
+  "active": "89ad46e437a54122",
   "lastOpenFiles": [
+    "2024-08-10.md",
+    "General ML Topics/Feature Scaling.md",
+    "General ML Topics/Feature Selection.md",
     "General ML Topics/Feature Extraction.md",
     "General ML Topics/Outliers.md",
     "General ML Topics/Feature Engineering.md",
     "General ML Topics/Missing Values.md",
     "General ML Topics/F Test.md",
-    "2024-08-10.md",
     "Machine Learning/Tree Based Models/Decision Tree.md",
     "Things To Learn 🧠.md",
     "Machine Learning/Bayesian Models/Naive Bayes.md",
@@ -213,8 +226,6 @@
     "Daily Goals/2024-08-08.md",
     "Python/Object Oriented Programming/Abstraction.md",
     "Data Structures And Algorithms/String/Substrings and Subsequence/Subsequences.md",
-    "Data Structures And Algorithms/String/Substrings and Subsequence.md",
-    "Data Structures And Algorithms/String/Substrings and Subsequence/Substrings.md",
     "Data Structures And Algorithms/String/Substrings and Subsequence",
     "Python/Images/Namespace Intro.png",
     "Pasted image 20240807094003.png",

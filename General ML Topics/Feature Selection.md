@@ -3,6 +3,7 @@ This notion page is dedicated towards understanding the feature selection techni
 - [Feature Selection Techniques in Machine Learning (Updated 2023)](https://www.analyticsvidhya.com/blog/2020/10/feature-selection-techniques-in-machine-learning/)
 - [CampusX Feature selection (Filter Based)](https://drive.google.com/file/d/1CZPRLuSBmyPw7ftQVIyS7sreoemJGGn-/view)
 - [Wrapper Method](https://drive.google.com/file/d/1l0D_YMFkVM8z3I3INn6ou2aCxrHSoeGK/view)
+- [Mutual Information, Clearly Explained!!!](https://www.youtube.com/watch?v=eJIp_mgVLwE)
 
 - Syllabus
     
@@ -33,7 +34,7 @@ This notion page is dedicated towards understanding the feature selection techni
         - Advantages and Disadvantages
 
 
-##### What do you mean by feature selection and what are the various techniques used ? 
+### [What do you mean by feature selection and what are the various techniques used ?](#) 
 
 Feature selection is one of the preprocessing step under feature engineering and the core idea behind feature selection is to chose the subset of most important features from the given set of features so that computational complexity of model could be reduced and data analysis could be  improved. There are 3 different types of techniques used
 
@@ -100,47 +101,7 @@ Embedded methods is another approach which is used for doing feature selection a
 - **Tree-Based Methods**: Provide feature importance scores to determine the relevance of features.
 
 
-- Explain correlation analysis method, techniques and the range interpretation?
+
     
-    Correlation analysis method is an important filter based feature selection technique where we select the feature based on their correlation with the target variable.
     
-    - We define the threshold value and the features which have more correlation value than the threshold value are considered and remaining are ignored
-    
-    <aside> 💡 Other than doing correlation with the target variable, the correlation among features is also done to address the issue of the multicollinearity.
-    
-    </aside>
-    
-    ### Correlation techniques used
-    
-    - Spearman’s rank correlation method
-    - Pearson correlation method
-    
-    <aside> 💡 +1 means strong positive correlation, -1 means strong negative correlation and 0 means no correlation at all
-    
-    </aside>
-- What are drawbacks of correlation method
-    
-    1. Correlation measures the linear relationship between two variables. It does not capture non-linear relationships well.
-    2. Correlation only measures the relationship between two variables at a time. It may not capture complex relationships involving more than two variables.
-    3. Sensitive to outliers and threshold value
-- Explain ANOVA test for feature selection ?
-    
-    - Mention how 1 Way ANOVA test is used in the context of machine learning
-        
-        One-way ANOVA can be used as a feature selection technique in machine learning to determine which features (independent variables) have a significant effect on the target variable (dependent variable)
-        
-        For example, in a credit risk prediction problem, you may have several features like age, income, credit history, etc. One-way ANOVA can help identify which of these features have a significant impact on predicting credit risk
-        
-        The steps would be:
-        
-        1. Treat each feature as a factor with different levels (values)
-        2. Perform one-way ANOVA to test if the mean of the target variable is significantly different across the levels of each feature
-        3. Select the features with p-values less than the significance level (e.g. 0.05)
-        
-        This helps reduce the dimensionality of the dataset by removing irrelevant features, improving model performance and interpretability
-- How Mutual info can be used for doing the filter based feature selection ?
-    
-    This is an amazing resource that we can use to understand this approach
-    
-    [Mutual Information, Clearly Explained!!!](https://www.youtube.com/watch?v=eJIp_mgVLwE)
 
