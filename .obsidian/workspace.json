@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/Linear Models/Linear Regression.md",
+                "file": "Machine Learning/Linear Models/Lasso Regression.md",
                 "mode": "source",
                 "source": false
               }
@@ -116,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Machine Learning/Linear Models/Linear Regression.md",
+                "file": "Machine Learning/Linear Models/Lasso Regression.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Machine Learning/Linear Models/Linear Regression.md",
+                "file": "Machine Learning/Linear Models/Lasso Regression.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Machine Learning/Linear Models/Linear Regression.md"
+                "file": "Machine Learning/Linear Models/Lasso Regression.md"
               }
             }
           }
@@ -181,8 +181,8 @@
   },
   "active": "c635e335f04f2de0",
   "lastOpenFiles": [
-    "Things To Learn 🧠.md",
     "Machine Learning/Linear Models/Linear Regression.md",
+    "Things To Learn 🧠.md",
     "2024-08-10.md",
     "Daily Goals/2024-08-09.md",
     "Books/Hands on Machine Learning.pdf",
