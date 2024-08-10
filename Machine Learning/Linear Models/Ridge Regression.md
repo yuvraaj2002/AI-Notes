@@ -14,7 +14,7 @@ With the increase in lambda value the values of model coefficients starts conver
 
 Other than this Higher coefficients get affected more due to change in lambda value as compared to coefficients with smaller value because of quadratic term in penalty term.
 
-![[Ridge_Reg.png]]
+![[Ridge_Reg.png]](https://github.com/yuvraaj2002/AI-Notes/blob/master/Machine%20Learning/Images/Ridge_Reg.png)
 
 ### [How does lambda affects the bias and variance](#)
 
