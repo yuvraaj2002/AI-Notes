@@ -1,7 +1,6 @@
 This page is dedicated towards the understanding of the concept of cross validation in machine learning and the various variants of cross validation. The resources used are the videos of CampusX course.
 
 
-
 ### [What do you mean by resampling and what are the reasons behind doing resampling](#)
 
 Resampling is a statistical technique which involves taking out multiple samples from the given data with the intent of performing some statistical analysis, evaluating the model using cross validation or improving model performance by handling imbalanced data.

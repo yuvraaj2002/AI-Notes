@@ -21,6 +21,21 @@ for i in num:
     print(i)
 ```
 
+### [Why do we even use the concept of iterator](#)
+
+With the help of iterator we can actually iterator over the iterable element by element one at a time without having the need to load the complete data in the memory and with this we can actually deal with large size data, which we commonly encounter when we deal with deep learning. 
+
+```python
+import sys
+
+# Defining the list
+list = [item for item in range(1000000)]
+
+# Comparing the size of list and iterator (bytes)
+print(sys.getsizeof(list))
+print(sys.getsizeof(iter(list)))
+```
+
 ### [How to detect whether object is iterator or iterable ?](#)
 
 To identify whether a python object is iterator or iterable we can simply use the `dir()` built-in method and this method will return us the list of special methods associated with the object.
@@ -33,9 +48,6 @@ If the list contains both the `__iter__` and `__next__` method then that object 
 
 If the list contains only the `__iter__` method then that object can be called as the iterator.
 
-### [Why do we even use the concept of iterator](#)
-
-With the help of iterator we can actually iterator over the iterable element by element one at a time without having the need to load the complete data in the memory and with this we can actually deal with large size data, which we commonly encounter when we deal with deep learning. 
 
 ### [If there is some iterable then how can we create a iterator using it ?](#)
 
@@ -51,22 +63,21 @@ print(type(iter(num)))
 
 ### [What would happen if we will create iterator of the iterator itself ? ](#)
 
-We will get the same iterator.
+We will get the same iterator object
 
 ```python
-num = [1,2,3]
-iter_obj = iter(num)
+list = [item for item in range(100000)]
 
-print(id(iter_obj),'Address of iterator 1')
-
-iter_obj2 = iter(iter_obj)
-print(id(iter_obj2),'Address of iterator 2')
+iterator1 = iter(list)
+iterator2 = iter(iterator1)
+print(id(iterator1))
+print(id(iterator2))
 ```
 
 ### [Explain how for loop works](#)
 
 - First of all the for loop creates an iterator using the iterable using the iter method
-- Then it calls the next method on top of iterator which return the value at current index and increment the iterator to the next index
+- Then it calls the next method of iterator object which return the value at current index and increment the iterator to the next index
 
 ```python
 def mera_khudka_for_loop(iterable):
@@ -89,4 +100,53 @@ mera_khudka_for_loop(a)
 
 ### [Write a python program to create own custom iterator](#)
 
-Let's say we have created a user defined datatype and we want to add a functionality of iterating over the data stored into it, so for that we need to define the iterator and iterable.
+Let's say we have created a user defined datatype and we want to add a functionality of iterating over the data stored into it, so for that we have 2 options 
+
+1. In the user defined datatype (class) add the iter and the next method
+2. Use generator for creating a iterator for custom object
+
+##### Adding iter and next methods
+
+```python
+class CustomIterator:
+
+  # Constructor to initialize class variables
+  def __init__(self,start,end):
+    
+    self.start = start
+    self.end = end
+
+  # Function to return the iterator object
+  def __iter__(self):
+    return self
+
+
+  # Function to return the next element
+  def __next__(self):
+    
+    while self.start <= self.end:
+      self.start += 1 
+      return self.start-1
+    raise StopIteration
+
+  # Some functions of the class
+  def some_operation(self):
+    pass
+
+
+# Creating an instance of class
+instance = CustomIterator(1,5)
+
+# Creating an iterator
+iterator = instance.__iter__()
+
+# Printing the items
+print(iterator.__next__())
+print(iterator.__next__())
+print(iterator.__next__())
+print(iterator.__next__())
+print(iterator.__next__())
+
+# Here the error will be raised
+print(iterator.__next__())
+```

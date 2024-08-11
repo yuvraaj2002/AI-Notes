@@ -72,9 +72,21 @@
                 "file": "General ML Topics/Images/K Fold.png"
               }
             }
+          },
+          {
+            "id": "0b1b31f742aefc11",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Python/Generator and Iterator.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -124,7 +136,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 326.5004348754883
+    "width": 326.5004348754883,
+    "collapsed": true
   },
   "right": {
     "id": "75ce3ba0dea3f5ef",
@@ -140,7 +153,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "General ML Topics/Cross Validation.md",
+                "file": "Python/Generator and Iterator.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,7 +170,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "General ML Topics/Cross Validation.md",
+                "file": "Python/Generator and Iterator.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -180,7 +193,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "General ML Topics/Cross Validation.md"
+                "file": "Python/Generator and Iterator.md"
               }
             }
           }
@@ -203,14 +216,14 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "7ca685ed47cc157b",
+  "active": "0b1b31f742aefc11",
   "lastOpenFiles": [
-    "General ML Topics/Images/K Fold.png",
+    "2024-08-10.md",
     "General ML Topics/Cross Validation.md",
+    "General ML Topics/Images/K Fold.png",
     "General ML Topics/Imbalanced data.md",
     "General ML Topics/Bias Variance Tradeoff.md",
     "General ML Topics/Feature Scaling.md",
-    "2024-08-10.md",
     "General ML Topics/Feature Selection.md",
     "General ML Topics/Feature Extraction.md",
     "General ML Topics/Outliers.md",
@@ -244,7 +257,6 @@
     "Machine Learning/Images/Intuitive_MLE.png",
     "Machine Learning/Images/MLE Logistic.png",
     "Deep Learning/Images/Loss function types.png",
-    "Deep Learning/Images/Dropout.png",
     "General ML Topics/Untitled",
     "Deep Learning/Structured Data",
     "Deep Learning/Techniques",
