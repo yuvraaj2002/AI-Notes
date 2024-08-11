@@ -38,7 +38,7 @@ Now finally before moving to how we can perform the read and write operation let
 2. After that in the RAM itself , a small temporary portion is allocated to store the data of the file before it's processed or used by the program.
 3. The small temporary portion is called buffer memory and it optimize read and write operations.
 
-#### When to use write and when to use writelines
+### [When to use write and when to use writelines](#)
 
 In case we want to write a single string into an file we can use write but if we want to write multiple lines in that case we can use the writelines.
 
@@ -74,7 +74,7 @@ with open("Sample_long.txt",'r') as f:
 # If we want to read the data in chunks
 chunk_size = 20
 with open("Sample_long.txt",'r') as f:
-    chunk = f.read(chunk_size)
+    chunk = f.read(chunk_size) # This point the tell buffer pointer to 21 characterTab
     while chunk:
         print(chunk)
         chunk = f.read(chunk_size)

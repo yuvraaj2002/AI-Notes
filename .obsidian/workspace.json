@@ -79,7 +79,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/Iterator, Generator and Decorator/Generator.md",
+                "file": "Python/Serialization and Deserialization.md",
                 "mode": "source",
                 "source": false
               }
@@ -152,7 +152,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python/Iterator, Generator and Decorator/Generator.md",
+                "file": "Python/Serialization and Deserialization.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -169,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python/Iterator, Generator and Decorator/Generator.md",
+                "file": "Python/Serialization and Deserialization.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -192,7 +192,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python/Iterator, Generator and Decorator/Generator.md"
+                "file": "Python/Serialization and Deserialization.md"
               }
             }
           }
@@ -215,11 +215,15 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "89ad46e437a54122",
+  "active": "0b1b31f742aefc11",
   "lastOpenFiles": [
+    "Python/Handling/File Handling.md",
+    "Python/Handling/Exception Handling.md",
+    "Python/Namespace.md",
+    "Python/Iterator, Generator and Decorator/Decorators.md",
+    "Python/Iterator, Generator and Decorator/Generator.md",
     "Python/Handling",
     "Python/Iterator, Generator and Decorator/Iterator.md",
-    "Python/Iterator, Generator and Decorator/Generator.md",
     "Python/Iterator, Generator and Decorator",
     "2024-08-10.md",
     "General ML Topics/Cross Validation.md",
@@ -243,9 +247,6 @@
     "Machine Learning/Instance Based Models/K Nearest Neighbor.md",
     "Machine Learning/Linear Models/Polynomial Regression.md",
     "Machine Learning/Images/0degree_poly.png",
-    "Machine Learning/Linear Models/Ridge Regression.md",
-    "Machine Learning/Linear Models/Lasso Regression.md",
-    "Machine Learning/Linear Models/Linear Regression.md",
     "Books/Hands on Machine Learning.pdf",
     "Pasted Image 20240809195554_746.png",
     "Pasted Image 20240809195626_761.png",
@@ -262,7 +263,6 @@
     "Deep Learning/Structured Data",
     "Deep Learning/Techniques",
     "Excalidraw",
-    "Programs/Python Concepts/Decorator.ipynb",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]
