@@ -79,7 +79,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/Serialization and Deserialization.md",
+                "file": "Python/Handling/Serialization and Deserialization.md",
                 "mode": "source",
                 "source": false
               }
@@ -152,7 +152,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python/Serialization and Deserialization.md",
+                "file": "Python/Handling/Serialization and Deserialization.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -169,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python/Serialization and Deserialization.md",
+                "file": "Python/Handling/Serialization and Deserialization.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -192,7 +192,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python/Serialization and Deserialization.md"
+                "file": "Python/Handling/Serialization and Deserialization.md"
               }
             }
           }
@@ -215,7 +215,7 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "0b1b31f742aefc11",
+  "active": "89ad46e437a54122",
   "lastOpenFiles": [
     "Python/Handling/File Handling.md",
     "Python/Handling/Exception Handling.md",
