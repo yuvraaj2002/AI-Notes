@@ -79,7 +79,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/Generator and Iterator.md",
+                "file": "Python/Iterator and Generator/Generator.md",
                 "mode": "source",
                 "source": false
               }
@@ -136,8 +136,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 326.5004348754883,
-    "collapsed": true
+    "width": 326.5004348754883
   },
   "right": {
     "id": "75ce3ba0dea3f5ef",
@@ -153,7 +152,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python/Generator and Iterator.md",
+                "file": "Python/Iterator and Generator/Generator.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -170,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python/Generator and Iterator.md",
+                "file": "Python/Iterator and Generator/Generator.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -193,7 +192,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python/Generator and Iterator.md"
+                "file": "Python/Iterator and Generator/Generator.md"
               }
             }
           }
@@ -218,6 +217,9 @@
   },
   "active": "0b1b31f742aefc11",
   "lastOpenFiles": [
+    "Python/Iterator and Generator/Iterator.md",
+    "Python/Iterator and Generator/Generator.md",
+    "Python/Iterator and Generator",
     "2024-08-10.md",
     "General ML Topics/Cross Validation.md",
     "General ML Topics/Images/K Fold.png",
@@ -247,7 +249,6 @@
     "Books/Hands on Machine Learning.pdf",
     "Pasted Image 20240809195554_746.png",
     "Pasted Image 20240809195626_761.png",
-    "Database Management System/SQL/Window Functions.md",
     "Books/Daily Dose of Data Science.pdf",
     "Data Structures And Algorithms/String/Substrings and Subsequence",
     "Python/Images/Namespace Intro.png",
@@ -262,7 +263,6 @@
     "Deep Learning/Techniques",
     "Excalidraw",
     "Programs/Python Concepts/Decorator.ipynb",
-    "Programs/Python Concepts",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]

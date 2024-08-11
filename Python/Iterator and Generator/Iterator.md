@@ -1,7 +1,6 @@
-This page is dedicated towards understanding the concept of Generator and Iterator in python and the resources used for this topic will be linked below.
+This page is dedicated towards understanding the concept of Iterator in python and the resources used for this topic will be linked below.
 
 - [Iterator in Python](https://github.com/campusx-official/python-iterators-and-iterables/blob/main/Iterators.ipynb)
-- [Generator in Python]()
 
 ### [What do you mean by iteration ? ](#)
 
@@ -103,7 +102,7 @@ mera_khudka_for_loop(a)
 Let's say we have created a user defined datatype and we want to add a functionality of iterating over the data stored into it, so for that we have 2 options 
 
 1. In the user defined datatype (class) add the iter and the next method
-2. Use generator for creating a iterator for custom object
+2. Use [[Generator]] for creating a iterator for custom object
 
 ##### Adding iter and next methods
 
