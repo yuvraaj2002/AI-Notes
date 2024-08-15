@@ -8,85 +8,31 @@
         "type": "tabs",
         "children": [
           {
-            "id": "44439c8d36e7691f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Machine Learning/Bayesian Models/Naive Bayes.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e93b4738714e89c5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "General ML Topics/Feature Scaling.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5cae38f18e653618",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Machine Learning/Linear Models/Lasso Regression.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b290c241fda348eb",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          },
-          {
-            "id": "7ca685ed47cc157b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "General ML Topics/Cross Validation.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f4ae6bf3eb3d59c1",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "General ML Topics/Images/K Fold.png"
-              }
-            }
-          },
-          {
             "id": "0b1b31f742aefc11",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/Handling/Serialization and Deserialization.md",
+                "file": "Machine Learning/Performance Metrics/Classification Metrics.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "036a898bd7c752e2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Generative AI/Agents.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -136,7 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 326.5004348754883
+    "width": 430.5004348754883
   },
   "right": {
     "id": "75ce3ba0dea3f5ef",
@@ -152,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python/Handling/Serialization and Deserialization.md",
+                "file": "Generative AI/Agents.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -169,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python/Handling/Serialization and Deserialization.md",
+                "file": "Generative AI/Agents.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -192,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python/Handling/Serialization and Deserialization.md"
+                "file": "Generative AI/Agents.md"
               }
             }
           }
@@ -217,35 +163,38 @@
   },
   "active": "89ad46e437a54122",
   "lastOpenFiles": [
+    "Generative AI/Images",
+    "Things To Learn 🧠.md",
+    "Generative AI/Agents.md",
+    "Generative AI/Fine Tuning LLM.md",
+    "Generative AI/Images/Questions_creator.png",
+    "Excalidraw/Drawing 2024-08-02 15.39.01.excalidraw.md",
+    "Excalidraw/Drawing 2024-08-03 16.14.05.excalidraw.md",
+    "Excalidraw/Drawing 2024-08-06 09.50.04.excalidraw.md",
+    "Excalidraw/Drawing 2024-08-07 09.38.57.excalidraw.md",
+    "Excalidraw/Drawing 2024-08-09 19.55.39.excalidraw.md",
+    "Machine Learning/Performance Metrics/Classification Metrics.md",
+    "Excalidraw/Drawing 2024-08-12 11.54.37.excalidraw.md",
+    "Machine Learning/Performance Metrics/Evaluation metrics.md",
+    "Excalidraw/Drawing 2024-07-13 18.39.32.excalidraw.md",
+    "Excalidraw/Drawing 2024-07-27 15.46.07.excalidraw.md",
+    "Excalidraw/Drawing 2024-07-28 08.28.40.excalidraw.md",
+    "Excalidraw/Drawing 2024-07-28 16.23.54.excalidraw.md",
+    "Excalidraw/Drawing 2024-07-29 12.16.36.excalidraw.md",
+    "Excalidraw/Drawing 2024-07-31 05.20.45.excalidraw.md",
+    "Excalidraw/Drawing 2024-07-31 11.57.09.excalidraw.md",
+    "Project Description.md",
+    "Data Structures And Algorithms/Tree/Binary Search Tree/Problems.md",
+    "Data Structures And Algorithms/Tree/Questions.md",
+    "Data Structures And Algorithms/Tree/Binary Search Tree",
+    "Data Structures And Algorithms/Tree/Binary Tree",
+    "Machine Learning/Bayesian Models/Naive Bayes.md",
     "Python/Handling/File Handling.md",
     "Python/Handling/Exception Handling.md",
     "Python/Namespace.md",
-    "Python/Iterator, Generator and Decorator/Decorators.md",
-    "Python/Iterator, Generator and Decorator/Generator.md",
     "Python/Handling",
-    "Python/Iterator, Generator and Decorator/Iterator.md",
     "Python/Iterator, Generator and Decorator",
-    "2024-08-10.md",
-    "General ML Topics/Cross Validation.md",
     "General ML Topics/Images/K Fold.png",
-    "General ML Topics/Imbalanced data.md",
-    "General ML Topics/Bias Variance Tradeoff.md",
-    "General ML Topics/Feature Scaling.md",
-    "General ML Topics/Feature Selection.md",
-    "General ML Topics/Feature Extraction.md",
-    "General ML Topics/Outliers.md",
-    "General ML Topics/Feature Engineering.md",
-    "General ML Topics/Missing Values.md",
-    "General ML Topics/F Test.md",
-    "Machine Learning/Tree Based Models/Decision Tree.md",
-    "Things To Learn 🧠.md",
-    "Machine Learning/Bayesian Models/Naive Bayes.md",
-    "Machine Learning/Performance Metrics/Regression Metrics.md",
-    "Machine Learning/Performance Metrics/Evaluation metrics.md",
-    "Machine Learning/Performance Metrics/Classification Metrics.md",
-    "Tags/Data Processing.md",
-    "Machine Learning/Instance Based Models/K Nearest Neighbor.md",
-    "Machine Learning/Linear Models/Polynomial Regression.md",
     "Machine Learning/Images/0degree_poly.png",
     "Books/Hands on Machine Learning.pdf",
     "Pasted Image 20240809195554_746.png",
@@ -258,11 +207,8 @@
     "Machine Learning/Images/OVR approach.png",
     "Machine Learning/Images/Intuitive_MLE.png",
     "Machine Learning/Images/MLE Logistic.png",
-    "Deep Learning/Images/Loss function types.png",
     "General ML Topics/Untitled",
     "Deep Learning/Structured Data",
-    "Deep Learning/Techniques",
-    "Excalidraw",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]
