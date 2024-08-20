@@ -25,7 +25,31 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Generative AI/Agents.md",
+                "file": "2024-08-20.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "77984ef6add4b685",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Generative AI/RAG Systems/RAG Architecture.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c0f1e521a37b3665",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2024-08-20.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Generative AI/Agents.md",
+                "file": "2024-08-20.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Generative AI/Agents.md",
+                "file": "2024-08-20.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Generative AI/Agents.md"
+                "file": "2024-08-20.md"
               }
             }
           }
@@ -161,13 +185,44 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "89ad46e437a54122",
+  "active": "036a898bd7c752e2",
   "lastOpenFiles": [
-    "Generative AI/Images",
-    "Things To Learn 🧠.md",
+    "Pasted image 20240817185644.png",
+    "Generative AI/RAG Systems/Chunking Techniques.md",
+    "medical_readme.md",
+    "Project Description.md",
+    "Generative AI/RAG Systems/RAG Architecture.md",
+    "2024-08-20.md",
+    "Daily Goals/2024-08-17.md",
+    "Generative AI/Images/Chunking_Viz.png",
+    "Generative AI/RAG Systems/Hybrid Search.md",
+    "Tags/Generative AI.md",
+    "Generative AI/RAG Systems/Re-Ranking.md",
+    "Generative AI/RAG Systems",
     "Generative AI/Agents.md",
+    "Generative AI/Langchain.md",
+    "Generative AI/API Keys.md",
+    "test_readme.md",
+    "Programs/Generative AI/genai_venv/conda-meta/setuptools-72.1.0-py310haa95532_0.json",
+    "Programs/Generative AI/genai_venv/conda-meta/python-3.10.0-h96c0403_3.json",
+    "Programs/Generative AI/genai_venv/conda-meta/tk-8.6.14-h0416ee5_0.json",
+    "Programs/Generative AI/genai_venv/conda-meta/zlib-1.2.13-h8cc25b3_1.json",
+    "Programs/Generative AI/genai_venv/conda-meta/xz-5.4.6-h8cc25b3_1.json",
+    "Programs/Generative AI/genai_venv/conda-meta/sqlite-3.45.3-h2bbff1b_0.json",
+    "Programs/Generative AI/genai_venv/conda-meta/openssl-1.1.1w-h2bbff1b_0.json",
+    "Programs/Generative AI/genai_venv/conda-meta/libffi-3.4.4-hd77b12b_1.json",
+    "Programs/Generative AI/genai_venv/conda-meta/bzip2-1.0.8-h2bbff1b_6.json",
+    "Programs/Generative AI/genai_venv/Lib/idlelib/Icons/tk.gif",
+    "Programs/Generative AI/genai_venv/Lib/idlelib/Icons/python.gif",
+    "Programs/Generative AI/genai_venv/Lib/idlelib/Icons/plusnode.gif",
+    "Programs/Generative AI/genai_venv/Lib/idlelib/Icons/openfolder.gif",
+    "Programs/Generative AI/genai_venv/Lib/idlelib/Icons/minusnode.gif",
+    "Programs/Generative AI/genai_venv/Lib/idlelib/Icons/idle_48.png",
+    "Programs/Generative AI/genai_venv/Lib/idlelib/Icons/idle_48.gif",
+    "Programs/Generative AI/genai_venv/Lib/idlelib/Icons/idle_32.png",
+    "Daily Goals/2024-08-10.md",
+    "Things To Learn 🧠.md",
     "Generative AI/Fine Tuning LLM.md",
-    "Generative AI/Images/Questions_creator.png",
     "Excalidraw/Drawing 2024-08-02 15.39.01.excalidraw.md",
     "Excalidraw/Drawing 2024-08-03 16.14.05.excalidraw.md",
     "Excalidraw/Drawing 2024-08-06 09.50.04.excalidraw.md",
@@ -177,38 +232,6 @@
     "Excalidraw/Drawing 2024-08-12 11.54.37.excalidraw.md",
     "Machine Learning/Performance Metrics/Evaluation metrics.md",
     "Excalidraw/Drawing 2024-07-13 18.39.32.excalidraw.md",
-    "Excalidraw/Drawing 2024-07-27 15.46.07.excalidraw.md",
-    "Excalidraw/Drawing 2024-07-28 08.28.40.excalidraw.md",
-    "Excalidraw/Drawing 2024-07-28 16.23.54.excalidraw.md",
-    "Excalidraw/Drawing 2024-07-29 12.16.36.excalidraw.md",
-    "Excalidraw/Drawing 2024-07-31 05.20.45.excalidraw.md",
-    "Excalidraw/Drawing 2024-07-31 11.57.09.excalidraw.md",
-    "Project Description.md",
-    "Data Structures And Algorithms/Tree/Binary Search Tree/Problems.md",
-    "Data Structures And Algorithms/Tree/Questions.md",
-    "Data Structures And Algorithms/Tree/Binary Search Tree",
-    "Data Structures And Algorithms/Tree/Binary Tree",
-    "Machine Learning/Bayesian Models/Naive Bayes.md",
-    "Python/Handling/File Handling.md",
-    "Python/Handling/Exception Handling.md",
-    "Python/Namespace.md",
-    "Python/Handling",
-    "Python/Iterator, Generator and Decorator",
-    "General ML Topics/Images/K Fold.png",
-    "Machine Learning/Images/0degree_poly.png",
-    "Books/Hands on Machine Learning.pdf",
-    "Pasted Image 20240809195554_746.png",
-    "Pasted Image 20240809195626_761.png",
-    "Books/Daily Dose of Data Science.pdf",
-    "Data Structures And Algorithms/String/Substrings and Subsequence",
-    "Python/Images/Namespace Intro.png",
-    "Pasted image 20240807094003.png",
-    "Python/Data Structures",
-    "Machine Learning/Images/OVR approach.png",
-    "Machine Learning/Images/Intuitive_MLE.png",
-    "Machine Learning/Images/MLE Logistic.png",
-    "General ML Topics/Untitled",
-    "Deep Learning/Structured Data",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]

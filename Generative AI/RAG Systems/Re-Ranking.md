@@ -1,0 +1,3 @@
+- BM25
+- Cross Encoder or Bi Encoder
+- Cohere API
