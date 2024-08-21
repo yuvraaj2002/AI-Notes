@@ -5,7 +5,7 @@ This page is dedicated towards understanding everything related to RAG architect
 
 RAG stands for Retrieval augmented generation and it is basically a framework which allows us to use the LLM over specific or sensitive data without having a need to fine tune the complete LLM. The overall idea behind using RAG system is that, rather than using the pre-existing knowledge of the LLM to answer our query about the specific data we will rather pass some context to the LLM along with the query and in this way the LLM will use the context to answer our query.
 
-![[Rag_Diagram.png]]
+![[Rag_Diagram.png]](https://github.com/yuvraaj2002/AI-Notes/blob/master/Generative%20AI/RAG%20Systems/Basic%20RAG/Diagrams/Rag_Diagram.png)
 
 ### [What are the various components of the RAG](#)
 
