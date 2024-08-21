@@ -25,7 +25,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024-08-20.md",
+                "file": "Generative AI/RAG Systems/Chunking Techniques.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e4e64200e9c4468c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Generative AI/RAG Systems/Hybrid Search.md",
                 "mode": "source",
                 "source": false
               }
@@ -56,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -106,7 +118,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 430.5004348754883
+    "width": 430.5004348754883,
+    "collapsed": true
   },
   "right": {
     "id": "75ce3ba0dea3f5ef",
@@ -122,7 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024-08-20.md",
+                "file": "Generative AI/RAG Systems/Hybrid Search.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +152,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024-08-20.md",
+                "file": "Generative AI/RAG Systems/Hybrid Search.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024-08-20.md"
+                "file": "Generative AI/RAG Systems/Hybrid Search.md"
               }
             }
           }
@@ -185,23 +198,27 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "036a898bd7c752e2",
+  "active": "e4e64200e9c4468c",
   "lastOpenFiles": [
-    "Pasted image 20240817185644.png",
+    "Generative AI/API Keys.md",
+    "Generative AI/RAG Systems/Hybrid Search.md",
+    "Excalidraw/Drawing 2024-08-20 15.12.28.excalidraw.md",
     "Generative AI/RAG Systems/Chunking Techniques.md",
+    "Generative AI/RAG Systems/Programs/Chnking_Analysis.ipynb",
+    "Generative AI/RAG Systems/Programs",
+    "Generative AI/RAG Systems/New folder",
     "medical_readme.md",
+    "2024-08-20.md",
+    "Pasted image 20240817185644.png",
     "Project Description.md",
     "Generative AI/RAG Systems/RAG Architecture.md",
-    "2024-08-20.md",
     "Daily Goals/2024-08-17.md",
     "Generative AI/Images/Chunking_Viz.png",
-    "Generative AI/RAG Systems/Hybrid Search.md",
     "Tags/Generative AI.md",
     "Generative AI/RAG Systems/Re-Ranking.md",
     "Generative AI/RAG Systems",
     "Generative AI/Agents.md",
     "Generative AI/Langchain.md",
-    "Generative AI/API Keys.md",
     "test_readme.md",
     "Programs/Generative AI/genai_venv/conda-meta/setuptools-72.1.0-py310haa95532_0.json",
     "Programs/Generative AI/genai_venv/conda-meta/python-3.10.0-h96c0403_3.json",
@@ -209,9 +226,6 @@
     "Programs/Generative AI/genai_venv/conda-meta/zlib-1.2.13-h8cc25b3_1.json",
     "Programs/Generative AI/genai_venv/conda-meta/xz-5.4.6-h8cc25b3_1.json",
     "Programs/Generative AI/genai_venv/conda-meta/sqlite-3.45.3-h2bbff1b_0.json",
-    "Programs/Generative AI/genai_venv/conda-meta/openssl-1.1.1w-h2bbff1b_0.json",
-    "Programs/Generative AI/genai_venv/conda-meta/libffi-3.4.4-hd77b12b_1.json",
-    "Programs/Generative AI/genai_venv/conda-meta/bzip2-1.0.8-h2bbff1b_6.json",
     "Programs/Generative AI/genai_venv/Lib/idlelib/Icons/tk.gif",
     "Programs/Generative AI/genai_venv/Lib/idlelib/Icons/python.gif",
     "Programs/Generative AI/genai_venv/Lib/idlelib/Icons/plusnode.gif",

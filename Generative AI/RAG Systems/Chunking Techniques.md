@@ -31,6 +31,12 @@ documents = text_splitter.create_documents([text])
 print(documents)
 ```
 
-To cover the drawback of this, a new advance technique called Recursive character splitter got introduced where the other than creating chunks of specific character length the completeness of the word is also considered. It is not like that a chunk will contain the substring, instead either the word will be considered or it will not be considered.
+To cover the drawback of this, a new advance technique called Recursive character splitter got introduced where the other than creating chunks of specific character length the completeness of the word is also considered. Basically in the recursive character splitter the words are considered as a whole and the substring is not considered and in case considering the word as a whole exceed the token limit, the word is dropped.
+
+Chunk size <= Chunk Limit
+
+##### [Semantic Chunking](#)
+
+
 
 https://www.youtube.com/watch?v=FksDMgww_bw
