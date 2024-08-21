@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Generative AI/RAG Systems/Chunking Techniques.md",
+                "file": "Generative AI/RAG Systems/Advance RAG/Chunking Techniques.md",
                 "mode": "source",
                 "source": false
               }
@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Generative AI/RAG Systems/Hybrid Search.md",
+                "file": "Generative AI/RAG Systems/Basic RAG/RAG Architecture.md",
                 "mode": "source",
                 "source": false
               }
@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Generative AI/RAG Systems/RAG Architecture.md",
+                "file": "Generative AI/RAG Systems/Basic RAG/RAG Architecture.md",
                 "mode": "source",
                 "source": false
               }
@@ -118,8 +118,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 430.5004348754883,
-    "collapsed": true
+    "width": 430.5004348754883
   },
   "right": {
     "id": "75ce3ba0dea3f5ef",
@@ -135,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Generative AI/RAG Systems/Hybrid Search.md",
+                "file": "Generative AI/RAG Systems/Basic RAG/RAG Architecture.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Generative AI/RAG Systems/Hybrid Search.md",
+                "file": "Generative AI/RAG Systems/Basic RAG/RAG Architecture.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Generative AI/RAG Systems/Hybrid Search.md"
+                "file": "Generative AI/RAG Systems/Basic RAG/RAG Architecture.md"
               }
             }
           }
@@ -198,12 +197,15 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "e4e64200e9c4468c",
+  "active": "89ad46e437a54122",
   "lastOpenFiles": [
+    "Generative AI/Agents",
+    "Generative AI/RAG Systems/Advance RAG",
+    "Generative AI/RAG Systems/Basic RAG",
+    "Generative AI/RAG Systems/Advance RAG/Hybrid Search.md",
     "Generative AI/API Keys.md",
-    "Generative AI/RAG Systems/Hybrid Search.md",
     "Excalidraw/Drawing 2024-08-20 15.12.28.excalidraw.md",
-    "Generative AI/RAG Systems/Chunking Techniques.md",
+    "Generative AI/RAG Systems/Advance RAG/Chunking Techniques.md",
     "Generative AI/RAG Systems/Programs/Chnking_Analysis.ipynb",
     "Generative AI/RAG Systems/Programs",
     "Generative AI/RAG Systems/New folder",
@@ -211,21 +213,19 @@
     "2024-08-20.md",
     "Pasted image 20240817185644.png",
     "Project Description.md",
-    "Generative AI/RAG Systems/RAG Architecture.md",
+    "Generative AI/RAG Systems/Basic RAG/RAG Architecture.md",
     "Daily Goals/2024-08-17.md",
     "Generative AI/Images/Chunking_Viz.png",
     "Tags/Generative AI.md",
-    "Generative AI/RAG Systems/Re-Ranking.md",
+    "Generative AI/RAG Systems/Advance RAG/Re-Ranking.md",
     "Generative AI/RAG Systems",
-    "Generative AI/Agents.md",
+    "Generative AI/Agents/Agents.md",
     "Generative AI/Langchain.md",
     "test_readme.md",
     "Programs/Generative AI/genai_venv/conda-meta/setuptools-72.1.0-py310haa95532_0.json",
     "Programs/Generative AI/genai_venv/conda-meta/python-3.10.0-h96c0403_3.json",
     "Programs/Generative AI/genai_venv/conda-meta/tk-8.6.14-h0416ee5_0.json",
     "Programs/Generative AI/genai_venv/conda-meta/zlib-1.2.13-h8cc25b3_1.json",
-    "Programs/Generative AI/genai_venv/conda-meta/xz-5.4.6-h8cc25b3_1.json",
-    "Programs/Generative AI/genai_venv/conda-meta/sqlite-3.45.3-h2bbff1b_0.json",
     "Programs/Generative AI/genai_venv/Lib/idlelib/Icons/tk.gif",
     "Programs/Generative AI/genai_venv/Lib/idlelib/Icons/python.gif",
     "Programs/Generative AI/genai_venv/Lib/idlelib/Icons/plusnode.gif",
@@ -245,7 +245,6 @@
     "Machine Learning/Performance Metrics/Classification Metrics.md",
     "Excalidraw/Drawing 2024-08-12 11.54.37.excalidraw.md",
     "Machine Learning/Performance Metrics/Evaluation metrics.md",
-    "Excalidraw/Drawing 2024-07-13 18.39.32.excalidraw.md",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]

@@ -2,7 +2,7 @@ This page is dedicated towards understanding the concept of the Hybrid search in
 
 - [Self Query Retrieval](https://youtu.be/f4LeWlt3T8Y?si=fPPgnb-yfSQE7prf)
 - [TF-IDF, BM25 and SBERT](https://www.youtube.com/watch?v=ziiF1eFM3_4&t=5s)
-- [Understanding the BM25]()
+- [Understanding the BM25](https://www.youtube.com/watch?v=ruBm9WywevM&t=4s)
 
 
 ### [Idea behind Hybrid search](#)
