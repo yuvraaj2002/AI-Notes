@@ -1,5 +1,6 @@
 This page is dedicated towards my the notes related to langchain framework. The major source will obviously be the official langchain documentation, but here in this page/notes I will simply be explaining the things in my own simple language.
 
+- [Langchain Tutorial](https://youtu.be/6GnsndNL5u4?si=HXzfhfRZGTceuPeT)
 ##### [Different Langchain components](#)
 
 

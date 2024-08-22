@@ -37,9 +37,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Generative AI/RAG Systems/Basic RAG/RAG Architecture.md",
+                "file": "Generative AI/RAG Systems/Advance RAG/Chunking Techniques.md",
                 "mode": "source",
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "77157a208eb2428c",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2024-08-21 10.52.07.excalidraw.md"
               }
             }
           },
@@ -47,11 +57,9 @@
             "id": "77984ef6add4b685",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Generative AI/RAG Systems/Basic RAG/RAG Architecture.md",
-                "mode": "source",
-                "source": false
+                "file": "Generative AI/RAG Systems/Basic RAG/Diagrams/Youtube_RAG_Design.png"
               }
             }
           },
@@ -66,9 +74,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "003427c2bc9019d2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Generative AI/LLM for Summarization.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -118,7 +138,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 430.5004348754883
+    "width": 430.5004348754883,
+    "collapsed": true
   },
   "right": {
     "id": "75ce3ba0dea3f5ef",
@@ -134,7 +155,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Generative AI/RAG Systems/Basic RAG/RAG Architecture.md",
+                "file": "Generative AI/LLM for Summarization.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +172,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Generative AI/RAG Systems/Basic RAG/RAG Architecture.md",
+                "file": "Generative AI/LLM for Summarization.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +195,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Generative AI/RAG Systems/Basic RAG/RAG Architecture.md"
+                "file": "Generative AI/LLM for Summarization.md"
               }
             }
           }
@@ -197,8 +218,32 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "89ad46e437a54122",
+  "active": "003427c2bc9019d2",
   "lastOpenFiles": [
+    "Generative AI/Images/Summarization_Diagram.png",
+    "Generative AI/Images/Summarization_Approaches.png",
+    "Generative AI/Summarization_Diagram.png",
+    "Generative AI/Summarization_Approaches.png",
+    "Generative AI/Summarization_Techniques.ipynb",
+    "Generative AI/The Right Kind of Stubborn(Essay).txt",
+    "Summarization_Approaches.png",
+    "Summarization_Diagram.png",
+    "Generative AI/RAG Systems/Evaluating RAG.md",
+    "Generative AI/LLM for Summarization.md",
+    "Generative AI/Langchain.md",
+    "Generative AI/RAG Systems/Advance RAG/Chunking Techniques.md",
+    "Generative AI/RAG Systems/Basic RAG/RAG Architecture.md",
+    "Generative AI/RAG Systems/Basic RAG/Diagrams/Youtube_RAG_Design.png",
+    "Excalidraw/Drawing 2024-08-21 10.52.07.excalidraw.md",
+    "Generative AI/RAG Systems/Basic RAG/Diagrams/Rag_Diagram.png",
+    "Generative AI/RAG Systems/Basic RAG/Programs/RAG.ipynb",
+    "Generative AI/RAG Systems/Basic RAG/Diagrams",
+    "Generative AI/RAG Systems/Basic RAG/New folder",
+    "Generative AI/RAG Systems/Basic RAG/Programs",
+    "Generative AI/RAG Systems/Basic RAG/Simple_RAG_Design.png",
+    "Pasted Image 20240821110213_899.png",
+    "Pasted Image 20240821110054_165.png",
+    "Machine Learning/Performance Metrics/Classification Metrics.md",
     "Generative AI/Finetuning and Quantization",
     "Generative AI/Agents",
     "Generative AI/RAG Systems/Advance RAG",
@@ -206,34 +251,14 @@
     "Generative AI/RAG Systems/Advance RAG/Hybrid Search.md",
     "Generative AI/API Keys.md",
     "Excalidraw/Drawing 2024-08-20 15.12.28.excalidraw.md",
-    "Generative AI/RAG Systems/Advance RAG/Chunking Techniques.md",
-    "Generative AI/RAG Systems/Programs/Chnking_Analysis.ipynb",
-    "Generative AI/RAG Systems/Programs",
-    "Generative AI/RAG Systems/New folder",
     "medical_readme.md",
     "2024-08-20.md",
-    "Pasted image 20240817185644.png",
     "Project Description.md",
-    "Generative AI/RAG Systems/Basic RAG/RAG Architecture.md",
     "Daily Goals/2024-08-17.md",
-    "Generative AI/Images/Chunking_Viz.png",
     "Tags/Generative AI.md",
     "Generative AI/RAG Systems/Advance RAG/Re-Ranking.md",
-    "Generative AI/RAG Systems",
     "Generative AI/Agents/Agents.md",
-    "Generative AI/Langchain.md",
     "test_readme.md",
-    "Programs/Generative AI/genai_venv/conda-meta/setuptools-72.1.0-py310haa95532_0.json",
-    "Programs/Generative AI/genai_venv/conda-meta/python-3.10.0-h96c0403_3.json",
-    "Programs/Generative AI/genai_venv/conda-meta/tk-8.6.14-h0416ee5_0.json",
-    "Programs/Generative AI/genai_venv/Lib/idlelib/Icons/tk.gif",
-    "Programs/Generative AI/genai_venv/Lib/idlelib/Icons/python.gif",
-    "Programs/Generative AI/genai_venv/Lib/idlelib/Icons/plusnode.gif",
-    "Programs/Generative AI/genai_venv/Lib/idlelib/Icons/openfolder.gif",
-    "Programs/Generative AI/genai_venv/Lib/idlelib/Icons/minusnode.gif",
-    "Programs/Generative AI/genai_venv/Lib/idlelib/Icons/idle_48.png",
-    "Programs/Generative AI/genai_venv/Lib/idlelib/Icons/idle_48.gif",
-    "Programs/Generative AI/genai_venv/Lib/idlelib/Icons/idle_32.png",
     "Daily Goals/2024-08-10.md",
     "Things To Learn 🧠.md",
     "Generative AI/Finetuning and Quantization/Fine Tuning LLM.md",
@@ -241,10 +266,6 @@
     "Excalidraw/Drawing 2024-08-03 16.14.05.excalidraw.md",
     "Excalidraw/Drawing 2024-08-06 09.50.04.excalidraw.md",
     "Excalidraw/Drawing 2024-08-07 09.38.57.excalidraw.md",
-    "Excalidraw/Drawing 2024-08-09 19.55.39.excalidraw.md",
-    "Machine Learning/Performance Metrics/Classification Metrics.md",
-    "Excalidraw/Drawing 2024-08-12 11.54.37.excalidraw.md",
-    "Machine Learning/Performance Metrics/Evaluation metrics.md",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]
