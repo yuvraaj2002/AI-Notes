@@ -20,75 +20,19 @@
             }
           },
           {
-            "id": "036a898bd7c752e2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Generative AI/RAG Systems/Advance RAG/Chunking Techniques.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "e4e64200e9c4468c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Generative AI/RAG Systems/Advance RAG/Chunking Techniques.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "77157a208eb2428c",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2024-08-21 10.52.07.excalidraw.md"
-              }
-            }
-          },
-          {
-            "id": "77984ef6add4b685",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Generative AI/RAG Systems/Basic RAG/Diagrams/Youtube_RAG_Design.png"
-              }
-            }
-          },
-          {
-            "id": "c0f1e521a37b3665",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2024-08-20.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "003427c2bc9019d2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Generative AI/LLM for Summarization.md",
+                "file": "Generative AI/LLM and RAG Evaluation/Evaluating GENDER biasness and Demographic Diversity Analysis.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -138,8 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 430.5004348754883,
-    "collapsed": true
+    "width": 430.5004348754883
   },
   "right": {
     "id": "75ce3ba0dea3f5ef",
@@ -155,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Generative AI/LLM for Summarization.md",
+                "file": "Generative AI/LLM and RAG Evaluation/Evaluating GENDER biasness and Demographic Diversity Analysis.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -172,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Generative AI/LLM for Summarization.md",
+                "file": "Generative AI/LLM and RAG Evaluation/Evaluating GENDER biasness and Demographic Diversity Analysis.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -195,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Generative AI/LLM for Summarization.md"
+                "file": "Generative AI/LLM and RAG Evaluation/Evaluating GENDER biasness and Demographic Diversity Analysis.md"
               }
             }
           }
@@ -218,8 +161,14 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "003427c2bc9019d2",
+  "active": "e4e64200e9c4468c",
   "lastOpenFiles": [
+    "Generative AI/LLM and RAG Evaluation/Evaluating LLM and RAG.md",
+    "Generative AI/LLM and RAG Evaluation/Evaluating GENDER biasness and Demographic Diversity Analysis.md",
+    "Generative AI/LLM and RAG Evaluation",
+    "Generative AI/RAG Systems/Advance RAG/Chunking Techniques.md",
+    "Excalidraw/Drawing 2024-08-21 10.52.07.excalidraw.md",
+    "Generative AI/RAG Systems/Basic RAG/Diagrams/Youtube_RAG_Design.png",
     "Generative AI/Images/Summarization_Diagram.png",
     "Generative AI/Images/Summarization_Approaches.png",
     "Generative AI/Summarization_Diagram.png",
@@ -228,13 +177,9 @@
     "Generative AI/The Right Kind of Stubborn(Essay).txt",
     "Summarization_Approaches.png",
     "Summarization_Diagram.png",
-    "Generative AI/RAG Systems/Evaluating RAG.md",
     "Generative AI/LLM for Summarization.md",
     "Generative AI/Langchain.md",
-    "Generative AI/RAG Systems/Advance RAG/Chunking Techniques.md",
     "Generative AI/RAG Systems/Basic RAG/RAG Architecture.md",
-    "Generative AI/RAG Systems/Basic RAG/Diagrams/Youtube_RAG_Design.png",
-    "Excalidraw/Drawing 2024-08-21 10.52.07.excalidraw.md",
     "Generative AI/RAG Systems/Basic RAG/Diagrams/Rag_Diagram.png",
     "Generative AI/RAG Systems/Basic RAG/Programs/RAG.ipynb",
     "Generative AI/RAG Systems/Basic RAG/Diagrams",
@@ -242,12 +187,10 @@
     "Generative AI/RAG Systems/Basic RAG/Programs",
     "Generative AI/RAG Systems/Basic RAG/Simple_RAG_Design.png",
     "Pasted Image 20240821110213_899.png",
-    "Pasted Image 20240821110054_165.png",
     "Machine Learning/Performance Metrics/Classification Metrics.md",
     "Generative AI/Finetuning and Quantization",
     "Generative AI/Agents",
     "Generative AI/RAG Systems/Advance RAG",
-    "Generative AI/RAG Systems/Basic RAG",
     "Generative AI/RAG Systems/Advance RAG/Hybrid Search.md",
     "Generative AI/API Keys.md",
     "Excalidraw/Drawing 2024-08-20 15.12.28.excalidraw.md",
