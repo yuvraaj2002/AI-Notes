@@ -25,14 +25,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Generative AI/LLM and RAG Evaluation/Evaluating GENDER biasness and Demographic Diversity Analysis.md",
+                "file": "Generative AI/Agents/Agents.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7b749e01b3e1a0a5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Deep Learning/Text/Encoder Decoder.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3ee8fcb4f06c1b67",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Deep Learning/Techniques/Weight Initialization.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -98,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Generative AI/LLM and RAG Evaluation/Evaluating GENDER biasness and Demographic Diversity Analysis.md",
+                "file": "Deep Learning/Techniques/Weight Initialization.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Generative AI/LLM and RAG Evaluation/Evaluating GENDER biasness and Demographic Diversity Analysis.md",
+                "file": "Deep Learning/Techniques/Weight Initialization.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Generative AI/LLM and RAG Evaluation/Evaluating GENDER biasness and Demographic Diversity Analysis.md"
+                "file": "Deep Learning/Techniques/Weight Initialization.md"
               }
             }
           }
@@ -161,13 +185,19 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "e4e64200e9c4468c",
+  "active": "89ad46e437a54122",
   "lastOpenFiles": [
-    "Generative AI/LLM and RAG Evaluation/Evaluating LLM and RAG.md",
-    "Generative AI/LLM and RAG Evaluation/Evaluating GENDER biasness and Demographic Diversity Analysis.md",
-    "Generative AI/LLM and RAG Evaluation",
+    "Deep Learning/Text/Encoder Decoder.md",
+    "Machine Learning/Performance Metrics/Classification Metrics.md",
+    "Generative AI/Agents/Programs",
     "Generative AI/RAG Systems/Advance RAG/Chunking Techniques.md",
+    "Generative AI/Agents/Agents.md",
+    "Generative AI/Finetuning and Quantization/Fine Tuning LLM.md",
+    "Generative AI/LLM and RAG Evaluation/Evaluating GENDER biasness and Demographic Diversity Analysis.md",
     "Excalidraw/Drawing 2024-08-21 10.52.07.excalidraw.md",
+    "Pasted Image 20240822231206_231.png",
+    "Generative AI/LLM and RAG Evaluation/Evaluating LLM and RAG.md",
+    "Generative AI/LLM and RAG Evaluation",
     "Generative AI/RAG Systems/Basic RAG/Diagrams/Youtube_RAG_Design.png",
     "Generative AI/Images/Summarization_Diagram.png",
     "Generative AI/Images/Summarization_Approaches.png",
@@ -186,29 +216,23 @@
     "Generative AI/RAG Systems/Basic RAG/New folder",
     "Generative AI/RAG Systems/Basic RAG/Programs",
     "Generative AI/RAG Systems/Basic RAG/Simple_RAG_Design.png",
-    "Pasted Image 20240821110213_899.png",
-    "Machine Learning/Performance Metrics/Classification Metrics.md",
     "Generative AI/Finetuning and Quantization",
     "Generative AI/Agents",
-    "Generative AI/RAG Systems/Advance RAG",
     "Generative AI/RAG Systems/Advance RAG/Hybrid Search.md",
     "Generative AI/API Keys.md",
     "Excalidraw/Drawing 2024-08-20 15.12.28.excalidraw.md",
     "medical_readme.md",
-    "2024-08-20.md",
+    "Daily Goals/2024-08-20.md",
     "Project Description.md",
     "Daily Goals/2024-08-17.md",
     "Tags/Generative AI.md",
     "Generative AI/RAG Systems/Advance RAG/Re-Ranking.md",
-    "Generative AI/Agents/Agents.md",
     "test_readme.md",
     "Daily Goals/2024-08-10.md",
     "Things To Learn 🧠.md",
-    "Generative AI/Finetuning and Quantization/Fine Tuning LLM.md",
     "Excalidraw/Drawing 2024-08-02 15.39.01.excalidraw.md",
     "Excalidraw/Drawing 2024-08-03 16.14.05.excalidraw.md",
     "Excalidraw/Drawing 2024-08-06 09.50.04.excalidraw.md",
-    "Excalidraw/Drawing 2024-08-07 09.38.57.excalidraw.md",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]
