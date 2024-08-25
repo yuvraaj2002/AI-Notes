@@ -3,7 +3,7 @@ This page is dedicated towards understanding the concept and various techniques 
 - [Importance of Weight initialization and what not to do](https://www.youtube.com/watch?v=2MSY0HwH5Ss)
 - [Techniques used for weight initialization](https://www.youtube.com/watch?v=nwVOSgcrbQI)
 
-### [What is the importance of doing weight initialization ?](#)
+### [What is the importance of doing weight initialization and what problems do we encounter?](#)
 
 If we want to improve the performance of the neural networks than other than focusing on optimizers, activation function, dropout and batch normalization, weight initialization is also an important factor which can affect the performance of neural network in term prediction and convergence speed. There are 3 problems which we encounter incase we don't focus on proper initialization of weights
 
@@ -11,14 +11,11 @@ If we want to improve the performance of the neural networks than other than foc
 2. Exploding gradient
 3. Slow convergence
 
-### [How does weight initialization affect the training process of deep neural networks compared to shallow networks?](#)
-
-Since deep neural network have relatively more number of hidden layers as compared to shallow network thus without proper weight initialization, the deep network are more prone to exploding gradient, vanishing gradients and slow convergence.
 
 ### [What are the various options for doing weight initialization](#)
 
 - Initializing all the weights with 0
-- Initializing all the weights with some constant value other than 0
+- Initializing all the weights with some constant non zero value
 - Randomly initializing using Standard normal distribution
 - Using Xavier or Glorat initialization
 - He initialization

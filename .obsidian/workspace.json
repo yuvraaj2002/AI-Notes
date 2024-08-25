@@ -49,14 +49,36 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deep Learning/Techniques/Weight Initialization.md",
+                "file": "Generative AI/RAG Systems/Advance RAG/Chunking Techniques.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "980f5f000980db41",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Generative AI/Images/Chunking_Viz.png"
+              }
+            }
+          },
+          {
+            "id": "5ad76d5c72da956b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Generative AI/API Keys.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -106,7 +128,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 430.5004348754883
+    "width": 434.5086555480957,
+    "collapsed": true
   },
   "right": {
     "id": "75ce3ba0dea3f5ef",
@@ -122,7 +145,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Deep Learning/Techniques/Weight Initialization.md",
+                "file": "Generative AI/API Keys.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +162,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Deep Learning/Techniques/Weight Initialization.md",
+                "file": "Generative AI/API Keys.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +185,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Deep Learning/Techniques/Weight Initialization.md"
+                "file": "Generative AI/API Keys.md"
               }
             }
           }
@@ -185,12 +208,16 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "89ad46e437a54122",
+  "active": "5ad76d5c72da956b",
   "lastOpenFiles": [
+    "Generative AI/RAG Systems/Advance RAG/Chunking_Techniques.ipynb",
+    "Generative AI/RAG Systems/Advance RAG/Chunking Techniques.md",
+    "Generative AI/RAG Systems/Advance RAG/Hybrid Search.md",
+    "Generative AI/Images/Chunking_Viz.png",
+    "Deep Learning/Techniques/Weight Initialization.md",
     "Deep Learning/Text/Encoder Decoder.md",
     "Machine Learning/Performance Metrics/Classification Metrics.md",
     "Generative AI/Agents/Programs",
-    "Generative AI/RAG Systems/Advance RAG/Chunking Techniques.md",
     "Generative AI/Agents/Agents.md",
     "Generative AI/Finetuning and Quantization/Fine Tuning LLM.md",
     "Generative AI/LLM and RAG Evaluation/Evaluating GENDER biasness and Demographic Diversity Analysis.md",
@@ -215,10 +242,8 @@
     "Generative AI/RAG Systems/Basic RAG/Diagrams",
     "Generative AI/RAG Systems/Basic RAG/New folder",
     "Generative AI/RAG Systems/Basic RAG/Programs",
-    "Generative AI/RAG Systems/Basic RAG/Simple_RAG_Design.png",
     "Generative AI/Finetuning and Quantization",
     "Generative AI/Agents",
-    "Generative AI/RAG Systems/Advance RAG/Hybrid Search.md",
     "Generative AI/API Keys.md",
     "Excalidraw/Drawing 2024-08-20 15.12.28.excalidraw.md",
     "medical_readme.md",
@@ -231,8 +256,6 @@
     "Daily Goals/2024-08-10.md",
     "Things To Learn 🧠.md",
     "Excalidraw/Drawing 2024-08-02 15.39.01.excalidraw.md",
-    "Excalidraw/Drawing 2024-08-03 16.14.05.excalidraw.md",
-    "Excalidraw/Drawing 2024-08-06 09.50.04.excalidraw.md",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]

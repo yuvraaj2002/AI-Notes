@@ -43,3 +43,5 @@ Chunk size <= Chunk Limit
 
 
 Ragas
+
+https://hashnode.com/draft/66c986efdec9aaf021c68eff

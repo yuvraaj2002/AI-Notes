@@ -1,8 +1,11 @@
 This page is dedicated towards understanding the concept of the Hybrid search in RAG systems and all the resources that will be used will actually be linked below. Basically this topic comes under the Advance RAG, where we focus on improving the quality of response from the LLM.
 
+- [Weviate Hybrid search explained](https://weaviate.io/blog/hybrid-search-explained)
+- [Weviate fusion algorithm explained](https://weaviate.io/blog/hybrid-search-fusion-algorithms)
 - [Self Query Retrieval](https://youtu.be/f4LeWlt3T8Y?si=fPPgnb-yfSQE7prf)
 - [TF-IDF, BM25 and SBERT](https://www.youtube.com/watch?v=ziiF1eFM3_4&t=5s)
 - [Understanding the BM25](https://www.youtube.com/watch?v=ruBm9WywevM&t=4s)
+
 
 
 ### [Idea behind Hybrid search](#)
@@ -14,13 +17,13 @@ The main goal of using hybrid search is to enhance the quality of responses from
 
 ### [Why include Keyword based search](#)
 
-The primary advantage of keyword-based search is its ability to provide greater precision when exact terms are crucial for retrieving relevant documents. While semantic search focuses on understanding the overall meaning of a document and retrieving those with similar meanings, keyword-based search targets specific terms within documents. This makes keyword-based search particularly useful when precise terms are critical for relevance.
+While semantic search focuses on understanding the overall meaning of a document and retrieving those with similar meanings, keyword-based search targets specific terms within documents. This makes keyword-based search particularly useful when precise terms are critical for relevance.
 
 By combining both semantic and keyword-based search, you can significantly enhance the retrieval process, ensuring that you capture both the nuanced meanings and the exact terms necessary for finding the most relevant and important documents.
 
 
 ### [Which algorithms are used to create sparse vector search](#)
 
-For creating sparse vector we utilize the frequency based word embedding techniques which includes TF-IDF and BM25, where BM25 is advance version of the TF-IDF technique. After creating the dense and spare vectors,
+Sparse embeddings are generated from algorithms like [BM25](https://en.wikipedia.org/wiki/Okapi_BM25) and [SPLADE](https://arxiv.org/abs/2107.05720). Dense embeddings are generated from machine learning models like [GloVe](https://text2vec.org/glove.html) and [Transformers](https://huggingface.co/docs/transformers/index).
 
-Cosine similarity measures the cosine of the angle between two vectors, which helps quantify how similar they are. For sparse vectors derived from TF-IDF or BM25, cosine similarity can be used to compare the query vector with document vectors.
+
