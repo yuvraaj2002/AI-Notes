@@ -1,11 +1,40 @@
 
+### [Find Target value in the Binary search tree](https://leetcode.com/problems/search-in-a-binary-search-tree/)
+
+- Standing at the current node check if it is equal to given node or not
+	- If yes then return that node
+	- If not then look if the value we are looking for is greater or smaller than current node value
+- If current node value is smaller then move to left subtree otherwise move to right subtree
+
+Time Complexity is `O(log(n))` and space complexity is `O(n)`
+```python
+class Solution:
+
+    def searchBST(self, root: Optional[TreeNode], val: int) -> Optional[TreeNode]:
+
+        # Initial configuration
+        temp = root
+
+        while(temp is not None):
+
+            if temp.val == val:
+                return temp
+            elif temp.val > val:
+                temp = temp.left
+            else:
+                temp = temp.right
+
+        return None
+```
+
+
 ### [Find Minimum value in BST](https://www.geeksforgeeks.org/problems/minimum-element-in-bst/1)
 
 - Standing at the current node in the tree
 - Look for the left most leaf node in the tree
 - If current node's left exist then move to that node, otherwise stop and return node value
 
-Time Complexity O(n) and space complexity is O(1)
+Time Complexity `O(n)` and space complexity is `O(1)`
 
 ```python
 #User function Template for python3
@@ -28,6 +57,18 @@ class Solution:
             
         return root.data
 ```
+
+
+### [Ciel and Floor value in the Binary search tree]()
+
+- Something Something
+
+Time Complexity `O(n)` and space complexity is `O(1)`
+
+```python
+
+```
+
 
 ### [Insert node in the binary search tree](https://leetcode.com/problems/insert-into-a-binary-search-tree/description/)
 
