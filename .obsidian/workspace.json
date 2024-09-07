@@ -44,18 +44,6 @@
             }
           },
           {
-            "id": "5ad76d5c72da956b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "final_output_Chinese.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "fe6f59bec1e3d719",
             "type": "leaf",
             "state": {
@@ -78,7 +66,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -128,8 +116,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 434.5086555480957,
-    "collapsed": true
+    "width": 434.5086555480957
   },
   "right": {
     "id": "75ce3ba0dea3f5ef",
