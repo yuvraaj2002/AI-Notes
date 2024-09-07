@@ -60,7 +60,16 @@ Random initialization means we will be using the standard normal distribution to
 - Exploding gradient : If the initial weights are too large, the gradients can become excessively large, leading to unstable training and divergence.
 
 To prevent both of these problems associated with random value initialization we use scaling techniques, where the scaling of the weight of some neuron is done based on the number of input and output from that neuron.
+
 ### [What are the various techniques used for doing weight initialization, explain each of them](#)
+
+When training a neural network, especially a deep one, it’s important that the variance of the activations doesn’t change drastically as they pass through different layers. If the variance of activations becomes too small or too large as they propagate through layers, it can lead to problems such as:
+
+- **Vanishing Gradients:** When the activations are too small, the gradients during backpropagation become very small, leading to slow learning or no learning.
+- **Exploding Gradients:** When the activations are too large, the gradients can become excessively large, causing numerical instability and making learning difficult.
+
+![[Pasted image 20240826143532.png]]
+
 
 - **Xavier/Glorat Initialization**:
     

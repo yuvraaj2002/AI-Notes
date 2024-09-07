@@ -59,14 +59,36 @@ class Solution:
 ```
 
 
-### [Ciel and Floor value in the Binary search tree]()
+### [Ciel and Floor value in the Binary search tree](https://practice.geeksforgeeks.org/problems/implementing-ceil-in-bst/1)
 
-- Something Something
+- Initialize a variable ans to keep track of the smallest out of larger values than key value
+- If current node value is what we are looking for then simply break the loop and return the current node value
+- If the current node value is greater than what we want then update the ans variable because this value could be potential answer, but since we need smallest out of all greater so we will update ans variable using the `min()` function and after than move to left subtree
+- Other than this if the current node is smaller than what we want then move to the right subtree
 
 Time Complexity `O(n)` and space complexity is `O(1)`
 
 ```python
-
+class Solution:
+    def findCeil(self,root, inp):
+        
+        # Initial configuration
+        temp = root
+        ans = float('inf')
+        
+        while temp is not None:
+            
+            if temp.key == inp:
+                return temp.key
+            elif temp.key > inp:
+                ans = min(ans,temp.key)
+                temp = temp.left
+            else:
+                temp = temp.right
+        
+        if ans == float('inf'):
+            ans = -1
+        return ans
 ```
 
 

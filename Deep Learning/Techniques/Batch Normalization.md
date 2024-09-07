@@ -14,7 +14,7 @@ Covariance shift, is a term used in machine learning to describe a situation whe
 
 Basically in the absence of batch normalization there is internal covariance shift in the neural network, which in more simpler terms means that the distribution of the input data (i.e. output of previous layer neurons) going into the hidden layer neurons gets changed, due to changing weights during the training and due to this change in distribution the neural network takes more number of epochs to converge to adjust to the new evolving data.
 
-![Batch Normalization.png](https://github.com/yuvraaj2002/AI-Notes/blob/master/Deep%20Learning/Images/Batch%20Normalization.png)
+![[Batch Normalization.png]](https://github.com/yuvraaj2002/AI-Notes/blob/master/Deep%20Learning/Images/Batch%20Normalization.png)
 
 
 ### [How does batch normalization solves the issue](#)
@@ -62,3 +62,6 @@ model.compile(optimizer='adam',
 model.summary()
 ```
 
+![[Pasted image 20240827053224.png]]
+
+![[Pasted image 20240827053804.png]]

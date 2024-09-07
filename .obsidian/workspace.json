@@ -44,34 +44,36 @@
             }
           },
           {
-            "id": "3ee8fcb4f06c1b67",
+            "id": "5ad76d5c72da956b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Generative AI/RAG Systems/Advance RAG/Chunking Techniques.md",
+                "file": "final_output_Chinese.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "980f5f000980db41",
+            "id": "fe6f59bec1e3d719",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Generative AI/Images/Chunking_Viz.png"
+                "file": "Data Structures And Algorithms/Tree/Binary Search Tree/Problems.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
           {
-            "id": "5ad76d5c72da956b",
+            "id": "22dfa5c06b87c273",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "excalidraw",
               "state": {
-                "file": "Books/Hands on Machine Learning.pdf"
+                "file": "Excalidraw/Drawing 2024-09-05 11.12.32.excalidraw.md"
               }
             }
           }
@@ -143,7 +145,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Books/Hands on Machine Learning.pdf",
+                "file": "Excalidraw/Drawing 2024-09-05 11.12.32.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -160,7 +162,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Books/Hands on Machine Learning.pdf",
+                "file": "Excalidraw/Drawing 2024-09-05 11.12.32.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -183,7 +185,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Books/Hands on Machine Learning.pdf"
+                "file": "Excalidraw/Drawing 2024-09-05 11.12.32.excalidraw.md"
               }
             }
           }
@@ -206,8 +208,25 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "5ad76d5c72da956b",
+  "active": "22dfa5c06b87c273",
   "lastOpenFiles": [
+    "Data Structures And Algorithms/Tree/Binary Search Tree/Problems.md",
+    "Excalidraw/Drawing 2024-09-05 11.12.32.excalidraw.md",
+    "Data Structures And Algorithms/Tree/Questions.md",
+    "Data Structures And Algorithms/Tree/Views of Tree.md",
+    "Data Structures And Algorithms/Tree/Traversals.md",
+    "Deep Learning/Techniques/Optimizers.md",
+    "final_output_Chinese.md",
+    "PDF_TO_MARKDOWN.md",
+    "output.md",
+    "medical_readme.md",
+    "Behavioral Questions/Introduction.md",
+    "Machine Learning/Performance Metrics/Classification Metrics.md",
+    "Pasted image 20240827053804.png",
+    "Pasted image 20240827053224.png",
+    "Deep Learning/Techniques/Weight Initialization/Weight Initialization.md",
+    "Pasted image 20240826143532.png",
+    "Books/Hands on Machine Learning.pdf",
     "General ML Topics/Feature Scaling.md",
     "Generative AI/API Keys.md",
     "Generative AI/RAG Systems/Advance RAG/Chunking_Techniques.ipynb",
@@ -216,7 +235,6 @@
     "Generative AI/Images/Chunking_Viz.png",
     "Deep Learning/Techniques/Weight Initialization.md",
     "Deep Learning/Text/Encoder Decoder.md",
-    "Machine Learning/Performance Metrics/Classification Metrics.md",
     "Generative AI/Agents/Programs",
     "Generative AI/Agents/Agents.md",
     "Generative AI/Finetuning and Quantization/Fine Tuning LLM.md",
@@ -232,28 +250,12 @@
     "Generative AI/Summarization_Approaches.png",
     "Generative AI/Summarization_Techniques.ipynb",
     "Generative AI/The Right Kind of Stubborn(Essay).txt",
-    "Summarization_Approaches.png",
-    "Summarization_Diagram.png",
     "Generative AI/LLM for Summarization.md",
     "Generative AI/Langchain.md",
-    "Generative AI/RAG Systems/Basic RAG/RAG Architecture.md",
-    "Generative AI/RAG Systems/Basic RAG/Diagrams/Rag_Diagram.png",
     "Generative AI/RAG Systems/Basic RAG/Programs/RAG.ipynb",
     "Generative AI/RAG Systems/Basic RAG/Diagrams",
     "Generative AI/RAG Systems/Basic RAG/New folder",
     "Generative AI/RAG Systems/Basic RAG/Programs",
-    "Generative AI/Finetuning and Quantization",
-    "Excalidraw/Drawing 2024-08-20 15.12.28.excalidraw.md",
-    "medical_readme.md",
-    "Daily Goals/2024-08-20.md",
-    "Project Description.md",
-    "Daily Goals/2024-08-17.md",
-    "Tags/Generative AI.md",
-    "Generative AI/RAG Systems/Advance RAG/Re-Ranking.md",
-    "test_readme.md",
-    "Daily Goals/2024-08-10.md",
-    "Things To Learn 🧠.md",
-    "Excalidraw/Drawing 2024-08-02 15.39.01.excalidraw.md",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]
