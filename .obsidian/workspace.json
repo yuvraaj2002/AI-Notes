@@ -64,9 +64,19 @@
                 "file": "Excalidraw/Drawing 2024-09-05 11.12.32.excalidraw.md"
               }
             }
+          },
+          {
+            "id": "e9ed73aa5f06eb74",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2024-09-09 10.11.55.excalidraw.md"
+              }
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -116,7 +126,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 434.5086555480957
+    "width": 434.5086555480957,
+    "collapsed": true
   },
   "right": {
     "id": "75ce3ba0dea3f5ef",
@@ -132,7 +143,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/Drawing 2024-09-05 11.12.32.excalidraw.md",
+                "file": "Excalidraw/Drawing 2024-09-09 10.11.55.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -149,7 +160,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/Drawing 2024-09-05 11.12.32.excalidraw.md",
+                "file": "Excalidraw/Drawing 2024-09-09 10.11.55.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,7 +183,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/Drawing 2024-09-05 11.12.32.excalidraw.md"
+                "file": "Excalidraw/Drawing 2024-09-09 10.11.55.excalidraw.md"
               }
             }
           }
@@ -195,8 +206,10 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "22dfa5c06b87c273",
+  "active": "e9ed73aa5f06eb74",
   "lastOpenFiles": [
+    "Books/Practical MLOPS.pdf",
+    "Excalidraw/Drawing 2024-09-09 10.11.55.excalidraw.md",
     "Data Structures And Algorithms/Tree/Binary Search Tree/Problems.md",
     "Excalidraw/Drawing 2024-09-05 11.12.32.excalidraw.md",
     "Data Structures And Algorithms/Tree/Questions.md",
@@ -237,8 +250,6 @@
     "Generative AI/Summarization_Approaches.png",
     "Generative AI/Summarization_Techniques.ipynb",
     "Generative AI/The Right Kind of Stubborn(Essay).txt",
-    "Generative AI/LLM for Summarization.md",
-    "Generative AI/Langchain.md",
     "Generative AI/RAG Systems/Basic RAG/Programs/RAG.ipynb",
     "Generative AI/RAG Systems/Basic RAG/Diagrams",
     "Generative AI/RAG Systems/Basic RAG/New folder",
