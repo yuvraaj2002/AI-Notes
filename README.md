@@ -1,4 +1,5 @@
 # AI Notes Repository
+![[Main Page.png]]
 
 Welcome to my repository of AI notes! This repository contains organized notes, code, and resources across various AI and machine learning topics. Below is a summary of the sections:
 
